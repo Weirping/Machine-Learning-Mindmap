@@ -1,6 +1,6 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Machine Learning" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" FOLDED="false" ID="ID_850448724" CREATED="1564976333940" MODIFIED="1565795977658"><hook NAME="MapStyle" zoom="1.334">
+<node TEXT="Machine Learning" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" FOLDED="false" ID="ID_850448724" CREATED="1564976333940" MODIFIED="1565795977658"><hook NAME="MapStyle" zoom="1.968">
     <properties fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
@@ -64,7 +64,7 @@
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <edge STYLE="sharp_bezier" WIDTH="3"/>
 <hook NAME="AutomaticEdgeColor" COUNTER="6" RULE="FOR_LEVELS"/>
-<node TEXT="Mathematics" FOLDED="true" POSITION="left" ID="ID_1730054110" CREATED="1564977414620" MODIFIED="1565952540864">
+<node TEXT="Mathematics" FOLDED="true" POSITION="left" ID="ID_1730054110" CREATED="1564977414620" MODIFIED="1567948375623">
 <edge COLOR="#00ff00"/>
 <node TEXT="Linear Algebra" FOLDED="true" ID="ID_1311644628" CREATED="1565660346602" MODIFIED="1565660346602">
 <node TEXT="Matrices" FOLDED="true" ID="ID_1374971143" CREATED="1565660355600" MODIFIED="1565660355600">
@@ -259,48 +259,7 @@
 <node TEXT="&#x8d1d;&#x53f6;&#x65af;&#x5b66;&#x6d3e;&#x8ba4;&#x4e3a;&#x6a21;&#x578b;&#x4e2d;&#x7684;&#x53c2;&#x6570;\mathrm w&#x662f;&#x4e00;&#x4e2a;&#x4e0d;&#x786e;&#x5b9a;&#x7684;&#x503c;&#xff0c;&#x4f7f;&#x7528;&#x6982;&#x7387;&#x5206;&#x5e03;&#x5bf9; \\ &#xa;&#x5176;&#x8fdb;&#x884c;&#x5efa;&#x6a21;&#x3002;&#x9996;&#x5148;&#x6211;&#x4eec;&#x5bf9;\mathrm{w}&#x53ef;&#x80fd;&#x7684;&#x5206;&#x5e03;&#x505a;&#x4e00;&#x4e2a;&#x5047;&#x8bbe;&#xff0c;&#x8fd9;&#x4e2a;&#x5047;&#x8bbe;&#x662f;&#x57fa;&#x4e8e; \\&#xa;&#x7ecf;&#x9a8c;&#x7684;&#x3001;&#x548c;&#x89c2;&#x6d4b;&#x6570;&#x636e;&#x65e0;&#x5173;&#x7684;&#xff0c;&#x8fd9;&#x4e2a;&#x5206;&#x5e03;&#x5373;&#x4e3a;&#x5148;&#x9a8c;&#x5206;&#x5e03;p(\mathrm{w})&#x3002;\\&#xa;&#x4f9d;&#x636e;&#x8bad;&#x7ec3;&#x6570;&#x636e;&#x96c6;&#x7ea0;&#x6b63;&#x540e;&#x7684;\mathrm{w}&#x7684;&#x6982;&#x7387;&#x5206;&#x5e03;&#x4e3a;&#x540e;&#x9a8c;&#x5206;&#x5e03;p(\mathrm{w} | D)&#x3002;\\&#xa;&#x6309;&#x7167;&#x8d1d;&#x53f6;&#x65af;&#x516c;&#x5f0f;&#x5bf9;&#x540e;&#x9a8c;&#x6982;&#x7387;&#x5206;&#x89e3;&#xff0c;&#x5373;&#xff1a;\\&#xa;&#xa;$p(\mathrm{w}|\mathcal{D})=\frac{p(\mathcal{D}|\mathrm{w})p(\mathrm{w})}{p(\mathcal{D})}$ \\&#xa;&#xa;\mathrm{w}&#x7684;&#x540e;&#x9a8c;&#x5206;&#x5e03;p(\mathrm{w}| D)&#x53ef;&#x4ee5;&#x5206;&#x89e3;&#x4e3a;&#x4e09;&#x90e8;&#x5206;: \\&#xa;1. p(\mathrm{w}) &#xff1a;&#x5148;&#x9a8c;&#x5206;&#x5e03;&#xff08;prior&#xff09;&#xff0c;&#x662f;&#x5173;&#x4e8e;\mathrm{w}&#x7684;&#x51fd;&#x6570;&#xff0c;&#x4f9d;&#x8d56;&#x4e8e;&#x5148;&#x9a8c;&#x77e5;&#x8bc6;&#x3002; \\&#xa;2. p(\mathcal{D}|\mathrm{w}) &#xff1a;&#x4f3c;&#x7136;&#x51fd;&#x6570;&#xff08;likelihood&#xff09;&#xff0c;&#x662f;&#x5173;&#x4e8e;\mathrm{w}&#x7684;&#x51fd;&#x6570;&#x3002; \\&#xa;&#x8868;&#x793a;&#x5bf9;&#x4e8e;\mathrm{w}&#x7684;&#x4e0d;&#x540c;&#x503c;&#xff0c;&#x6570;&#x636e;&#x96c6;\mathcal D&#x88ab;&#x89c2;&#x6d4b;&#x5230;&#x7684;&#x6982;&#x7387;&#x3002; \\&#xa;note&#xff0c;&#x4f3c;&#x7136;&#x51fd;&#x6570;&#x4e0d;&#x662f;&#x5173;&#x4e8e;\mathrm{w}&#x7684;&#x6982;&#x7387;&#x5206;&#x5e03;&#x51fd;&#x6570;&#xff0c;&#x6240;&#x4ee5;&#x4f3c;&#x7136;&#x51fd;&#x6570;&#x5bf9;w&#x79ef;&#x5206;&#x4e0d;&#x662f;1&#xff0c;\\&#xa;&#x5b9e;&#x9645;&#x4e0a;&#x662f;\mathcal D&#x7684;&#x6982;&#x7387;&#x5206;&#x5e03;&#x51fd;&#x6570;&#x3002; \\&#xa;3. p(\mathcal{D}) &#xff1a;&#x5f52;&#x4e00;&#x5316;&#x9879;&#xff0c;&#x7528;&#x4e8e;&#x4fdd;&#x8bc1;&#x516c;&#x5f0f;&#x53f3;&#x8fb9;&#x5bf9;\mathrm{w}&#x79ef;&#x5206;&#x662f;1&#xff0c;\\&#xa;&#x5373;&#xff0c;&#x4fdd;&#x8bc1;&#x540e;&#x9a8c;&#x5206;&#x5e03;&#x662f;&#x4e00;&#x4e2a;&#x6982;&#x7387;&#x5bc6;&#x5ea6;&#x51fd;&#x6570;&#x3002;p(\mathcal{D})=\int p(\mathcal{D}|\mathrm{w})p(\mathrm{w})\mathrm{dw}&#x3002;&#x5bf9;&#x4e8e;&#x56fa;&#x5b9a;&#x6570;&#x636e;&#x96c6;&#x6765;&#x8bf4;&#x3002;" ID="ID_1485186110" CREATED="1565948987809" MODIFIED="1565950039422" FORMAT="latexPatternFormat"/>
 </node>
 </node>
-<node TEXT="Regularization" FOLDED="true" ID="ID_11419241" CREATED="1565661625047" MODIFIED="1565661625047">
-<node TEXT="L1 norm and L2 norm" ID="ID_76200147" CREATED="1565661639267" MODIFIED="1565799589807" LINK="https://weirping.github.io/blog/Norm-Regularization.html"/>
-<node TEXT="Early Stopping" ID="ID_1339278931" CREATED="1565661659646" MODIFIED="1565661659646"/>
-<node TEXT="Dropout" ID="ID_1190649529" CREATED="1565661665206" MODIFIED="1565799628087" LINK="https://weirping.github.io/blog/dropout.html"/>
-<node TEXT="Sparse regularizer on columns" FOLDED="true" ID="ID_322442547" CREATED="1565661677418" MODIFIED="1565661677418">
-<node TEXT="This regularizer defines an L2 norm on each column and an L1 norm over all columns. It can be solved by proximal methods." FOLDED="true" ID="ID_523138470" CREATED="1565799679182" MODIFIED="1565799679182">
-<node TEXT="R(w)=\sum_{i=1}^D ||W||_{2,1}" ID="ID_840171304" CREATED="1565799763369" MODIFIED="1565799771013" FORMAT="latexPatternFormat"/>
-</node>
-</node>
-<node TEXT="Nuclear norm regularization" ID="ID_68303896" CREATED="1565661686281" MODIFIED="1565661686281"/>
-<node TEXT="Mean-constrained regularization" ID="ID_505782314" CREATED="1565661694923" MODIFIED="1565661694923"/>
-<node TEXT="Clustered mean-constrained regularization" ID="ID_1840930005" CREATED="1565661702645" MODIFIED="1565661702645"/>
-<node TEXT="Graph-based similarity" ID="ID_192683552" CREATED="1565661708431" MODIFIED="1565661708431"/>
-</node>
-<node TEXT="Cost/Loss(Min) Functions&#xa;Objective(Max) Functions" FOLDED="true" ID="ID_1959068725" CREATED="1565661787532" MODIFIED="1565952540862">
-<node TEXT="Maximum Likehook Estimator" FOLDED="true" ID="ID_53290021" CREATED="1565661969652" MODIFIED="1566487819803" LINK="https://weirping.github.io/blog/Maximum-Likehook-Estimator-Cost-Functions.html">
-<node TEXT="Linear Regression" FOLDED="true" ID="ID_1111083758" CREATED="1565662085313" MODIFIED="1565662136152">
-<node TEXT="Mean Squared Error (MSE)" FOLDED="true" ID="ID_1518804702" CREATED="1565608911129" MODIFIED="1565608912983">
-<node TEXT="$MSE=\frac{1}{n} \sum_{i=1}^n(y_i - \hat f(x_i))^2$" ID="ID_1411173900" CREATED="1565608950354" MODIFIED="1565609390386" FORMAT="latexPatternFormat"/>
-</node>
-<node TEXT="sum-of-squares error function" ID="ID_676652624" CREATED="1565662664814" MODIFIED="1565662666300"/>
-</node>
-<node TEXT="binary classification" FOLDED="true" ID="ID_1668892025" CREATED="1565662222471" MODIFIED="1565662385216">
-<node TEXT="binary cross-entropy error function" ID="ID_214673802" CREATED="1565662246414" MODIFIED="1565662257370"/>
-</node>
-<node TEXT="multicalss classification" FOLDED="true" ID="ID_1684647573" CREATED="1565662284927" MODIFIED="1565662340703">
-<node TEXT="cross-entropy error function" ID="ID_1772913168" CREATED="1565662286654" MODIFIED="1565662288468"/>
-</node>
-</node>
-<node TEXT="0-1 Loss" FOLDED="true" ID="ID_1095108459" CREATED="1565662574192" MODIFIED="1565662576241">
-<node TEXT="$\frac{1}{n} \sum_{i=1}^n I(y_i \neq \hat y_i)$" ID="ID_1243982851" CREATED="1565609445582" MODIFIED="1565609476410" FORMAT="latexPatternFormat"/>
-</node>
-<node TEXT="Hinge Loss" FOLDED="true" ID="ID_1469695736" CREATED="1565662678986" MODIFIED="1565662680248">
-<node TEXT="$L(y)=\max(0, 1-t \cdot y)$" ID="ID_1179401531" CREATED="1565662685299" MODIFIED="1565662794323" FORMAT="latexPatternFormat"/>
-</node>
-<node TEXT="Exponential" ID="ID_1427783395" CREATED="1565662819702" MODIFIED="1565662820923"/>
-<node TEXT="Kullback-Leibler Divengence" ID="ID_1014421447" CREATED="1565662839301" MODIFIED="1565662840304"/>
-<node TEXT="Itakura&#x2013;Saito distance" ID="ID_1172736543" CREATED="1565662847737" MODIFIED="1565662848739"/>
-<node TEXT="https://en.wikipedia.org/wiki/Loss_functions_for_classification" ID="ID_565313233" CREATED="1565662907968" MODIFIED="1565662909656"/>
-<node TEXT="https://stats.stackexchange.com/questions/154879/a-list-of-cost-functions-used-in-neural-networks-alongside-applications" ID="ID_774625108" CREATED="1565662952628" MODIFIED="1565662953913"/>
-</node>
-<node TEXT="Optimization" FOLDED="true" ID="ID_1610238833" CREATED="1565661574532" MODIFIED="1566052292302">
+<node TEXT="Optimization" FOLDED="true" ID="ID_1610238833" CREATED="1565661574532" MODIFIED="1567948375622">
 <node TEXT="Lagrange Duality" ID="ID_446260867" CREATED="1565937195940" MODIFIED="1565937209326" LINK="https://weirping.github.io/blog/Lagrange-Duality.html"/>
 <node TEXT="Lagrange Multiplier and KKT Conditions" ID="ID_395919799" CREATED="1565937272197" MODIFIED="1565937300158" LINK="https://weirping.github.io/blog/from-Lagrange-Multiplier-to-KKT-Conditions.html"/>
 <node TEXT="EM algorithm" ID="ID_1810045048" CREATED="1566576377579" MODIFIED="1566576485438" LINK="https://weirping.github.io/blog/EM-algorithm.html"/>
@@ -433,6 +392,58 @@
 </node>
 <node TEXT="Inference" FOLDED="true" ID="ID_493912205" CREATED="1565606172998" MODIFIED="1565606172998">
 <node TEXT="When we are interested in the way each one of the inputs affect the prediction. In a real estate example, Inference would answer the question of: How much would my house cost if it had a view of the sea? Linear models are more suited for inference because the models themselves are easier to understand than their non-linear" ID="ID_25610629" CREATED="1565606172998" MODIFIED="1565606172998"/>
+</node>
+</node>
+<node TEXT="Cost/Loss(Min) Functions&#xa;Objective(Max) Functions" FOLDED="true" ID="ID_1959068725" CREATED="1565661787532" MODIFIED="1565952540862">
+<node TEXT="Maximum Likehook Estimator" FOLDED="true" ID="ID_53290021" CREATED="1565661969652" MODIFIED="1566487819803" LINK="https://weirping.github.io/blog/Maximum-Likehook-Estimator-Cost-Functions.html">
+<node TEXT="Linear Regression" FOLDED="true" ID="ID_1111083758" CREATED="1565662085313" MODIFIED="1565662136152">
+<node TEXT="Mean Squared Error (MSE)" FOLDED="true" ID="ID_1518804702" CREATED="1565608911129" MODIFIED="1565608912983">
+<node TEXT="$MSE=\frac{1}{n} \sum_{i=1}^n(y_i - \hat f(x_i))^2$" ID="ID_1411173900" CREATED="1565608950354" MODIFIED="1565609390386" FORMAT="latexPatternFormat"/>
+</node>
+<node TEXT="sum-of-squares error function" ID="ID_676652624" CREATED="1565662664814" MODIFIED="1565662666300"/>
+</node>
+<node TEXT="binary classification" FOLDED="true" ID="ID_1668892025" CREATED="1565662222471" MODIFIED="1565662385216">
+<node TEXT="binary cross-entropy error function" ID="ID_214673802" CREATED="1565662246414" MODIFIED="1565662257370"/>
+</node>
+<node TEXT="multicalss classification" FOLDED="true" ID="ID_1684647573" CREATED="1565662284927" MODIFIED="1565662340703">
+<node TEXT="cross-entropy error function" ID="ID_1772913168" CREATED="1565662286654" MODIFIED="1565662288468"/>
+</node>
+</node>
+<node TEXT="0-1 Loss" FOLDED="true" ID="ID_1095108459" CREATED="1565662574192" MODIFIED="1565662576241">
+<node TEXT="$\frac{1}{n} \sum_{i=1}^n I(y_i \neq \hat y_i)$" ID="ID_1243982851" CREATED="1565609445582" MODIFIED="1565609476410" FORMAT="latexPatternFormat"/>
+</node>
+<node TEXT="Hinge Loss" FOLDED="true" ID="ID_1469695736" CREATED="1565662678986" MODIFIED="1565662680248">
+<node TEXT="$L(y)=\max(0, 1-t \cdot y)$" ID="ID_1179401531" CREATED="1565662685299" MODIFIED="1565662794323" FORMAT="latexPatternFormat"/>
+</node>
+<node TEXT="Exponential" ID="ID_1427783395" CREATED="1565662819702" MODIFIED="1565662820923"/>
+<node TEXT="Kullback-Leibler Divengence" ID="ID_1014421447" CREATED="1565662839301" MODIFIED="1565662840304"/>
+<node TEXT="Itakura&#x2013;Saito distance" ID="ID_1172736543" CREATED="1565662847737" MODIFIED="1565662848739"/>
+<node TEXT="https://en.wikipedia.org/wiki/Loss_functions_for_classification" ID="ID_565313233" CREATED="1565662907968" MODIFIED="1565662909656"/>
+<node TEXT="https://stats.stackexchange.com/questions/154879/a-list-of-cost-functions-used-in-neural-networks-alongside-applications" ID="ID_774625108" CREATED="1565662952628" MODIFIED="1565662953913"/>
+</node>
+<node TEXT="Regularization" FOLDED="true" ID="ID_11419241" CREATED="1565661625047" MODIFIED="1565661625047">
+<node TEXT="L1 norm and L2 norm" ID="ID_76200147" CREATED="1565661639267" MODIFIED="1565799589807" LINK="https://weirping.github.io/blog/Norm-Regularization.html"/>
+<node TEXT="Early Stopping" ID="ID_1339278931" CREATED="1565661659646" MODIFIED="1565661659646"/>
+<node TEXT="Dropout" ID="ID_1190649529" CREATED="1565661665206" MODIFIED="1565799628087" LINK="https://weirping.github.io/blog/dropout.html"/>
+<node TEXT="Sparse regularizer on columns" FOLDED="true" ID="ID_322442547" CREATED="1565661677418" MODIFIED="1565661677418">
+<node TEXT="This regularizer defines an L2 norm on each column and an L1 norm over all columns. It can be solved by proximal methods." FOLDED="true" ID="ID_523138470" CREATED="1565799679182" MODIFIED="1565799679182">
+<node TEXT="R(w)=\sum_{i=1}^D ||W||_{2,1}" ID="ID_840171304" CREATED="1565799763369" MODIFIED="1565799771013" FORMAT="latexPatternFormat"/>
+</node>
+</node>
+<node TEXT="Nuclear norm regularization" ID="ID_68303896" CREATED="1565661686281" MODIFIED="1565661686281"/>
+<node TEXT="Mean-constrained regularization" ID="ID_505782314" CREATED="1565661694923" MODIFIED="1565661694923"/>
+<node TEXT="Clustered mean-constrained regularization" ID="ID_1840930005" CREATED="1565661702645" MODIFIED="1565661702645"/>
+<node TEXT="Graph-based similarity" ID="ID_192683552" CREATED="1565661708431" MODIFIED="1565661708431"/>
+</node>
+<node TEXT="Optimization" FOLDED="true" ID="ID_428597335" CREATED="1567948603198" MODIFIED="1567948606134">
+<node TEXT="Gradient Descent" ID="ID_39662921" CREATED="1567948822358" MODIFIED="1567948822358"/>
+<node TEXT="Stochastic Gradient Descent (SGD)" ID="ID_572453435" CREATED="1567948822358" MODIFIED="1567948822358"/>
+<node TEXT="Mini-batch Stochastic Gradient Descent (SGD)" ID="ID_201391241" CREATED="1567948822359" MODIFIED="1567948822359"/>
+<node TEXT="Momentum" FOLDED="true" ID="ID_191704362" CREATED="1567948822362" MODIFIED="1567948822362">
+<node TEXT="Idea: Add a fraction v of previous update to current one. When the gradient keeps pointing in the same direction, this will increase the size of the steps taken towards the minimum." ID="ID_1270160800" CREATED="1567948822363" MODIFIED="1567948822363"/>
+</node>
+<node TEXT="Adagrad" FOLDED="true" ID="ID_1705774418" CREATED="1567948822363" MODIFIED="1567948822363">
+<node TEXT="Adaptive learning rates for each parameter" ID="ID_1326023324" CREATED="1567948822364" MODIFIED="1567948822364"/>
 </node>
 </node>
 <node TEXT="Performance Analysis" FOLDED="true" ID="ID_55335660" CREATED="1565606204401" MODIFIED="1565606209495">
@@ -583,9 +594,9 @@
 </node>
 </node>
 </node>
-<node TEXT="Class Imbalance" FOLDED="true" ID="ID_68227767" CREATED="1566577032441" MODIFIED="1566577045781">
+<node TEXT="Class Imbalance" FOLDED="true" ID="ID_68227767" CREATED="1566577032441" MODIFIED="1567948564586">
 <node TEXT="&#x5206;&#x7c7b;&#x95ee;&#x9898;&#x4e2d;, &#x4e2a;&#x7c7b;&#x522b;&#x7684;&#x6837;&#x672c;&#x6570;&#x636e;&#x76f8;&#x5dee;&#x60ac;&#x6b8a;" ID="ID_1011399005" CREATED="1566577049257" MODIFIED="1566577085489"/>
-<node TEXT="&#x89e3;&#x51b3;&#x65b9;&#x6cd5;" FOLDED="true" ID="ID_29068117" CREATED="1566577098755" MODIFIED="1566577106145">
+<node TEXT="&#x89e3;&#x51b3;&#x65b9;&#x6cd5;" FOLDED="true" ID="ID_29068117" CREATED="1566577098755" MODIFIED="1567948564586">
 <node TEXT="&#x8fc7;&#x91c7;&#x6837;" ID="ID_1409740924" CREATED="1566577107357" MODIFIED="1566577114066"/>
 <node TEXT="&#x6b20;&#x91c7;&#x6837;" ID="ID_773613534" CREATED="1566577117249" MODIFIED="1566577121752"/>
 <node TEXT="class sensitive Cost Function" ID="ID_19329530" CREATED="1566577122412" MODIFIED="1566577149445"/>
@@ -897,7 +908,9 @@
 <node TEXT="Naive Bayes \\&#xa;$p(C_k | x) = \frac{p(C_k)p(x | C_k)}{p(x)}$" FOLDED="true" ID="ID_1834364947" CREATED="1565623781171" MODIFIED="1565624155894" FORMAT="latexPatternFormat">
 <node TEXT="$\hat y = \arg\max_{k \in \{1, \dots, K\}} p(C_k)\prod_{i=1}^n p(x_i | C_k)$ \\&#xa;Naive Bayes Classifier. We neglect the denominator as we calculate for every class and pick the max of the numerator" ID="ID_1923761228" CREATED="1565623964105" MODIFIED="1565624162527" FORMAT="latexPatternFormat"/>
 </node>
+<node TEXT="Bayesian Belieg Network" ID="ID_278330904" CREATED="1566832672174" MODIFIED="1566832688759"/>
 <node TEXT="Multinomial Naive Bayes" ID="ID_1838946566" CREATED="1565623801040" MODIFIED="1565623804319"/>
+<node TEXT="Gaussian Naive Bayes" ID="ID_1093671090" CREATED="1566832646654" MODIFIED="1566832658341"/>
 <node TEXT="probabilistic graphical models" FOLDED="true" ID="ID_970079624" CREATED="1565624579369" MODIFIED="1565624582714">
 <node TEXT="Bayesian Networks" FOLDED="true" ID="ID_785230072" CREATED="1565624809357" MODIFIED="1565624809357">
 <node TEXT="&#x56fe;&#x6a21;&#x578b;&#x4e0e;&#x8054;&#x5408;&#x5206;&#x5e03;&#x7684;&#x5bf9;&#x5e94;&#x5173;&#x7cfb;" FOLDED="true" ID="ID_633127503" CREATED="1565624809357" MODIFIED="1565624809357">
@@ -933,31 +946,40 @@
 <node TEXT="Self-Organising Map (SOM)" ID="ID_1936465863" CREATED="1565624972563" MODIFIED="1565624972563"/>
 <node TEXT="Locally Weighted Learning (LWL)" ID="ID_1871140669" CREATED="1565624972563" MODIFIED="1565624972563"/>
 </node>
+<node TEXT="Tree Based" FOLDED="true" ID="ID_1644028801" CREATED="1566832837765" MODIFIED="1566832848762">
 <node TEXT="Decision Tree" FOLDED="true" ID="ID_1479976465" CREATED="1565622983395" MODIFIED="1565622985388">
-<node TEXT="Random Forest" ID="ID_342582071" CREATED="1565624990058" MODIFIED="1565624990058"/>
 <node TEXT="Classification and Regression Tree (CART)" ID="ID_154253200" CREATED="1565624990058" MODIFIED="1565624990058"/>
-<node TEXT="Gradient Boosting Machines (GBM)" ID="ID_1254133724" CREATED="1565624990058" MODIFIED="1565624990058"/>
+<node TEXT="C4.5" ID="ID_688195699" CREATED="1566833683881" MODIFIED="1566833688539"/>
+<node TEXT="C5.0" ID="ID_112396880" CREATED="1566833689790" MODIFIED="1566833722530"/>
 <node TEXT="Conditional Decision Trees" ID="ID_515554500" CREATED="1565624990058" MODIFIED="1565624990058"/>
+</node>
+<node TEXT="Ensemble" FOLDED="true" ID="ID_1840026485" CREATED="1566832896908" MODIFIED="1566832903862">
+<node TEXT="Bagging-Booststrapped Aggregation" FOLDED="true" ID="ID_1885652903" CREATED="1566833022793" MODIFIED="1566833781052">
+<node TEXT="Random Forest" FOLDED="true" ID="ID_342582071" CREATED="1565624990058" MODIFIED="1565624990058">
+<node TEXT="train L different models and then make predictions using the average of the predictions made by each model" ID="ID_1639142722" CREATED="1566833035856" MODIFIED="1566833053417"/>
+</node>
+</node>
+<node TEXT="Boosting" FOLDED="true" ID="ID_694055638" CREATED="1566833107986" MODIFIED="1566833111695">
+<node TEXT="training multiple models in sequence in which the error function used to train a particular model depends on the performance of the previous models" ID="ID_896497945" CREATED="1566833168875" MODIFIED="1566833171233"/>
+<node TEXT="AdaBoost" ID="ID_361392904" CREATED="1566833524475" MODIFIED="1566833537071"/>
+<node TEXT="Gradient Boost" FOLDED="true" ID="ID_863663718" CREATED="1566833599218" MODIFIED="1566833616711">
 <node TEXT="Gradient Boosted Regression Trees (GBRT)" FOLDED="true" ID="ID_580020835" CREATED="1565624990058" MODIFIED="1566489837768" LINK="https://weirping.github.io/blog/GBDT.html">
 <node TEXT="Xgboost" ID="ID_1925814597" CREATED="1566489914856" MODIFIED="1566576057762" LINK="#ID_994376312"/>
+</node>
+<node TEXT="GBM-Gradient Boosting Machines" ID="ID_1827805813" CREATED="1566833795398" MODIFIED="1566833817000"/>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="Clustering" FOLDED="true" ID="ID_347535302" CREATED="1565622997672" MODIFIED="1566575251355">
 <node TEXT="Algorithms" FOLDED="true" ID="ID_1997215111" CREATED="1565625266317" MODIFIED="1565625266317">
+<node TEXT="DBSCAN" ID="ID_588035025" CREATED="1565625266317" MODIFIED="1565625266317"/>
 <node TEXT="Hierarchical Clustering" FOLDED="true" ID="ID_77812109" CREATED="1565625266317" MODIFIED="1565625266317">
 <node TEXT="Linkage" FOLDED="true" ID="ID_1756170827" CREATED="1565625266317" MODIFIED="1565625266317">
 <node TEXT="complete" ID="ID_1208092371" CREATED="1565625266317" MODIFIED="1565625266317"/>
 <node TEXT="single" ID="ID_1972160937" CREATED="1565625266317" MODIFIED="1565625266317"/>
 <node TEXT="average" ID="ID_1509886615" CREATED="1565625266317" MODIFIED="1565625266317"/>
 <node TEXT="centroid" ID="ID_1601041285" CREATED="1565625266317" MODIFIED="1565625266317"/>
-</node>
-</node>
-<node TEXT="Dissimilarity Measure" FOLDED="true" ID="ID_1861793014" CREATED="1565625266317" MODIFIED="1565625266317">
-<node TEXT="Euclidean" FOLDED="true" ID="ID_1292157738" CREATED="1565625266317" MODIFIED="1565625266317">
-<node TEXT="Euclidean distance or Euclidean metric is the &quot;ordinary&quot; straight-line distance between two points in Euclidean space." ID="ID_279965977" CREATED="1565625266317" MODIFIED="1565625266317"/>
-</node>
-<node TEXT="Manhattan" FOLDED="true" ID="ID_1001650051" CREATED="1565625266317" MODIFIED="1565625266317">
-<node TEXT="The distance between two points measured along axes at right angles." ID="ID_41174849" CREATED="1565625266317" MODIFIED="1565625266317"/>
 </node>
 </node>
 <node TEXT="k-Means" FOLDED="true" ID="ID_634270328" CREATED="1565625266317" MODIFIED="1565625266317">
@@ -967,7 +989,6 @@
 <node TEXT="Fuzzy C-Means" ID="ID_1174809125" CREATED="1565625266317" MODIFIED="1565625266317"/>
 <node TEXT="Self-Organising Maps (SOM)" ID="ID_734207299" CREATED="1565625266317" MODIFIED="1565625266317"/>
 <node TEXT="Expectation Maximization" ID="ID_790747450" CREATED="1565625266317" MODIFIED="1565625266317"/>
-<node TEXT="DBSCAN" ID="ID_588035025" CREATED="1565625266317" MODIFIED="1565625266317"/>
 </node>
 <node TEXT="Validation" FOLDED="true" ID="ID_301753569" CREATED="1565625266317" MODIFIED="1566575251355">
 <node TEXT="Data Structure Metrics" FOLDED="true" ID="ID_205978568" CREATED="1565625266317" MODIFIED="1565625266317">
@@ -987,6 +1008,10 @@
 <node TEXT="Hidden Markov Models(HMM)" ID="ID_810892703" CREATED="1566487645666" MODIFIED="1566487743366" LINK="https://weirping.github.io/blog/HMM.html"/>
 <node TEXT="n-gram" ID="ID_241754336" CREATED="1566574466004" MODIFIED="1566574530788" LINK="https://weirping.github.io/blog/n-gram-model.html"/>
 <node TEXT="Maximum Entropy Model" ID="ID_1017835365" CREATED="1566575367660" MODIFIED="1566575392538" LINK="https://weirping.github.io/blog/Maximum-Entropy-Model.html"/>
+</node>
+<node TEXT="Topic Model" FOLDED="true" ID="ID_755349175" CREATED="1566834020133" MODIFIED="1566834032974">
+<node TEXT="LDA" ID="ID_1189621183" CREATED="1566834035498" MODIFIED="1566834038960"/>
+<node TEXT="PLSI" ID="ID_1353886122" CREATED="1566834039819" MODIFIED="1566834046752"/>
 </node>
 <node TEXT="LTR-Learning to Rank" FOLDED="true" ID="ID_946211173" CREATED="1565625322391" MODIFIED="1565625350715">
 <node TEXT="Metrics" ID="ID_747805078" CREATED="1566536534220" MODIFIED="1566536945946" LINK="#ID_1583246436"/>
@@ -1012,10 +1037,87 @@
 <node TEXT="forward propagation" ID="ID_767241444" CREATED="1566487147251" MODIFIED="1566487150006"/>
 <node TEXT="back propagation" ID="ID_1791686759" CREATED="1566487158858" MODIFIED="1566487192053"/>
 </node>
-<node TEXT="Activation Function" ID="ID_1236552315" CREATED="1566487401242" MODIFIED="1566487463210" LINK="https://weirping.github.io/blog/Activation_Function.html"/>
-<node TEXT="Regularization" FOLDED="true" ID="ID_572583902" CREATED="1566487895208" MODIFIED="1566487910147" LINK="#ID_11419241">
-<node TEXT="Early Stopping" ID="ID_1578298640" CREATED="1565661659646" MODIFIED="1565661659646"/>
-<node TEXT="Dropout" ID="ID_232885454" CREATED="1565661665206" MODIFIED="1566576913029" LINK="#ID_1190649529"/>
+<node TEXT="Data Normalization" FOLDED="true" ID="ID_999356310" CREATED="1567949465743" MODIFIED="1567949481378">
+<node TEXT="Batch Normalization" ID="ID_1341189537" CREATED="1567949484046" MODIFIED="1567949498042"/>
+<node TEXT="General Normalization" ID="ID_450489796" CREATED="1567949502024" MODIFIED="1567949716974" LINK="#ID_934175555"/>
+</node>
+<node TEXT="Activation Function" FOLDED="true" ID="ID_1236552315" CREATED="1566487401242" MODIFIED="1567949807256" LINK="https://weirping.github.io/blog/Activation_Function.html">
+<node TEXT="ReLU" ID="ID_522385202" CREATED="1567947944475" MODIFIED="1567947944475"/>
+<node TEXT="Sigmoid" ID="ID_105826221" CREATED="1567947944475" MODIFIED="1567947944475"/>
+<node TEXT="Binary" ID="ID_180271371" CREATED="1567947944479" MODIFIED="1567947944479"/>
+<node TEXT="Tanh" ID="ID_642422499" CREATED="1567947944487" MODIFIED="1567949807255"/>
+<node TEXT="Softplus" ID="ID_1756419389" CREATED="1567947944488" MODIFIED="1567947944488"/>
+<node TEXT="Softmax" ID="ID_1690815353" CREATED="1567947944489" MODIFIED="1567947944489"/>
+<node TEXT="Maxout" ID="ID_1036543391" CREATED="1567947944490" MODIFIED="1567947944490"/>
+</node>
+<node TEXT="Regularization" ID="ID_572583902" CREATED="1566487895208" MODIFIED="1566487910147" LINK="#ID_11419241"/>
+<node TEXT="Optimization" ID="ID_149913152" CREATED="1567948316183" MODIFIED="1567948853872" LINK="#ID_428597335"/>
+<node TEXT="Learning Rate" ID="ID_467066244" CREATED="1567948071079" MODIFIED="1567948074670"/>
+<node TEXT="Cost/Loss(Min) Functions" ID="ID_1176419730" CREATED="1567949874205" MODIFIED="1567949925830" LINK="#ID_1959068725"/>
+<node TEXT="Weight Initialization" FOLDED="true" ID="ID_61799096" CREATED="1567949003028" MODIFIED="1567949005738">
+<node TEXT="All Zero Initialization" FOLDED="true" ID="ID_4609040" CREATED="1567949268245" MODIFIED="1567949268245">
+<node TEXT="In the ideal situation, with proper data normalization it is reasonable to assume that approximately half of the weights will be positive and half of them will be negative. A reasonable-sounding idea then might be to set all the initial weights to zero, which you expect to be the &#x201c;best guess&#x201d; in expectation. But, this turns out to be a mistake, because if every neuron in the network computes the same output, then they will also all compute the same gradients during back-propagation and undergo the exact same parameter updates. In other words, there is no source of asymmetry between neurons if their weights are initialized to be the same." ID="ID_94892556" CREATED="1567949268245" MODIFIED="1567949268245"/>
+</node>
+<node TEXT="Initialization with Small Random Numbers" FOLDED="true" ID="ID_1437913984" CREATED="1567949268245" MODIFIED="1567949268245">
+<node TEXT="Thus, you still want the weights to be veryclose to zero, but not identically zero. In this way, you can random these neurons to small numbers which are very close to zero, and it is treated as symmetry breaking. The idea is that the neurons are all random and unique in the beginning, so they will compute distinct updates and integrate themselves as diverse parts of the full network. The implementation for weights might simply drawing values from a normal distribution with zero mean, and unit standard deviation. It is also possible to use small numbers drawn from a uniform distribution, but this seems to have relatively little impact on the final performance in practice." ID="ID_421744542" CREATED="1567949268248" MODIFIED="1567949268248"/>
+</node>
+<node TEXT="Calibrating the Variances" FOLDED="true" ID="ID_1690677418" CREATED="1567949268248" MODIFIED="1567949268248">
+<node TEXT="One problem with the above suggestion isthat the distribution of the outputs from a randomly initialized neuron has a variance that grows with the number of inputs. It turns out that you can normalize the variance of each neuron&apos;s output to 1 by scaling its weight vector by the square root of its fan-in (i.e., its number of inputs). This ensures that all neurons in the network initially have approximately the same output distribution and empirically improves the rate of convergence. The detailed derivations can be found from Page. 18 to 23 of the slides. Please note that, in the derivations, it does not consider the influence of ReLU neurons." ID="ID_12184501" CREATED="1567949268248" MODIFIED="1567949268248"/>
+</node>
+</node>
+<node TEXT="Gradient checking" ID="ID_29394671" CREATED="1567952860804" MODIFIED="1567952863102"/>
+<node TEXT="Architectures" FOLDED="true" ID="ID_1138339744" CREATED="1567950302382" MODIFIED="1567950333764">
+<node TEXT="Feed Forward" FOLDED="true" ID="ID_1389353422" CREATED="1567950712325" MODIFIED="1567950712325">
+<node TEXT="In this network, the information moves in only one direction, forward, from the input nodes, through the hidden nodes (if any) and to the output nodes. There are no cycles or loops in the network." ID="ID_462431754" CREATED="1567950712325" MODIFIED="1567950767953"/>
+<node TEXT="Kinds" FOLDED="true" ID="ID_1853147927" CREATED="1567950712325" MODIFIED="1567950712325">
+<node TEXT="Single-Layer Perceptron" FOLDED="true" ID="ID_1718947483" CREATED="1567950712327" MODIFIED="1567950712327">
+<node TEXT="The inputs are fed directly to the outputs via a series of weights." ID="ID_30432336" CREATED="1567950712327" MODIFIED="1567950789339"/>
+</node>
+<node TEXT="Multi-Layer Perceptron" FOLDED="true" ID="ID_1578054039" CREATED="1567950712327" MODIFIED="1567950712327">
+<node TEXT="This class of networks consists of multiple layers of computational units. Each neuron in one layer has directed connections to the neurons of the subsequent layer. In many applications the units of these networks apply a sigmoid function as an activation function." ID="ID_1570744801" CREATED="1567950712327" MODIFIED="1567950859666"/>
+</node>
+</node>
+</node>
+<node TEXT="Auto-Encoders" FOLDED="true" ID="ID_1481805563" CREATED="1566538011839" MODIFIED="1567951023481" LINK="https://weirping.github.io/blog/AutoEncoder.html">
+<node TEXT="Auto-Encoders.png" ID="ID_849593667" CREATED="1567951976866" MODIFIED="1567951976866">
+<hook URI="Machine%20Learning.resources/Auto-Encoders.png" SIZE="0.94043887" NAME="ExternalObject"/>
+</node>
+<node TEXT="The aim of an autoencoder is to learn a representation (encoding) for a set of data, typically for the purpose of dimensionality reduction. Recently, the autoencoder concept has become more widely used for learning generative models of data" ID="ID_448821999" CREATED="1567950999755" MODIFIED="1567951023479" VSHIFT_QUANTITY="2.2499999329447764 pt"/>
+</node>
+<node TEXT="Convolutional Neural Networks (CNN)" FOLDED="true" ID="ID_1777592637" CREATED="1567951143777" MODIFIED="1567951170643">
+<node TEXT="CNNs.png" ID="ID_854865114" CREATED="1567952114240" MODIFIED="1567952114240">
+<hook URI="Machine%20Learning.resources/CNNs.png" SIZE="0.3836317" NAME="ExternalObject"/>
+</node>
+<node TEXT="Pooling" ID="ID_1312885896" CREATED="1567951172596" MODIFIED="1567951172596"/>
+<node TEXT="Convolution" ID="ID_962494512" CREATED="1567951172596" MODIFIED="1567951172596"/>
+<node TEXT="Subsampling" ID="ID_1746877928" CREATED="1567951172598" MODIFIED="1567951172598"/>
+</node>
+<node TEXT="GANs" FOLDED="true" ID="ID_314605319" CREATED="1567951097455" MODIFIED="1567951099539">
+<node TEXT="GANs.png" ID="ID_1253753410" CREATED="1567952176716" MODIFIED="1567952176732">
+<hook URI="Machine%20Learning.resources/GANs.png" SIZE="0.3452244" NAME="ExternalObject"/>
+</node>
+<node TEXT="GANs or Generative Adversarial Networks are a class of artificial intelligence algorithms used in unsupervised machine learning, implemented by a system of two neural networks contesting with each other in a zero-sum game framework." ID="ID_453658765" CREATED="1567952228509" MODIFIED="1567952228509"/>
+</node>
+<node TEXT="RNNs" FOLDED="true" ID="ID_772060333" CREATED="1567951187250" MODIFIED="1567951188960">
+<node TEXT="Recurrent" FOLDED="true" ID="ID_1495615306" CREATED="1567951203136" MODIFIED="1567951205428">
+<node TEXT="RNNs-Recurrent.png" ID="ID_263286942" CREATED="1567952516742" MODIFIED="1567952516742">
+<hook URI="Machine%20Learning.resources/RNNs-Recurrent.png" SIZE="0.20833333" NAME="ExternalObject"/>
+</node>
+<node TEXT="Is a class of artificial neural network where connections between units form a directed cycle. This allows it to exhibit dynamic temporal behavior. Unlike feedforward neural networks, RNNs can use their internal memory to process arbitrary sequences of inputs. This makes them applicable to tasks such as unsegmented, connected handwriting recognition or speech recognition" ID="ID_1633766554" CREATED="1567951547361" MODIFIED="1567951615027"/>
+<node TEXT="LSTMs" FOLDED="true" ID="ID_1331845541" CREATED="1567951620497" MODIFIED="1567952641509" LINK="https://weirping.github.io/blog/Understanding-LSTM-Networks.html">
+<node TEXT="LSTMs.png" ID="ID_486456935" CREATED="1567951811440" MODIFIED="1567951811440">
+<hook URI="Machine%20Learning.resources/LSTMs.png" SIZE="0.22091311" NAME="ExternalObject"/>
+</node>
+<node TEXT="An LSTM is well-suited to learn from experience to classify, process and predict time series given time lags of unknown size and bound between important events. Relative insensitivity to gap length gives an advantage to LSTM over alternative RNNs, hidden Markov models and other sequence learning methods in numerous applications." ID="ID_759904317" CREATED="1567951841971" MODIFIED="1567951873947"/>
+</node>
+</node>
+<node TEXT="Recursive" FOLDED="true" ID="ID_1628870867" CREATED="1567951214196" MODIFIED="1567951215609">
+<node TEXT="RNNs-Recursive.png" ID="ID_1240617860" CREATED="1567952489336" MODIFIED="1567952489351">
+<hook URI="Machine%20Learning.resources/RNNs-Recursive.png" SIZE="1.0" NAME="ExternalObject"/>
+</node>
+<node TEXT="Is a kind of deep neural network created by applying the same set of weights recursively over a structure, to produce a structured prediction over variable-size input structures, or a scalar prediction on it, by traversing a given structure in topological order. RNNs have been successful for instance in learning sequence and tree structures in natural language processing, mainly phrase and sentence continuous representations based on word embedding." ID="ID_465946126" CREATED="1567952330533" MODIFIED="1567952330533"/>
+</node>
+</node>
 </node>
 <node TEXT="Embeding" FOLDED="true" ID="ID_1131589483" CREATED="1566486855079" MODIFIED="1566486864442">
 <node TEXT="Word2Vector" ID="ID_1659598323" CREATED="1566486869482" MODIFIED="1566486881338"/>
@@ -1026,7 +1128,6 @@
 <node TEXT="Model" FOLDED="true" ID="ID_1284907236" CREATED="1566487370649" MODIFIED="1566487374485">
 <node TEXT="LSTM" ID="ID_29266271" CREATED="1565952657790" MODIFIED="1565952693727" LINK="https://weirping.github.io/blog/Understanding-LSTM-Networks.html"/>
 <node TEXT="DSSM" ID="ID_1616948232" CREATED="1565952695759" MODIFIED="1565952713588" LINK="https://weirping.github.io/blog/DSSM.html"/>
-<node TEXT="AutoEncoder" ID="ID_1481805563" CREATED="1566538011839" MODIFIED="1566538054100" LINK="https://weirping.github.io/blog/AutoEncoder.html"/>
 </node>
 </node>
 <node TEXT="Toolkit" FOLDED="true" POSITION="right" ID="ID_1659483563" CREATED="1565937397861" MODIFIED="1565937406350">
