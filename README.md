@@ -7,3 +7,5 @@
 4. 增加了个人的内容, 对于=已经形成的blog, 会将 url 增加到本 mindmap 中.
 5. 这个 mindmap 内容看似很多, 但是还有很多机器学习相关的核心内容没有涵盖, 后续会在工作学习中逐渐完善.
 6. 本 mindmap 使用 freeplane 编辑.
+
+![](https://github.com/Weirping/Machine-Learning-Mindmap/blob/master/shotcut.png)
