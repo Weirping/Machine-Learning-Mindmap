@@ -1,6 +1,6 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Machine Learning" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" FOLDED="false" ID="ID_850448724" CREATED="1564976333940" MODIFIED="1565795977658"><hook NAME="MapStyle" zoom="1.968">
+<node TEXT="Machine Learning" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" FOLDED="false" ID="ID_850448724" CREATED="1564976333940" MODIFIED="1565795977658"><hook NAME="MapStyle" zoom="0.759">
     <properties fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
@@ -64,7 +64,7 @@
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <edge STYLE="sharp_bezier" WIDTH="3"/>
 <hook NAME="AutomaticEdgeColor" COUNTER="6" RULE="FOR_LEVELS"/>
-<node TEXT="Mathematics" FOLDED="true" POSITION="left" ID="ID_1730054110" CREATED="1564977414620" MODIFIED="1567948375623">
+<node TEXT="Mathematics" POSITION="left" ID="ID_1730054110" CREATED="1564977414620" MODIFIED="1567948375623">
 <edge COLOR="#00ff00"/>
 <node TEXT="Linear Algebra" FOLDED="true" ID="ID_1311644628" CREATED="1565660346602" MODIFIED="1565660346602">
 <node TEXT="Matrices" FOLDED="true" ID="ID_1374971143" CREATED="1565660355600" MODIFIED="1565660355600">
@@ -89,7 +89,7 @@
 <node TEXT="When the dimensionality increases, the volume of the space increases so fast that the available data become sparse. This sparsity is problematic for any method that requires statistical significance. In order to obtain a statistically sound and reliable result, the amount of data needed to support the result often grows exponentially with the dimensionality." ID="ID_580713488" CREATED="1565661489944" MODIFIED="1565661489944"/>
 </node>
 </node>
-<node TEXT="Statistics" FOLDED="true" ID="ID_894832431" CREATED="1565942510925" MODIFIED="1565942512403">
+<node TEXT="Statistics" FOLDED="true" ID="ID_894832431" CREATED="1565942510925" MODIFIED="1576569104199">
 <node TEXT="Central Tendency" FOLDED="true" ID="ID_1461781768" CREATED="1565796221390" MODIFIED="1565797054009">
 <node TEXT="Median" ID="ID_1898127788" CREATED="1565796281017" MODIFIED="1565796281017"/>
 <node TEXT="middle" ID="ID_1601941248" CREATED="1565796281017" MODIFIED="1565796286745"/>
@@ -126,7 +126,7 @@
 <node TEXT="&#x6837;&#x672c; \\&#xa;\mathrm{K} =\frac{m_4}{m_2^{2}} - 3 = \frac{\frac{1}{n}\sum(x_i-\bar x)^4}{[\frac{1}{n}\sum(x_i-\bar x)^2]^{2}} -3" ID="ID_1531282203" CREATED="1565797588988" MODIFIED="1565797650449" FORMAT="latexPatternFormat"/>
 </node>
 </node>
-<node TEXT="Relationship" FOLDED="true" ID="ID_1521377999" CREATED="1565661526690" MODIFIED="1565661526690">
+<node TEXT="Relationship" FOLDED="true" ID="ID_1521377999" CREATED="1565661526690" MODIFIED="1576569104199">
 <node TEXT="Correlation" FOLDED="true" ID="ID_386009637" CREATED="1565797736696" MODIFIED="1565797752627">
 <node TEXT="Pearson" FOLDED="true" ID="ID_1183090718" CREATED="1565797987511" MODIFIED="1566485233305" FORMAT="latexPatternFormat">
 <node TEXT="Correlation \\&#xa;&#x603b;&#x4f53;: $\rho _{X,Y}=\frac {cov (X,Y)}{\sigma _{X}\sigma _{Y}}$ \\&#xa;&#x6837;&#x672c;: $r=\frac {\sum _{i=1}^n (x_{i}- \bar x)(y_{i}-\bar y)}    {\sqrt {\sum _{i=1}^n (x_{i}-\bar x)^2} \sqrt {\sum _{i=1}^n (y_{i}-\bar y)^2}} $" FOLDED="true" ID="ID_302710005" CREATED="1566485220986" MODIFIED="1566485244695" FORMAT="latexPatternFormat">
@@ -209,23 +209,14 @@
 </node>
 </node>
 <node TEXT="Probability" FOLDED="true" ID="ID_1635346369" CREATED="1565661863098" MODIFIED="1565661863098">
-<node TEXT="Frequentist vs Bayesian Probability" ID="ID_1904146284" CREATED="1565942708927" MODIFIED="1565942775181" LINK="https://weirping.github.io/blog/Bayesian-Probabilities-in-ML.html"/>
 <node TEXT="Distributions" FOLDED="true" ID="ID_1817553339" CREATED="1565661876332" MODIFIED="1565661876332">
 <node TEXT="Types" FOLDED="true" ID="ID_856618900" CREATED="1565950139117" MODIFIED="1565950145589">
 <node TEXT="Normal (Gaussian)" ID="ID_1410543550" CREATED="1565950182551" MODIFIED="1565950182551"/>
 <node TEXT="Poisson" ID="ID_1387228928" CREATED="1565950182551" MODIFIED="1566486499348" LINK="https://weirping.github.io/blog/exponential-distribution-and-poisson-distribution.html"/>
 <node TEXT="exponential" ID="ID_282563771" CREATED="1566486631563" MODIFIED="1566486662732" LINK="https://weirping.github.io/blog/exponential-distribution-and-poisson-distribution.html"/>
 <node TEXT="Uniform" ID="ID_1166879907" CREATED="1565950182552" MODIFIED="1565950182552"/>
-<node TEXT="Bernoulli" FOLDED="true" ID="ID_278240120" CREATED="1565950182552" MODIFIED="1565950182552">
-<node TEXT="Beta" ID="ID_924886050" CREATED="1565950199490" MODIFIED="1565950204912"/>
-</node>
-<node TEXT="Binomial" FOLDED="true" ID="ID_726075908" CREATED="1565950182552" MODIFIED="1565950182552">
-<node TEXT="Beta" ID="ID_452584303" CREATED="1565950365161" MODIFIED="1565950636634"/>
-</node>
-<node TEXT="Multinoulli" FOLDED="true" ID="ID_1792073260" CREATED="1565950397900" MODIFIED="1565950530518">
-<node TEXT="Dirichlet" ID="ID_238784056" CREATED="1565950554031" MODIFIED="1565950556222"/>
-</node>
 <node TEXT="Gamma" ID="ID_1863890725" CREATED="1565950182552" MODIFIED="1565950182552"/>
+<node TEXT="Bernoulli-Binomial-Beta&#xa;Multinoulli-Multinomial-Dirichlet" ID="ID_1834507281" CREATED="1578997638722" MODIFIED="1578997815380" LINK="https://weirping.github.io/blog/Binomial-Beta-Multinomial-Dirichlet.html"/>
 </node>
 </node>
 <node TEXT="Independence" FOLDED="true" ID="ID_1762221311" CREATED="1565942792084" MODIFIED="1565942793227">
@@ -250,19 +241,24 @@
 <node TEXT="$p(x) = \sum _{y}p(x,y)$" ID="ID_194595727" CREATED="1565944324371" MODIFIED="1565944356109" FORMAT="latexPatternFormat"/>
 <node TEXT="$p(x)= \int_{y} p(xy)dy$" ID="ID_788331996" CREATED="1565944336129" MODIFIED="1565944351455" FORMAT="latexPatternFormat"/>
 </node>
+<node TEXT="Bayesian" FOLDED="true" ID="ID_361675419" CREATED="1576569158011" MODIFIED="1576569607970">
+<node TEXT="Frequentist vs Bayesian Probability" ID="ID_1904146284" CREATED="1565942708927" MODIFIED="1565942775181" LINK="https://weirping.github.io/blog/Bayesian-Probabilities-in-ML.html"/>
 <node TEXT="Bayes Theorem" FOLDED="true" ID="ID_1648172527" CREATED="1565943469307" MODIFIED="1565943489010">
 <node TEXT="Simple Form \\&#xa;P(A|B)=\frac{P(B|A)P(A)}{P(B)}" FOLDED="true" ID="ID_1606523150" CREATED="1565943560974" MODIFIED="1565944144890" FORMAT="latexPatternFormat">
 <node TEXT="With Law of Total probability \\&#xd;&#xa;$P(B)=\sum_{j} P(B|A_{j})P(A_{j}) \\&#xd;&#xa;\Rightarrow P(A_{i}|B) = \frac{P(B|A_i)P(A_i)}{\sum_j P(B|A_j)P(A_j)}$" ID="ID_1989596471" CREATED="1565943954211" MODIFIED="1565944128562" FORMAT="latexPatternFormat"/>
 </node>
 </node>
-<node TEXT="Bayesian Inference" FOLDED="true" ID="ID_106484071" CREATED="1565948762138" MODIFIED="1565949075220" LINK="https://weirping.github.io/blog/Bayesian-Probabilities-in-ML.html">
-<node TEXT="&#x8d1d;&#x53f6;&#x65af;&#x5b66;&#x6d3e;&#x8ba4;&#x4e3a;&#x6a21;&#x578b;&#x4e2d;&#x7684;&#x53c2;&#x6570;\mathrm w&#x662f;&#x4e00;&#x4e2a;&#x4e0d;&#x786e;&#x5b9a;&#x7684;&#x503c;&#xff0c;&#x4f7f;&#x7528;&#x6982;&#x7387;&#x5206;&#x5e03;&#x5bf9; \\ &#xa;&#x5176;&#x8fdb;&#x884c;&#x5efa;&#x6a21;&#x3002;&#x9996;&#x5148;&#x6211;&#x4eec;&#x5bf9;\mathrm{w}&#x53ef;&#x80fd;&#x7684;&#x5206;&#x5e03;&#x505a;&#x4e00;&#x4e2a;&#x5047;&#x8bbe;&#xff0c;&#x8fd9;&#x4e2a;&#x5047;&#x8bbe;&#x662f;&#x57fa;&#x4e8e; \\&#xa;&#x7ecf;&#x9a8c;&#x7684;&#x3001;&#x548c;&#x89c2;&#x6d4b;&#x6570;&#x636e;&#x65e0;&#x5173;&#x7684;&#xff0c;&#x8fd9;&#x4e2a;&#x5206;&#x5e03;&#x5373;&#x4e3a;&#x5148;&#x9a8c;&#x5206;&#x5e03;p(\mathrm{w})&#x3002;\\&#xa;&#x4f9d;&#x636e;&#x8bad;&#x7ec3;&#x6570;&#x636e;&#x96c6;&#x7ea0;&#x6b63;&#x540e;&#x7684;\mathrm{w}&#x7684;&#x6982;&#x7387;&#x5206;&#x5e03;&#x4e3a;&#x540e;&#x9a8c;&#x5206;&#x5e03;p(\mathrm{w} | D)&#x3002;\\&#xa;&#x6309;&#x7167;&#x8d1d;&#x53f6;&#x65af;&#x516c;&#x5f0f;&#x5bf9;&#x540e;&#x9a8c;&#x6982;&#x7387;&#x5206;&#x89e3;&#xff0c;&#x5373;&#xff1a;\\&#xa;&#xa;$p(\mathrm{w}|\mathcal{D})=\frac{p(\mathcal{D}|\mathrm{w})p(\mathrm{w})}{p(\mathcal{D})}$ \\&#xa;&#xa;\mathrm{w}&#x7684;&#x540e;&#x9a8c;&#x5206;&#x5e03;p(\mathrm{w}| D)&#x53ef;&#x4ee5;&#x5206;&#x89e3;&#x4e3a;&#x4e09;&#x90e8;&#x5206;: \\&#xa;1. p(\mathrm{w}) &#xff1a;&#x5148;&#x9a8c;&#x5206;&#x5e03;&#xff08;prior&#xff09;&#xff0c;&#x662f;&#x5173;&#x4e8e;\mathrm{w}&#x7684;&#x51fd;&#x6570;&#xff0c;&#x4f9d;&#x8d56;&#x4e8e;&#x5148;&#x9a8c;&#x77e5;&#x8bc6;&#x3002; \\&#xa;2. p(\mathcal{D}|\mathrm{w}) &#xff1a;&#x4f3c;&#x7136;&#x51fd;&#x6570;&#xff08;likelihood&#xff09;&#xff0c;&#x662f;&#x5173;&#x4e8e;\mathrm{w}&#x7684;&#x51fd;&#x6570;&#x3002; \\&#xa;&#x8868;&#x793a;&#x5bf9;&#x4e8e;\mathrm{w}&#x7684;&#x4e0d;&#x540c;&#x503c;&#xff0c;&#x6570;&#x636e;&#x96c6;\mathcal D&#x88ab;&#x89c2;&#x6d4b;&#x5230;&#x7684;&#x6982;&#x7387;&#x3002; \\&#xa;note&#xff0c;&#x4f3c;&#x7136;&#x51fd;&#x6570;&#x4e0d;&#x662f;&#x5173;&#x4e8e;\mathrm{w}&#x7684;&#x6982;&#x7387;&#x5206;&#x5e03;&#x51fd;&#x6570;&#xff0c;&#x6240;&#x4ee5;&#x4f3c;&#x7136;&#x51fd;&#x6570;&#x5bf9;w&#x79ef;&#x5206;&#x4e0d;&#x662f;1&#xff0c;\\&#xa;&#x5b9e;&#x9645;&#x4e0a;&#x662f;\mathcal D&#x7684;&#x6982;&#x7387;&#x5206;&#x5e03;&#x51fd;&#x6570;&#x3002; \\&#xa;3. p(\mathcal{D}) &#xff1a;&#x5f52;&#x4e00;&#x5316;&#x9879;&#xff0c;&#x7528;&#x4e8e;&#x4fdd;&#x8bc1;&#x516c;&#x5f0f;&#x53f3;&#x8fb9;&#x5bf9;\mathrm{w}&#x79ef;&#x5206;&#x662f;1&#xff0c;\\&#xa;&#x5373;&#xff0c;&#x4fdd;&#x8bc1;&#x540e;&#x9a8c;&#x5206;&#x5e03;&#x662f;&#x4e00;&#x4e2a;&#x6982;&#x7387;&#x5bc6;&#x5ea6;&#x51fd;&#x6570;&#x3002;p(\mathcal{D})=\int p(\mathcal{D}|\mathrm{w})p(\mathrm{w})\mathrm{dw}&#x3002;&#x5bf9;&#x4e8e;&#x56fa;&#x5b9a;&#x6570;&#x636e;&#x96c6;&#x6765;&#x8bf4;&#x3002;" ID="ID_1485186110" CREATED="1565948987809" MODIFIED="1565950039422" FORMAT="latexPatternFormat"/>
+<node TEXT="Bayesian Inference \\&#xa;$p(\mathrm{w}|\mathcal{D})=\frac{p(\mathcal{D}|\mathrm{w})p(\mathrm{w})}{p(\mathcal{D})}$" FOLDED="true" ID="ID_106484071" CREATED="1565948762138" MODIFIED="1576568883696" LINK="https://weirping.github.io/blog/Bayesian-Probabilities-in-ML.html" FORMAT="latexPatternFormat">
+<node TEXT="&#x8d1d;&#x53f6;&#x65af;&#x5b66;&#x6d3e;&#x8ba4;&#x4e3a;&#x6a21;&#x578b;&#x4e2d;&#x7684;&#x53c2;&#x6570;\mathrm w&#x662f;&#x4e00;&#x4e2a;&#x4e0d;&#x786e;&#x5b9a;&#x7684;&#x503c;&#xff0c;&#x4f7f;&#x7528;&#x6982;&#x7387;&#x5206;&#x5e03;&#x5bf9; \\ &#xa;&#x5176;&#x8fdb;&#x884c;&#x5efa;&#x6a21;&#x3002;&#x9996;&#x5148;&#x6211;&#x4eec;&#x5bf9;\mathrm{w}&#x53ef;&#x80fd;&#x7684;&#x5206;&#x5e03;&#x505a;&#x4e00;&#x4e2a;&#x5047;&#x8bbe;&#xff0c;&#x8fd9;&#x4e2a;&#x5047;&#x8bbe;&#x662f;&#x57fa;&#x4e8e; \\&#xa;&#x7ecf;&#x9a8c;&#x7684;&#x3001;&#x548c;&#x89c2;&#x6d4b;&#x6570;&#x636e;&#x65e0;&#x5173;&#x7684;&#xff0c;&#x8fd9;&#x4e2a;&#x5206;&#x5e03;&#x5373;&#x4e3a;&#x5148;&#x9a8c;&#x5206;&#x5e03;p(\mathrm{w})&#x3002;\\&#xa;&#x4f9d;&#x636e;&#x8bad;&#x7ec3;&#x6570;&#x636e;&#x96c6;&#x7ea0;&#x6b63;&#x540e;&#x7684;\mathrm{w}&#x7684;&#x6982;&#x7387;&#x5206;&#x5e03;&#x4e3a;&#x540e;&#x9a8c;&#x5206;&#x5e03;p(\mathrm{w} | D)&#x3002;\\&#xa;&#x6309;&#x7167;&#x8d1d;&#x53f6;&#x65af;&#x516c;&#x5f0f;&#x5bf9;&#x540e;&#x9a8c;&#x6982;&#x7387;&#x5206;&#x89e3;&#xff0c;&#x5373;&#xff1a;\\&#xa;&#xa;$p(\mathrm{w}|\mathcal{D})=\frac{p(\mathcal{D}|\mathrm{w})p(\mathrm{w})}{p(\mathcal{D})}$ \\&#xa;&#xa;\mathrm{w}&#x7684;&#x540e;&#x9a8c;&#x5206;&#x5e03;p(\mathrm{w}| D)&#x53ef;&#x4ee5;&#x5206;&#x89e3;&#x4e3a;&#x4e09;&#x90e8;&#x5206;: \\&#xa;1. p(\mathrm{w}) &#xff1a;&#x5148;&#x9a8c;&#x5206;&#x5e03;&#xff08;prior&#xff09;&#xff0c;&#x662f;&#x5173;&#x4e8e;\mathrm{w}&#x7684;&#x51fd;&#x6570;&#xff0c;&#x4f9d;&#x8d56;&#x4e8e;&#x5148;&#x9a8c;&#x77e5;&#x8bc6;&#x3002; \\&#xa;2. p(\mathcal{D}|\mathrm{w}) &#xff1a;&#x4f3c;&#x7136;&#x51fd;&#x6570;&#xff08;likelihood&#xff09;&#xff0c;&#x662f;&#x5173;&#x4e8e;\mathrm{w}&#x7684;&#x51fd;&#x6570;&#x3002; &#x8868;&#x793a;&#x5bf9;&#x4e8e;\mathrm{w}&#x7684;&#x4e0d;&#x540c;&#x503c;&#xff0c;&#x6570;&#x636e;&#x96c6;\mathcal D&#x88ab;&#x89c2;&#x6d4b;&#x5230;&#x7684;&#x6982;&#x7387;&#x3002; \\&#xa;note&#xff0c;&#x4f3c;&#x7136;&#x51fd;&#x6570;&#x4e0d;&#x662f;&#x5173;&#x4e8e;\mathrm{w}&#x7684;&#x6982;&#x7387;&#x5206;&#x5e03;&#x51fd;&#x6570;&#xff0c;&#x6240;&#x4ee5;&#x4f3c;&#x7136;&#x51fd;&#x6570;&#x5bf9;w&#x79ef;&#x5206;&#x4e0d;&#x662f;1&#xff0c;&#x5b9e;&#x9645;&#x4e0a;&#x662f;\mathcal D&#x7684;&#x6982;&#x7387;&#x5206;&#x5e03;&#x51fd;&#x6570;&#x3002; \\&#xa;3. p(\mathcal{D}) &#xff1a;&#x5f52;&#x4e00;&#x5316;&#x9879;&#xff0c;&#x7528;&#x4e8e;&#x4fdd;&#x8bc1;&#x516c;&#x5f0f;&#x53f3;&#x8fb9;&#x5bf9;\mathrm{w}&#x79ef;&#x5206;&#x662f;1&#xff0c;&#x5373;&#xff0c;&#x4fdd;&#x8bc1;&#x540e;&#x9a8c;&#x5206;&#x5e03;&#x662f;&#x4e00;&#x4e2a;&#x6982;&#x7387;&#x5bc6;&#x5ea6;&#x51fd;&#x6570;&#x3002;\\&#xa;p(\mathcal{D})=\int p(\mathcal{D}|\mathrm{w})p(\mathrm{w})\mathrm{dw}&#x3002;" ID="ID_1485186110" CREATED="1565948987809" MODIFIED="1576569028063" FORMAT="latexPatternFormat"/>
+</node>
 </node>
 </node>
 <node TEXT="Optimization" FOLDED="true" ID="ID_1610238833" CREATED="1565661574532" MODIFIED="1567948375622">
 <node TEXT="Lagrange Duality" ID="ID_446260867" CREATED="1565937195940" MODIFIED="1565937209326" LINK="https://weirping.github.io/blog/Lagrange-Duality.html"/>
 <node TEXT="Lagrange Multiplier and KKT Conditions" ID="ID_395919799" CREATED="1565937272197" MODIFIED="1565937300158" LINK="https://weirping.github.io/blog/from-Lagrange-Multiplier-to-KKT-Conditions.html"/>
-<node TEXT="EM algorithm" ID="ID_1810045048" CREATED="1566576377579" MODIFIED="1566576485438" LINK="https://weirping.github.io/blog/EM-algorithm.html"/>
+<node TEXT="EM algorithm" FOLDED="true" ID="ID_1810045048" CREATED="1566576377579" MODIFIED="1566576485438" LINK="https://weirping.github.io/blog/EM-algorithm.html">
+<node TEXT="Jensen&apos;s Inequality" ID="ID_894214593" CREATED="1568970426145" MODIFIED="1568970607613" LINK="https://weirping.github.io/blog/Jensen-Inequality.html"/>
+</node>
 <node TEXT="Methods" FOLDED="true" ID="ID_170677856" CREATED="1566488011347" MODIFIED="1566488021328">
 <node TEXT="Gradient Descent" ID="ID_579849081" CREATED="1565661589195" MODIFIED="1565661589195"/>
 <node TEXT="Newton Method" ID="ID_568823794" CREATED="1565799372620" MODIFIED="1565799397108" LINK="https://weirping.github.io/blog/Newton-Methods.html"/>
@@ -384,7 +380,7 @@
 <node TEXT="Gibbs Sampling" ID="ID_955384853" CREATED="1566536034569" MODIFIED="1566536277454"/>
 </node>
 </node>
-<node TEXT="Concepts" FOLDED="true" POSITION="left" ID="ID_1125818411" CREATED="1564976643216" MODIFIED="1565937516667">
+<node TEXT="Concepts" POSITION="left" ID="ID_1125818411" CREATED="1564976643216" MODIFIED="1565937516667">
 <edge COLOR="#7c0000"/>
 <node TEXT="Motivation" FOLDED="true" ID="ID_1654785002" CREATED="1565606156788" MODIFIED="1565606183892">
 <node TEXT="Prediction" FOLDED="true" ID="ID_1856405639" CREATED="1565606172998" MODIFIED="1565606172998">
@@ -603,7 +599,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Data Processing" FOLDED="true" POSITION="left" ID="ID_1777714941" CREATED="1564977400569" MODIFIED="1565166563228" STYLE="fork">
+<node TEXT="Data Processing" POSITION="left" ID="ID_1777714941" CREATED="1564977400569" MODIFIED="1565166563228" STYLE="fork">
 <edge COLOR="#0000ff"/>
 <node TEXT="Data Type" FOLDED="true" ID="ID_1304240173" CREATED="1565148775374" MODIFIED="1565148834910">
 <node TEXT="attribute-type.png" ID="ID_850804869" CREATED="1565606491821" MODIFIED="1565606491832">
@@ -880,7 +876,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Model" FOLDED="true" POSITION="right" ID="ID_234408247" CREATED="1564977421668" MODIFIED="1564977429487">
+<node TEXT="Model" POSITION="right" ID="ID_234408247" CREATED="1564977421668" MODIFIED="1564977429487">
 <edge COLOR="#ff00ff"/>
 <node TEXT="Regression" FOLDED="true" ID="ID_1705990166" CREATED="1565622906240" MODIFIED="1565622908296">
 <node TEXT="Linear Regression" ID="ID_1971679244" CREATED="1565623031754" MODIFIED="1565623033794"/>
@@ -912,7 +908,19 @@
 <node TEXT="Multinomial Naive Bayes" ID="ID_1838946566" CREATED="1565623801040" MODIFIED="1565623804319"/>
 <node TEXT="Gaussian Naive Bayes" ID="ID_1093671090" CREATED="1566832646654" MODIFIED="1566832658341"/>
 <node TEXT="probabilistic graphical models" FOLDED="true" ID="ID_970079624" CREATED="1565624579369" MODIFIED="1565624582714">
-<node TEXT="Bayesian Networks" FOLDED="true" ID="ID_785230072" CREATED="1565624809357" MODIFIED="1565624809357">
+<node TEXT="Bayesian Networks" FOLDED="true" ID="ID_785230072" CREATED="1565624809357" MODIFIED="1576569579954"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="rgb(85, 85, 85)" face="Lato, PingFang SC, Microsoft YaHei, sans-serif" size="16px">&#36830;&#25509;&#20855;&#26377;&#26041;&#21521; &#30340; &#27010;&#29575;&#22270;&#27169;&#22411;, &#20063;&#31216;&#20026;&#21448;&#21521;&#22270;&#27169;&#22411;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="&#x56fe;&#x6a21;&#x578b;&#x4e0e;&#x8054;&#x5408;&#x5206;&#x5e03;&#x7684;&#x5bf9;&#x5e94;&#x5173;&#x7cfb;" FOLDED="true" ID="ID_633127503" CREATED="1565624809357" MODIFIED="1565624809357">
 <node TEXT="- &#x4f7f;&#x7528;&#x5706;&#x5708;&#x8868;&#x793a;&#x968f;&#x673a;&#x53d8;&#x91cf;&#xff1b;" ID="ID_654554160" CREATED="1565624809357" MODIFIED="1565624809357"/>
 <node TEXT="- &#x89c2;&#x6d4b;&#x5230;&#x7684;&#x53d8;&#x91cf;&#x4f7f;&#x7528;&#x5b9e;&#x5fc3;&#x5706;&#x5708;&#x8868;&#x793a;&#xff0c;&#x9690;&#x53d8;&#x91cf;&#x4f7f;&#x7528;&#x7a7a;&#x5fc3;&#x5706;&#x5708;&#x8868;&#x793a;&#xff1b;" ID="ID_1560777437" CREATED="1565624809357" MODIFIED="1565624809357"/>
@@ -927,8 +935,20 @@
 <node TEXT="D-Separation(&#x6761;&#x4ef6;&#x72ec;&#x7acb;&#x6027;&#x5de5;&#x5177;)" ID="ID_1674078600" CREATED="1566537766434" MODIFIED="1566537769220"/>
 </node>
 </node>
-<node TEXT="Markov random fields" FOLDED="true" ID="ID_47503815" CREATED="1565624626480" MODIFIED="1565624629844">
-<node TEXT="&#x6761;&#x4ef6;&#x72ec;&#x7acb;&#x6027;" ID="ID_1661314627" CREATED="1565624866980" MODIFIED="1565624869557"/>
+<node TEXT="Markov random fields" FOLDED="true" ID="ID_47503815" CREATED="1565624626480" MODIFIED="1576573507543"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="rgb(85, 85, 85)" face="Lato, PingFang SC, Microsoft YaHei, sans-serif" size="16px">&#36830;&#25509;&#26159;&#26080;&#26041;&#21521;&#24615; &#27010;&#29575;&#22270;&#27169;&#22411;, &#20063;&#31216;&#20026; &#26080;&#21521;&#22270;&#27169;&#22411;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x6761;&#x4ef6;&#x72ec;&#x7acb;&#x6027;" ID="ID_1661314627" CREATED="1565624866980" MODIFIED="1576573405270" LINK="#ID_717281048"/>
 </node>
 </node>
 </node>
@@ -988,7 +1008,9 @@
 <node TEXT="k-Medians" ID="ID_1837174793" CREATED="1565625266317" MODIFIED="1565625266317"/>
 <node TEXT="Fuzzy C-Means" ID="ID_1174809125" CREATED="1565625266317" MODIFIED="1565625266317"/>
 <node TEXT="Self-Organising Maps (SOM)" ID="ID_734207299" CREATED="1565625266317" MODIFIED="1565625266317"/>
-<node TEXT="Expectation Maximization" ID="ID_790747450" CREATED="1565625266317" MODIFIED="1565625266317"/>
+<node TEXT="Gaussian-Mixture-Model" FOLDED="true" ID="ID_1673710128" CREATED="1570847894017" MODIFIED="1570847921873">
+<node TEXT="EM algorithm" ID="ID_1590156758" CREATED="1570847952635" MODIFIED="1570847955232"/>
+</node>
 </node>
 <node TEXT="Validation" FOLDED="true" ID="ID_301753569" CREATED="1565625266317" MODIFIED="1566575251355">
 <node TEXT="Data Structure Metrics" FOLDED="true" ID="ID_205978568" CREATED="1565625266317" MODIFIED="1565625266317">
@@ -1031,7 +1053,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Neural Networks" FOLDED="true" POSITION="right" ID="ID_1020504749" CREATED="1565625521032" MODIFIED="1565625521032">
+<node TEXT="Neural Networks" POSITION="right" ID="ID_1020504749" CREATED="1565625521032" MODIFIED="1570861338495">
 <node TEXT="Basic" FOLDED="true" ID="ID_2691366" CREATED="1566487081840" MODIFIED="1566487304932" LINK="https://weirping.github.io/blog/Basic_of_Neural_Networks.html">
 <node TEXT="neuron" ID="ID_1102314014" CREATED="1566487196258" MODIFIED="1566487198594"/>
 <node TEXT="forward propagation" ID="ID_767241444" CREATED="1566487147251" MODIFIED="1566487150006"/>
@@ -1053,7 +1075,7 @@
 <node TEXT="Regularization" ID="ID_572583902" CREATED="1566487895208" MODIFIED="1566487910147" LINK="#ID_11419241"/>
 <node TEXT="Optimization" ID="ID_149913152" CREATED="1567948316183" MODIFIED="1567948853872" LINK="#ID_428597335"/>
 <node TEXT="Learning Rate" ID="ID_467066244" CREATED="1567948071079" MODIFIED="1567948074670"/>
-<node TEXT="Cost/Loss(Min) Functions" ID="ID_1176419730" CREATED="1567949874205" MODIFIED="1567949925830" LINK="#ID_1959068725"/>
+<node TEXT="Cost/Loss(Min) Functions" ID="ID_1176419730" CREATED="1567949874205" MODIFIED="1570861338494" LINK="#ID_1959068725"/>
 <node TEXT="Weight Initialization" FOLDED="true" ID="ID_61799096" CREATED="1567949003028" MODIFIED="1567949005738">
 <node TEXT="All Zero Initialization" FOLDED="true" ID="ID_4609040" CREATED="1567949268245" MODIFIED="1567949268245">
 <node TEXT="In the ideal situation, with proper data normalization it is reasonable to assume that approximately half of the weights will be positive and half of them will be negative. A reasonable-sounding idea then might be to set all the initial weights to zero, which you expect to be the &#x201c;best guess&#x201d; in expectation. But, this turns out to be a mistake, because if every neuron in the network computes the same output, then they will also all compute the same gradients during back-propagation and undergo the exact same parameter updates. In other words, there is no source of asymmetry between neurons if their weights are initialized to be the same." ID="ID_94892556" CREATED="1567949268245" MODIFIED="1567949268245"/>
@@ -1130,7 +1152,7 @@
 <node TEXT="DSSM" ID="ID_1616948232" CREATED="1565952695759" MODIFIED="1565952713588" LINK="https://weirping.github.io/blog/DSSM.html"/>
 </node>
 </node>
-<node TEXT="Toolkit" FOLDED="true" POSITION="right" ID="ID_1659483563" CREATED="1565937397861" MODIFIED="1565937406350">
+<node TEXT="Toolkit" POSITION="right" ID="ID_1659483563" CREATED="1565937397861" MODIFIED="1565937406350">
 <node TEXT="Numpy" ID="ID_559353990" CREATED="1565937411266" MODIFIED="1565937416394"/>
 <node TEXT="Pandas" ID="ID_787921348" CREATED="1565937417305" MODIFIED="1565937419811"/>
 <node TEXT="Sklearn" FOLDED="true" ID="ID_1825490415" CREATED="1565937420354" MODIFIED="1566054737229">
@@ -1140,7 +1162,7 @@
 <node TEXT="Tensorflow" ID="ID_1959349199" CREATED="1565937436364" MODIFIED="1565937451547"/>
 <node TEXT="Xgboost" ID="ID_994376312" CREATED="1566489933677" MODIFIED="1566575930978" LINK="https://weirping.github.io/blog/xgboost.html"/>
 </node>
-<node TEXT="Process" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" FOLDED="true" POSITION="right" ID="ID_1305670503" CREATED="1564977431378" MODIFIED="1564977870679">
+<node TEXT="Process" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" POSITION="right" ID="ID_1305670503" CREATED="1564977431378" MODIFIED="1564977870679">
 <edge COLOR="#00ffff"/>
 <node TEXT="Question" FOLDED="true" ID="ID_1791001204" CREATED="1565625834318" MODIFIED="1565625834318">
 <node TEXT="Classification - Is this A or B?" ID="ID_1664382026" CREATED="1565625834318" MODIFIED="1565625834318"/>
@@ -1185,7 +1207,7 @@
 <node TEXT="How will the ML algorithms be integrated with other systems?" ID="ID_1256510053" CREATED="1565626562979" MODIFIED="1565626562979"/>
 </node>
 </node>
-<node TEXT="Application" FOLDED="true" POSITION="right" ID="ID_1132318691" CREATED="1566486112366" MODIFIED="1566486132839">
+<node TEXT="Application" POSITION="right" ID="ID_1132318691" CREATED="1566486112366" MODIFIED="1566486132839">
 <node TEXT="Image" FOLDED="true" ID="ID_1151215937" CREATED="1566486162587" MODIFIED="1566486213108">
 <node TEXT="&#x56fe;&#x7247;&#x641c;&#x7d22;" ID="ID_1386421831" CREATED="1566486226108" MODIFIED="1566486294747" LINK="https://weirping.github.io/blog/picture-similarity-method.html"/>
 </node>
