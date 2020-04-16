@@ -3,7 +3,7 @@
 <node TEXT="Machine Learning" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_850448724" CREATED="1564976333940" MODIFIED="1584718021920" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="10.0 pt" SHAPE_VERTICAL_MARGIN="10.0 pt">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <edge STYLE="sharp_bezier" COLOR="#808080" WIDTH="3"/>
-<hook NAME="MapStyle" zoom="0.759">
+<hook NAME="MapStyle" zoom="0.918">
     <conditional_styles>
         <conditional_style ACTIVE="true" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" LAST="false">
             <node_level_condition VALUE="0" MATCH_CASE="false" MATCH_APPROXIMATELY="false" COMPARATION_RESULT="0" SUCCEED="true"/>
@@ -47,45 +47,52 @@
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#ffffff" BACKGROUND_COLOR="#666666" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10.0 pt" SHAPE_VERTICAL_MARGIN="10.0 pt">
-<font SIZE="18"/>
-<edge STYLE="bezier"/>
+<font SIZE="18" BOLD="true"/>
+<edge STYLE="bezier" COLOR="#808080"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#333333">
-<font SIZE="16"/>
-<edge STYLE="bezier" COLOR="#666666" WIDTH="3"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#000000">
+<font SIZE="16" BOLD="true"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="3"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level,2" COLOR="#333333">
-<font SIZE="14"/>
-<edge STYLE="bezier" COLOR="#666666" WIDTH="2"/>
+<font SIZE="14" BOLD="true"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="2"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level,3" COLOR="#666666">
-<font SIZE="12"/>
-<edge STYLE="bezier" COLOR="#666666" WIDTH="1"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,3" COLOR="#333333">
+<font SIZE="14" BOLD="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="1"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level,4" COLOR="#666666">
-<font SIZE="10"/>
-<edge STYLE="bezier" COLOR="#999999"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,4" COLOR="#333333">
+<font SIZE="12" BOLD="false"/>
+<edge STYLE="bezier" COLOR="#808080"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level,5" COLOR="#666666">
-<edge STYLE="bezier" COLOR="#999999" WIDTH="1"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,5" COLOR="#333333" BORDER_COLOR_LIKE_EDGE="true">
+<font SIZE="12" BOLD="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="1"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level,6" COLOR="#666666">
-<edge STYLE="bezier" COLOR="#999999" WIDTH="1"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,6" COLOR="#333333">
+<font BOLD="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="1"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level,7" COLOR="#666666">
-<edge STYLE="bezier" COLOR="#999999" WIDTH="1"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,7" COLOR="#333333">
+<font BOLD="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="1"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level,8" COLOR="#666666">
-<edge STYLE="bezier" COLOR="#999999" WIDTH="1"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,8" COLOR="#333333">
+<font BOLD="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="1"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level,9" COLOR="#666666">
-<edge STYLE="bezier" COLOR="#999999" WIDTH="1"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,9" COLOR="#333333">
+<font BOLD="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="1"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level,10" COLOR="#666666">
-<edge STYLE="bezier" COLOR="#999999" WIDTH="1"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,10" COLOR="#333333">
+<font BOLD="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="1"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level,11" COLOR="#666666">
-<edge STYLE="bezier" COLOR="#999999" WIDTH="1"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,11" COLOR="#333333">
+<font BOLD="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="1"/>
 </stylenode>
 </stylenode>
 </stylenode>
@@ -515,14 +522,14 @@
 <edge COLOR="#808080"/>
 <node TEXT="$H(X,q)=-\sum_{x \in X}p(x) \log q(x)$" FOLDED="true" ID="ID_1773694158" CREATED="1565951450032" MODIFIED="1584717762520" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
-<node TEXT="&#x4ea4;&#x53c9;&#x71b5;&#x53ef;&#x4ee5;&#x770b;&#x4f5c;&#x662f;&#x5f53;&#x6211;&#x4eec;&#x7528;&#x6a21;&#x578b; q&#x7f16;&#x7801;&#x6765;&#x81ea;&#x6a21;&#x578b;p&#x7684;&#x53d8;&#x91cf;&#x65f6;&#x6240;&#x9700;&#x7684;&#x5e73;&#x5747;bits(&#x5982;&#x679c;\log&#x4ee5;2&#x4e3a;&#x5e95;&#x7684;&#x8bdd;)" ID="ID_1141386309" CREATED="1565951508509" MODIFIED="1584717762520">
+<node TEXT="&#x4ea4;&#x53c9;&#x71b5;&#x53ef;&#x4ee5;&#x770b;&#x4f5c;&#x662f;&#x5f53;&#x7528;&#x6a21;&#x578b; $q$ &#x7f16;&#x7801;&#x6765;&#x81ea;&#x6a21;&#x578b; $p$ &#x7684;&#x53d8;&#x91cf;&#x65f6;&#x6240;&#x9700;&#x7684;&#x5e73;&#x5747;bits(&#x5982;&#x679c;$\log$&#x4ee5;2&#x4e3a;&#x5e95;&#x7684;&#x8bdd;)" ID="ID_1141386309" CREATED="1565951508509" MODIFIED="1585637807722" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
 </node>
 </node>
 </node>
 <node TEXT="&#x71b5;&#x7387;" FOLDED="true" ID="ID_642211385" CREATED="1565951535175" MODIFIED="1584717762521">
 <edge COLOR="#808080"/>
-<node TEXT="&#x5f53;&#x5982;&#x4e0b;&#x6781;&#x9650;&#x5b58;&#x5728;&#x65f6;, &#x968f;&#x673a;&#x8fc7;&#x7a0b;\{X_i\} &#x7684;&#x71b5;&#x7387;&#x5b9a;&#x4e49;&#x4e3a;: \\&#xa;$H(\chi) = \lim_{n \to \infty} \frac 1nH(x_1, x_2, \dots, x_n)$ \\&#xa;&#x71b5;&#x7387; &#x53ef;&#x4ee5;&#x7406;&#x89e3;&#x4e3a; &#x968f;&#x673a;&#x8fc7;&#x7a0b;&#x7684; &quot;&#x71b5;&quot;" ID="ID_626365542" CREATED="1565951565867" MODIFIED="1584717762522" FORMAT="latexPatternFormat">
+<node TEXT="&#x5f53;&#x5982;&#x4e0b;&#x6781;&#x9650;&#x5b58;&#x5728;&#x65f6;, &#x968f;&#x673a;&#x8fc7;&#x7a0b; $\{X_i\}$ &#x7684;&#x71b5;&#x7387;&#x5b9a;&#x4e49;&#x4e3a;: \\&#xa;$H(\chi) = \lim_{n \to \infty} \frac 1nH(x_1, x_2, \dots, x_n)$ \\&#xa;&#x71b5;&#x7387; &#x53ef;&#x4ee5;&#x7406;&#x89e3;&#x4e3a; &#x968f;&#x673a;&#x8fc7;&#x7a0b;&#x7684; &quot;&#x71b5;&quot;" ID="ID_626365542" CREATED="1565951565867" MODIFIED="1585635878424" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
 </node>
 </node>
@@ -530,23 +537,38 @@
 <edge COLOR="#808080"/>
 <node TEXT="&#x8bbe;$p(x)$ &#x662f;&#x968f;&#x673a;&#x53d8;&#x91cf;X&#x7684;&#x771f;&#x5b9e;&#x5206;&#x5e03;&#x5bc6;&#x5ea6;, $q(x)$&#x662f;&#x901a;&#x8fc7;&#x7edf;&#x8ba1;&#x624b;&#x6bb5;&#x5f97;&#x5230;&#x7684;X&#x7684;&#x8fd1;&#x4f3c;&#x5206;&#x5e03;, &#x5219;&#x4e8c;&#x8005;&#x95f4;&#x76f8;&#x5bf9;&#x71b5;&#x5b9a;&#x4e49;&#x4e3a;: \\&#xa;$D_{KL}(p||q)=-\sum_{k=1}^Kp_k \log \frac{p_k}{q_k}$ \\&#xa;$=\sum_{k}{p_k} \log{p_k} -\sum_kp_k \log q_k=-H(p)+H(p,q)$" FOLDED="true" ID="ID_766915900" CREATED="1565951665202" MODIFIED="1584717762523" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
-<node TEXT="- &#x76f8;&#x5bf9;&#x71b5;&#x63cf;&#x8ff0;&#x540c;&#x4e00;&#x4e2a;&#x968f;&#x673a;&#x53d8;&#x91cf;&#x7684;&#x4e0d;&#x540c;&#x5206;&#x5e03;&#x7684;&#x5dee;&#x5f02;" ID="ID_1611367295" CREATED="1565951860037" MODIFIED="1584717762525">
+<node TEXT="1. &#x76f8;&#x5bf9;&#x71b5;&#x63cf;&#x8ff0;&#x540c;&#x4e00;&#x4e2a;&#x968f;&#x673a;&#x53d8;&#x91cf;&#x7684;&#x4e0d;&#x540c;&#x5206;&#x5e03;&#x7684;&#x5dee;&#x5f02;" ID="ID_1611367295" CREATED="1565951860037" MODIFIED="1585636144979">
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="- &#x76f8;&#x5bf9;&#x71b5;&#x63cf;&#x8ff0;&#x4e86;&#x56e0;&#x4e3a;&#x9519;&#x7528;&#x5206;&#x5e03;&#x5bc6;&#x5ea6;&#x800c;&#x589e;&#x52a0;&#x7684;&#x4fe1;&#x606f;&#x91cf;" ID="ID_997978990" CREATED="1565951874526" MODIFIED="1584717762527">
+<node TEXT="2. &#x76f8;&#x5bf9;&#x71b5;&#x63cf;&#x8ff0;&#x4e86;&#x56e0;&#x4e3a;&#x9519;&#x7528;&#x5206;&#x5e03;&#x5bc6;&#x5ea6;&#x800c;&#x589e;&#x52a0;&#x7684;&#x4fe1;&#x606f;&#x91cf;" ID="ID_997978990" CREATED="1565951874526" MODIFIED="1585636157580">
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="- &#x7528;&#x6a21;&#x578b;$q$&#x6765;&#x7f16;&#x7801;&#x6765;&#x81ea;&#x6a21;&#x578b;$p$&#x7684;&#x53d8;&#x91cf;&#x6240;&#x9700;&#x7684;&#x989d;&#x5916;bits&#xff01;" ID="ID_242627137" CREATED="1565951874522" MODIFIED="1584717762528" FORMAT="latexPatternFormat">
+<node TEXT="3. &#x7528;&#x6a21;&#x578b;$q$&#x7f16;&#x7801;&#x6765;&#x81ea;&#x6a21;&#x578b;$p$&#x7684;&#x53d8;&#x91cf;&#x6240;&#x9700;&#x7684;&#x989d;&#x5916;bits&#xff01;" ID="ID_242627137" CREATED="1565951874522" MODIFIED="1585636183987" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="- &#x56e0;&#x4e3a;&#x662f;&#x201c;&#x989d;&#x5916;&#x7684;&#x201d;, &#x6240;&#x4ee5; KL&#x7684;&#x8ddd;&#x79bb;&#x7684;&#x503c;&#x4e00;&#x5b9a;&#x5927;&#x4e8e;$0$, $D_{KL}=0$&#x5f53;&#x4e14;&#x4ec5;&#x5f53;$p=q$." ID="ID_333377709" CREATED="1565951874519" MODIFIED="1584717762530" FORMAT="latexPatternFormat">
+<node TEXT="4. &#x56e0;&#x4e3a;&#x662f;&#x201c;&#x989d;&#x5916;&#x7684;&#x201d;, &#x6240;&#x4ee5; KL&#x7684;&#x8ddd;&#x79bb;&#x7684;&#x503c;&#x4e00;&#x5b9a;&#x5927;&#x4e8e;$0$, $D_{KL}=0$&#x5f53;&#x4e14;&#x4ec5;&#x5f53;$p=q$." ID="ID_333377709" CREATED="1565951874519" MODIFIED="1585636203637" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
 </node>
+</node>
+</node>
+<node TEXT="pointwise mutual information(PMI)" FOLDED="true" ID="ID_1875802136" CREATED="1565952120368" MODIFIED="1584717762532">
+<edge COLOR="#808080"/>
+<node TEXT="$PMI(x,y)=\log \frac{p(x,y)}{p(x)p(y)}=\log \frac{p(x|y)}{p(x)}=\log \frac{p(y|x)}{p(y)}$" ID="ID_1691986716" CREATED="1585638519993" MODIFIED="1585638550236" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="PMI&#x8861;&#x91cf;&#x4e86; $p(x,y)$ &#x548c; $p(x)p(y)$ &#x7684;&#x5dee;&#x5f02;&#x6027;, &#x5373;:  the discrepancy between these events occuring together compared to what would be expected by chance." ID="ID_596647503" CREATED="1585638599201" MODIFIED="1585638692409" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="Mutual Information(MI) &#x5b9e;&#x9645;&#x4e0a;&#x662f;PMI&#x7684;&#x671f;&#x671b;" ID="ID_1882464921" CREATED="1585638729106" MODIFIED="1585638763954">
+<edge COLOR="#808080"/>
 </node>
 </node>
 <node TEXT="Mutual Information" FOLDED="true" ID="ID_372405585" CREATED="1565951897781" MODIFIED="1584717762531">
 <edge COLOR="#808080"/>
-<node TEXT="&#x4e00;&#x4e2a;&#x968f;&#x673a;&#x53d8;&#x91cf;&#x7531;&#x4e8e;&#x5df2;&#x77e5;&#x53e6;&#x4e00;&#x4e2a;&#x968f;&#x673a;&#x53d8;&#x91cf;&#x800c;&#x51cf;&#x5c11;&#x7684;&#x4e0d;&#x786e;&#x5b9a;&#x6027;. \\&#xa;$I(X; Y)  = H(X) - H(X \mid Y)=H(Y) - H(Y \mid X) \\&#xa;         = H(X) + H(Y) - H(X, Y) \\&#xa;         = H(X, Y) - H(X \mid Y) - H(Y \mid X) $" ID="ID_1928265641" CREATED="1565951925181" MODIFIED="1584717762532" FORMAT="latexPatternFormat">
+<node TEXT="[&#x6570;&#x5b66;&#x5b9a;&#x4e49;]&#x4e00;&#x4e2a;&#x968f;&#x673a;&#x53d8;&#x91cf;&#x7531;&#x4e8e;&#x5df2;&#x77e5;&#x53e6;&#x4e00;&#x4e2a;&#x968f;&#x673a;&#x53d8;&#x91cf;&#x800c;&#x51cf;&#x5c11;&#x7684;&#x4e0d;&#x786e;&#x5b9a;&#x6027;. \\&#xa;$I(X; Y)  = H(X) - H(X \mid Y)=H(Y) - H(Y \mid X) \\&#xa;         = H(X) + H(Y) - H(X, Y) \\&#xa;         = H(X, Y) - H(X \mid Y) - H(Y \mid X) $" ID="ID_1928265641" CREATED="1565951925181" MODIFIED="1585638435163" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="[&#x63a8;&#x5bfc;]&#x4e92;&#x4fe1;&#x606f;&#x4f7f;&#x7528;&#x76f8;&#x5bf9;&#x71b5;&#x5ea6;&#x91cf;$ p(x,y)$&#x4e0e;$p(x)p(y)$&#x4e4b;&#x95f4;&#x7684;&#x5173;&#x7cfb;&#xff1a; \\&#xa;$$I(X; Y) = D_{KL}(p(X,Y)||p(X)p(Y))= - \sum_{x \in X}\sum_{y \in Y}p(x,y)\log \frac{p(x,y)}{p(x)p(y)}$$ \\&#xa;&#x5982;X&#x548c;Y&#x4e92;&#x76f8;&#x72ec;&#x7acb;, $p(x,y)=p(x)p(y)$, &#x5bf9;&#x6570;&#x9879;&#x4e3a;0  &#x5219; $I(X, Y) = 0$. &#x53cd;&#x4e4b; &#x4e24;&#x4e2a;&#x53d8;&#x91cf;&#x76f8;&#x5173;&#x6027;&#x8d8a;&#x5f3a;, &#x5219;$I(X, Y)$ &#x8d8a;&#x5927;." ID="ID_1308041011" CREATED="1585638033101" MODIFIED="1585638469426" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
 </node>
 <node TEXT="cond-joint-entropy.png" ID="ID_149371428" CREATED="1565952029540" MODIFIED="1584717762532">
@@ -554,12 +576,9 @@
 <edge COLOR="#808080"/>
 </node>
 </node>
-<node TEXT="pointwise mutual information(PMI)" ID="ID_1875802136" CREATED="1565952120368" MODIFIED="1584717762532">
-<edge COLOR="#808080"/>
-</node>
 <node TEXT="maximal information coefficient(MIC)" FOLDED="true" ID="ID_174098236" CREATED="1565952142277" MODIFIED="1584717762532">
 <edge COLOR="#808080"/>
-<node ID="ID_782398671" CREATED="1565952224735" MODIFIED="1584717762532"><richcontent TYPE="NODE">
+<node FOLDED="true" ID="ID_782398671" CREATED="1565952224735" MODIFIED="1585640501210"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -567,11 +586,29 @@
   </head>
   <body>
     <p>
-      &#29992;&#20110;&#34913;&#37327;&#20004;&#20010;&#21464;&#37327;X&#21644;Y&#30340;&#32447;&#24615;&#25110;<b>&#38750;&#32447;&#24615;</b>&#30340;&#24378;&#24230;&#12290;
+      &#29992;&#20110;&#34913;&#37327;&#20004;&#20010;&#21464;&#37327;X&#21644;Y&#30340;&#30456;&#20851;&#24615;&#24378;&#24230;:
+    </p>
+    <p>
+      - &#32447;&#24615;&#20851;&#31995;
+    </p>
+    <p>
+      <b>- &#38750;&#32447;&#24615;</b>&#30340;&#24378;&#24230;&#12290;
     </p>
   </body>
 </html>
 </richcontent>
+<edge COLOR="#808080"/>
+<node TEXT="&#x4e0d;&#x4ec5;&#x53ef;&#x4ee5;&#x53d1;&#x73b0;&#x53d8;&#x91cf;&#x95f4;&#x7684;&#x7ebf;&#x6027;&#x51fd;&#x6570;&#x5173;&#x7cfb;&#xff0c;&#x8fd8;&#x80fd;&#x53d1;&#x73b0;&#x975e;&#x7ebf;&#x6027;&#x5173;&#x7cfb;(&#x5982;&#x6307;&#x6570;&#x7684;&#xff0c;&#x5468;&#x671f;&#x7684;)&#xff1b;" ID="ID_1165439799" CREATED="1585640523756" MODIFIED="1585640546764">
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="&#x5728;&#x751f;&#x4ea7;&#x73af;&#x5883;&#x4e2d;&#x4f30;&#x7b97; $p(x,y)$, $p(x)$,$p(y)$ &#x662f;&#x975e;&#x5e38;&#x9ebb;&#x70e6;&#x7684;, &#x6240;&#x4ee5;&#x4e92;&#x4fe1;&#x606f;&#x6c42;&#x89e3;&#x4e5f;&#x590d;&#x6742;" FOLDED="true" ID="ID_422043033" CREATED="1585639633193" MODIFIED="1585640000952" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+<node TEXT="&#x8fde;&#x7eed;&#x968f;&#x673a;&#x53d8;&#x91cf;&#x4e92;&#x4fe1;&#x606f;&#x5b9a;&#x4e49;&#x4e3a;: \\&#xa;$$I(X, Y) = D_{KL}(p(X,Y)||p(X)p(Y)) \\&#xa;= - \int_x \int_y p(x,y)\log \frac{p(x,y)}{p(x)p(y)} dx dy$$ \\&#xa;$p&#xff08;x&#xff0c;y&#xff09;$&#x662f;&#x8054;&#x5408;&#x6982;&#x7387;&#x5bc6;&#x5ea6;&#x5206;&#x5e03;&#x51fd;&#x6570;. \\" ID="ID_801389962" CREATED="1585639346054" MODIFIED="1585639656690" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="MIC&#x7684;&#x601d;&#x60f3;&#x5c31;&#x662f;&#x5c06;&#x8fde;&#x7eed;&#x53d8;&#x91cf;&#x79bb;&#x6563;&#x5316;, &#x7136;&#x540e;&#x6c42;&#x4e92;&#x4fe1;&#x606f;, &#x4f46;&#x662f;&#x79bb;&#x6563;&#x5316;&#x65b9;&#x6848;&#x6709;&#x5f88;&#x591a;&#x79cd;,  &#x4ece;&#x4e2d;&#x627e;&#x51fa;&#x80fd;&#x591f;&#x4f7f;&#x4f7f;&#x5f52;&#x4e00;&#x5316;&#x7684;&#x4e92;&#x4fe1;&#x606f;&#x6700;&#x5927;&#x7684;&#x4e00;&#x4e2a;, &#x5373;:$MIC = \max_{c \times r \lt B} \frac {\max_{G \in \mathcal G (c, r)} I(x_G ; y_G)} {\log \min(c, r)}$" ID="ID_1797738260" CREATED="1585639721222" MODIFIED="1585640544797" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
 </node>
 </node>
@@ -582,6 +619,9 @@
 <node TEXT="&#x51b3;&#x7b56;&#x6811;ID3&#x7b97;&#x6cd5;" ID="ID_805068888" CREATED="1565952247329" MODIFIED="1584717762533">
 <edge COLOR="#808080"/>
 </node>
+</node>
+<node TEXT="&#x7269;&#x7406;&#x610f;&#x4e49;&#x548c;&#x4e92;&#x4fe1;&#x606f;&#x5b8c;&#x5168;&#x76f8;&#x540c;&#xff0c;&#x5e76;&#x4e14;&#x516c;&#x5f0f;&#x4e5f;&#x662f;&#x5b8c;&#x5168;&#x76f8;&#x540c;" ID="ID_592355621" CREATED="1585640621255" MODIFIED="1585640652508">
+<edge COLOR="#808080"/>
 </node>
 </node>
 <node TEXT="&#x4fe1;&#x606f;&#x589e;&#x76ca;&#x7387;" FOLDED="true" ID="ID_33169762" CREATED="1565952262355" MODIFIED="1584717762533">
@@ -600,6 +640,12 @@
 <node TEXT="&#x51b3;&#x7b56;&#x6811;CART&#x7b97;&#x6cd5;" ID="ID_1759541367" CREATED="1565952419375" MODIFIED="1584717762534">
 <edge COLOR="#808080"/>
 </node>
+</node>
+<node TEXT="&#x57fa;&#x5c3c;&#x7cfb;&#x6570;&#x5b9e;&#x9645;&#x4e0a;&#x662f;&#x4fe1;&#x606f;&#x71b5;&#x7684;&#x4e00;&#x9636;&#x8fd1;&#x4f3c;" ID="ID_1984712800" CREATED="1585640726725" MODIFIED="1585640731850">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="&#x57fa;&#x5c3c;&#x7cfb;&#x6570;&#x8d8a;&#x5c0f;&#xff0c;&#x8868;&#x793a;&#x9009;&#x62e9;&#x8be5;&#x7279;&#x5f81;&#x540e;&#x71b5;&#x4e0b;&#x964d;&#x6700;&#x5feb;&#xff0c;&#x5bf9;&#x5206;&#x7c7b;&#x6a21;&#x578b;&#x6548;&#x679c;&#x66f4;&#x597d;" ID="ID_1325220417" CREATED="1585640749847" MODIFIED="1585640753540">
+<edge COLOR="#808080"/>
 </node>
 <node TEXT="&#x533a;&#x522b;&#x4e8e; &#x57fa;&#x5c3c;&#x6307;&#x6570;" ID="ID_1931335843" CREATED="1565952373742" MODIFIED="1584717762534">
 <edge COLOR="#808080"/>
@@ -671,7 +717,7 @@
 </node>
 <node TEXT="Concepts" POSITION="left" ID="ID_1125818411" CREATED="1564976643216" MODIFIED="1584717762536">
 <edge COLOR="#808080"/>
-<node TEXT="Motivation" FOLDED="true" ID="ID_1654785002" CREATED="1565606156788" MODIFIED="1584717762536">
+<node TEXT="Motivation" FOLDED="true" ID="ID_1654785002" CREATED="1565606156788" MODIFIED="1585637338543">
 <edge COLOR="#808080"/>
 <node TEXT="Prediction" FOLDED="true" ID="ID_1856405639" CREATED="1565606172998" MODIFIED="1584717762537">
 <edge COLOR="#808080"/>
@@ -679,16 +725,16 @@
 <edge COLOR="#808080"/>
 </node>
 </node>
-<node TEXT="Inference" FOLDED="true" ID="ID_493912205" CREATED="1565606172998" MODIFIED="1584717762538">
+<node TEXT="Inference" FOLDED="true" ID="ID_493912205" CREATED="1565606172998" MODIFIED="1585637338542">
 <edge COLOR="#808080"/>
 <node TEXT="When we are interested in the way each one of the inputs affect the prediction. In a real estate example, Inference would answer the question of: How much would my house cost if it had a view of the sea? Linear models are more suited for inference because the models themselves are easier to understand than their non-linear" ID="ID_25610629" CREATED="1565606172998" MODIFIED="1584717762538">
 <edge COLOR="#808080"/>
 </node>
 </node>
 </node>
-<node TEXT="Cost/Loss(Min) Functions&#xa;Objective(Max) Functions" FOLDED="true" ID="ID_1959068725" CREATED="1565661787532" MODIFIED="1584717762539">
+<node TEXT="Cost/Loss(Min) Functions&#xa;Objective(Max) Functions" FOLDED="true" ID="ID_1959068725" CREATED="1565661787532" MODIFIED="1586754839295">
 <edge COLOR="#808080"/>
-<node TEXT="Maximum Likehook Estimator" FOLDED="true" ID="ID_53290021" CREATED="1565661969652" MODIFIED="1584717762539" LINK="https://weirping.github.io/blog/Maximum-Likehook-Estimator-Cost-Functions.html">
+<node TEXT="Maximum Likehook Estimator" FOLDED="true" ID="ID_53290021" CREATED="1565661969652" MODIFIED="1586754836298" LINK="https://weirping.github.io/blog/Maximum-Likehook-Estimator-Cost-Functions.html">
 <edge COLOR="#808080"/>
 <node TEXT="Linear Regression" FOLDED="true" ID="ID_1111083758" CREATED="1565662085313" MODIFIED="1584717762540">
 <edge COLOR="#808080"/>
@@ -714,6 +760,13 @@
 <edge COLOR="#808080"/>
 </node>
 </node>
+<node TEXT="note: &#x5728;&#x5206;&#x7c7b;&#x95ee;&#x9898;&#x4e2d;&#x4e5f;&#x53ef;&#x4ee5;&#x4f7f;&#x7528;Mean Squared Error (MSE) &#x548c; sum-of-squares error function&#x4f5c;&#x4e3a;&#x635f;&#x5931;&#x51fd;&#x6570;. &#x4f46;&#x662f;cross-entropy error &#x7684;&#x68af;&#x5ea6;&#x4e0b;&#x964d;&#x901f;&#x5ea6;&#x66f4;&#x5feb;." FOLDED="true" ID="ID_1697940" CREATED="1586754367769" MODIFIED="1586754836295" LINK="http://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf">
+<edge COLOR="#808080"/>
+<node TEXT="cross-entropy-vs-MSE.png" ID="ID_1636240535" CREATED="1586754822441" MODIFIED="1586754829143">
+<hook URI="Machine%20Learning.resources/cross-entropy-vs-MSE.png" SIZE="1.0" NAME="ExternalObject"/>
+<edge COLOR="#808080"/>
+</node>
+</node>
 </node>
 <node TEXT="0-1 Loss" FOLDED="true" ID="ID_1095108459" CREATED="1565662574192" MODIFIED="1584717762541">
 <edge COLOR="#808080"/>
@@ -730,7 +783,7 @@
 <node TEXT="Exponential" ID="ID_1427783395" CREATED="1565662819702" MODIFIED="1584717762544">
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="Kullback-Leibler Divengence" ID="ID_1014421447" CREATED="1565662839301" MODIFIED="1584717762545">
+<node TEXT="Kullback-Leibler Divengence" ID="ID_1014421447" CREATED="1565662839301" MODIFIED="1586754839293">
 <edge COLOR="#808080"/>
 </node>
 <node TEXT="Itakura&#x2013;Saito distance" ID="ID_1172736543" CREATED="1565662847737" MODIFIED="1584717762546">
@@ -1041,6 +1094,31 @@
 <edge COLOR="#808080"/>
 <node TEXT="Generative Methods" FOLDED="true" ID="ID_1436859427" CREATED="1565622636999" MODIFIED="1584717762584">
 <edge COLOR="#808080"/>
+<node TEXT="Benefits" FOLDED="true" ID="ID_930190714" CREATED="1586755101056" MODIFIED="1586756105331">
+<edge COLOR="#808080"/>
+<node TEXT="With the assumption of probability distribution, more robust to the noise" ID="ID_273377487" CREATED="1586755479836" MODIFIED="1586756110024">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="&#x6570;&#x636e;&#x91cf;: With the assumption of probability distribution, &#x6570;&#x636e;&#x91cf;&#x5c11;&#x65f6;,Generative&#x66f4;&#x6709;&#x4f18;&#x52bf;, &#x6570;&#x636e;&#x91cf;&#x5927;&#x65f6; Discriminative &#x66f4;&#x6709;&#x4f18;&#x52bf;." ID="ID_1902859308" CREATED="1586755529850" MODIFIED="1586756110029">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="Priors and class-dependent probabilities can be estimated from different sources." ID="ID_1054225220" CREATED="1586755926064" MODIFIED="1586756110031"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#29983;&#25104;&#27169;&#22411;&#30340;&#20808;&#39564;&#27010;&#29575;&#21644;&#27169;&#22411;&#38656;&#35201;&#20272;&#35745;&#30340;&#27010;&#29575;&#20351;&#29992;&#19981;&#21516;&#30340;&#25968;&#25454;&#28304;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<edge COLOR="#808080"/>
+</node>
+</node>
 <node TEXT="Model class-conditional pdfs and prior probabilities. &#x201c;Generative&#x201d; since sampling can generate synthetic data points." ID="ID_877717254" CREATED="1565622636999" MODIFIED="1584717762584">
 <edge COLOR="#808080"/>
 </node>
@@ -1877,207 +1955,6 @@
 </node>
 </node>
 </node>
-<node TEXT="Neural Networks" POSITION="right" ID="ID_1020504749" CREATED="1565625521032" MODIFIED="1584717762653">
-<edge COLOR="#808080"/>
-<node TEXT="Basic" FOLDED="true" ID="ID_2691366" CREATED="1566487081840" MODIFIED="1584717762653" LINK="https://weirping.github.io/blog/Basic_of_Neural_Networks.html">
-<edge COLOR="#808080"/>
-<node TEXT="neuron" ID="ID_1102314014" CREATED="1566487196258" MODIFIED="1584717762653">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="forward propagation" ID="ID_767241444" CREATED="1566487147251" MODIFIED="1584717762653">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="back propagation" ID="ID_1791686759" CREATED="1566487158858" MODIFIED="1584717762653">
-<edge COLOR="#808080"/>
-</node>
-</node>
-<node TEXT="Data Normalization" FOLDED="true" ID="ID_999356310" CREATED="1567949465743" MODIFIED="1584717762653">
-<edge COLOR="#808080"/>
-<node TEXT="Batch Normalization" ID="ID_1341189537" CREATED="1567949484046" MODIFIED="1584717762653">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="General Normalization" ID="ID_450489796" CREATED="1567949502024" MODIFIED="1584717762653" LINK="#ID_934175555">
-<edge COLOR="#808080"/>
-</node>
-</node>
-<node TEXT="Activation Function" FOLDED="true" ID="ID_1236552315" CREATED="1566487401242" MODIFIED="1584717762653" LINK="https://weirping.github.io/blog/Activation_Function.html">
-<edge COLOR="#808080"/>
-<node TEXT="ReLU" ID="ID_522385202" CREATED="1567947944475" MODIFIED="1584717762654">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="Sigmoid" ID="ID_105826221" CREATED="1567947944475" MODIFIED="1584717762654">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="Binary" ID="ID_180271371" CREATED="1567947944479" MODIFIED="1584717762654">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="Tanh" ID="ID_642422499" CREATED="1567947944487" MODIFIED="1584717762654">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="Softplus" ID="ID_1756419389" CREATED="1567947944488" MODIFIED="1584717762654">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="Softmax" ID="ID_1690815353" CREATED="1567947944489" MODIFIED="1584717762654">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="Maxout" ID="ID_1036543391" CREATED="1567947944490" MODIFIED="1584717762654">
-<edge COLOR="#808080"/>
-</node>
-</node>
-<node TEXT="Regularization" ID="ID_572583902" CREATED="1566487895208" MODIFIED="1584717762654" LINK="#ID_11419241">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="Optimization" ID="ID_149913152" CREATED="1567948316183" MODIFIED="1584717762654" LINK="#ID_428597335">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="Learning Rate" ID="ID_467066244" CREATED="1567948071079" MODIFIED="1584717762655">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="Cost/Loss(Min) Functions" ID="ID_1176419730" CREATED="1567949874205" MODIFIED="1584717762655" LINK="#ID_1959068725">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="Weight Initialization" FOLDED="true" ID="ID_61799096" CREATED="1567949003028" MODIFIED="1584717762655">
-<edge COLOR="#808080"/>
-<node TEXT="All Zero Initialization" FOLDED="true" ID="ID_4609040" CREATED="1567949268245" MODIFIED="1584717762655">
-<edge COLOR="#808080"/>
-<node TEXT="In the ideal situation, with proper data normalization it is reasonable to assume that approximately half of the weights will be positive and half of them will be negative. A reasonable-sounding idea then might be to set all the initial weights to zero, which you expect to be the &#x201c;best guess&#x201d; in expectation. But, this turns out to be a mistake, because if every neuron in the network computes the same output, then they will also all compute the same gradients during back-propagation and undergo the exact same parameter updates. In other words, there is no source of asymmetry between neurons if their weights are initialized to be the same." ID="ID_94892556" CREATED="1567949268245" MODIFIED="1584717762655">
-<edge COLOR="#808080"/>
-</node>
-</node>
-<node TEXT="Initialization with Small Random Numbers" FOLDED="true" ID="ID_1437913984" CREATED="1567949268245" MODIFIED="1584717762657">
-<edge COLOR="#808080"/>
-<node TEXT="Thus, you still want the weights to be veryclose to zero, but not identically zero. In this way, you can random these neurons to small numbers which are very close to zero, and it is treated as symmetry breaking. The idea is that the neurons are all random and unique in the beginning, so they will compute distinct updates and integrate themselves as diverse parts of the full network. The implementation for weights might simply drawing values from a normal distribution with zero mean, and unit standard deviation. It is also possible to use small numbers drawn from a uniform distribution, but this seems to have relatively little impact on the final performance in practice." ID="ID_421744542" CREATED="1567949268248" MODIFIED="1584717762657">
-<edge COLOR="#808080"/>
-</node>
-</node>
-<node TEXT="Calibrating the Variances" FOLDED="true" ID="ID_1690677418" CREATED="1567949268248" MODIFIED="1584717762658">
-<edge COLOR="#808080"/>
-<node TEXT="One problem with the above suggestion isthat the distribution of the outputs from a randomly initialized neuron has a variance that grows with the number of inputs. It turns out that you can normalize the variance of each neuron&apos;s output to 1 by scaling its weight vector by the square root of its fan-in (i.e., its number of inputs). This ensures that all neurons in the network initially have approximately the same output distribution and empirically improves the rate of convergence. The detailed derivations can be found from Page. 18 to 23 of the slides. Please note that, in the derivations, it does not consider the influence of ReLU neurons." ID="ID_12184501" CREATED="1567949268248" MODIFIED="1584717762658">
-<edge COLOR="#808080"/>
-</node>
-</node>
-</node>
-<node TEXT="Gradient checking" ID="ID_29394671" CREATED="1567952860804" MODIFIED="1584717762659">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="Architectures" FOLDED="true" ID="ID_1138339744" CREATED="1567950302382" MODIFIED="1584717762659">
-<edge COLOR="#808080"/>
-<node TEXT="Feed Forward" FOLDED="true" ID="ID_1389353422" CREATED="1567950712325" MODIFIED="1584717762659">
-<edge COLOR="#808080"/>
-<node TEXT="In this network, the information moves in only one direction, forward, from the input nodes, through the hidden nodes (if any) and to the output nodes. There are no cycles or loops in the network." ID="ID_462431754" CREATED="1567950712325" MODIFIED="1584717762659">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="Kinds" FOLDED="true" ID="ID_1853147927" CREATED="1567950712325" MODIFIED="1584717762661">
-<edge COLOR="#808080"/>
-<node TEXT="Single-Layer Perceptron" FOLDED="true" ID="ID_1718947483" CREATED="1567950712327" MODIFIED="1584717762661">
-<edge COLOR="#808080"/>
-<node TEXT="The inputs are fed directly to the outputs via a series of weights." ID="ID_30432336" CREATED="1567950712327" MODIFIED="1584717762661">
-<edge COLOR="#808080"/>
-</node>
-</node>
-<node TEXT="Multi-Layer Perceptron" FOLDED="true" ID="ID_1578054039" CREATED="1567950712327" MODIFIED="1584717762662">
-<edge COLOR="#808080"/>
-<node TEXT="This class of networks consists of multiple layers of computational units. Each neuron in one layer has directed connections to the neurons of the subsequent layer. In many applications the units of these networks apply a sigmoid function as an activation function." ID="ID_1570744801" CREATED="1567950712327" MODIFIED="1584717762662">
-<edge COLOR="#808080"/>
-</node>
-</node>
-</node>
-</node>
-<node TEXT="Auto-Encoders" FOLDED="true" ID="ID_1481805563" CREATED="1566538011839" MODIFIED="1584717762663" LINK="https://weirping.github.io/blog/AutoEncoder.html">
-<edge COLOR="#808080"/>
-<node TEXT="Auto-Encoders.png" ID="ID_849593667" CREATED="1567951976866" MODIFIED="1584717762663">
-<hook URI="Machine%20Learning.resources/Auto-Encoders.png" SIZE="0.94043887" NAME="ExternalObject"/>
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="The aim of an autoencoder is to learn a representation (encoding) for a set of data, typically for the purpose of dimensionality reduction. Recently, the autoencoder concept has become more widely used for learning generative models of data" ID="ID_448821999" CREATED="1567950999755" MODIFIED="1584717762664" VSHIFT_QUANTITY="2.2499999329447764 pt">
-<edge COLOR="#808080"/>
-</node>
-</node>
-<node TEXT="Convolutional Neural Networks (CNN)" FOLDED="true" ID="ID_1777592637" CREATED="1567951143777" MODIFIED="1584717762664">
-<edge COLOR="#808080"/>
-<node TEXT="CNNs.png" ID="ID_854865114" CREATED="1567952114240" MODIFIED="1584717762665">
-<hook URI="Machine%20Learning.resources/CNNs.png" SIZE="0.3836317" NAME="ExternalObject"/>
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="Pooling" ID="ID_1312885896" CREATED="1567951172596" MODIFIED="1584717762665">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="Convolution" ID="ID_962494512" CREATED="1567951172596" MODIFIED="1584717762665">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="Subsampling" ID="ID_1746877928" CREATED="1567951172598" MODIFIED="1584717762665">
-<edge COLOR="#808080"/>
-</node>
-</node>
-<node TEXT="GANs" FOLDED="true" ID="ID_314605319" CREATED="1567951097455" MODIFIED="1584717762665">
-<edge COLOR="#808080"/>
-<node TEXT="GANs.png" ID="ID_1253753410" CREATED="1567952176716" MODIFIED="1584717762665">
-<hook URI="Machine%20Learning.resources/GANs.png" SIZE="0.3452244" NAME="ExternalObject"/>
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="GANs or Generative Adversarial Networks are a class of artificial intelligence algorithms used in unsupervised machine learning, implemented by a system of two neural networks contesting with each other in a zero-sum game framework." ID="ID_453658765" CREATED="1567952228509" MODIFIED="1584717762666">
-<edge COLOR="#808080"/>
-</node>
-</node>
-<node TEXT="RNNs" FOLDED="true" ID="ID_772060333" CREATED="1567951187250" MODIFIED="1584717762666">
-<edge COLOR="#808080"/>
-<node TEXT="Recurrent" FOLDED="true" ID="ID_1495615306" CREATED="1567951203136" MODIFIED="1584717762666">
-<edge COLOR="#808080"/>
-<node TEXT="RNNs-Recurrent.png" ID="ID_263286942" CREATED="1567952516742" MODIFIED="1584717762666">
-<hook URI="Machine%20Learning.resources/RNNs-Recurrent.png" SIZE="0.20833333" NAME="ExternalObject"/>
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="Is a class of artificial neural network where connections between units form a directed cycle. This allows it to exhibit dynamic temporal behavior. Unlike feedforward neural networks, RNNs can use their internal memory to process arbitrary sequences of inputs. This makes them applicable to tasks such as unsegmented, connected handwriting recognition or speech recognition" ID="ID_1633766554" CREATED="1567951547361" MODIFIED="1584717762667">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="LSTMs" FOLDED="true" ID="ID_1331845541" CREATED="1567951620497" MODIFIED="1584717762668" LINK="https://weirping.github.io/blog/Understanding-LSTM-Networks.html">
-<edge COLOR="#808080"/>
-<node TEXT="LSTMs.png" ID="ID_486456935" CREATED="1567951811440" MODIFIED="1584717762668">
-<hook URI="Machine%20Learning.resources/LSTMs.png" SIZE="0.22091311" NAME="ExternalObject"/>
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="An LSTM is well-suited to learn from experience to classify, process and predict time series given time lags of unknown size and bound between important events. Relative insensitivity to gap length gives an advantage to LSTM over alternative RNNs, hidden Markov models and other sequence learning methods in numerous applications." ID="ID_759904317" CREATED="1567951841971" MODIFIED="1584717762669">
-<edge COLOR="#808080"/>
-</node>
-</node>
-</node>
-<node TEXT="Recursive" FOLDED="true" ID="ID_1628870867" CREATED="1567951214196" MODIFIED="1584717762670">
-<edge COLOR="#808080"/>
-<node TEXT="RNNs-Recursive.png" ID="ID_1240617860" CREATED="1567952489336" MODIFIED="1584717762670">
-<hook URI="Machine%20Learning.resources/RNNs-Recursive.png" SIZE="1.0" NAME="ExternalObject"/>
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="Is a kind of deep neural network created by applying the same set of weights recursively over a structure, to produce a structured prediction over variable-size input structures, or a scalar prediction on it, by traversing a given structure in topological order. RNNs have been successful for instance in learning sequence and tree structures in natural language processing, mainly phrase and sentence continuous representations based on word embedding." ID="ID_465946126" CREATED="1567952330533" MODIFIED="1584717762670">
-<edge COLOR="#808080"/>
-</node>
-</node>
-</node>
-</node>
-<node TEXT="Embeding" FOLDED="true" ID="ID_1131589483" CREATED="1566486855079" MODIFIED="1584717762672">
-<edge COLOR="#808080"/>
-<node TEXT="Word2Vector" ID="ID_1659598323" CREATED="1566486869482" MODIFIED="1584717762672">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="Glove" ID="ID_582033876" CREATED="1566486882052" MODIFIED="1584717762672" LINK="https://weirping.github.io/blog/GloVe.html">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="Sentence2Vector" ID="ID_249161893" CREATED="1566486886470" MODIFIED="1584717762673">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="Doc2Vector" ID="ID_184928733" CREATED="1566486902129" MODIFIED="1584717762673">
-<edge COLOR="#808080"/>
-</node>
-</node>
-<node TEXT="Model" FOLDED="true" ID="ID_1284907236" CREATED="1566487370649" MODIFIED="1584717762673">
-<edge COLOR="#808080"/>
-<node TEXT="LSTM" ID="ID_29266271" CREATED="1565952657790" MODIFIED="1584717762673" LINK="https://weirping.github.io/blog/Understanding-LSTM-Networks.html">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="DSSM" ID="ID_1616948232" CREATED="1565952695759" MODIFIED="1584717762673" LINK="https://weirping.github.io/blog/DSSM.html">
-<edge COLOR="#808080"/>
-</node>
-</node>
-</node>
 <node TEXT="Toolkit" POSITION="right" ID="ID_1659483563" CREATED="1565937397861" MODIFIED="1584717762673">
 <edge COLOR="#808080"/>
 <node TEXT="Numpy" ID="ID_559353990" CREATED="1565937411266" MODIFIED="1584717762673">
@@ -2212,9 +2089,6 @@
 </node>
 <node TEXT="NLP" FOLDED="true" ID="ID_1790708901" CREATED="1566490250111" MODIFIED="1584717762685">
 <edge COLOR="#808080"/>
-<node TEXT="TF-IDF" ID="ID_1966871777" CREATED="1566536414128" MODIFIED="1584717762685" LINK="https://weirping.github.io/blog/TF-IDF.html">
-<edge COLOR="#808080"/>
-</node>
 <node TEXT="&#x6587;&#x672c;&#x76f8;&#x4f3c;&#x5ea6;" FOLDED="true" ID="ID_1164162383" CREATED="1566575841485" MODIFIED="1584717762685">
 <edge COLOR="#808080"/>
 <node TEXT="Simhash" ID="ID_61722625" CREATED="1566574277854" MODIFIED="1584717762685" LINK="https://weirping.github.io/blog/Simhash.html">
@@ -2229,6 +2103,9 @@
 <edge COLOR="#808080"/>
 <node TEXT="Relevance Function" FOLDED="true" ID="ID_198087138" CREATED="1566576703759" MODIFIED="1584717762686" LINK="https://weirping.github.io/blog/note-of-relevence-socres.html">
 <edge COLOR="#808080"/>
+<node TEXT="TF-IDF" ID="ID_1966871777" CREATED="1566536414128" MODIFIED="1584717762685" LINK="https://weirping.github.io/blog/TF-IDF.html">
+<edge COLOR="#808080"/>
+</node>
 <node TEXT="BM25" ID="ID_1732568335" CREATED="1566576607136" MODIFIED="1584717762686">
 <edge COLOR="#808080"/>
 </node>
