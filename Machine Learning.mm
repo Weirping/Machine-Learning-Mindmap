@@ -1,4 +1,4 @@
-<map version="freeplane 1.7.0">
+<map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Machine Learning" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_850448724" CREATED="1564976333940" MODIFIED="1584718021920" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="10.0 pt" SHAPE_VERTICAL_MARGIN="10.0 pt">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
@@ -6,10 +6,10 @@
 <hook NAME="MapStyle" zoom="0.918">
     <conditional_styles>
         <conditional_style ACTIVE="true" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" LAST="false">
-            <node_level_condition VALUE="0" MATCH_CASE="false" MATCH_APPROXIMATELY="false" COMPARATION_RESULT="0" SUCCEED="true"/>
+            <node_level_condition VALUE="0" COMPARATION_RESULT="0" SUCCEED="true"/>
         </conditional_style>
         <conditional_style ACTIVE="true" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" LAST="false">
-            <node_level_condition VALUE="1" MATCH_CASE="false" MATCH_APPROXIMATELY="false" COMPARATION_RESULT="0" SUCCEED="true"/>
+            <node_level_condition VALUE="1" COMPARATION_RESULT="0" SUCCEED="true"/>
         </conditional_style>
     </conditional_styles>
     <properties fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
@@ -101,7 +101,7 @@
 <hook NAME="AutomaticEdgeColor" COUNTER="6" RULE="FOR_LEVELS"/>
 <hook NAME="NodeConditionalStyles">
     <conditional_style ACTIVE="true" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" LAST="false">
-        <node_level_condition VALUE="1" MATCH_CASE="false" MATCH_APPROXIMATELY="false" COMPARATION_RESULT="0" SUCCEED="true"/>
+        <node_level_condition VALUE="1" COMPARATION_RESULT="0" SUCCEED="true"/>
     </conditional_style>
 </hook>
 <node TEXT="Mathematics" POSITION="left" ID="ID_1730054110" CREATED="1564977414620" MODIFIED="1584717762442">
@@ -202,33 +202,31 @@
 </node>
 <node TEXT="Skewness" FOLDED="true" ID="ID_1653391621" CREATED="1565797086016" MODIFIED="1584717762461" LINK="https://weirping.github.io/blog/Skewness-and-Kurtosis.html">
 <edge COLOR="#808080"/>
-<node TEXT="&#x4e09;&#x9636;&#x4e2d;&#x5fc3;&#x8ddd;&#x9664;&#x4ee5;&#x6807;&#x51c6;&#x5dee;&#x7684;&#x4e09;&#x6b21;&#x65b9;&#x3002;&#x63cf;&#x8ff0;&#x5206;&#x5e03;&#x504f;&#x79bb;&#x5bf9;&#x79f0;&#x6027;&#x7a0b;&#x5ea6;&#x7684;&#x4e00;&#x4e2a;&#x7279;&#x5f81;&#x6570;" ID="ID_1047846919" CREATED="1565797300288" MODIFIED="1584717762461">
+<node TEXT="三阶中心距除以标准差的三次方。描述分布偏离对称性程度的一个特征数" ID="ID_1047846919" CREATED="1565797300288" MODIFIED="1584717762461">
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="skew.png" ID="ID_160833662" CREATED="1565797464964" MODIFIED="1584717762464">
-<hook URI="Machine%20Learning.resources/skew.png" SIZE="0.90361446" NAME="ExternalObject"/>
+<node TEXT="skew.png" ID="ID_52700205" CREATED="1587101180563" MODIFIED="1587101180567">
+<hook URI="Machine%20Learning_files/skew.png" SIZE="0.90361446" NAME="ExternalObject"/>
+</node>
+<node TEXT="随机变量 \\&#xa;\mathrm{Skew}(\mathbf{X}) = E[(\frac{\mathbf{X}-\mu}{\sigma})^3] = \frac{E[(\mathbf{X}-\mu)^3]}{(E[(\mathbf{X}-\mu)^2])^{3/2}}=\frac{k_3}{k_2^{3/2}}" ID="ID_1899749159" CREATED="1565797172380" MODIFIED="1584717762465" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="&#x968f;&#x673a;&#x53d8;&#x91cf; \\&#xa;\mathrm{Skew}(\mathbf{X}) = E[(\frac{\mathbf{X}-\mu}{\sigma})^3] = \frac{E[(\mathbf{X}-\mu)^3]}{(E[(\mathbf{X}-\mu)^2])^{3/2}}=\frac{k_3}{k_2^{3/2}}" ID="ID_1899749159" CREATED="1565797172380" MODIFIED="1584717762465" FORMAT="latexPatternFormat">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="&#x6837;&#x672c; \\&#xa;\mathrm{SK} =\frac{m_3}{m_2^{3/2}} = \frac{\frac{1}{n}\sum(x_i-\bar x)^3}{[\frac{1}{n}\sum(x_i-\bar x)^2]^{3/2}}" ID="ID_464605053" CREATED="1565797216568" MODIFIED="1584717762467" FORMAT="latexPatternFormat">
+<node TEXT="样本 \\&#xa;\mathrm{SK} =\frac{m_3}{m_2^{3/2}} = \frac{\frac{1}{n}\sum(x_i-\bar x)^3}{[\frac{1}{n}\sum(x_i-\bar x)^2]^{3/2}}" ID="ID_464605053" CREATED="1565797216568" MODIFIED="1584717762467" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
 </node>
 </node>
 <node TEXT="Kurtosis" FOLDED="true" ID="ID_637256776" CREATED="1565797116734" MODIFIED="1584717762468" LINK="https://weirping.github.io/blog/Skewness-and-Kurtosis.html">
 <edge COLOR="#808080"/>
-<node TEXT="&#x56db;&#x9636;&#x4e2d;&#x5fc3;&#x77e9;&#x9664;&#x4ee5;&#x6807;&#x51c6;&#x5dee;&#x7684;&#x5e73;&#x65b9; &#x51cf;&#x53bb;&#x4e09;&#x3002; &#x7528;&#x6765;&#x53cd;&#x6620;&#x9891;&#x6570;&#x5206;&#x5e03;&#x66f2;&#x7ebf;&#x9876;&#x7aef;&#x5c16;&#x5ced;&#x6216;&#x6241;&#x5e73;&#x7a0b;&#x5ea6;&#x7684;&#x6307;&#x6807;" ID="ID_728818179" CREATED="1565797333299" MODIFIED="1584717762468">
+<node TEXT="四阶中心矩除以标准差的平方 减去三。 用来反映频数分布曲线顶端尖峭或扁平程度的指标" ID="ID_728818179" CREATED="1565797333299" MODIFIED="1584717762468">
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="kurtosis2.jpg" ID="ID_1668711208" CREATED="1565797537034" MODIFIED="1584717762471">
-<hook URI="Machine%20Learning.resources/kurtosis2.jpg" SIZE="1.0" NAME="ExternalObject"/>
+<node TEXT="kurtosis2.jpg" ID="ID_1149276803" CREATED="1587101197447" MODIFIED="1587101197455">
+<hook URI="Machine%20Learning_files/kurtosis2.jpg" SIZE="1.0" NAME="ExternalObject"/>
+</node>
+<node TEXT="随机变量 \\&#xa;\mathrm{Kurtosis}(\mathbf{X}) = E[(\frac{\mathbf{X}-\mu}{\sigma})^4] = \frac{E[(\mathbf{X}-\mu)^4]}{(E[(\mathbf{X}-\mu)^2])^{2}}" ID="ID_1918526915" CREATED="1565797567674" MODIFIED="1584717762473" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="&#x968f;&#x673a;&#x53d8;&#x91cf; \\&#xa;\mathrm{Kurtosis}(\mathbf{X}) = E[(\frac{\mathbf{X}-\mu}{\sigma})^4] = \frac{E[(\mathbf{X}-\mu)^4]}{(E[(\mathbf{X}-\mu)^2])^{2}}" ID="ID_1918526915" CREATED="1565797567674" MODIFIED="1584717762473" FORMAT="latexPatternFormat">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="&#x6837;&#x672c; \\&#xa;\mathrm{K} =\frac{m_4}{m_2^{2}} - 3 = \frac{\frac{1}{n}\sum(x_i-\bar x)^4}{[\frac{1}{n}\sum(x_i-\bar x)^2]^{2}} -3" ID="ID_1531282203" CREATED="1565797588988" MODIFIED="1584717762475" FORMAT="latexPatternFormat">
+<node TEXT="样本 \\&#xa;\mathrm{K} =\frac{m_4}{m_2^{2}} - 3 = \frac{\frac{1}{n}\sum(x_i-\bar x)^4}{[\frac{1}{n}\sum(x_i-\bar x)^2]^{2}} -3" ID="ID_1531282203" CREATED="1565797588988" MODIFIED="1584717762475" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
 </node>
 </node>
@@ -239,11 +237,11 @@
 <edge COLOR="#808080"/>
 <node TEXT="Pearson" FOLDED="true" ID="ID_1183090718" CREATED="1565797987511" MODIFIED="1584717762477" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
-<node TEXT="Correlation \\&#xa;&#x603b;&#x4f53;: $\rho _{X,Y}=\frac {cov (X,Y)}{\sigma _{X}\sigma _{Y}}$ \\&#xa;&#x6837;&#x672c;: $r=\frac {\sum _{i=1}^n (x_{i}- \bar x)(y_{i}-\bar y)}    {\sqrt {\sum _{i=1}^n (x_{i}-\bar x)^2} \sqrt {\sum _{i=1}^n (y_{i}-\bar y)^2}} $" FOLDED="true" ID="ID_302710005" CREATED="1566485220986" MODIFIED="1584717762477" FORMAT="latexPatternFormat">
+<node TEXT="Correlation \\&#xa;总体: $\rho _{X,Y}=\frac {cov (X,Y)}{\sigma _{X}\sigma _{Y}}$ \\&#xa;样本: $r=\frac {\sum _{i=1}^n (x_{i}- \bar x)(y_{i}-\bar y)}    {\sqrt {\sum _{i=1}^n (x_{i}-\bar x)^2} \sqrt {\sum _{i=1}^n (y_{i}-\bar y)^2}} $" FOLDED="true" ID="ID_302710005" CREATED="1566485220986" MODIFIED="1584717762477" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
 <node TEXT="Covariance" FOLDED="true" ID="ID_1924889898" CREATED="1565797720135" MODIFIED="1584717762479">
 <edge COLOR="#808080"/>
-<node TEXT="&#x603b;&#x4f53;:$Cov(X,Y)=E\{[X-E(X)][Y-E(Y)]\}$ \\&#xa;&#x6837;&#x672c;:$Cov(x,y)=\frac{1}{n}\sum_{i=1}^n(x_i - \bar x)(y_i - \bar y)$" ID="ID_1442962598" CREATED="1565797874987" MODIFIED="1584717762479" FORMAT="latexPatternFormat">
+<node TEXT="总体:$Cov(X,Y)=E\{[X-E(X)][Y-E(Y)]\}$ \\&#xa;样本:$Cov(x,y)=\frac{1}{n}\sum_{i=1}^n(x_i - \bar x)(y_i - \bar y)$" ID="ID_1442962598" CREATED="1565797874987" MODIFIED="1584717762479" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
 </node>
 </node>
@@ -323,15 +321,14 @@
 <node TEXT="This demonstrates that specifying a direction (on a symmetric test statistic) halves the p-value (increases the significance) and can mean the difference between data being considered significant or not." ID="ID_1494945325" CREATED="1565798744805" MODIFIED="1584717762484">
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="Suppose a researcher flips a coin five times in a row and assumes a null hypothesis that the coin is fair. The test statistic of &quot;total number of heads&quot; can be one-tailed or two-tailed: a one-tailed test corresponds to seeing if the coin is biased towards heads, but a two-tailed test corresponds to seeing if the coin is biased either way. The researcher flips the coin five times and observes heads each time (HHHHH), yielding a test statistic of 5. In a one-tailed test, this is the upper extreme of all possible outcomes, and yields a p-value of (1/2)5 = 1/32 &#x2248;0.03. If the researcher assumed a significance level of 0.05, this result would be deemed significant and the hypothesis that the coin is fair would be rejected. In a two-tailed test, a test statistic of zero heads (TTTTT) is just as extreme and thus the data of HHHHH would yield a p-value of 2&#xd7;(1/2)5 = 1/16 &#x2248;0.06, which is not significant at the 0.05 level." ID="ID_191318937" CREATED="1565798744805" MODIFIED="1584717762486">
+<node TEXT="Suppose a researcher flips a coin five times in a row and assumes a null hypothesis that the coin is fair. The test statistic of &quot;total number of heads&quot; can be one-tailed or two-tailed: a one-tailed test corresponds to seeing if the coin is biased towards heads, but a two-tailed test corresponds to seeing if the coin is biased either way. The researcher flips the coin five times and observes heads each time (HHHHH), yielding a test statistic of 5. In a one-tailed test, this is the upper extreme of all possible outcomes, and yields a p-value of (1/2)5 = 1/32 ≈0.03. If the researcher assumed a significance level of 0.05, this result would be deemed significant and the hypothesis that the coin is fair would be rejected. In a two-tailed test, a test statistic of zero heads (TTTTT) is just as extreme and thus the data of HHHHH would yield a p-value of 2×(1/2)5 = 1/16 ≈0.06, which is not significant at the 0.05 level." ID="ID_191318937" CREATED="1565798744805" MODIFIED="1584717762486">
 <edge COLOR="#808080"/>
 </node>
 </node>
-<node TEXT="In this method, as part of experimental design, before performing the experiment, one first chooses a model (the null hypothesis) and a threshold value for p, called the significance level of the test, traditionally 5% or 1% and denoted as &#x3b1;. If the p-value is less than the chosen significance level (&#x3b1;), that suggests that the observed data is sufficiently inconsistent with the null hypothesis that the null hypothesis may be rejected. However, that does not prove that the tested hypothesis is true. For typical analysis, using the standard &#x3b1; = 0.05 cutoff, the null hypothesis is rejected when p &lt; .05 and not rejected when p &gt; .05. The p-value does not, in itself, support reasoning about the probabilities of hypotheses but is only a tool for deciding whether to reject the null hypothesis." FOLDED="true" ID="ID_1354474469" CREATED="1565798744805" MODIFIED="1584717762487">
+<node TEXT="In this method, as part of experimental design, before performing the experiment, one first chooses a model (the null hypothesis) and a threshold value for p, called the significance level of the test, traditionally 5% or 1% and denoted as α. If the p-value is less than the chosen significance level (α), that suggests that the observed data is sufficiently inconsistent with the null hypothesis that the null hypothesis may be rejected. However, that does not prove that the tested hypothesis is true. For typical analysis, using the standard α = 0.05 cutoff, the null hypothesis is rejected when p &lt; .05 and not rejected when p &gt; .05. The p-value does not, in itself, support reasoning about the probabilities of hypotheses but is only a tool for deciding whether to reject the null hypothesis." FOLDED="true" ID="ID_1354474469" CREATED="1565798744805" MODIFIED="1584717762487">
 <edge COLOR="#808080"/>
-<node TEXT="p-value.png" ID="ID_466742779" CREATED="1565798928536" MODIFIED="1584717762489">
-<hook URI="Machine%20Learning.resources/p-value.png" SIZE="0.7751938" NAME="ExternalObject"/>
-<edge COLOR="#808080"/>
+<node TEXT="p-value.png" ID="ID_1178872914" CREATED="1587101215762" MODIFIED="1587101215765">
+<hook URI="Machine%20Learning_files/p-value.png" SIZE="0.7751938" NAME="ExternalObject"/>
 </node>
 </node>
 </node>
@@ -377,16 +374,16 @@
 </node>
 <node TEXT="Independence" FOLDED="true" ID="ID_1762221311" CREATED="1565942792084" MODIFIED="1584717762498">
 <edge COLOR="#808080"/>
-<node TEXT="&#x5b9a;&#x4e49;&#xff1a;P(A|B)=P(A) \\&#xa;&#x5b9a;&#x4e49;(&#x63a8;&#x8bba;)&#xff1a;P(AB)=P(A)P(B)" ID="ID_1567904177" CREATED="1565942826918" MODIFIED="1584717762498" FORMAT="latexPatternFormat">
+<node TEXT="定义：P(A|B)=P(A) \\&#xa;定义(推论)：P(AB)=P(A)P(B)" ID="ID_1567904177" CREATED="1565942826918" MODIFIED="1584717762498" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
 </node>
 </node>
 <node TEXT="conditional independence" FOLDED="true" ID="ID_1242353026" CREATED="1565943091117" MODIFIED="1584717762500" LINK="https://weirping.github.io/blog/Conditional-Independence.html">
 <edge COLOR="#808080"/>
-<node TEXT="&#x5b9a;&#x4e49;:p(a| b, c) = p(a |c) \\&#xa;&#x63a8;&#x8bba;:p(a,b|c) = p(a|b,c)p(b|c) = p(a|c)p(b|c)" ID="ID_786526918" CREATED="1565943193718" MODIFIED="1584717762500" FORMAT="latexPatternFormat">
+<node TEXT="定义:p(a| b, c) = p(a |c) \\&#xa;推论:p(a,b|c) = p(a|b,c)p(b|c) = p(a|c)p(b|c)" ID="ID_786526918" CREATED="1565943193718" MODIFIED="1584717762500" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="&#x8d1d;&#x53f6;&#x65af;&#x7f51;&#x6761;&#x4ef6;&#x72ec;&#x7acb;&#x6027;&#xff08;D-separation&#xff09;" ID="ID_1092249101" CREATED="1565943362118" MODIFIED="1584717762501">
+<node TEXT="贝叶斯网条件独立性（D-separation）" ID="ID_1092249101" CREATED="1565943362118" MODIFIED="1584717762501">
 <edge COLOR="#808080"/>
 </node>
 </node>
@@ -436,7 +433,7 @@
 </node>
 <node TEXT="Bayesian Inference \\&#xa;$p(\mathrm{w}|\mathcal{D})=\frac{p(\mathcal{D}|\mathrm{w})p(\mathrm{w})}{p(\mathcal{D})}$" FOLDED="true" ID="ID_106484071" CREATED="1565948762138" MODIFIED="1584717762507" LINK="https://weirping.github.io/blog/Bayesian-Probabilities-in-ML.html" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
-<node TEXT="&#x8d1d;&#x53f6;&#x65af;&#x5b66;&#x6d3e;&#x8ba4;&#x4e3a;&#x6a21;&#x578b;&#x4e2d;&#x7684;&#x53c2;&#x6570;\mathrm w&#x662f;&#x4e00;&#x4e2a;&#x4e0d;&#x786e;&#x5b9a;&#x7684;&#x503c;&#xff0c;&#x4f7f;&#x7528;&#x6982;&#x7387;&#x5206;&#x5e03;&#x5bf9; \\ &#xa;&#x5176;&#x8fdb;&#x884c;&#x5efa;&#x6a21;&#x3002;&#x9996;&#x5148;&#x6211;&#x4eec;&#x5bf9;\mathrm{w}&#x53ef;&#x80fd;&#x7684;&#x5206;&#x5e03;&#x505a;&#x4e00;&#x4e2a;&#x5047;&#x8bbe;&#xff0c;&#x8fd9;&#x4e2a;&#x5047;&#x8bbe;&#x662f;&#x57fa;&#x4e8e; \\&#xa;&#x7ecf;&#x9a8c;&#x7684;&#x3001;&#x548c;&#x89c2;&#x6d4b;&#x6570;&#x636e;&#x65e0;&#x5173;&#x7684;&#xff0c;&#x8fd9;&#x4e2a;&#x5206;&#x5e03;&#x5373;&#x4e3a;&#x5148;&#x9a8c;&#x5206;&#x5e03;p(\mathrm{w})&#x3002;\\&#xa;&#x4f9d;&#x636e;&#x8bad;&#x7ec3;&#x6570;&#x636e;&#x96c6;&#x7ea0;&#x6b63;&#x540e;&#x7684;\mathrm{w}&#x7684;&#x6982;&#x7387;&#x5206;&#x5e03;&#x4e3a;&#x540e;&#x9a8c;&#x5206;&#x5e03;p(\mathrm{w} | D)&#x3002;\\&#xa;&#x6309;&#x7167;&#x8d1d;&#x53f6;&#x65af;&#x516c;&#x5f0f;&#x5bf9;&#x540e;&#x9a8c;&#x6982;&#x7387;&#x5206;&#x89e3;&#xff0c;&#x5373;&#xff1a;\\&#xa;&#xa;$p(\mathrm{w}|\mathcal{D})=\frac{p(\mathcal{D}|\mathrm{w})p(\mathrm{w})}{p(\mathcal{D})}$ \\&#xa;&#xa;\mathrm{w}&#x7684;&#x540e;&#x9a8c;&#x5206;&#x5e03;p(\mathrm{w}| D)&#x53ef;&#x4ee5;&#x5206;&#x89e3;&#x4e3a;&#x4e09;&#x90e8;&#x5206;: \\&#xa;1. p(\mathrm{w}) &#xff1a;&#x5148;&#x9a8c;&#x5206;&#x5e03;&#xff08;prior&#xff09;&#xff0c;&#x662f;&#x5173;&#x4e8e;\mathrm{w}&#x7684;&#x51fd;&#x6570;&#xff0c;&#x4f9d;&#x8d56;&#x4e8e;&#x5148;&#x9a8c;&#x77e5;&#x8bc6;&#x3002; \\&#xa;2. p(\mathcal{D}|\mathrm{w}) &#xff1a;&#x4f3c;&#x7136;&#x51fd;&#x6570;&#xff08;likelihood&#xff09;&#xff0c;&#x662f;&#x5173;&#x4e8e;\mathrm{w}&#x7684;&#x51fd;&#x6570;&#x3002; &#x8868;&#x793a;&#x5bf9;&#x4e8e;\mathrm{w}&#x7684;&#x4e0d;&#x540c;&#x503c;&#xff0c;&#x6570;&#x636e;&#x96c6;\mathcal D&#x88ab;&#x89c2;&#x6d4b;&#x5230;&#x7684;&#x6982;&#x7387;&#x3002; \\&#xa;note&#xff0c;&#x4f3c;&#x7136;&#x51fd;&#x6570;&#x4e0d;&#x662f;&#x5173;&#x4e8e;\mathrm{w}&#x7684;&#x6982;&#x7387;&#x5206;&#x5e03;&#x51fd;&#x6570;&#xff0c;&#x6240;&#x4ee5;&#x4f3c;&#x7136;&#x51fd;&#x6570;&#x5bf9;w&#x79ef;&#x5206;&#x4e0d;&#x662f;1&#xff0c;&#x5b9e;&#x9645;&#x4e0a;&#x662f;\mathcal D&#x7684;&#x6982;&#x7387;&#x5206;&#x5e03;&#x51fd;&#x6570;&#x3002; \\&#xa;3. p(\mathcal{D}) &#xff1a;&#x5f52;&#x4e00;&#x5316;&#x9879;&#xff0c;&#x7528;&#x4e8e;&#x4fdd;&#x8bc1;&#x516c;&#x5f0f;&#x53f3;&#x8fb9;&#x5bf9;\mathrm{w}&#x79ef;&#x5206;&#x662f;1&#xff0c;&#x5373;&#xff0c;&#x4fdd;&#x8bc1;&#x540e;&#x9a8c;&#x5206;&#x5e03;&#x662f;&#x4e00;&#x4e2a;&#x6982;&#x7387;&#x5bc6;&#x5ea6;&#x51fd;&#x6570;&#x3002;\\&#xa;p(\mathcal{D})=\int p(\mathcal{D}|\mathrm{w})p(\mathrm{w})\mathrm{dw}&#x3002;" ID="ID_1485186110" CREATED="1565948987809" MODIFIED="1584717762507" FORMAT="latexPatternFormat">
+<node TEXT="贝叶斯学派认为模型中的参数\mathrm w是一个不确定的值，使用概率分布对 \\ &#xa;其进行建模。首先我们对\mathrm{w}可能的分布做一个假设，这个假设是基于 \\&#xa;经验的、和观测数据无关的，这个分布即为先验分布p(\mathrm{w})。\\&#xa;依据训练数据集纠正后的\mathrm{w}的概率分布为后验分布p(\mathrm{w} | D)。\\&#xa;按照贝叶斯公式对后验概率分解，即：\\&#xa;&#xa;$p(\mathrm{w}|\mathcal{D})=\frac{p(\mathcal{D}|\mathrm{w})p(\mathrm{w})}{p(\mathcal{D})}$ \\&#xa;&#xa;\mathrm{w}的后验分布p(\mathrm{w}| D)可以分解为三部分: \\&#xa;1. p(\mathrm{w}) ：先验分布（prior），是关于\mathrm{w}的函数，依赖于先验知识。 \\&#xa;2. p(\mathcal{D}|\mathrm{w}) ：似然函数（likelihood），是关于\mathrm{w}的函数。 表示对于\mathrm{w}的不同值，数据集\mathcal D被观测到的概率。 \\&#xa;note，似然函数不是关于\mathrm{w}的概率分布函数，所以似然函数对w积分不是1，实际上是\mathcal D的概率分布函数。 \\&#xa;3. p(\mathcal{D}) ：归一化项，用于保证公式右边对\mathrm{w}积分是1，即，保证后验分布是一个概率密度函数。\\&#xa;p(\mathcal{D})=\int p(\mathcal{D}|\mathrm{w})p(\mathrm{w})\mathrm{dw}。" ID="ID_1485186110" CREATED="1565948987809" MODIFIED="1584717762507" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
 </node>
 </node>
@@ -488,7 +485,7 @@
 <edge COLOR="#808080"/>
 <node TEXT="Information Theory Basic" FOLDED="true" ID="ID_972456026" CREATED="1565661891464" MODIFIED="1584717762518" LINK="https://weirping.github.io/blog/Points-in-Information-Theory.html">
 <edge COLOR="#808080"/>
-<node TEXT="&#x4fe1;&#x606f;&#x91cf;" FOLDED="true" ID="ID_1594780249" CREATED="1565951104629" MODIFIED="1584717762518">
+<node TEXT="信息量" FOLDED="true" ID="ID_1594780249" CREATED="1565951104629" MODIFIED="1584717762518">
 <edge COLOR="#808080"/>
 <node TEXT="$I(x)=-\log_{2}p(x)$" ID="ID_455533904" CREATED="1565951115052" MODIFIED="1584717762518" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
@@ -500,17 +497,17 @@
 <edge COLOR="#808080"/>
 </node>
 </node>
-<node TEXT="&#x8054;&#x5408;&#x71b5;" FOLDED="true" ID="ID_487700038" CREATED="1565951228845" MODIFIED="1584717762518">
+<node TEXT="联合熵" FOLDED="true" ID="ID_487700038" CREATED="1565951228845" MODIFIED="1584717762518">
 <edge COLOR="#808080"/>
 <node TEXT="$H(X,Y)=-\sum_{x \in X} \sum_{y \in Y} p(x, y) \log p(x, y)$" ID="ID_1698858939" CREATED="1565951243117" MODIFIED="1584717762518" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
 </node>
 </node>
-<node TEXT="&#x6761;&#x4ef6;&#x71b5;" FOLDED="true" ID="ID_1958739994" CREATED="1565951269496" MODIFIED="1584717762519">
+<node TEXT="条件熵" FOLDED="true" ID="ID_1958739994" CREATED="1565951269496" MODIFIED="1584717762519">
 <edge COLOR="#808080"/>
 <node TEXT="$H(Y|X)  =\sum_{x \in X} p(x)H(y|X=x)                        \\&#xa;        =-\sum_{x \in X} \sum_{y \in Y} p(x, y) \log p(y|x) \\&#xa;        =E[-\log (y \mid x)]  $" FOLDED="true" ID="ID_1626006072" CREATED="1565951289635" MODIFIED="1584717762519" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
-<node TEXT="&#x94fe;&#x5f0f;&#x89c4;&#x5219;" FOLDED="true" ID="ID_1684960473" CREATED="1565951331693" MODIFIED="1584717762519">
+<node TEXT="链式规则" FOLDED="true" ID="ID_1684960473" CREATED="1565951331693" MODIFIED="1584717762519">
 <edge COLOR="#808080"/>
 <node TEXT="$H(X, Y) = H(Y|X) + H(X)$ \\&#xa;$H(X_1, X_2, X_3) = H(X_1) + H(X_2 \mid X_1) + H(X_3 \mid X_1, X_2) $" ID="ID_506161410" CREATED="1565951351921" MODIFIED="1584717762519" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
@@ -522,31 +519,31 @@
 <edge COLOR="#808080"/>
 <node TEXT="$H(X,q)=-\sum_{x \in X}p(x) \log q(x)$" FOLDED="true" ID="ID_1773694158" CREATED="1565951450032" MODIFIED="1584717762520" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
-<node TEXT="&#x4ea4;&#x53c9;&#x71b5;&#x53ef;&#x4ee5;&#x770b;&#x4f5c;&#x662f;&#x5f53;&#x7528;&#x6a21;&#x578b; $q$ &#x7f16;&#x7801;&#x6765;&#x81ea;&#x6a21;&#x578b; $p$ &#x7684;&#x53d8;&#x91cf;&#x65f6;&#x6240;&#x9700;&#x7684;&#x5e73;&#x5747;bits(&#x5982;&#x679c;$\log$&#x4ee5;2&#x4e3a;&#x5e95;&#x7684;&#x8bdd;)" ID="ID_1141386309" CREATED="1565951508509" MODIFIED="1585637807722" FORMAT="latexPatternFormat">
+<node TEXT="交叉熵可以看作是当用模型 $q$ 编码来自模型 $p$ 的变量时所需的平均bits(如果$\log$以2为底的话)" ID="ID_1141386309" CREATED="1565951508509" MODIFIED="1585637807722" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
 </node>
 </node>
 </node>
-<node TEXT="&#x71b5;&#x7387;" FOLDED="true" ID="ID_642211385" CREATED="1565951535175" MODIFIED="1584717762521">
+<node TEXT="熵率" FOLDED="true" ID="ID_642211385" CREATED="1565951535175" MODIFIED="1584717762521">
 <edge COLOR="#808080"/>
-<node TEXT="&#x5f53;&#x5982;&#x4e0b;&#x6781;&#x9650;&#x5b58;&#x5728;&#x65f6;, &#x968f;&#x673a;&#x8fc7;&#x7a0b; $\{X_i\}$ &#x7684;&#x71b5;&#x7387;&#x5b9a;&#x4e49;&#x4e3a;: \\&#xa;$H(\chi) = \lim_{n \to \infty} \frac 1nH(x_1, x_2, \dots, x_n)$ \\&#xa;&#x71b5;&#x7387; &#x53ef;&#x4ee5;&#x7406;&#x89e3;&#x4e3a; &#x968f;&#x673a;&#x8fc7;&#x7a0b;&#x7684; &quot;&#x71b5;&quot;" ID="ID_626365542" CREATED="1565951565867" MODIFIED="1585635878424" FORMAT="latexPatternFormat">
-<edge COLOR="#808080"/>
-</node>
-</node>
-<node TEXT="&#x76f8;&#x5bf9;&#x71b5;(KL&#x8ddd;&#x79bb;)" FOLDED="true" ID="ID_1601984795" CREATED="1565951629264" MODIFIED="1584717762523">
-<edge COLOR="#808080"/>
-<node TEXT="&#x8bbe;$p(x)$ &#x662f;&#x968f;&#x673a;&#x53d8;&#x91cf;X&#x7684;&#x771f;&#x5b9e;&#x5206;&#x5e03;&#x5bc6;&#x5ea6;, $q(x)$&#x662f;&#x901a;&#x8fc7;&#x7edf;&#x8ba1;&#x624b;&#x6bb5;&#x5f97;&#x5230;&#x7684;X&#x7684;&#x8fd1;&#x4f3c;&#x5206;&#x5e03;, &#x5219;&#x4e8c;&#x8005;&#x95f4;&#x76f8;&#x5bf9;&#x71b5;&#x5b9a;&#x4e49;&#x4e3a;: \\&#xa;$D_{KL}(p||q)=-\sum_{k=1}^Kp_k \log \frac{p_k}{q_k}$ \\&#xa;$=\sum_{k}{p_k} \log{p_k} -\sum_kp_k \log q_k=-H(p)+H(p,q)$" FOLDED="true" ID="ID_766915900" CREATED="1565951665202" MODIFIED="1584717762523" FORMAT="latexPatternFormat">
-<edge COLOR="#808080"/>
-<node TEXT="1. &#x76f8;&#x5bf9;&#x71b5;&#x63cf;&#x8ff0;&#x540c;&#x4e00;&#x4e2a;&#x968f;&#x673a;&#x53d8;&#x91cf;&#x7684;&#x4e0d;&#x540c;&#x5206;&#x5e03;&#x7684;&#x5dee;&#x5f02;" ID="ID_1611367295" CREATED="1565951860037" MODIFIED="1585636144979">
+<node TEXT="当如下极限存在时, 随机过程 $\{X_i\}$ 的熵率定义为: \\&#xa;$H(\chi) = \lim_{n \to \infty} \frac 1nH(x_1, x_2, \dots, x_n)$ \\&#xa;熵率 可以理解为 随机过程的 &quot;熵&quot;" ID="ID_626365542" CREATED="1565951565867" MODIFIED="1585635878424" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="2. &#x76f8;&#x5bf9;&#x71b5;&#x63cf;&#x8ff0;&#x4e86;&#x56e0;&#x4e3a;&#x9519;&#x7528;&#x5206;&#x5e03;&#x5bc6;&#x5ea6;&#x800c;&#x589e;&#x52a0;&#x7684;&#x4fe1;&#x606f;&#x91cf;" ID="ID_997978990" CREATED="1565951874526" MODIFIED="1585636157580">
+</node>
+<node TEXT="相对熵(KL距离)" FOLDED="true" ID="ID_1601984795" CREATED="1565951629264" MODIFIED="1584717762523">
+<edge COLOR="#808080"/>
+<node TEXT="设$p(x)$ 是随机变量X的真实分布密度, $q(x)$是通过统计手段得到的X的近似分布, 则二者间相对熵定义为: \\&#xa;$D_{KL}(p||q)=-\sum_{k=1}^Kp_k \log \frac{p_k}{q_k}$ \\&#xa;$=\sum_{k}{p_k} \log{p_k} -\sum_kp_k \log q_k=-H(p)+H(p,q)$" FOLDED="true" ID="ID_766915900" CREATED="1565951665202" MODIFIED="1584717762523" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+<node TEXT="1. 相对熵描述同一个随机变量的不同分布的差异" ID="ID_1611367295" CREATED="1565951860037" MODIFIED="1585636144979">
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="3. &#x7528;&#x6a21;&#x578b;$q$&#x7f16;&#x7801;&#x6765;&#x81ea;&#x6a21;&#x578b;$p$&#x7684;&#x53d8;&#x91cf;&#x6240;&#x9700;&#x7684;&#x989d;&#x5916;bits&#xff01;" ID="ID_242627137" CREATED="1565951874522" MODIFIED="1585636183987" FORMAT="latexPatternFormat">
+<node TEXT="2. 相对熵描述了因为错用分布密度而增加的信息量" ID="ID_997978990" CREATED="1565951874526" MODIFIED="1585636157580">
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="4. &#x56e0;&#x4e3a;&#x662f;&#x201c;&#x989d;&#x5916;&#x7684;&#x201d;, &#x6240;&#x4ee5; KL&#x7684;&#x8ddd;&#x79bb;&#x7684;&#x503c;&#x4e00;&#x5b9a;&#x5927;&#x4e8e;$0$, $D_{KL}=0$&#x5f53;&#x4e14;&#x4ec5;&#x5f53;$p=q$." ID="ID_333377709" CREATED="1565951874519" MODIFIED="1585636203637" FORMAT="latexPatternFormat">
+<node TEXT="3. 用模型$q$编码来自模型$p$的变量所需的额外bits！" ID="ID_242627137" CREATED="1565951874522" MODIFIED="1585636183987" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="4. 因为是“额外的”, 所以 KL的距离的值一定大于$0$, $D_{KL}=0$当且仅当$p=q$." ID="ID_333377709" CREATED="1565951874519" MODIFIED="1585636203637" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
 </node>
 </node>
@@ -556,24 +553,23 @@
 <node TEXT="$PMI(x,y)=\log \frac{p(x,y)}{p(x)p(y)}=\log \frac{p(x|y)}{p(x)}=\log \frac{p(y|x)}{p(y)}$" ID="ID_1691986716" CREATED="1585638519993" MODIFIED="1585638550236" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="PMI&#x8861;&#x91cf;&#x4e86; $p(x,y)$ &#x548c; $p(x)p(y)$ &#x7684;&#x5dee;&#x5f02;&#x6027;, &#x5373;:  the discrepancy between these events occuring together compared to what would be expected by chance." ID="ID_596647503" CREATED="1585638599201" MODIFIED="1585638692409" FORMAT="latexPatternFormat">
+<node TEXT="PMI衡量了 $p(x,y)$ 和 $p(x)p(y)$ 的差异性, 即:  the discrepancy between these events occuring together compared to what would be expected by chance." ID="ID_596647503" CREATED="1585638599201" MODIFIED="1585638692409" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="Mutual Information(MI) &#x5b9e;&#x9645;&#x4e0a;&#x662f;PMI&#x7684;&#x671f;&#x671b;" ID="ID_1882464921" CREATED="1585638729106" MODIFIED="1585638763954">
+<node TEXT="Mutual Information(MI) 实际上是PMI的期望" ID="ID_1882464921" CREATED="1585638729106" MODIFIED="1585638763954">
 <edge COLOR="#808080"/>
 </node>
 </node>
 <node TEXT="Mutual Information" FOLDED="true" ID="ID_372405585" CREATED="1565951897781" MODIFIED="1584717762531">
 <edge COLOR="#808080"/>
-<node TEXT="[&#x6570;&#x5b66;&#x5b9a;&#x4e49;]&#x4e00;&#x4e2a;&#x968f;&#x673a;&#x53d8;&#x91cf;&#x7531;&#x4e8e;&#x5df2;&#x77e5;&#x53e6;&#x4e00;&#x4e2a;&#x968f;&#x673a;&#x53d8;&#x91cf;&#x800c;&#x51cf;&#x5c11;&#x7684;&#x4e0d;&#x786e;&#x5b9a;&#x6027;. \\&#xa;$I(X; Y)  = H(X) - H(X \mid Y)=H(Y) - H(Y \mid X) \\&#xa;         = H(X) + H(Y) - H(X, Y) \\&#xa;         = H(X, Y) - H(X \mid Y) - H(Y \mid X) $" ID="ID_1928265641" CREATED="1565951925181" MODIFIED="1585638435163" FORMAT="latexPatternFormat">
+<node TEXT="[数学定义]一个随机变量由于已知另一个随机变量而减少的不确定性. \\&#xa;$I(X; Y)  = H(X) - H(X \mid Y)=H(Y) - H(Y \mid X) \\&#xa;         = H(X) + H(Y) - H(X, Y) \\&#xa;         = H(X, Y) - H(X \mid Y) - H(Y \mid X) $" ID="ID_1928265641" CREATED="1565951925181" MODIFIED="1585638435163" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="[&#x63a8;&#x5bfc;]&#x4e92;&#x4fe1;&#x606f;&#x4f7f;&#x7528;&#x76f8;&#x5bf9;&#x71b5;&#x5ea6;&#x91cf;$ p(x,y)$&#x4e0e;$p(x)p(y)$&#x4e4b;&#x95f4;&#x7684;&#x5173;&#x7cfb;&#xff1a; \\&#xa;$$I(X; Y) = D_{KL}(p(X,Y)||p(X)p(Y))= - \sum_{x \in X}\sum_{y \in Y}p(x,y)\log \frac{p(x,y)}{p(x)p(y)}$$ \\&#xa;&#x5982;X&#x548c;Y&#x4e92;&#x76f8;&#x72ec;&#x7acb;, $p(x,y)=p(x)p(y)$, &#x5bf9;&#x6570;&#x9879;&#x4e3a;0  &#x5219; $I(X, Y) = 0$. &#x53cd;&#x4e4b; &#x4e24;&#x4e2a;&#x53d8;&#x91cf;&#x76f8;&#x5173;&#x6027;&#x8d8a;&#x5f3a;, &#x5219;$I(X, Y)$ &#x8d8a;&#x5927;." ID="ID_1308041011" CREATED="1585638033101" MODIFIED="1585638469426" FORMAT="latexPatternFormat">
+<node TEXT="[推导]互信息使用相对熵度量$ p(x,y)$与$p(x)p(y)$之间的关系： \\&#xa;$$I(X; Y) = D_{KL}(p(X,Y)||p(X)p(Y))= - \sum_{x \in X}\sum_{y \in Y}p(x,y)\log \frac{p(x,y)}{p(x)p(y)}$$ \\&#xa;如X和Y互相独立, $p(x,y)=p(x)p(y)$, 对数项为0  则 $I(X, Y) = 0$. 反之 两个变量相关性越强, 则$I(X, Y)$ 越大." ID="ID_1308041011" CREATED="1585638033101" MODIFIED="1585638469426" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="cond-joint-entropy.png" ID="ID_149371428" CREATED="1565952029540" MODIFIED="1584717762532">
-<hook URI="Machine%20Learning.resources/cond-joint-entropy.png" SIZE="1.0" NAME="ExternalObject"/>
-<edge COLOR="#808080"/>
+<node TEXT="cond-joint-entropy.png" ID="ID_1621817078" CREATED="1587101244974" MODIFIED="1587101244976">
+<hook URI="Machine%20Learning_files/cond-joint-entropy.png" SIZE="1.0" NAME="ExternalObject"/>
 </node>
 </node>
 <node TEXT="maximal information coefficient(MIC)" FOLDED="true" ID="ID_174098236" CREATED="1565952142277" MODIFIED="1584717762532">
@@ -598,56 +594,56 @@
 </html>
 </richcontent>
 <edge COLOR="#808080"/>
-<node TEXT="&#x4e0d;&#x4ec5;&#x53ef;&#x4ee5;&#x53d1;&#x73b0;&#x53d8;&#x91cf;&#x95f4;&#x7684;&#x7ebf;&#x6027;&#x51fd;&#x6570;&#x5173;&#x7cfb;&#xff0c;&#x8fd8;&#x80fd;&#x53d1;&#x73b0;&#x975e;&#x7ebf;&#x6027;&#x5173;&#x7cfb;(&#x5982;&#x6307;&#x6570;&#x7684;&#xff0c;&#x5468;&#x671f;&#x7684;)&#xff1b;" ID="ID_1165439799" CREATED="1585640523756" MODIFIED="1585640546764">
+<node TEXT="不仅可以发现变量间的线性函数关系，还能发现非线性关系(如指数的，周期的)；" ID="ID_1165439799" CREATED="1585640523756" MODIFIED="1585640546764">
 <edge COLOR="#808080"/>
 </node>
 </node>
-<node TEXT="&#x5728;&#x751f;&#x4ea7;&#x73af;&#x5883;&#x4e2d;&#x4f30;&#x7b97; $p(x,y)$, $p(x)$,$p(y)$ &#x662f;&#x975e;&#x5e38;&#x9ebb;&#x70e6;&#x7684;, &#x6240;&#x4ee5;&#x4e92;&#x4fe1;&#x606f;&#x6c42;&#x89e3;&#x4e5f;&#x590d;&#x6742;" FOLDED="true" ID="ID_422043033" CREATED="1585639633193" MODIFIED="1585640000952" FORMAT="latexPatternFormat">
+<node TEXT="在生产环境中估算 $p(x,y)$, $p(x)$,$p(y)$ 是非常麻烦的, 所以互信息求解也复杂" FOLDED="true" ID="ID_422043033" CREATED="1585639633193" MODIFIED="1585640000952" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
-<node TEXT="&#x8fde;&#x7eed;&#x968f;&#x673a;&#x53d8;&#x91cf;&#x4e92;&#x4fe1;&#x606f;&#x5b9a;&#x4e49;&#x4e3a;: \\&#xa;$$I(X, Y) = D_{KL}(p(X,Y)||p(X)p(Y)) \\&#xa;= - \int_x \int_y p(x,y)\log \frac{p(x,y)}{p(x)p(y)} dx dy$$ \\&#xa;$p&#xff08;x&#xff0c;y&#xff09;$&#x662f;&#x8054;&#x5408;&#x6982;&#x7387;&#x5bc6;&#x5ea6;&#x5206;&#x5e03;&#x51fd;&#x6570;. \\" ID="ID_801389962" CREATED="1585639346054" MODIFIED="1585639656690" FORMAT="latexPatternFormat">
-<edge COLOR="#808080"/>
-</node>
-</node>
-<node TEXT="MIC&#x7684;&#x601d;&#x60f3;&#x5c31;&#x662f;&#x5c06;&#x8fde;&#x7eed;&#x53d8;&#x91cf;&#x79bb;&#x6563;&#x5316;, &#x7136;&#x540e;&#x6c42;&#x4e92;&#x4fe1;&#x606f;, &#x4f46;&#x662f;&#x79bb;&#x6563;&#x5316;&#x65b9;&#x6848;&#x6709;&#x5f88;&#x591a;&#x79cd;,  &#x4ece;&#x4e2d;&#x627e;&#x51fa;&#x80fd;&#x591f;&#x4f7f;&#x4f7f;&#x5f52;&#x4e00;&#x5316;&#x7684;&#x4e92;&#x4fe1;&#x606f;&#x6700;&#x5927;&#x7684;&#x4e00;&#x4e2a;, &#x5373;:$MIC = \max_{c \times r \lt B} \frac {\max_{G \in \mathcal G (c, r)} I(x_G ; y_G)} {\log \min(c, r)}$" ID="ID_1797738260" CREATED="1585639721222" MODIFIED="1585640544797" FORMAT="latexPatternFormat">
+<node TEXT="连续随机变量互信息定义为: \\&#xa;$$I(X, Y) = D_{KL}(p(X,Y)||p(X)p(Y)) \\&#xa;= - \int_x \int_y p(x,y)\log \frac{p(x,y)}{p(x)p(y)} dx dy$$ \\&#xa;$p（x，y）$是联合概率密度分布函数. \\" ID="ID_801389962" CREATED="1585639346054" MODIFIED="1585639656690" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
 </node>
 </node>
-<node TEXT="&#x4fe1;&#x606f;&#x589e;&#x76ca;" FOLDED="true" ID="ID_947182812" CREATED="1565952206942" MODIFIED="1584717762532">
+<node TEXT="MIC的思想就是将连续变量离散化, 然后求互信息, 但是离散化方案有很多种,  从中找出能够使使归一化的互信息最大的一个, 即:$MIC = \max_{c \times r \lt B} \frac {\max_{G \in \mathcal G (c, r)} I(x_G ; y_G)} {\log \min(c, r)}$" ID="ID_1797738260" CREATED="1585639721222" MODIFIED="1585640544797" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="信息增益" FOLDED="true" ID="ID_947182812" CREATED="1565952206942" MODIFIED="1584717762532">
 <edge COLOR="#808080"/>
 <node TEXT="$g(D, A) = H(D) - H(D \mid A)$" FOLDED="true" ID="ID_1228786142" CREATED="1565952282384" MODIFIED="1584717762532" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
-<node TEXT="&#x51b3;&#x7b56;&#x6811;ID3&#x7b97;&#x6cd5;" ID="ID_805068888" CREATED="1565952247329" MODIFIED="1584717762533">
+<node TEXT="决策树ID3算法" ID="ID_805068888" CREATED="1565952247329" MODIFIED="1584717762533">
 <edge COLOR="#808080"/>
 </node>
 </node>
-<node TEXT="&#x7269;&#x7406;&#x610f;&#x4e49;&#x548c;&#x4e92;&#x4fe1;&#x606f;&#x5b8c;&#x5168;&#x76f8;&#x540c;&#xff0c;&#x5e76;&#x4e14;&#x516c;&#x5f0f;&#x4e5f;&#x662f;&#x5b8c;&#x5168;&#x76f8;&#x540c;" ID="ID_592355621" CREATED="1585640621255" MODIFIED="1585640652508">
+<node TEXT="物理意义和互信息完全相同，并且公式也是完全相同" ID="ID_592355621" CREATED="1585640621255" MODIFIED="1585640652508">
 <edge COLOR="#808080"/>
 </node>
 </node>
-<node TEXT="&#x4fe1;&#x606f;&#x589e;&#x76ca;&#x7387;" FOLDED="true" ID="ID_33169762" CREATED="1565952262355" MODIFIED="1584717762533">
+<node TEXT="信息增益率" FOLDED="true" ID="ID_33169762" CREATED="1565952262355" MODIFIED="1584717762533">
 <edge COLOR="#808080"/>
 <node TEXT="$g_r(D, A) = \frac {g(D, A)} {H(A)}$" FOLDED="true" ID="ID_1037899330" CREATED="1565952309601" MODIFIED="1584717762533" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
-<node TEXT="&#x51b3;&#x7b56;&#x6811;C4.5&#x7b97;&#x6cd5;" ID="ID_1811622347" CREATED="1565952273167" MODIFIED="1584717762533">
+<node TEXT="决策树C4.5算法" ID="ID_1811622347" CREATED="1565952273167" MODIFIED="1584717762533">
 <edge COLOR="#808080"/>
 </node>
 </node>
 </node>
-<node TEXT="&#x57fa;&#x5c3c;&#x7cfb;&#x6570;" FOLDED="true" ID="ID_563697219" CREATED="1565952368397" MODIFIED="1584717762533">
+<node TEXT="基尼系数" FOLDED="true" ID="ID_563697219" CREATED="1565952368397" MODIFIED="1584717762533">
 <edge COLOR="#808080"/>
 <node TEXT="$Gini(p)  = \sum_{i=1}^m p_i (1-p_i) \\&#xa;         = 1 -   \sum_{i=1}^m p_i^2 \\&#xa;         = 1 -  \sum_{i=1}^m (\frac {| C_k |}{|D|})^2$" FOLDED="true" ID="ID_1913503192" CREATED="1565952417304" MODIFIED="1584717762533" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
-<node TEXT="&#x51b3;&#x7b56;&#x6811;CART&#x7b97;&#x6cd5;" ID="ID_1759541367" CREATED="1565952419375" MODIFIED="1584717762534">
+<node TEXT="决策树CART算法" ID="ID_1759541367" CREATED="1565952419375" MODIFIED="1584717762534">
 <edge COLOR="#808080"/>
 </node>
 </node>
-<node TEXT="&#x57fa;&#x5c3c;&#x7cfb;&#x6570;&#x5b9e;&#x9645;&#x4e0a;&#x662f;&#x4fe1;&#x606f;&#x71b5;&#x7684;&#x4e00;&#x9636;&#x8fd1;&#x4f3c;" ID="ID_1984712800" CREATED="1585640726725" MODIFIED="1585640731850">
+<node TEXT="基尼系数实际上是信息熵的一阶近似" ID="ID_1984712800" CREATED="1585640726725" MODIFIED="1585640731850">
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="&#x57fa;&#x5c3c;&#x7cfb;&#x6570;&#x8d8a;&#x5c0f;&#xff0c;&#x8868;&#x793a;&#x9009;&#x62e9;&#x8be5;&#x7279;&#x5f81;&#x540e;&#x71b5;&#x4e0b;&#x964d;&#x6700;&#x5feb;&#xff0c;&#x5bf9;&#x5206;&#x7c7b;&#x6a21;&#x578b;&#x6548;&#x679c;&#x66f4;&#x597d;" ID="ID_1325220417" CREATED="1585640749847" MODIFIED="1585640753540">
+<node TEXT="基尼系数越小，表示选择该特征后熵下降最快，对分类模型效果更好" ID="ID_1325220417" CREATED="1585640749847" MODIFIED="1585640753540">
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="&#x533a;&#x522b;&#x4e8e; &#x57fa;&#x5c3c;&#x6307;&#x6570;" ID="ID_1931335843" CREATED="1565952373742" MODIFIED="1584717762534">
+<node TEXT="区别于 基尼指数" ID="ID_1931335843" CREATED="1565952373742" MODIFIED="1584717762534">
 <edge COLOR="#808080"/>
 </node>
 </node>
@@ -656,7 +652,7 @@
 <edge COLOR="#808080"/>
 <node TEXT="Stationary-Distribution" FOLDED="true" ID="ID_315574344" CREATED="1566575030640" MODIFIED="1584717762534">
 <edge COLOR="#808080"/>
-<node TEXT="&#x5e73;&#x7a33;&#x968f;&#x673a;&#x8fc7;&#x7a0b;" ID="ID_1431347647" CREATED="1566575046422" MODIFIED="1584717762534">
+<node TEXT="平稳随机过程" ID="ID_1431347647" CREATED="1566575046422" MODIFIED="1584717762534">
 <edge COLOR="#808080"/>
 </node>
 </node>
@@ -668,9 +664,8 @@
 <edge COLOR="#808080"/>
 <node TEXT="Kernel Density Estimation" FOLDED="true" ID="ID_1831296815" CREATED="1565950798538" MODIFIED="1584717762534">
 <edge COLOR="#808080"/>
-<node TEXT="kernal.png" ID="ID_412804043" CREATED="1565950956779" MODIFIED="1584717762534">
-<hook URI="Machine%20Learning.resources/kernal.png" SIZE="0.7407407" NAME="ExternalObject"/>
-<edge COLOR="#808080"/>
+<node TEXT="kernal.png" ID="ID_1035572151" CREATED="1587101262079" MODIFIED="1587101262082">
+<hook URI="Machine%20Learning_files/kernal.png" SIZE="0.7407407" NAME="ExternalObject"/>
 </node>
 </node>
 <node TEXT="Cubic Spline" FOLDED="true" ID="ID_1973314514" CREATED="1565950809680" MODIFIED="1584717762534">
@@ -683,22 +678,57 @@
 </node>
 <node TEXT="Similarity and DisSimilarity" FOLDED="true" ID="ID_360627699" CREATED="1566489242648" MODIFIED="1584717762535">
 <edge COLOR="#808080"/>
-<node TEXT="&#x4f59;&#x5f26;&#x76f8;&#x4f3c;&#x5ea6;" ID="ID_1669160130" CREATED="1566489278828" MODIFIED="1584717762536">
+<node TEXT="欧几里得距离" ID="ID_1448953359" CREATED="1588662892985" MODIFIED="1588662908846">
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="&#x9a6c;&#x6c0f;&#x8ddd;&#x79bb;" ID="ID_849895166" CREATED="1566489289030" MODIFIED="1584717762536" LINK="https://weirping.github.io/blog/Mahalanobis-distance.html">
+<node TEXT="曼哈顿距离" ID="ID_1875784191" CREATED="1588662892985" MODIFIED="1588662908846">
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="&#x6587;&#x672c;&#x76f8;&#x4f3c;&#x5ea6;" FOLDED="true" ID="ID_1207232823" CREATED="1566575650936" MODIFIED="1584717762536">
+<node TEXT="余弦相似度" ID="ID_1669160130" CREATED="1566489278828" MODIFIED="1584717762536">
 <edge COLOR="#808080"/>
-<node TEXT="Hamming distance" ID="ID_1497202271" CREATED="1566574243860" MODIFIED="1584717762536">
+</node>
+<node TEXT="马氏距离" ID="ID_849895166" CREATED="1566489289030" MODIFIED="1584717762536" LINK="https://weirping.github.io/blog/Mahalanobis-distance.html">
 <edge COLOR="#808080"/>
+</node>
+<node TEXT="文本相似度" FOLDED="true" ID="ID_1207232823" CREATED="1566575650936" MODIFIED="1584717762536">
+<edge COLOR="#808080"/>
+<node TEXT="Hamming distance" FOLDED="true" ID="ID_1497202271" CREATED="1566574243860" MODIFIED="1584717762536">
+<edge COLOR="#808080"/>
+<node ID="ID_1227323895" CREATED="1588663015214" MODIFIED="1588663018553"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(51, 51, 51); font-family: arial, 宋体, sans-serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 28px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(51, 51, 51)" face="arial, 宋体, sans-serif" size="14px">两个等长字符串之间的汉明距离是两个字符串对应位置的不同字符的个数</font></span>
+  </body>
+</html>
+</richcontent>
+<edge COLOR="#808080"/>
+</node>
 </node>
 <node TEXT="edit distance(Levenshtein distance)" FOLDED="true" ID="ID_1025905472" CREATED="1566575675925" MODIFIED="1584717762536">
 <edge COLOR="#808080"/>
 <node TEXT="Levenshtein ratio" ID="ID_1514424813" CREATED="1566575691197" MODIFIED="1584717762536">
 <edge COLOR="#808080"/>
 </node>
+</node>
+</node>
+<node TEXT="Jaccard Distance" FOLDED="true" ID="ID_1986300800" CREATED="1588662962381" MODIFIED="1588663035158">
+<edge COLOR="#808080"/>
+<node ID="ID_1299845701" CREATED="1588663102475" MODIFIED="1588663155253"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(51, 51, 51); font-family: arial, 宋体, sans-serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 28px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(51, 51, 51)" face="arial, 宋体, sans-serif" size="14px">度量两个集合之间的相似性，它被定义为两个集合交集的元素个数除以并集</font></span><font color="rgb(51, 51, 51)" face="arial, 宋体, sans-serif" size="14px"><span style="color: rgb(51, 51, 51); font-family: arial, 宋体, sans-serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 28px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none">的元素个数</span></font>
+  </body>
+</html>
+</richcontent>
+<edge COLOR="#808080"/>
 </node>
 </node>
 </node>
@@ -760,11 +790,10 @@
 <edge COLOR="#808080"/>
 </node>
 </node>
-<node TEXT="note: &#x5728;&#x5206;&#x7c7b;&#x95ee;&#x9898;&#x4e2d;&#x4e5f;&#x53ef;&#x4ee5;&#x4f7f;&#x7528;Mean Squared Error (MSE) &#x548c; sum-of-squares error function&#x4f5c;&#x4e3a;&#x635f;&#x5931;&#x51fd;&#x6570;. &#x4f46;&#x662f;cross-entropy error &#x7684;&#x68af;&#x5ea6;&#x4e0b;&#x964d;&#x901f;&#x5ea6;&#x66f4;&#x5feb;." FOLDED="true" ID="ID_1697940" CREATED="1586754367769" MODIFIED="1586754836295" LINK="http://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf">
+<node TEXT="note: 在分类问题中也可以使用Mean Squared Error (MSE) 和 sum-of-squares error function作为损失函数. 但是cross-entropy error 的梯度下降速度更快." FOLDED="true" ID="ID_1697940" CREATED="1586754367769" MODIFIED="1586754836295" LINK="http://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf">
 <edge COLOR="#808080"/>
-<node TEXT="cross-entropy-vs-MSE.png" ID="ID_1636240535" CREATED="1586754822441" MODIFIED="1586754829143">
-<hook URI="Machine%20Learning.resources/cross-entropy-vs-MSE.png" SIZE="1.0" NAME="ExternalObject"/>
-<edge COLOR="#808080"/>
+<node TEXT="cross-entropy-vs-MSE.png" ID="ID_463605189" CREATED="1587101289310" MODIFIED="1587101289313">
+<hook URI="Machine%20Learning_files/cross-entropy-vs-MSE.png" SIZE="1.0" NAME="ExternalObject"/>
 </node>
 </node>
 </node>
@@ -786,7 +815,7 @@
 <node TEXT="Kullback-Leibler Divengence" ID="ID_1014421447" CREATED="1565662839301" MODIFIED="1586754839293">
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="Itakura&#x2013;Saito distance" ID="ID_1172736543" CREATED="1565662847737" MODIFIED="1584717762546">
+<node TEXT="Itakura–Saito distance" ID="ID_1172736543" CREATED="1565662847737" MODIFIED="1584717762546">
 <edge COLOR="#808080"/>
 </node>
 <node TEXT="https://en.wikipedia.org/wiki/Loss_functions_for_classification" ID="ID_565313233" CREATED="1565662907968" MODIFIED="1584717762547">
@@ -857,9 +886,8 @@
 <edge COLOR="#808080"/>
 <node TEXT="Confusion Matrix based" FOLDED="true" ID="ID_1386292206" CREATED="1565608776077" MODIFIED="1584717762556" LINK="https://weirping.github.io/blog/Precision-Recall-F1Score-ROC-AUC.html">
 <edge COLOR="#808080"/>
-<node TEXT="Confusion Matrix .png" ID="ID_1928216029" CREATED="1565608828402" MODIFIED="1584717762556">
-<hook URI="Machine%20Learning.resources/Confusion%20Matrix%20.png" SIZE="0.8902077" NAME="ExternalObject"/>
-<edge COLOR="#808080"/>
+<node TEXT="Confusion-Matrix .png" ID="ID_75844134" CREATED="1587101317675" MODIFIED="1587101317679">
+<hook URI="Machine%20Learning_files/Confusion-Matrix%20.png" SIZE="0.8902077" NAME="ExternalObject"/>
 </node>
 <node TEXT="Accuracy" FOLDED="true" ID="ID_1914115541" CREATED="1565606620568" MODIFIED="1584717762557">
 <edge COLOR="#808080"/>
@@ -900,7 +928,7 @@
 </node>
 <node TEXT="Coefficient of Determination(Goodness of Fit) $R^2$" FOLDED="true" ID="ID_1387482756" CREATED="1565608378456" MODIFIED="1584717762564" LINK="https://weirping.github.io/blog/Coefficient-of-Determination.html" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
-<node TEXT="&#x56de;&#x5f52;&#x95ee;&#x9898;&#x6a21;&#x578b;&#x8bc4;&#x4ef7;&#x6307;&#x6807;" ID="ID_1696271178" CREATED="1566536367317" MODIFIED="1584717762564">
+<node TEXT="回归问题模型评价指标" ID="ID_1696271178" CREATED="1566536367317" MODIFIED="1584717762564">
 <edge COLOR="#808080"/>
 </node>
 </node>
@@ -955,13 +983,13 @@
 <edge COLOR="#808080"/>
 <node TEXT="stratified k-fold cross-validation" FOLDED="true" ID="ID_1951124347" CREATED="1565609708260" MODIFIED="1584717762568">
 <edge COLOR="#808080"/>
-<node TEXT="&#x7528;&#x5728;&#x5206;&#x7c7b;&#x4e3a;&#x9898;&#x4e2d;&#xff0c;&#x4e0e;K-fold&#x76f8;&#x6bd4;stratified k-fold&#x4fdd;&#x8bc1;&#x6bcf;&#x4e00;&#x4e2a;fold&#x4e2d;&#x5404;&#x7c7b;&#x522b;&#x7684;&#x6bd4;&#x4f8b;&#x548c;&#x6574;&#x4e2a;&#x8bad;&#x7ec3;&#x6570;&#x636e;&#x96c6;&#x7684;&#x6bd4;&#x4f8b;&#x76f8;&#x540c;&#x3002;&#x5b9e;&#x9a8c;&#x9a8c;&#x8bc1;&#x8be5;&#x65b9;&#x6cd5;&#x76f8;&#x5bf9;&#x4e8e;K-fold&#x80fd;&#x591f;&#x66f4;&#x597d;&#x7684;&#x5e73;&#x8861;bias and variance&#x3002;" ID="ID_1049373205" CREATED="1565609714530" MODIFIED="1584717762568">
+<node TEXT="用在分类为题中，与K-fold相比stratified k-fold保证每一个fold中各类别的比例和整个训练数据集的比例相同。实验验证该方法相对于K-fold能够更好的平衡bias and variance。" ID="ID_1049373205" CREATED="1565609714530" MODIFIED="1584717762568">
 <edge COLOR="#808080"/>
 </node>
 </node>
 <node TEXT="Leave-one-out cross-validation" FOLDED="true" ID="ID_1882666886" CREATED="1565609578041" MODIFIED="1584717762569">
 <edge COLOR="#808080"/>
-<node TEXT="&#x662f;K-fold&#x7684;&#x6781;&#x7aef;&#x5f62;&#x5f0f;&#xff0c;&#x5c06;K-fold&#x4e2d;&#x7684;k&#x7b49;&#x4e8e;&#x6837;&#x672c;&#x91cf;&#x3002;" ID="ID_89222067" CREATED="1565609781077" MODIFIED="1584717762569">
+<node TEXT="是K-fold的极端形式，将K-fold中的k等于样本量。" ID="ID_89222067" CREATED="1565609781077" MODIFIED="1584717762569">
 <edge COLOR="#808080"/>
 </node>
 </node>
@@ -1077,6 +1105,24 @@
 <edge COLOR="#808080"/>
 </node>
 </node>
+<node TEXT="Semi-Supervised Learning" FOLDED="true" ID="ID_1815520531" CREATED="1587052890326" MODIFIED="1587138581124">
+<edge COLOR="#808080"/>
+<node TEXT="Introduction" FOLDED="true" ID="ID_484675828" CREATED="1587099837349" MODIFIED="1587138581124">
+<edge COLOR="#808080"/>
+<node TEXT="Semi-supervised learning Dataset:  labeled Dataset $\{(x^r, \hat{y}^r)\}_{r=1}^R$, unlabeled data $\{x^u\}_{u=R}^{R+U}$&#xa;A set of unlabeled data, usually $U &gt;&gt; R$" ID="ID_1295314129" CREATED="1587099769069" MODIFIED="1587102111181" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="分类" FOLDED="true" ID="ID_1162157511" CREATED="1587099917283" MODIFIED="1587102111182">
+<edge COLOR="#808080"/>
+<node TEXT="Transductive learning: unlabeled data is the testing data" ID="ID_1134798451" CREATED="1587099917283" MODIFIED="1587102111182">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="Inductive learning: unlabeled data is not the testing data" ID="ID_629396581" CREATED="1587099917283" MODIFIED="1587102111183">
+<edge COLOR="#808080"/>
+</node>
+</node>
+</node>
+</node>
 <node TEXT="Unsupervised" FOLDED="true" ID="ID_920905624" CREATED="1565622288664" MODIFIED="1584717762582">
 <edge COLOR="#808080"/>
 <node TEXT="No labels are given to the learning algorithm, leaving it on its own to find structure in its input. Unsupervised learning can be a goal in itself (discovering hidden patterns in data) or a means towards an end (feature learning)." ID="ID_1289787007" CREATED="1565622288664" MODIFIED="1584717762582">
@@ -1099,7 +1145,7 @@
 <node TEXT="With the assumption of probability distribution, more robust to the noise" ID="ID_273377487" CREATED="1586755479836" MODIFIED="1586756110024">
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="&#x6570;&#x636e;&#x91cf;: With the assumption of probability distribution, &#x6570;&#x636e;&#x91cf;&#x5c11;&#x65f6;,Generative&#x66f4;&#x6709;&#x4f18;&#x52bf;, &#x6570;&#x636e;&#x91cf;&#x5927;&#x65f6; Discriminative &#x66f4;&#x6709;&#x4f18;&#x52bf;." ID="ID_1902859308" CREATED="1586755529850" MODIFIED="1586756110029">
+<node TEXT="数据量: With the assumption of probability distribution, 数据量少时,Generative更有优势, 数据量大时 Discriminative 更有优势." ID="ID_1902859308" CREATED="1586755529850" MODIFIED="1586756110029">
 <edge COLOR="#808080"/>
 </node>
 <node TEXT="Priors and class-dependent probabilities can be estimated from different sources." ID="ID_1054225220" CREATED="1586755926064" MODIFIED="1586756110031"><richcontent TYPE="NOTE">
@@ -1114,12 +1160,11 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <edge COLOR="#808080"/>
 </node>
 </node>
-<node TEXT="Model class-conditional pdfs and prior probabilities. &#x201c;Generative&#x201d; since sampling can generate synthetic data points." ID="ID_877717254" CREATED="1565622636999" MODIFIED="1584717762584">
+<node TEXT="Model class-conditional pdfs and prior probabilities. “Generative” since sampling can generate synthetic data points." ID="ID_877717254" CREATED="1565622636999" MODIFIED="1584717762584">
 <edge COLOR="#808080"/>
 </node>
 <node TEXT="Popular models" FOLDED="true" ID="ID_1200086278" CREATED="1565622636999" MODIFIED="1584717762584">
@@ -1127,7 +1172,7 @@
 <node TEXT="Mixtures of Gaussians, Mixtures of experts, Hidden Markov Models(HMM)" ID="ID_522440271" CREATED="1565622636999" MODIFIED="1584717762584">
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="Gaussians, Na&#xef;ve Bayes, Mixtures of multinomials" ID="ID_1948564411" CREATED="1565622636999" MODIFIED="1584717762586">
+<node TEXT="Gaussians, Naïve Bayes, Mixtures of multinomials" ID="ID_1948564411" CREATED="1565622636999" MODIFIED="1584717762586">
 <edge COLOR="#808080"/>
 </node>
 <node TEXT="Sigmoidal belief networks, Bayesian networks, Markov random fields" ID="ID_1034377781" CREATED="1565622636999" MODIFIED="1584717762587">
@@ -1137,7 +1182,7 @@
 </node>
 <node TEXT="Discriminative Methods" FOLDED="true" ID="ID_1183693317" CREATED="1565622636999" MODIFIED="1584717762588">
 <edge COLOR="#808080"/>
-<node TEXT="Directly estimate posterior probabilities. No attempt to model underlying probability istributions. Focus computational resources on given task&#x2013; better performance" ID="ID_401203301" CREATED="1565622637015" MODIFIED="1584717762588">
+<node TEXT="Directly estimate posterior probabilities. No attempt to model underlying probability istributions. Focus computational resources on given task– better performance" ID="ID_401203301" CREATED="1565622637015" MODIFIED="1584717762588">
 <edge COLOR="#808080"/>
 </node>
 <node TEXT="Popular Models" FOLDED="true" ID="ID_29044731" CREATED="1565622637015" MODIFIED="1584717762589">
@@ -1157,15 +1202,15 @@
 </node>
 <node TEXT="Class Imbalance" FOLDED="true" ID="ID_68227767" CREATED="1566577032441" MODIFIED="1584717762590">
 <edge COLOR="#808080"/>
-<node TEXT="&#x5206;&#x7c7b;&#x95ee;&#x9898;&#x4e2d;, &#x4e2a;&#x7c7b;&#x522b;&#x7684;&#x6837;&#x672c;&#x6570;&#x636e;&#x76f8;&#x5dee;&#x60ac;&#x6b8a;" ID="ID_1011399005" CREATED="1566577049257" MODIFIED="1584717762590">
+<node TEXT="分类问题中, 个类别的样本数据相差悬殊" ID="ID_1011399005" CREATED="1566577049257" MODIFIED="1584717762590">
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="&#x89e3;&#x51b3;&#x65b9;&#x6cd5;" FOLDED="true" ID="ID_29068117" CREATED="1566577098755" MODIFIED="1584717762590">
+<node TEXT="解决方法" FOLDED="true" ID="ID_29068117" CREATED="1566577098755" MODIFIED="1584717762590">
 <edge COLOR="#808080"/>
-<node TEXT="&#x8fc7;&#x91c7;&#x6837;" ID="ID_1409740924" CREATED="1566577107357" MODIFIED="1584717762590">
+<node TEXT="过采样" ID="ID_1409740924" CREATED="1566577107357" MODIFIED="1584717762590">
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="&#x6b20;&#x91c7;&#x6837;" ID="ID_773613534" CREATED="1566577117249" MODIFIED="1584717762590">
+<node TEXT="欠采样" ID="ID_773613534" CREATED="1566577117249" MODIFIED="1584717762590">
 <edge COLOR="#808080"/>
 </node>
 <node TEXT="class sensitive Cost Function" ID="ID_19329530" CREATED="1566577122412" MODIFIED="1584717762590">
@@ -1178,8 +1223,8 @@
 <edge COLOR="#808080"/>
 <node TEXT="Data Type" FOLDED="true" ID="ID_1304240173" CREATED="1565148775374" MODIFIED="1584717762590">
 <edge COLOR="#808080"/>
-<node TEXT="attribute-type.png" ID="ID_850804869" CREATED="1565606491821" MODIFIED="1584717762590">
-<hook URI="Machine%20Learning.resources/attribute-type.png" SIZE="0.5208333" NAME="ExternalObject"/>
+<node TEXT="attribute-type.png" ID="ID_1633864227" CREATED="1587101339474" MODIFIED="1588157718697">
+<hook URI="Machine%20Learning_files/attribute-type.png" SIZE="0.5208333" NAME="ExternalObject"/>
 <edge COLOR="#808080"/>
 </node>
 </node>
@@ -1195,13 +1240,13 @@
 <edge COLOR="#808080"/>
 <node TEXT="Continuous Features" FOLDED="true" ID="ID_620820872" CREATED="1565150684308" MODIFIED="1584717762592">
 <edge COLOR="#808080"/>
-<node TEXT="&#x7edf;&#x8ba1;&#x91cf;" FOLDED="true" ID="ID_1868613986" CREATED="1565151092484" MODIFIED="1584717762592">
+<node TEXT="统计量" FOLDED="true" ID="ID_1868613986" CREATED="1565151092484" MODIFIED="1584717762592">
 <edge COLOR="#808080"/>
 <node TEXT="Mean,Median, Mode, Variance, Standard;&#xa;Min, Max, Range, Quartile, IQR;&#xa;Deviation, Skewness and kurtosis," ID="ID_1593694653" CREATED="1565151121057" MODIFIED="1584717762592">
 <edge COLOR="#808080"/>
 </node>
 </node>
-<node TEXT="&#x56fe;&#x8868;" FOLDED="true" ID="ID_424456431" CREATED="1565151101023" MODIFIED="1584717762593">
+<node TEXT="图表" FOLDED="true" ID="ID_424456431" CREATED="1565151101023" MODIFIED="1584717762593">
 <edge COLOR="#808080"/>
 <node TEXT="PDF, Histogram, Box Plot" ID="ID_631278788" CREATED="1565151130127" MODIFIED="1584717762593">
 <edge COLOR="#808080"/>
@@ -1210,7 +1255,7 @@
 </node>
 <node TEXT="Categorical Features" FOLDED="true" ID="ID_193430327" CREATED="1565150695403" MODIFIED="1584717762593">
 <edge COLOR="#808080"/>
-<node TEXT="Frequency:(&#x9891;&#x7387;&#x8868;:&#x7528;&#x4e8e;&#x63cf;&#x8ff0;&#x4e00;&#x4e2a;&#x5206;&#x7c7b;&#x53d8;&#x91cf;&#x7684;&#x5404;&#x7c7b;&#x522b;&#x7684;&#x6837;&#x672c;&#x91cf;)&#xa;Histogram(&#x9891;&#x7387;&#x76f4;&#x65b9;&#x56fe;)" ID="ID_1001812986" CREATED="1565151220606" MODIFIED="1584717762593">
+<node TEXT="Frequency:(频率表:用于描述一个分类变量的各类别的样本量)&#xa;Histogram(频率直方图)" ID="ID_1001812986" CREATED="1565151220606" MODIFIED="1584717762593">
 <edge COLOR="#808080"/>
 </node>
 </node>
@@ -1233,9 +1278,6 @@
 <node TEXT="We can start analyzing the relationship by creating a two-way table of count and count%" ID="ID_85653598" CREATED="1565151498010" MODIFIED="1584717762594">
 <edge COLOR="#808080"/>
 </node>
-</node>
-<node TEXT="" ID="ID_175668008" CREATED="1565151494489" MODIFIED="1584717762595">
-<edge COLOR="#808080"/>
 </node>
 <node TEXT="Stacked Column Chart" ID="ID_1212601012" CREATED="1565151457642" MODIFIED="1584717762595">
 <edge COLOR="#808080"/>
@@ -1277,7 +1319,7 @@
 </node>
 <node TEXT="Special values" FOLDED="true" ID="ID_779545416" CREATED="1565151607220" MODIFIED="1584717762597">
 <edge COLOR="#808080"/>
-<node TEXT="&#xb1;Inf, NA and NaN" ID="ID_1121346779" CREATED="1565159622467" MODIFIED="1584717762597">
+<node TEXT="±Inf, NA and NaN" ID="ID_1121346779" CREATED="1565159622467" MODIFIED="1584717762597">
 <edge COLOR="#808080"/>
 </node>
 </node>
@@ -1348,7 +1390,7 @@
 </node>
 <node TEXT="Categorical Features" FOLDED="true" ID="ID_1313252692" CREATED="1565161109430" MODIFIED="1584717762603">
 <edge COLOR="#808080"/>
-<node TEXT="eg.&#x5408;&#x5e76;" ID="ID_314424685" CREATED="1565161148594" MODIFIED="1584717762603">
+<node TEXT="eg.合并" ID="ID_314424685" CREATED="1565161148594" MODIFIED="1584717762603">
 <edge COLOR="#808080"/>
 </node>
 </node>
@@ -1382,7 +1424,7 @@
 <edge COLOR="#808080"/>
 <node TEXT="Correlation" FOLDED="true" ID="ID_18431391" CREATED="1566485048765" MODIFIED="1584717762604" LINK="#ID_302710005">
 <edge COLOR="#808080"/>
-<node TEXT="Features should be uncorrelated with each other and highly correlated to the feature we&#x2019;re trying to predict." ID="ID_1370705219" CREATED="1566485373056" MODIFIED="1584717762604">
+<node TEXT="Features should be uncorrelated with each other and highly correlated to the feature we’re trying to predict." ID="ID_1370705219" CREATED="1566485373056" MODIFIED="1584717762604">
 <edge COLOR="#808080"/>
 </node>
 </node>
@@ -1540,7 +1582,7 @@
 <edge COLOR="#808080"/>
 <node TEXT="Rescaling" FOLDED="true" ID="ID_679768239" CREATED="1565603324232" MODIFIED="1584717762610">
 <edge COLOR="#808080"/>
-<node TEXT="rescaling the range of features to scale the range in [0, 1] or [&#x2212;1, 1]." ID="ID_783265540" CREATED="1565603422050" MODIFIED="1584717762610">
+<node TEXT="rescaling the range of features to scale the range in [0, 1] or [−1, 1]." ID="ID_783265540" CREATED="1565603422050" MODIFIED="1584717762610">
 <edge COLOR="#808080"/>
 </node>
 </node>
@@ -1573,7 +1615,7 @@
 <edge COLOR="#808080"/>
 <node TEXT="A set of examples used for learning" FOLDED="true" ID="ID_544300739" CREATED="1565603967459" MODIFIED="1584717762616">
 <edge COLOR="#808080"/>
-<node TEXT="To fit the parameters of the classifier in the Multilayer Perceptron, for instance, we would use the training set to find the &#x201c;optimal&#x201d; weights when using backprogapation." ID="ID_1117348368" CREATED="1565603967459" MODIFIED="1584717762616">
+<node TEXT="To fit the parameters of the classifier in the Multilayer Perceptron, for instance, we would use the training set to find the “optimal” weights when using backprogapation." ID="ID_1117348368" CREATED="1565603967459" MODIFIED="1584717762616">
 <edge COLOR="#808080"/>
 </node>
 </node>
@@ -1591,7 +1633,7 @@
 <edge COLOR="#808080"/>
 <node TEXT="A set of examples used to tune the parameters of a classifier" FOLDED="true" ID="ID_556514992" CREATED="1565603967461" MODIFIED="1584717762619">
 <edge COLOR="#808080"/>
-<node TEXT="In the Multilayer Perceptron case, we would use the validation set to find the &#x201c;optimal&#x201d; number of hidden units or determine a stopping point for the back-propagation algorithm" ID="ID_1018838460" CREATED="1565603967461" MODIFIED="1584717762619">
+<node TEXT="In the Multilayer Perceptron case, we would use the validation set to find the “optimal” number of hidden units or determine a stopping point for the back-propagation algorithm" ID="ID_1018838460" CREATED="1565603967461" MODIFIED="1584717762619">
 <edge COLOR="#808080"/>
 </node>
 </node>
@@ -1617,7 +1659,7 @@
 <edge COLOR="#808080"/>
 <node TEXT="Identity" FOLDED="true" ID="ID_1217577677" CREATED="1565623221156" MODIFIED="1584717762624">
 <edge COLOR="#808080"/>
-<node TEXT="$&#x200b;\mu=X\beta$" ID="ID_327891626" CREATED="1565623493160" MODIFIED="1584717762624" FORMAT="latexPatternFormat">
+<node TEXT="$​\mu=X\beta$" ID="ID_327891626" CREATED="1565623493160" MODIFIED="1584717762624" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
 </node>
 </node>
@@ -1681,33 +1723,33 @@
 </html>
 </richcontent>
 <edge COLOR="#808080"/>
-<node TEXT="&#x56fe;&#x6a21;&#x578b;&#x4e0e;&#x8054;&#x5408;&#x5206;&#x5e03;&#x7684;&#x5bf9;&#x5e94;&#x5173;&#x7cfb;" FOLDED="true" ID="ID_633127503" CREATED="1565624809357" MODIFIED="1584717762630">
+<node TEXT="图模型与联合分布的对应关系" FOLDED="true" ID="ID_633127503" CREATED="1565624809357" MODIFIED="1584717762630">
 <edge COLOR="#808080"/>
-<node TEXT="- &#x4f7f;&#x7528;&#x5706;&#x5708;&#x8868;&#x793a;&#x968f;&#x673a;&#x53d8;&#x91cf;&#xff1b;" ID="ID_654554160" CREATED="1565624809357" MODIFIED="1584717762630">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="- &#x89c2;&#x6d4b;&#x5230;&#x7684;&#x53d8;&#x91cf;&#x4f7f;&#x7528;&#x5b9e;&#x5fc3;&#x5706;&#x5708;&#x8868;&#x793a;&#xff0c;&#x9690;&#x53d8;&#x91cf;&#x4f7f;&#x7528;&#x7a7a;&#x5fc3;&#x5706;&#x5708;&#x8868;&#x793a;&#xff1b;" ID="ID_1560777437" CREATED="1565624809357" MODIFIED="1584717762632">
+<node TEXT="- 使用圆圈表示随机变量；" ID="ID_654554160" CREATED="1565624809357" MODIFIED="1584717762630">
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="- &#x4f7f;&#x7528;&#x4e00;&#x4e2a;&#x65b9;&#x6846;(box)&#x8868;&#x793a;&#x91cd;&#x590d;&#x8282;&#x70b9;&#xff0c;&#x5176;&#x4e2d;&#x53f3;&#x4e0b;&#x89d2;&#x7684;N &#x8868;&#x793a;&#x91cd;&#x590d;&#x6b21;&#x6570;&#xff1b;" ID="ID_802009031" CREATED="1565624809357" MODIFIED="1584717762634">
+<node TEXT="- 观测到的变量使用实心圆圈表示，隐变量使用空心圆圈表示；" ID="ID_1560777437" CREATED="1565624809357" MODIFIED="1584717762632">
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="- &#x6a21;&#x578b;&#x53c2;&#x6570;&#x8868;&#x793a;&#x4e3a;&#x5b9e;&#x5fc3;&#x5c0f;&#x5706;&#x70b9;&#xff0c;&#x8fde;&#x968f;&#x673a;&#x53d8;&#x91cf;&#x7684;&#x8054;&#x5408;&#x5206;&#x5e03;&#x4e2d;&#x662f;&#x6761;&#x4ef6;&#x53d8;&#x91cf;&#x90e8;&#x5206;" ID="ID_1626205245" CREATED="1565624809357" MODIFIED="1584717762635">
+<node TEXT="- 使用一个方框(box)表示重复节点，其中右下角的N 表示重复次数；" ID="ID_802009031" CREATED="1565624809357" MODIFIED="1584717762634">
 <edge COLOR="#808080"/>
 </node>
-</node>
-<node TEXT="&#x8d1d;&#x53f6;&#x65af;&#x56de;&#x5f52;&#xff08;&#x56fe;&#x6a21;&#x578b;&#xff09;" FOLDED="true" ID="ID_622336133" CREATED="1565624809357" MODIFIED="1584717762636" LINK="https://weirping.github.io/blog/Bayesian-Networks-regression.html">
-<edge COLOR="#808080"/>
-<node TEXT="&#x53c2;&#x6570;&#x4f30;&#x8ba1;" ID="ID_493575583" CREATED="1565624809357" MODIFIED="1584717762636">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="&#x9884;&#x6d4b;&#x5206;&#x5e03;" ID="ID_35340550" CREATED="1565624809357" MODIFIED="1584717762636">
+<node TEXT="- 模型参数表示为实心小圆点，连随机变量的联合分布中是条件变量部分" ID="ID_1626205245" CREATED="1565624809357" MODIFIED="1584717762635">
 <edge COLOR="#808080"/>
 </node>
 </node>
-<node TEXT="&#x6761;&#x4ef6;&#x72ec;&#x7acb;&#x6027;" FOLDED="true" ID="ID_717281048" CREATED="1565624809357" MODIFIED="1584717762636" LINK="#ID_1242353026">
+<node TEXT="贝叶斯回归（图模型）" FOLDED="true" ID="ID_622336133" CREATED="1565624809357" MODIFIED="1584717762636" LINK="https://weirping.github.io/blog/Bayesian-Networks-regression.html">
 <edge COLOR="#808080"/>
-<node TEXT="D-Separation(&#x6761;&#x4ef6;&#x72ec;&#x7acb;&#x6027;&#x5de5;&#x5177;)" ID="ID_1674078600" CREATED="1566537766434" MODIFIED="1584717762636">
+<node TEXT="参数估计" ID="ID_493575583" CREATED="1565624809357" MODIFIED="1584717762636">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="预测分布" ID="ID_35340550" CREATED="1565624809357" MODIFIED="1584717762636">
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="条件独立性" FOLDED="true" ID="ID_717281048" CREATED="1565624809357" MODIFIED="1584717762636" LINK="#ID_1242353026">
+<edge COLOR="#808080"/>
+<node TEXT="D-Separation(条件独立性工具)" ID="ID_1674078600" CREATED="1566537766434" MODIFIED="1584717762636">
 <edge COLOR="#808080"/>
 </node>
 </node>
@@ -1726,37 +1768,183 @@
 </html>
 </richcontent>
 <edge COLOR="#808080"/>
-<node TEXT="&#x6761;&#x4ef6;&#x72ec;&#x7acb;&#x6027;" ID="ID_1661314627" CREATED="1565624866980" MODIFIED="1584717762636" LINK="#ID_717281048">
+<node TEXT="条件独立性" ID="ID_1661314627" CREATED="1565624866980" MODIFIED="1584717762636" LINK="#ID_717281048">
 <edge COLOR="#808080"/>
 </node>
 </node>
 </node>
 </node>
-<node TEXT="Dimensionality Reduction" FOLDED="true" ID="ID_1407881926" CREATED="1565622951389" MODIFIED="1584717762636">
+<node TEXT="Dimensionality Reduction" FOLDED="true" ID="ID_1407881926" CREATED="1565622951389" MODIFIED="1587137764090">
 <edge COLOR="#808080"/>
 <node TEXT="Principal Component Analysis (PCA)" ID="ID_723598189" CREATED="1565624934350" MODIFIED="1584717762637">
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="Partial Least Squares Regression (PLSR)" ID="ID_739218410" CREATED="1565624934350" MODIFIED="1584717762637">
+<node TEXT="Kernel Principal Component Analysis (Kernel PCA)" ID="ID_1929375334" CREATED="1587103459592" MODIFIED="1587103595526">
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="Principal Component Regression (PCR)" ID="ID_1833293229" CREATED="1565624934365" MODIFIED="1584717762637">
+<node TEXT="Independent Component Analysis(ICA)" ID="ID_184689954" CREATED="1587103556917" MODIFIED="1587103595524">
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="Partial Least Squares Discriminant Analysis" ID="ID_1881487655" CREATED="1565624934365" MODIFIED="1584717762637">
+<node TEXT="Linear Discriminant Analysis (LDA)" ID="ID_1936268771" CREATED="1565624934365" MODIFIED="1587137764088">
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="Quadratic Discriminant Analysis (QDA)" ID="ID_1712287755" CREATED="1565624934365" MODIFIED="1584717762637">
+<node TEXT="" ID="ID_625399292" CREATED="1587137794383" MODIFIED="1587137794389">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Locally Linear Embedding (LLE)" FOLDED="true" ID="ID_480049787" CREATED="1587133336109" MODIFIED="1587135315767">
+<edge COLOR="#808080"/>
+<node TEXT="1. 学习每个点与其周围K(超参)个点的关系 $w_{ij}$" FOLDED="true" ID="ID_130092108" CREATED="1587133600889" MODIFIED="1587135315768" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+<node TEXT="LLE-alg-1.png" ID="ID_1719940062" CREATED="1587133618463" MODIFIED="1587133680195">
+<hook URI="Machine%20Learning_files/LLE-alg-1.png" SIZE="1.0" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="2. 固定上一步学到的所有 $w_{ij}$, 最小化  $\sum_i||z^i - \sum_j w_{ij}z^j||$, 产生的数据集 $\{z^i\}$, 就是新的数据" FOLDED="true" ID="ID_1809710183" CREATED="1587133798059" MODIFIED="1587135315768" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+<node TEXT="LLE-alg-2.png" ID="ID_661731954" CREATED="1587134060376" MODIFIED="1587135315769">
+<hook URI="Machine%20Learning_files/LLE-alg-2.png" SIZE="1.0" NAME="ExternalObject"/>
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="Linear Discriminant Analysis (LDA)" ID="ID_1936268771" CREATED="1565624934365" MODIFIED="1584717762637">
+</node>
+<node TEXT="problem" FOLDED="true" ID="ID_791935878" CREATED="1587135088706" MODIFIED="1587135315769">
 <edge COLOR="#808080"/>
+<node TEXT="Similar data are close, but different data may collapse(相似样本点落到一起, 但是不同样本也会叠到一起)" ID="ID_1443423045" CREATED="1587135099761" MODIFIED="1587135315766">
+<edge COLOR="#808080"/>
+</node>
+</node>
+</node>
+<node TEXT="T-distributed Stochastic Neighbor Embedding (t-SNE)" FOLDED="true" ID="ID_615212784" CREATED="1587134901078" MODIFIED="1587135315769">
+<edge COLOR="#808080"/>
+<node TEXT="t-SNE-alg.png" ID="ID_211145827" CREATED="1587135709027" MODIFIED="1587137199542">
+<hook URI="Machine%20Learning_files/t-SNE-alg.png" SIZE="1.0" NAME="ExternalObject"/>
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="相似度计算公式" FOLDED="true" ID="ID_1833629384" CREATED="1587136294582" MODIFIED="1587137199543">
+<edge COLOR="#808080"/>
+<node TEXT="原始数据上 $s(x^i, x^j) = exp(-||x^i - x^j||_2)$" ID="ID_476595166" CREATED="1587136313962" MODIFIED="1587137199544" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="在降维后的数据上 $s^“(z^i, z^j) = \frac{1}{1 + ||z^i - z^j||_2}$" ID="ID_1659002065" CREATED="1587136409161" MODIFIED="1587137199546" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="采用不同相似度度量原因" FOLDED="true" ID="ID_626146148" CREATED="1587136811131" MODIFIED="1587137199548">
+<edge COLOR="#808080"/>
+<node TEXT="t-SNE-sim-func.png" ID="ID_1537026735" CREATED="1587136614236" MODIFIED="1587137199530">
+<hook URI="Machine%20Learning_files/t-SNE-sim-func.png" SIZE="1.0" NAME="ExternalObject"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#27178;&#36724;&#34920;&#31034;&#24231;&#26631;&#31354;&#38388;&#19978;&#30340;&#27431;&#27663;&#36317;&#31163;(&#21407;&#24231;&#26631;&#31354;&#38388;&#21644;&#26032;&#30340;&#25237;&#24433;&#31354;&#38388;),
+    </p>
+    <p>
+      &#23558;x&#25237;&#24433;&#21040;z&#21518;:
+    </p>
+    <p>
+      &#22914;&#26524;&#21407;&#22987;&#24231;&#26631;&#31354;&#38388;&#19978;&#30340;&#20004;&#20010;&#28857;&#36317;&#31163;&#36739;&#36828;, &#25237;&#24433;&#21040;&#26032;&#30340;&#24231;&#26631;&#31354;&#38388;&#21518;&#30340;&#36317;&#31163;&#20250;&#34987;&#25289;&#20280;&#30340;&#26356;&#36828;;
+    </p>
+    <p>
+      &#22914;&#26524;&#21407;&#22987;&#24231;&#26631;&#31354;&#38388;&#19978;&#30340;&#20004;&#20010;&#28857;&#36317;&#31163;&#36739;&#36817;, &#25237;&#24433;&#21040;&#26032;&#30340;&#24231;&#26631;&#31354;&#38388;&#21518;&#30340;&#36317;&#22522;&#26412;&#24067;&#36941;(&#26410;&#34987;&#25289;&#20280;).
+    </p>
+  </body>
+</html>
+</richcontent>
+<edge COLOR="#808080"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="" ID="ID_228511725" CREATED="1587137794380" MODIFIED="1587137794383">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Manifold Learning" ID="ID_1019080084" CREATED="1587137794393" MODIFIED="1587137799952"/>
+</node>
+<node TEXT="Auto-Encoders" FOLDED="true" ID="ID_1481805563" CREATED="1566538011839" MODIFIED="1587137310033" LINK="https://weirping.github.io/blog/AutoEncoder.html">
+<edge COLOR="#808080"/>
+<node TEXT="Auto-Encoders.png" ID="ID_511756126" CREATED="1587137709393" MODIFIED="1587137726264">
+<hook URI="Machine%20Learning_files/Auto-Encoders.png" SIZE="0.94043887" NAME="ExternalObject"/>
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="The aim of an autoencoder is to learn a representation (encoding) for a set of data, typically for the purpose of dimensionality reduction." ID="ID_448821999" CREATED="1567950999755" MODIFIED="1587137638916" VSHIFT_QUANTITY="2.2499999329447764 pt">
+<edge COLOR="#808080"/>
+<font BOLD="false"/>
+</node>
 </node>
 </node>
 <node TEXT="Instance Based" FOLDED="true" ID="ID_273037839" CREATED="1565622967789" MODIFIED="1584717762637">
 <edge COLOR="#808080"/>
-<node TEXT="k-nearest Neighbour (kNN)" ID="ID_263635244" CREATED="1565624972563" MODIFIED="1584717762638">
+<node TEXT="k-nearest Neighbour (kNN)" FOLDED="true" ID="ID_263635244" CREATED="1565624972563" MODIFIED="1584717762638">
 <edge COLOR="#808080"/>
+<node TEXT="特点" FOLDED="true" ID="ID_864901764" CREATED="1588661902390" MODIFIED="1588661983197">
+<edge COLOR="#808080"/>
+<node ID="ID_50563660" CREATED="1588661799863" MODIFIED="1588661983213"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(49, 70, 89); font-family: Lato, PingFang SC, Microsoft YaHei, sans-serif; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: -webkit-left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(49, 70, 89)" face="Lato, PingFang SC, Microsoft YaHei, sans-serif" size="15px">一种分类(classification)算法</font></span>
+  </body>
+</html>
+</richcontent>
+<edge COLOR="#808080"/>
+</node>
+<node ID="ID_1871099888" CREATED="1588661825061" MODIFIED="1588661983213"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(49, 70, 89); font-family: Lato, PingFang SC, Microsoft YaHei, sans-serif; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: -webkit-left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(49, 70, 89)" face="Lato, PingFang SC, Microsoft YaHei, sans-serif" size="15px">属于懒惰学习（lazy learning）即KNN没有显式的学习过程</font></span>
+  </body>
+</html>
+</richcontent>
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="思想" FOLDED="true" ID="ID_844014913" CREATED="1588661929883" MODIFIED="1588661983197">
+<edge COLOR="#808080"/>
+<node TEXT="knn-alg.png" ID="ID_1702843084" CREATED="1588661967654" MODIFIED="1588661983213">
+<hook URI="Machine%20Learning_files/knn-alg.png" SIZE="1.0" NAME="ExternalObject"/>
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="如果一个样本在特征空间中的k个最邻近的样本中的大多数属于某一个类别，则该样本也划分为这个类别。" ID="ID_1646067006" CREATED="1588661839076" MODIFIED="1588661983197">
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="计算流程" FOLDED="true" ID="ID_460324165" CREATED="1588662125105" MODIFIED="1588662150287">
+<edge COLOR="#808080"/>
+<node TEXT="1）计算测试数据与各个训练数据之间的距离；" ID="ID_1483975228" CREATED="1588662135087" MODIFIED="1588662150287">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="2）按照距离的递增关系进行排序；" ID="ID_621386162" CREATED="1588662135087" MODIFIED="1588662150287">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="3）选取距离最小的K个点；" ID="ID_3470546" CREATED="1588662135087" MODIFIED="1588662150287">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="4）确定前K个点所在类别的出现频率；" ID="ID_1621469801" CREATED="1588662135087" MODIFIED="1588662150287">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="5）返回前K个点中出现频率最高的类别作为测试数据的预测分类" ID="ID_633482211" CREATED="1588662135102" MODIFIED="1588662150287">
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="超参调整" FOLDED="true" ID="ID_1689156216" CREATED="1588662293382" MODIFIED="1588662534799">
+<edge COLOR="#808080"/>
+<node TEXT="K的取值过小时,容易受噪声影响. 相当于模型复杂度大.&#xa;K的值取的过大时，就相当于用较大邻域中的训练实例进行预测，学习的近似误差会增大。相当于模型复杂度小" ID="ID_603411674" CREATED="1588662523379" MODIFIED="1588662633478">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="常用的方法是从K=1开始，使用检验集估计分类器的误差率。重复该过程，每次K增值1。选取产生最小误差率的K。&#xa;一般k的取值不超过20，上限是n的开方，随着数据集的增大，K的值也要增大。" ID="ID_1813203067" CREATED="1588662636914" MODIFIED="1588662726570">
+<edge COLOR="#808080"/>
+</node>
+</node>
 </node>
 <node TEXT="Learning Vector Quantization (LVQ)" ID="ID_544439473" CREATED="1565624972563" MODIFIED="1584717762638">
 <edge COLOR="#808080"/>
@@ -1843,11 +2031,21 @@
 <edge COLOR="#808080"/>
 </node>
 </node>
+<node TEXT="Hierarchical Agglomerative Clustering (HAC)" FOLDED="true" ID="ID_555380159" CREATED="1587101822337" MODIFIED="1587101997632">
+<edge COLOR="#808080"/>
+<node TEXT="HAC-alg.png" ID="ID_600484901" CREATED="1587101959359" MODIFIED="1587101997635">
+<hook URI="Machine%20Learning_files/HAC-alg.png" SIZE="1.0" NAME="ExternalObject"/>
+<edge COLOR="#808080"/>
+</node>
+</node>
 </node>
 <node TEXT="k-Means" FOLDED="true" ID="ID_634270328" CREATED="1565625266317" MODIFIED="1584717762641">
 <edge COLOR="#808080"/>
 <node TEXT="How many clusters do we select?" ID="ID_1435413324" CREATED="1565625266317" MODIFIED="1584717762641">
 <edge COLOR="#808080"/>
+</node>
+<node TEXT="K-means-alg.png" ID="ID_1253007596" CREATED="1587100987804" MODIFIED="1587100987804">
+<hook URI="Machine%20Learning_files/K-means-alg.png" SIZE="0.74349445" NAME="ExternalObject"/>
 </node>
 </node>
 <node TEXT="k-Medians" ID="ID_1837174793" CREATED="1565625266317" MODIFIED="1584717762642">
@@ -1864,6 +2062,9 @@
 <node TEXT="EM algorithm" ID="ID_1590156758" CREATED="1570847952635" MODIFIED="1584717762642">
 <edge COLOR="#808080"/>
 </node>
+</node>
+<node TEXT="Spectral clustering" ID="ID_1885552005" CREATED="1587134802455" MODIFIED="1587135315770">
+<edge COLOR="#808080"/>
 </node>
 </node>
 <node TEXT="Validation" FOLDED="true" ID="ID_301753569" CREATED="1565625266317" MODIFIED="1584717762642">
@@ -1911,47 +2112,11 @@
 </node>
 <node TEXT="Topic Model" FOLDED="true" ID="ID_755349175" CREATED="1566834020133" MODIFIED="1584717762652">
 <edge COLOR="#808080"/>
-<node TEXT="LDA" ID="ID_1189621183" CREATED="1566834035498" MODIFIED="1584717762652">
+<node TEXT="Latent Dirichlet allocation(LDA)" ID="ID_1189621183" CREATED="1566834035498" MODIFIED="1587103534631">
 <edge COLOR="#808080"/>
 </node>
 <node TEXT="PLSI" ID="ID_1353886122" CREATED="1566834039819" MODIFIED="1584717762652">
 <edge COLOR="#808080"/>
-</node>
-</node>
-<node TEXT="LTR-Learning to Rank" FOLDED="true" ID="ID_946211173" CREATED="1565625322391" MODIFIED="1584717762652">
-<edge COLOR="#808080"/>
-<node TEXT="Metrics" ID="ID_747805078" CREATED="1566536534220" MODIFIED="1584717762652" LINK="#ID_1583246436">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="" FOLDED="true" ID="ID_109201989" CREATED="1566536860210" MODIFIED="1584717762652">
-<edge COLOR="#808080"/>
-<node TEXT="Point Wise" FOLDED="true" ID="ID_1067064665" CREATED="1565625370070" MODIFIED="1584717762652">
-<edge COLOR="#808080"/>
-<node TEXT="e.g. PRank" ID="ID_380689251" CREATED="1565625414921" MODIFIED="1584717762652" LINK="https://weirping.github.io/blog/PRank.html">
-<edge COLOR="#808080"/>
-</node>
-</node>
-<node TEXT="Pair Wise" FOLDED="true" ID="ID_183294357" CREATED="1565625380015" MODIFIED="1584717762652" LINK="https://weirping.github.io/blog/RankNet-LambdaRank-LambdaMart.html">
-<edge COLOR="#808080"/>
-<node TEXT="RankSVM" ID="ID_418454791" CREATED="1565625437146" MODIFIED="1584717762652">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="RankNet" ID="ID_1380196087" CREATED="1565625447158" MODIFIED="1584717762653">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="LambdaRank" ID="ID_1932011859" CREATED="1565625456966" MODIFIED="1584717762653">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="LambdaMart" ID="ID_461404954" CREATED="1565625462250" MODIFIED="1584717762653">
-<edge COLOR="#808080"/>
-</node>
-</node>
-<node TEXT="List Wise" FOLDED="true" ID="ID_505309747" CREATED="1565625391090" MODIFIED="1584717762653">
-<edge COLOR="#808080"/>
-<node TEXT="ListNet" ID="ID_1422200293" CREATED="1565625478648" MODIFIED="1584717762653">
-<edge COLOR="#808080"/>
-</node>
-</node>
 </node>
 </node>
 </node>
@@ -2031,9 +2196,8 @@
 <node TEXT="Select Algorithm based on question and data available" ID="ID_1084618403" CREATED="1565626067182" MODIFIED="1584717762676">
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="Choosing-the-right-estimator-in-scikit-learn.png" ID="ID_605088903" CREATED="1566053318903" MODIFIED="1584717762677">
-<hook URI="Machine%20Learning.resources/Choosing-the-right-estimator-in-scikit-learn.png" SIZE="0.42704627" NAME="ExternalObject"/>
-<edge COLOR="#808080"/>
+<node TEXT="Choosing-the-right-estimator-in-scikit-learn.png" ID="ID_1728043440" CREATED="1587101392152" MODIFIED="1587101392157">
+<hook URI="Machine%20Learning_files/Choosing-the-right-estimator-in-scikit-learn.png" SIZE="0.42704627" NAME="ExternalObject"/>
 </node>
 </node>
 <node TEXT="Tuning" FOLDED="true" ID="ID_1360527308" CREATED="1565626276613" MODIFIED="1584717762677" LINK="https://weirping.github.io/blog/Hyperparameter-Tuning-in-Sklearn.html">
@@ -2049,7 +2213,7 @@
 </node>
 <node TEXT="validation curves" FOLDED="true" ID="ID_1513204368" CREATED="1566051886934" MODIFIED="1584717762677">
 <edge COLOR="#808080"/>
-<node TEXT="validation curves&#x53ef;&#x4ee5;&#x7406;&#x89e3;&#x4e3a;&#x4e00;&#x5f20;&#x56fe;&#x8868;&#xff0c;&#x5176;&#x7eb5;&#x5750;&#x6807;&#x4e3a;&#x6a21;&#x578b;performance (score) &#xff0c;&#x884c;&#x5750;&#x6807;&#x4e3a;&#x6a21;&#x578b;&#x7684;&#x4e00;&#x4e2a;&#x53c2;&#x6570;&#x3002;&#x5176;&#x8868;&#x793a;&#x7684;&#x662f;&#x968f;&#x7740;&#x53c2;&#x6570;&#x7684;&#x53d8;&#x5316;&#xff0c;&#x6a21;&#x578b;&#x5728;&#x8bad;&#x7ec3;&#x96c6;&#x548c;&#x6d4b;&#x8bd5;&#x96c6;&#x4e0a;&#x8fbe;&#x5230;&#x7684;&#x6548;&#x679c;&#x3002;" ID="ID_239351658" CREATED="1566051926562" MODIFIED="1584717762677">
+<node TEXT="validation curves可以理解为一张图表，其纵坐标为模型performance (score) ，行坐标为模型的一个参数。其表示的是随着参数的变化，模型在训练集和测试集上达到的效果。" ID="ID_239351658" CREATED="1566051926562" MODIFIED="1584717762677">
 <edge COLOR="#808080"/>
 </node>
 </node>
@@ -2076,42 +2240,6 @@
 </node>
 <node TEXT="How will the ML algorithms be integrated with other systems?" ID="ID_1256510053" CREATED="1565626562979" MODIFIED="1584717762684">
 <edge COLOR="#808080"/>
-</node>
-</node>
-</node>
-<node TEXT="Application" POSITION="right" ID="ID_1132318691" CREATED="1566486112366" MODIFIED="1584717762685">
-<edge COLOR="#808080"/>
-<node TEXT="Image" FOLDED="true" ID="ID_1151215937" CREATED="1566486162587" MODIFIED="1584717762685">
-<edge COLOR="#808080"/>
-<node TEXT="&#x56fe;&#x7247;&#x641c;&#x7d22;" ID="ID_1386421831" CREATED="1566486226108" MODIFIED="1584717762685" LINK="https://weirping.github.io/blog/picture-similarity-method.html">
-<edge COLOR="#808080"/>
-</node>
-</node>
-<node TEXT="NLP" FOLDED="true" ID="ID_1790708901" CREATED="1566490250111" MODIFIED="1584717762685">
-<edge COLOR="#808080"/>
-<node TEXT="&#x6587;&#x672c;&#x76f8;&#x4f3c;&#x5ea6;" FOLDED="true" ID="ID_1164162383" CREATED="1566575841485" MODIFIED="1584717762685">
-<edge COLOR="#808080"/>
-<node TEXT="Simhash" ID="ID_61722625" CREATED="1566574277854" MODIFIED="1584717762685" LINK="https://weirping.github.io/blog/Simhash.html">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="edit distance" ID="ID_1113145577" CREATED="1566575855420" MODIFIED="1584717762685" LINK="#ID_1207232823">
-<edge COLOR="#808080"/>
-</node>
-</node>
-</node>
-<node TEXT="IR" FOLDED="true" ID="ID_876611567" CREATED="1566576547159" MODIFIED="1584717762685">
-<edge COLOR="#808080"/>
-<node TEXT="Relevance Function" FOLDED="true" ID="ID_198087138" CREATED="1566576703759" MODIFIED="1584717762686" LINK="https://weirping.github.io/blog/note-of-relevence-socres.html">
-<edge COLOR="#808080"/>
-<node TEXT="TF-IDF" ID="ID_1966871777" CREATED="1566536414128" MODIFIED="1584717762685" LINK="https://weirping.github.io/blog/TF-IDF.html">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="BM25" ID="ID_1732568335" CREATED="1566576607136" MODIFIED="1584717762686">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="Proximity" ID="ID_201017613" CREATED="1566576636556" MODIFIED="1584717762686">
-<edge COLOR="#808080"/>
-</node>
 </node>
 </node>
 </node>
