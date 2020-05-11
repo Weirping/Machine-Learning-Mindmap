@@ -1,5 +1,5 @@
 # Machine-Learning-Mindmap
 
-![](README/Machine-Learning.png)
+![](Machine-Learning.png)
 
-![](README/Deep-Learning.png)
+![](Deep-Learning.png)
