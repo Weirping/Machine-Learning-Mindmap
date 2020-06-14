@@ -3,7 +3,7 @@
 <node TEXT="Machine Learning" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_850448724" CREATED="1564976333940" MODIFIED="1584718021920" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="10.0 pt" SHAPE_VERTICAL_MARGIN="10.0 pt">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <edge STYLE="sharp_bezier" COLOR="#808080" WIDTH="3"/>
-<hook NAME="MapStyle" zoom="0.918">
+<hook NAME="MapStyle" zoom="1.01">
     <conditional_styles>
         <conditional_style ACTIVE="true" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" LAST="false">
             <node_level_condition VALUE="0" COMPARATION_RESULT="0" SUCCEED="true"/>
@@ -444,8 +444,14 @@
 <node TEXT="Lagrange Duality" ID="ID_446260867" CREATED="1565937195940" MODIFIED="1584717762515" LINK="https://weirping.github.io/blog/Lagrange-Duality.html">
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="Lagrange Multiplier and KKT Conditions" ID="ID_395919799" CREATED="1565937272197" MODIFIED="1584717762516" LINK="https://weirping.github.io/blog/from-Lagrange-Multiplier-to-KKT-Conditions.html">
+<node TEXT="Lagrange Multiplier and KKT Conditions" FOLDED="true" ID="ID_395919799" CREATED="1565937272197" MODIFIED="1584717762516" LINK="https://weirping.github.io/blog/from-Lagrange-Multiplier-to-KKT-Conditions.html">
 <edge COLOR="#808080"/>
+<node TEXT="拉格朗日乘数法(Lagrange multiplier)是用于解决只含等式约束的非线性规划问题的。" ID="ID_1172770841" CREATED="1589793180807" MODIFIED="1589793196937">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="KKT条件是用于解决包含不等式约束问题的。" ID="ID_561737218" CREATED="1589793190130" MODIFIED="1589793196938">
+<edge COLOR="#808080"/>
+</node>
 </node>
 <node TEXT="EM algorithm" FOLDED="true" ID="ID_1810045048" CREATED="1566576377579" MODIFIED="1584717762516" LINK="https://weirping.github.io/blog/EM-algorithm.html">
 <edge COLOR="#808080"/>
@@ -808,21 +814,10 @@
 <node TEXT="$L(y)=\max(0, 1-t \cdot y)$" ID="ID_1179401531" CREATED="1565662685299" MODIFIED="1584717762543" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
 </node>
-</node>
-<node TEXT="Exponential" ID="ID_1427783395" CREATED="1565662819702" MODIFIED="1584717762544">
+<node TEXT="hinge-loss-function.png" ID="ID_1809358399" CREATED="1590467261429" MODIFIED="1590467264960">
+<hook URI="Machine%20Learning_files/hinge-loss-function.png" SIZE="1.0" NAME="ExternalObject"/>
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="Kullback-Leibler Divengence" ID="ID_1014421447" CREATED="1565662839301" MODIFIED="1586754839293">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="Itakura–Saito distance" ID="ID_1172736543" CREATED="1565662847737" MODIFIED="1584717762546">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="https://en.wikipedia.org/wiki/Loss_functions_for_classification" ID="ID_565313233" CREATED="1565662907968" MODIFIED="1584717762547">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="https://stats.stackexchange.com/questions/154879/a-list-of-cost-functions-used-in-neural-networks-alongside-applications" ID="ID_774625108" CREATED="1565662952628" MODIFIED="1584717762549">
-<edge COLOR="#808080"/>
 </node>
 </node>
 <node TEXT="Regularization" FOLDED="true" ID="ID_11419241" CREATED="1565661625047" MODIFIED="1584717762550">
@@ -1097,28 +1092,74 @@
 </node>
 </node>
 </node>
-<node TEXT="" FOLDED="true" ID="ID_1739191734" CREATED="1565622283726" MODIFIED="1584717762581">
+<node TEXT="" FOLDED="true" ID="ID_1739191734" CREATED="1565622283726" MODIFIED="1592055538527">
 <edge COLOR="#808080"/>
-<node TEXT="Supervised" FOLDED="true" ID="ID_1250081931" CREATED="1565622288664" MODIFIED="1584717762581">
+<node TEXT="Supervised" ID="ID_1250081931" CREATED="1565622288664" MODIFIED="1592055538526" HGAP_QUANTITY="15.499999955296518 pt" VSHIFT_QUANTITY="30.749999083578615 pt">
 <edge COLOR="#808080"/>
-<node TEXT="The computer is presented with example inputs and their desired outputs, given by a &quot;teacher&quot;, and the goal is to learn a general rule that maps inputs to outputs." ID="ID_1647304633" CREATED="1565622288664" MODIFIED="1584717762581">
-<edge COLOR="#808080"/>
-</node>
 </node>
 <node TEXT="Semi-Supervised Learning" FOLDED="true" ID="ID_1815520531" CREATED="1587052890326" MODIFIED="1587138581124">
 <edge COLOR="#808080"/>
 <node TEXT="Introduction" FOLDED="true" ID="ID_484675828" CREATED="1587099837349" MODIFIED="1587138581124">
 <edge COLOR="#808080"/>
-<node TEXT="Semi-supervised learning Dataset:  labeled Dataset $\{(x^r, \hat{y}^r)\}_{r=1}^R$, unlabeled data $\{x^u\}_{u=R}^{R+U}$&#xa;A set of unlabeled data, usually $U &gt;&gt; R$" ID="ID_1295314129" CREATED="1587099769069" MODIFIED="1587102111181" FORMAT="latexPatternFormat">
+<node TEXT="Semi-supervised learning Dataset" FOLDED="true" ID="ID_1881697779" CREATED="1592054754305" MODIFIED="1592054760370">
 <edge COLOR="#808080"/>
+<node TEXT="Semi-supervised learning Dataset: \\&#xa;labeled Dataset $\{(x^r, \hat{y}^r)\}_{r=1}^R$, \\&#xa;unlabeled data $\{x^u\}_{u=R}^{R+U}$  \\&#xa;usually $U &gt;&gt; R$" ID="ID_1295314129" CREATED="1587099769069" MODIFIED="1592054329746" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
 </node>
 <node TEXT="分类" FOLDED="true" ID="ID_1162157511" CREATED="1587099917283" MODIFIED="1587102111182">
 <edge COLOR="#808080"/>
-<node TEXT="Transductive learning: unlabeled data is the testing data" ID="ID_1134798451" CREATED="1587099917283" MODIFIED="1587102111182">
+<node TEXT="Transductive learning" FOLDED="true" ID="ID_1134798451" CREATED="1587099917283" MODIFIED="1592054378404">
+<edge COLOR="#808080"/>
+<node ID="ID_825308898" CREATED="1592054380340" MODIFIED="1592054407748"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      unlabeled data is the testing data
+    </p>
+  </body>
+</html>
+
+</richcontent>
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="Inductive learning: unlabeled data is not the testing data" ID="ID_629396581" CREATED="1587099917283" MODIFIED="1587102111183">
+</node>
+<node TEXT="Inductive learning" FOLDED="true" ID="ID_629396581" CREATED="1587099917283" MODIFIED="1592054391309">
 <edge COLOR="#808080"/>
+<node TEXT="unlabeled data is not the testing data" ID="ID_674585503" CREATED="1592054392970" MODIFIED="1592054407747">
+<edge COLOR="#808080"/>
+</node>
+</node>
+</node>
+<node TEXT="基本思想" FOLDED="true" ID="ID_1263987304" CREATED="1592054774663" MODIFIED="1592054814898">
+<edge COLOR="#808080"/>
+<node FOLDED="true" ID="ID_1301372506" CREATED="1592054808023" MODIFIED="1592055058837"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The distribution of the unlabeled data tell us something.<br/>(<b>Usually with some assumption</b>)
+    </p>
+    <p>
+      <i>如果 assumption 不合理, Semi-supervised learning 则可能是负向左右</i>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<edge COLOR="#808080"/>
+<font BOLD="false"/>
+<node TEXT="semi-supervised-intro.png" ID="ID_464070802" CREATED="1592054863545" MODIFIED="1592054868756">
+<hook URI="Machine%20Learning_files/semi-supervised-intro.png" SIZE="1.0" NAME="ExternalObject"/>
+<edge COLOR="#808080"/>
+</node>
 </node>
 </node>
 </node>
@@ -1129,14 +1170,11 @@
 <edge COLOR="#808080"/>
 </node>
 </node>
-<node TEXT="Reinforcement Learning" FOLDED="true" ID="ID_1589018726" CREATED="1565622288664" MODIFIED="1584717762583">
-<edge COLOR="#808080"/>
-<node TEXT="A computer program interacts with a dynamic environment in which it must perform a certain goal (such as driving a vehicleor playing a game against an opponent). The program is provided feedback in terms of rewards and punishments as it navigates its problem space" ID="ID_1924708234" CREATED="1565622288664" MODIFIED="1584717762583">
+<node TEXT="Reinforcement Learning" ID="ID_1589018726" CREATED="1565622288664" MODIFIED="1584717762583">
 <edge COLOR="#808080"/>
 </node>
 </node>
-</node>
-<node TEXT="" FOLDED="true" ID="ID_1053071426" CREATED="1565622631882" MODIFIED="1584717762584">
+<node TEXT="" FOLDED="true" ID="ID_1053071426" CREATED="1565622631882" MODIFIED="1589533143852">
 <edge COLOR="#808080"/>
 <node TEXT="Generative Methods" FOLDED="true" ID="ID_1436859427" CREATED="1565622636999" MODIFIED="1584717762584">
 <edge COLOR="#808080"/>
@@ -1180,7 +1218,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Discriminative Methods" FOLDED="true" ID="ID_1183693317" CREATED="1565622636999" MODIFIED="1584717762588">
+<node TEXT="Discriminative Methods" FOLDED="true" ID="ID_1183693317" CREATED="1565622636999" MODIFIED="1589533143851">
 <edge COLOR="#808080"/>
 <node TEXT="Directly estimate posterior probabilities. No attempt to model underlying probability istributions. Focus computational resources on given task– better performance" ID="ID_401203301" CREATED="1565622637015" MODIFIED="1584717762588">
 <edge COLOR="#808080"/>
@@ -1795,8 +1833,9 @@
 <edge COLOR="#808080"/>
 <node TEXT="1. 学习每个点与其周围K(超参)个点的关系 $w_{ij}$" FOLDED="true" ID="ID_130092108" CREATED="1587133600889" MODIFIED="1587135315768" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
-<node TEXT="LLE-alg-1.png" ID="ID_1719940062" CREATED="1587133618463" MODIFIED="1587133680195">
+<node TEXT="LLE-alg-1.png" ID="ID_1719940062" CREATED="1587133618463" MODIFIED="1589531525962">
 <hook URI="Machine%20Learning_files/LLE-alg-1.png" SIZE="1.0" NAME="ExternalObject"/>
+<edge COLOR="#808080"/>
 </node>
 </node>
 <node TEXT="2. 固定上一步学到的所有 $w_{ij}$, 最小化  $\sum_i||z^i - \sum_j w_{ij}z^j||$, 产生的数据集 $\{z^i\}$, 就是新的数据" FOLDED="true" ID="ID_1809710183" CREATED="1587133798059" MODIFIED="1587135315768" FORMAT="latexPatternFormat">
@@ -1808,8 +1847,12 @@
 </node>
 <node TEXT="problem" FOLDED="true" ID="ID_791935878" CREATED="1587135088706" MODIFIED="1587135315769">
 <edge COLOR="#808080"/>
-<node TEXT="Similar data are close, but different data may collapse(相似样本点落到一起, 但是不同样本也会叠到一起)" ID="ID_1443423045" CREATED="1587135099761" MODIFIED="1587135315766">
+<node TEXT="Similar data are close, but different data may collapse(相似样本点落到一起, 但是不同样本也会叠到一起)" FOLDED="true" ID="ID_1443423045" CREATED="1587135099761" MODIFIED="1587135315766">
 <edge COLOR="#808080"/>
+<node TEXT="LLE-data-collapse.png" ID="ID_1114216923" CREATED="1589532454124" MODIFIED="1589532457798">
+<hook URI="Machine%20Learning_files/LLE-data-collapse.png" SIZE="1.0" NAME="ExternalObject"/>
+<edge COLOR="#808080"/>
+</node>
 </node>
 </node>
 </node>
@@ -1855,6 +1898,13 @@
 </richcontent>
 <edge COLOR="#808080"/>
 </node>
+</node>
+</node>
+<node TEXT="效果" FOLDED="true" ID="ID_440661575" CREATED="1589533040562" MODIFIED="1589533063105">
+<edge COLOR="#808080"/>
+<node TEXT="t-SNE-res.png" ID="ID_1025308636" CREATED="1589533054577" MODIFIED="1589533063104">
+<hook URI="Machine%20Learning_files/t-SNE-res.png" SIZE="1.0" NAME="ExternalObject"/>
+<edge COLOR="#808080"/>
 </node>
 </node>
 </node>
@@ -1946,14 +1996,208 @@
 </node>
 </node>
 </node>
-<node TEXT="Learning Vector Quantization (LVQ)" ID="ID_544439473" CREATED="1565624972563" MODIFIED="1584717762638">
+<node TEXT="support vector machine (SVM)" LOCALIZED_STYLE_REF="styles.important" FOLDED="true" ID="ID_1772695711" CREATED="1589533513372" MODIFIED="1589798642282">
+<edge COLOR="#808080"/>
+<node TEXT="训练样本" FOLDED="true" ID="ID_90965433" CREATED="1589539397858" MODIFIED="1589539694377">
+<edge COLOR="#808080"/>
+<node TEXT="$\{x^{(i)}, y^{(i)}\}$ \\&#xa;$x$是特征，$y$ 是结果标签。\\&#xa;$i$ 表示第 $i$ 个样本, $i \in [1, n]$ \\&#xa;$y^{(i)} \in \{1, -1\}$" ID="ID_1518726642" CREATED="1589539561999" MODIFIED="1589539694375" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="Self-Organising Map (SOM)" ID="ID_1936465863" CREATED="1565624972563" MODIFIED="1584717762638">
+</node>
+<node TEXT="模型" FOLDED="true" ID="ID_473320976" CREATED="1589539031198" MODIFIED="1589540830152">
+<edge COLOR="#808080"/>
+<node TEXT="$h_{w,b}(x) = g(z) = g(w^Tx+b)$" FOLDED="true" ID="ID_520202533" CREATED="1589539037394" MODIFIED="1589540830152" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+<node TEXT="g(z)=&#xa;\left \{&#xa;\begin {align}&#xa;1; z \ge 0 \\&#xa;-1; z \lt 0&#xa;\end {align}&#xa;\right ." ID="ID_1126564049" CREATED="1589539122513" MODIFIED="1589539694377" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="Locally Weighted Learning (LWL)" ID="ID_1871140669" CREATED="1565624972563" MODIFIED="1584717762638">
+</node>
+</node>
+<node TEXT="两个间隔" FOLDED="true" ID="ID_509065046" CREATED="1589540173979" MODIFIED="1589540197658">
 <edge COLOR="#808080"/>
+<node TEXT="函数间隔" FOLDED="true" ID="ID_237650579" CREATED="1589539348055" MODIFIED="1589539694378">
+<edge COLOR="#808080"/>
+<node TEXT="$$ \hat \gamma^{(i)} = y^{(i)} (w^Tx^{(i)}  + b)$$" FOLDED="true" ID="ID_1135652012" CREATED="1589539726063" MODIFIED="1589539834914" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+<node TEXT="等价于&#xa;$$&#xa;|w^tx{(i)}+ b|&#xa;$$" ID="ID_254505748" CREATED="1589539872296" MODIFIED="1589540099562" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="点$(x^{(i)}, y^{(i)})$到 分割平面 距离 的 ||W|| 倍数" FOLDED="true" ID="ID_573312967" CREATED="1589540054206" MODIFIED="1589540099560" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+<node TEXT="svm-functional-margin.png" ID="ID_1879698824" CREATED="1589540159211" MODIFIED="1589787472794">
+<hook URI="Machine%20Learning_files/svm-functional-margin.png" SIZE="1.0" NAME="ExternalObject"/>
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="全局函数间隔" FOLDED="true" ID="ID_1329403919" CREATED="1589540532030" MODIFIED="1589540789585">
+<edge COLOR="#808080"/>
+<node TEXT="$$\hat \gamma = \min_{i\in[1, m]} \hat \gamma^{(i)}$$" FOLDED="true" ID="ID_798204827" CREATED="1589540544491" MODIFIED="1589788595730" FORMAT="latexPatternFormat">
+<node TEXT="在训练样本上分类正例和负例到分割平面距离最近的那个样本的函数间隔" ID="ID_1904677386" CREATED="1589540668147" MODIFIED="1589540789584">
+<edge COLOR="#808080"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="几何间隔" FOLDED="true" ID="ID_1278651156" CREATED="1589539357735" MODIFIED="1589540480593">
+<edge COLOR="#808080"/>
+<node TEXT="$$\gamma^{(i)} = y^{(i)}  \frac {w^Tx^{(i)}  + b}{|w|}$$" ID="ID_1611752875" CREATED="1589540296587" MODIFIED="1589540472594" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="点$(x^{(i)}, y^{(i)})$到 分割平面 距离 \\&#xa;归一化后的函数间隔" FOLDED="true" ID="ID_438408161" CREATED="1589540054206" MODIFIED="1589540480593" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+<node TEXT="svm-functional-margin.png" ID="ID_596517314" CREATED="1589540159211" MODIFIED="1589540789584">
+<hook URI="Machine%20Learning_files/svm-functional-margin.png" SIZE="1.0" NAME="ExternalObject"/>
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="全局结合间隔" FOLDED="true" ID="ID_408906240" CREATED="1589540735190" MODIFIED="1589540789585">
+<edge COLOR="#808080"/>
+<node TEXT="$$\gamma = \min_{i\in[1, m]} \gamma^{(i)}$$" FOLDED="true" ID="ID_1314053168" CREATED="1589540745641" MODIFIED="1589788639761" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+<node TEXT="在训练样本上分类正例和负例到分割平面距离最近的那个样本的几何间隔" ID="ID_1597569486" CREATED="1589540668147" MODIFIED="1589540789582">
+<edge COLOR="#808080"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="目标函数" FOLDED="true" ID="ID_1865988730" CREATED="1589540836425" MODIFIED="1589787385300">
+<edge COLOR="#808080"/>
+<node TEXT="几何间隔最大" ID="ID_119225343" CREATED="1589792790506" MODIFIED="1589792813236">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="\begin {align}&#xa;\max_{w, b} &amp; \;\; \gamma \\&#xa;\text{ s.t. } &amp; y^{(i)}(w^Tx^{(i)} + b) \ge \gamma, i\in [1, m] \\&#xa;&amp; \|w\| = 1&#xa;\end {align}" FOLDED="true" ID="ID_668078186" CREATED="1589791543059" MODIFIED="1589792635506" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+<node TEXT="等价与 \\&#xa;\begin {align}&#xa;\min_{w, b} &amp; \;\; \frac{1}{2}\|w\|^2 \\&#xa;\text{ s.t. } &amp; y^{(i)}(w^Tx^{(i)} + b) \ge 1, i\in [1, m] \\&#xa;\end {align}" ID="ID_963547155" CREATED="1589792705540" MODIFIED="1589797889269" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="引入核函数" FOLDED="true" ID="ID_802866047" CREATED="1589795509858" MODIFIED="1589796757862">
+<edge COLOR="#808080"/>
+<node TEXT="核函数" FOLDED="true" ID="ID_355948794" CREATED="1589793477654" MODIFIED="1589793955446">
+<edge COLOR="#808080"/>
+<node TEXT="定义" FOLDED="true" ID="ID_1785431245" CREATED="1589793937830" MODIFIED="1589793955445">
+<edge COLOR="#808080"/>
+<node TEXT="设$x,z \in X$, $X$属于 $R^{(n)}$ 空间,非线性函数 $\phi$ 将输入空间$X$到特征空间$F$的映射($F$为$m$维), 其中$F$属于$R^{(m)}$, 且 $n&lt;&lt;m$。核函数形式化定义为：\\&#xa;$$&#xa;K(x, z) = \phi(x)^T \phi(z)&#xa;$$" ID="ID_349058615" CREATED="1589793941098" MODIFIED="1589793955446" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="作用" FOLDED="true" ID="ID_1364741265" CREATED="1589795218922" MODIFIED="1589795434351">
+<edge COLOR="#808080"/>
+<node TEXT="样例可能存在线性不可分的情况，而将特征映射到高维空间后，往往就可分了" ID="ID_1353129388" CREATED="1589795223946" MODIFIED="1589795434351">
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="" FOLDED="true" ID="ID_687675658" CREATED="1589794338043" MODIFIED="1589795434352">
+<edge COLOR="#808080"/>
+<node TEXT="多项式核函数" FOLDED="true" ID="ID_492598753" CREATED="1589794339738" MODIFIED="1589795434352">
+<edge COLOR="#808080"/>
+<node TEXT="$k(x, z) = (x^Tz + c)^d$" ID="ID_910699805" CREATED="1589795070003" MODIFIED="1589795434352" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="高斯核函数" FOLDED="true" ID="ID_1641858104" CREATED="1589794354309" MODIFIED="1589795434352">
+<edge COLOR="#808080"/>
+<node TEXT="$$K(x, z) = \exp(-\frac{\|x-z\|^2}{2 \sigma^2})$$" ID="ID_1231468232" CREATED="1589794526981" MODIFIED="1589795434352" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="如果 $x$ 和 $z$ 很相近$(\|x − z\| \approx  0)$，那么核函数值为 1，如果 $x$ 和 $z$ 相差很大 $\|x − z\|  \gg 0$，那么核函数值约等于 0。由于这个函数类似于高斯分布，因此称为高斯核函数，也叫做径向基函数(Radial Basis Function  简称 RBF)。" ID="ID_1559112778" CREATED="1589794856117" MODIFIED="1589795434354" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="它能够把原始特征映射到无穷维。" ID="ID_1926225192" CREATED="1589794440102" MODIFIED="1589795434354">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="gaussian-kernel.png" ID="ID_553295615" CREATED="1589795425186" MODIFIED="1589795434351">
+<hook URI="Machine%20Learning_files/gaussian-kernel.png" SIZE="1.0" NAME="ExternalObject"/>
+<edge COLOR="#808080"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Hinge Loss: 松弛变量" FOLDED="true" ID="ID_825060700" CREATED="1589797629212" MODIFIED="1590467388073" LINK="#ID_1469695736">
+<edge COLOR="#808080"/>
+<node TEXT="解决线性不可分的情况" ID="ID_1897924387" CREATED="1589864470199" MODIFIED="1589864479416">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="svm-non-separable.png" ID="ID_1753551873" CREATED="1589797678690" MODIFIED="1589797830574">
+<hook URI="Machine%20Learning_files/svm-non-separable.png" SIZE="1.0" NAME="ExternalObject"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      一个离群点（可能是噪声）可以造成超平面的移动，间隔缩小，可见以前的模型对噪声非常敏感。再有甚者，如果离群点在另外一个类中，那么这时候就是线性不可分了。
+    </p>
+  </body>
+</html>
+</richcontent>
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="$$&#xa;\begin {align}&#xa;\min_{w, b} &amp; \;\; \frac{1}{2}\|w\|^2 + C\sum_{i=1}^m \xi_i \\&#xa;\text{ s.t. } &amp; y^{(i)}(w^Tx^{(i)} + b) \ge 1 - \xi_i, i\in [1, m] \\&#xa;&amp; xi_i \ge 0, i\in [1, m] \\&#xa;\end {align}&#xa;$$" ID="ID_1505234957" CREATED="1589798057305" MODIFIED="1589798085604" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+</node>
+</node>
+<node TEXT="求解用到的方法" FOLDED="true" ID="ID_849615692" CREATED="1589792877197" MODIFIED="1589793078943">
+<edge COLOR="#808080"/>
+<node TEXT="拉格朗日对偶（Lagrange duality）" ID="ID_1588360838" CREATED="1589792905557" MODIFIED="1589793282736" LINK="#ID_446260867">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="KKT条件" FOLDED="true" ID="ID_1275606180" CREATED="1589793039187" MODIFIED="1589793282738" LINK="#ID_395919799">
+<edge COLOR="#808080"/>
+<node TEXT="svm-kkt.png" ID="ID_1512663095" CREATED="1589798161980" MODIFIED="1589798224377">
+<hook URI="Machine%20Learning_files/svm-kkt.png" SIZE="1.0" NAME="ExternalObject"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      第一个式子表明在两条间隔线外的样本点前面的系数为 0，离群样本点前面的系数为 C，而支持向量（也就是在超平面两边的最大间隔线上）的样本点前面系数在(0,C)上。
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="SMO 优化算法（Sequential minimal optimization）" FOLDED="true" ID="ID_327847724" CREATED="1589798291117" MODIFIED="1589798337946">
+<edge COLOR="#808080"/>
+<node TEXT="SMO 算法由 Microsoft Research 的 John C. Platt 在 1998 年提出，并成为最快的二次规划优化算法，特别针对线性 SVM 和数据稀疏时性能更优。" ID="ID_1064725963" CREATED="1589798323791" MODIFIED="1589798337945">
+<edge COLOR="#808080"/>
+</node>
+</node>
+</node>
+<node TEXT="最优间隔分类器(optimal margin classifier)" FOLDED="true" ID="ID_1003638947" CREATED="1589796766661" MODIFIED="1589796804013">
+<edge COLOR="#808080"/>
+<node TEXT="$$&#xa;\begin {align}&#xa;w^Tx + b &amp;= \Big(\sum_{i=1}^m \alpha_i y^{(i)} x^{(i)} \Big)^T x + b \\&#xa; &amp;= \sum_{i=1}^m \alpha_i y^{(i)} &lt;x^{(i)}, x&gt; + b&#xa;\end {align}&#xa;$$" FOLDED="true" ID="ID_489915504" CREATED="1589796806180" MODIFIED="1589797476453" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+<node TEXT="$\alpha_i$ 为目标函数中(类似与拉格朗日乘数法)不等式约束项的系数, $\bf \alpha = {\alpha_1, \dots, \alpha_m}$称为支持向量" ID="ID_1100436416" CREATED="1589797414507" MODIFIED="1589797476453" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="按照模型定义: 要确定测试样本的类别, 首先根据 $w$ 和 $b$ 做一次线性运算，然后看求的结果是大于 0 还是小于 0,来判断正例还是负例。&#xa;\\&#xa;实际上有了$\alpha_i$, 我们不需要求出 $w$，只需将测试样本和训练数据中的所有样本做内积和即可." ID="ID_825773106" CREATED="1589797446773" MODIFIED="1589797476451" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="当模型中引入了核函数时, 只需要将 只需将&lt;x^{(i)},x&gt;替换成K(x^{(i)}, x) 即可." ID="ID_1905931971" CREATED="1589798412325" MODIFIED="1589798600581" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="与 logistic regression 的区别" FOLDED="true" ID="ID_920967443" CREATED="1589787653475" MODIFIED="1589787844144">
+<edge COLOR="#808080"/>
+<node TEXT="logistic regression, 要求所有的点都尽量远离分割超平面.&#xa;即. 已经远离的点可能通过调整中间线使其能够更加远离." ID="ID_1859173501" CREATED="1589788061818" MODIFIED="1589788452999">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="SVM 更应该关心靠近分割超平面的点，希望这些点尽可能地远分割超平面, 不考虑远离分割超平面的点.&#xa;即. 只考虑局部最优（不关心已经确定远离的点）" ID="ID_1359808524" CREATED="1589787877700" MODIFIED="1589788452998">
+<edge COLOR="#808080"/>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="Tree Based" FOLDED="true" ID="ID_1644028801" CREATED="1566832837765" MODIFIED="1584717762638">
@@ -2059,7 +2303,14 @@
 </node>
 <node TEXT="Gaussian-Mixture-Model" FOLDED="true" ID="ID_1673710128" CREATED="1570847894017" MODIFIED="1584717762642">
 <edge COLOR="#808080"/>
-<node TEXT="EM algorithm" ID="ID_1590156758" CREATED="1570847952635" MODIFIED="1584717762642">
+<node TEXT="gaussiam-mixture-model-alg.png" ID="ID_744768189" CREATED="1592055412280" MODIFIED="1592055479043">
+<hook URI="Machine%20Learning_files/gaussiam-mixture-model-alg.png" SIZE="0.75" NAME="ExternalObject"/>
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="求解算法: EM algorithm" ID="ID_1590156758" CREATED="1570847952635" MODIFIED="1592055470970" LINK="https://weirping.github.io/blog/EM-algorithm.html">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="一种 生成模型" ID="ID_1207014062" CREATED="1592055489982" MODIFIED="1592055631415" LINK="#ID_1436859427">
 <edge COLOR="#808080"/>
 </node>
 </node>
