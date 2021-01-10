@@ -3,7 +3,7 @@
 <node TEXT="Machine Learning" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_850448724" CREATED="1564976333940" MODIFIED="1584718021920" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="10.0 pt" SHAPE_VERTICAL_MARGIN="10.0 pt">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <edge STYLE="sharp_bezier" COLOR="#808080" WIDTH="3"/>
-<hook NAME="MapStyle" zoom="1.01">
+<hook NAME="MapStyle" zoom="1.111">
     <conditional_styles>
         <conditional_style ACTIVE="true" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" LAST="false">
             <node_level_condition VALUE="0" COMPARATION_RESULT="0" SUCCEED="true"/>
@@ -206,7 +206,7 @@
 <edge COLOR="#808080"/>
 </node>
 <node TEXT="skew.png" ID="ID_52700205" CREATED="1587101180563" MODIFIED="1587101180567">
-<hook URI="Machine%20Learning_files/skew.png" SIZE="0.90361446" NAME="ExternalObject"/>
+<hook URI="Machine-Learning_files/skew.png" SIZE="0.90361446" NAME="ExternalObject"/>
 </node>
 <node TEXT="随机变量 \\&#xa;\mathrm{Skew}(\mathbf{X}) = E[(\frac{\mathbf{X}-\mu}{\sigma})^3] = \frac{E[(\mathbf{X}-\mu)^3]}{(E[(\mathbf{X}-\mu)^2])^{3/2}}=\frac{k_3}{k_2^{3/2}}" ID="ID_1899749159" CREATED="1565797172380" MODIFIED="1584717762465" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
@@ -221,7 +221,7 @@
 <edge COLOR="#808080"/>
 </node>
 <node TEXT="kurtosis2.jpg" ID="ID_1149276803" CREATED="1587101197447" MODIFIED="1587101197455">
-<hook URI="Machine%20Learning_files/kurtosis2.jpg" SIZE="1.0" NAME="ExternalObject"/>
+<hook URI="Machine-Learning_files/kurtosis2.jpg" SIZE="1.0" NAME="ExternalObject"/>
 </node>
 <node TEXT="随机变量 \\&#xa;\mathrm{Kurtosis}(\mathbf{X}) = E[(\frac{\mathbf{X}-\mu}{\sigma})^4] = \frac{E[(\mathbf{X}-\mu)^4]}{(E[(\mathbf{X}-\mu)^2])^{2}}" ID="ID_1918526915" CREATED="1565797567674" MODIFIED="1584717762473" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
@@ -328,7 +328,7 @@
 <node TEXT="In this method, as part of experimental design, before performing the experiment, one first chooses a model (the null hypothesis) and a threshold value for p, called the significance level of the test, traditionally 5% or 1% and denoted as α. If the p-value is less than the chosen significance level (α), that suggests that the observed data is sufficiently inconsistent with the null hypothesis that the null hypothesis may be rejected. However, that does not prove that the tested hypothesis is true. For typical analysis, using the standard α = 0.05 cutoff, the null hypothesis is rejected when p &lt; .05 and not rejected when p &gt; .05. The p-value does not, in itself, support reasoning about the probabilities of hypotheses but is only a tool for deciding whether to reject the null hypothesis." FOLDED="true" ID="ID_1354474469" CREATED="1565798744805" MODIFIED="1584717762487">
 <edge COLOR="#808080"/>
 <node TEXT="p-value.png" ID="ID_1178872914" CREATED="1587101215762" MODIFIED="1587101215765">
-<hook URI="Machine%20Learning_files/p-value.png" SIZE="0.7751938" NAME="ExternalObject"/>
+<hook URI="Machine-Learning_files/p-value.png" SIZE="0.7751938" NAME="ExternalObject"/>
 </node>
 </node>
 </node>
@@ -575,7 +575,7 @@
 <edge COLOR="#808080"/>
 </node>
 <node TEXT="cond-joint-entropy.png" ID="ID_1621817078" CREATED="1587101244974" MODIFIED="1587101244976">
-<hook URI="Machine%20Learning_files/cond-joint-entropy.png" SIZE="1.0" NAME="ExternalObject"/>
+<hook URI="Machine-Learning_files/cond-joint-entropy.png" SIZE="1.0" NAME="ExternalObject"/>
 </node>
 </node>
 <node TEXT="maximal information coefficient(MIC)" FOLDED="true" ID="ID_174098236" CREATED="1565952142277" MODIFIED="1584717762532">
@@ -671,7 +671,7 @@
 <node TEXT="Kernel Density Estimation" FOLDED="true" ID="ID_1831296815" CREATED="1565950798538" MODIFIED="1584717762534">
 <edge COLOR="#808080"/>
 <node TEXT="kernal.png" ID="ID_1035572151" CREATED="1587101262079" MODIFIED="1587101262082">
-<hook URI="Machine%20Learning_files/kernal.png" SIZE="0.7407407" NAME="ExternalObject"/>
+<hook URI="Machine-Learning_files/kernal.png" SIZE="0.7407407" NAME="ExternalObject"/>
 </node>
 </node>
 <node TEXT="Cubic Spline" FOLDED="true" ID="ID_1973314514" CREATED="1565950809680" MODIFIED="1584717762534">
@@ -767,7 +767,6 @@
 <edge COLOR="#808080"/>
 </node>
 </node>
-</node>
 <node TEXT="Cost/Loss(Min) Functions&#xa;Objective(Max) Functions" FOLDED="true" ID="ID_1959068725" CREATED="1565661787532" MODIFIED="1586754839295">
 <edge COLOR="#808080"/>
 <node TEXT="Maximum Likehook Estimator" FOLDED="true" ID="ID_53290021" CREATED="1565661969652" MODIFIED="1586754836298" LINK="https://weirping.github.io/blog/Maximum-Likehook-Estimator-Cost-Functions.html">
@@ -799,7 +798,7 @@
 <node TEXT="note: 在分类问题中也可以使用Mean Squared Error (MSE) 和 sum-of-squares error function作为损失函数. 但是cross-entropy error 的梯度下降速度更快." FOLDED="true" ID="ID_1697940" CREATED="1586754367769" MODIFIED="1586754836295" LINK="http://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf">
 <edge COLOR="#808080"/>
 <node TEXT="cross-entropy-vs-MSE.png" ID="ID_463605189" CREATED="1587101289310" MODIFIED="1587101289313">
-<hook URI="Machine%20Learning_files/cross-entropy-vs-MSE.png" SIZE="1.0" NAME="ExternalObject"/>
+<hook URI="Machine-Learning_files/cross-entropy-vs-MSE.png" SIZE="1.0" NAME="ExternalObject"/>
 </node>
 </node>
 </node>
@@ -815,8 +814,9 @@
 <edge COLOR="#808080"/>
 </node>
 <node TEXT="hinge-loss-function.png" ID="ID_1809358399" CREATED="1590467261429" MODIFIED="1590467264960">
-<hook URI="Machine%20Learning_files/hinge-loss-function.png" SIZE="1.0" NAME="ExternalObject"/>
+<hook URI="Machine-Learning_files/hinge-loss-function.png" SIZE="1.0" NAME="ExternalObject"/>
 <edge COLOR="#808080"/>
+</node>
 </node>
 </node>
 </node>
@@ -882,7 +882,7 @@
 <node TEXT="Confusion Matrix based" FOLDED="true" ID="ID_1386292206" CREATED="1565608776077" MODIFIED="1584717762556" LINK="https://weirping.github.io/blog/Precision-Recall-F1Score-ROC-AUC.html">
 <edge COLOR="#808080"/>
 <node TEXT="Confusion-Matrix .png" ID="ID_75844134" CREATED="1587101317675" MODIFIED="1587101317679">
-<hook URI="Machine%20Learning_files/Confusion-Matrix%20.png" SIZE="0.8902077" NAME="ExternalObject"/>
+<hook URI="Machine-Learning_files/Confusion-Matrix%20.png" SIZE="0.8902077" NAME="ExternalObject"/>
 </node>
 <node TEXT="Accuracy" FOLDED="true" ID="ID_1914115541" CREATED="1565606620568" MODIFIED="1584717762557">
 <edge COLOR="#808080"/>
@@ -1079,17 +1079,11 @@
 </node>
 <node TEXT="" FOLDED="true" ID="ID_193310527" CREATED="1565622019749" MODIFIED="1584717762579">
 <edge COLOR="#808080"/>
-<node TEXT="Parametric" FOLDED="true" ID="ID_896417188" CREATED="1565622059846" MODIFIED="1584717762579">
-<edge COLOR="#808080"/>
-<node TEXT="Step 1: Making an assumption about the functional form or shape of our function (f), i.e.: f is linear, thus we will select a linear model.Step 2: Selecting a procedure to fit or train our model. This means estimating the Beta parameters in the linear function." ID="ID_37615" CREATED="1565622059846" MODIFIED="1584717762579">
+<node TEXT="Parametric" ID="ID_896417188" CREATED="1565622059846" MODIFIED="1584717762579">
 <edge COLOR="#808080"/>
 </node>
-</node>
-<node TEXT="Non-Parametric" FOLDED="true" ID="ID_1866487245" CREATED="1565622059846" MODIFIED="1584717762580">
+<node TEXT="Non-Parametric" ID="ID_1866487245" CREATED="1565622059846" MODIFIED="1584717762580">
 <edge COLOR="#808080"/>
-<node TEXT="When we do not make assumptions about the form of our function (f). However, since these methods do not reduce the problem of estimating f to a small number of parameters, a large number of observations is required in order to obtain an accurate estimate for f. An example would be the thin-plate spline model." ID="ID_595444079" CREATED="1565622059846" MODIFIED="1584717762580">
-<edge COLOR="#808080"/>
-</node>
 </node>
 </node>
 <node TEXT="" FOLDED="true" ID="ID_1739191734" CREATED="1565622283726" MODIFIED="1592055538527">
@@ -1123,7 +1117,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <edge COLOR="#808080"/>
 </node>
@@ -1137,7 +1130,7 @@
 </node>
 <node TEXT="基本思想" FOLDED="true" ID="ID_1263987304" CREATED="1592054774663" MODIFIED="1592054814898">
 <edge COLOR="#808080"/>
-<node FOLDED="true" ID="ID_1301372506" CREATED="1592054808023" MODIFIED="1592055058837"><richcontent TYPE="NODE">
+<node FOLDED="true" ID="ID_1301372506" CREATED="1592054808023" MODIFIED="1609000421716"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -1152,15 +1145,43 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <edge COLOR="#808080"/>
 <font BOLD="false"/>
 <node TEXT="semi-supervised-intro.png" ID="ID_464070802" CREATED="1592054863545" MODIFIED="1592054868756">
-<hook URI="Machine%20Learning_files/semi-supervised-intro.png" SIZE="1.0" NAME="ExternalObject"/>
+<hook URI="Machine-Learning_files/semi-supervised-intro.png" SIZE="1.0" NAME="ExternalObject"/>
 <edge COLOR="#808080"/>
 </node>
 </node>
+</node>
+</node>
+<node TEXT="assumption &amp; approches" FOLDED="true" ID="ID_1496536520" CREATED="1609000409796" MODIFIED="1609001979361">
+<edge COLOR="#808080"/>
+<node TEXT="Semi-supervised Learning for Generative Model" FOLDED="true" ID="ID_1745536704" CREATED="1609000525284" MODIFIED="1609001979361">
+<edge COLOR="#808080"/>
+<node TEXT="Generative Model example" ID="ID_1684135380" CREATED="1609001877182" MODIFIED="1609001979361" LINK="#ID_12656461">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="二分类的例子" FOLDED="true" ID="ID_332382388" CREATED="1609601548006" MODIFIED="1609601907004">
+<edge COLOR="#808080"/>
+<node TEXT="semi-supervised-generative-model-example.png" ID="ID_923017073" CREATED="1609601854105" MODIFIED="1609601902248">
+<hook URI="Machine-Learning_files/semi-supervised-generative-model-example.png" SIZE="0.74254286" NAME="ExternalObject"/>
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="求解理论思路: &#xa;\\&#xa;在数据集labeled data 和 unlabeled data上最大化如下似然函数:&#xa;\\&#xa;$\log L(\theta) = \sum_{x^r} \log P_{\theta}(x^r, \hat{y}^r) + \sum_{x^u} \log P_{\theta}(x^u | C_2)P(C_2)$&#xa;\\&#xa;$P_{\theta}(x^{u}) = P_{\theta}(x^{u} | C_1)P(C_1) + P_{\theta}(x^{u} | C_2)P(C_2)$" ID="ID_919089147" CREATED="1609602357335" MODIFIED="1609603018750" FORMAT="latexPatternFormat"/>
+<node TEXT="求解算法:&#xa;\\&#xa;- Given **labelled** training examples $x^{r} \in C_1, C_2$&#xa;\\&#xa;- looking for most likely prior probability $P(C_i)$ and classdependent probability $P(x|C_i)$&#xa;\\&#xa;- $P(x|C_i)$ is a Gaussian parameterized by $\mu_i$ and $\Sigma$&#xa;\\&#xa;- with **unlabeled** data $x^u$  re-estimate $P(C_1),  P(C_2), \mu_1, \mu_2, \Sigma$;&#xa;\\&#xa;- 使用EM算法做re-esttimate:&#xa;- Initializstion $\theta = \{P(C_1),  P(C_2), \mu_1, \mu_2, \Sigma\}$; 也可以使用 $x^{r}$ 训练出的 $\theta$ 作为初始值;&#xa;- E- step: compute the posterior probability of unlabeled data $P_{\theta} (C_1 | x^{u}), P_{\theta} (C_2 | x^{u})$;&#xa;\\&#xa;- M-step: update $\theta = \{P(C_1),  P(C_2), \mu_1, \mu_2, \Sigma\}$ with posterior probability:&#xa;\\&#xa;$P(C_1) = \frac{N_1 + \sum_{x^{u} }  P_{\theta} (C_1 | x^{u}) }{N}$&#xa;\\&#xa;$\mu_1 = \frac{1}{N_1}\sum_{x^{r} \in C_1}x^{r} + \frac{1}{\sum_{x^{u}}P(C_1 | x^{u})}\sum_{x^{u}}P(C_1 | x^{u})x^{u}$&#xa;\\&#xa;$P(C_2) = \frac{N_2 + \sum_{x^{u} }  P_{\theta} (C_2 | x^{u}) }{N}$&#xa;\\&#xa;$\mu_2 = \frac{1}{N_2}\sum_{x^{r} \in C_2}x^{r} + \frac{1}{\sum_{x^{u}}P(C_2 | x^{u})}\sum_{x^{u}}P(C_2 | x^{u})x^{u}$&#xa;\\&#xa;$N$: total number of examples&#xa;\\&#xa;$N_1$: number of examples belonging to $C_1$&#xa;\\&#xa;$N_2$: number of examples belonging to $C_2$&#xa;\\&#xa;- Back to E-step." ID="ID_1006036911" CREATED="1609601566845" MODIFIED="1609603051879" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+</node>
+</node>
+<node TEXT="Low-density Separation Assumption" ID="ID_1339155825" CREATED="1609000525284" MODIFIED="1609001979361">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="Smoothness Assumption" ID="ID_983001424" CREATED="1609000525284" MODIFIED="1609001979361">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="Better Representation" ID="ID_1523418622" CREATED="1609000525284" MODIFIED="1609001979361">
+<edge COLOR="#808080"/>
 </node>
 </node>
 </node>
@@ -1202,9 +1223,6 @@
 <edge COLOR="#808080"/>
 </node>
 </node>
-<node TEXT="Model class-conditional pdfs and prior probabilities. “Generative” since sampling can generate synthetic data points." ID="ID_877717254" CREATED="1565622636999" MODIFIED="1584717762584">
-<edge COLOR="#808080"/>
-</node>
 <node TEXT="Popular models" FOLDED="true" ID="ID_1200086278" CREATED="1565622636999" MODIFIED="1584717762584">
 <edge COLOR="#808080"/>
 <node TEXT="Mixtures of Gaussians, Mixtures of experts, Hidden Markov Models(HMM)" ID="ID_522440271" CREATED="1565622636999" MODIFIED="1584717762584">
@@ -1215,6 +1233,28 @@
 </node>
 <node TEXT="Sigmoidal belief networks, Bayesian networks, Markov random fields" ID="ID_1034377781" CREATED="1565622636999" MODIFIED="1584717762587">
 <edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="example" FOLDED="true" ID="ID_1985450469" CREATED="1609000789555" MODIFIED="1609001866230"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      二分类问题
+    </p>
+  </body>
+</html>
+</richcontent>
+<edge COLOR="#808080"/>
+<node TEXT="- Given labelled training examples $x \in C_1, C_2$&#xa;\\&#xa;- looking for most likely prior probability $P(C_i)$ and classdependent probability $P(x|C_i)$&#xa;\\&#xa;- $P(x|C_i)$ is a Gaussian parameterized by $\mu_i$ and $\Sigma$&#xa;\\&#xa;- With $P(C_1),  P(C_2), \mu_1, \mu_2, \Sigma$&#xa;\\&#xa;$$P(C_1 | x) = \frac{P(x|C_1)  P(C_1)}{P(x|C_1)  P(C_1) + P(x|C_2)  P(C_2)}$$" FOLDED="true" ID="ID_12656461" CREATED="1609001119465" MODIFIED="1609001866230" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+<node TEXT="class-example-Generative.png" ID="ID_1674928673" CREATED="1609001758044" MODIFIED="1609001866245">
+<hook URI="Machine-Learning_files/class-example-Generative.png" SIZE="0.8746356" NAME="ExternalObject"/>
+<edge COLOR="#808080"/>
+</node>
 </node>
 </node>
 </node>
@@ -1262,7 +1302,7 @@
 <node TEXT="Data Type" FOLDED="true" ID="ID_1304240173" CREATED="1565148775374" MODIFIED="1584717762590">
 <edge COLOR="#808080"/>
 <node TEXT="attribute-type.png" ID="ID_1633864227" CREATED="1587101339474" MODIFIED="1588157718697">
-<hook URI="Machine%20Learning_files/attribute-type.png" SIZE="0.5208333" NAME="ExternalObject"/>
+<hook URI="Machine-Learning_files/attribute-type.png" SIZE="0.5208333" NAME="ExternalObject"/>
 <edge COLOR="#808080"/>
 </node>
 </node>
@@ -1834,14 +1874,14 @@
 <node TEXT="1. 学习每个点与其周围K(超参)个点的关系 $w_{ij}$" FOLDED="true" ID="ID_130092108" CREATED="1587133600889" MODIFIED="1587135315768" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
 <node TEXT="LLE-alg-1.png" ID="ID_1719940062" CREATED="1587133618463" MODIFIED="1589531525962">
-<hook URI="Machine%20Learning_files/LLE-alg-1.png" SIZE="1.0" NAME="ExternalObject"/>
+<hook URI="Machine-Learning_files/LLE-alg-1.png" SIZE="1.0" NAME="ExternalObject"/>
 <edge COLOR="#808080"/>
 </node>
 </node>
 <node TEXT="2. 固定上一步学到的所有 $w_{ij}$, 最小化  $\sum_i||z^i - \sum_j w_{ij}z^j||$, 产生的数据集 $\{z^i\}$, 就是新的数据" FOLDED="true" ID="ID_1809710183" CREATED="1587133798059" MODIFIED="1587135315768" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
 <node TEXT="LLE-alg-2.png" ID="ID_661731954" CREATED="1587134060376" MODIFIED="1587135315769">
-<hook URI="Machine%20Learning_files/LLE-alg-2.png" SIZE="1.0" NAME="ExternalObject"/>
+<hook URI="Machine-Learning_files/LLE-alg-2.png" SIZE="1.0" NAME="ExternalObject"/>
 <edge COLOR="#808080"/>
 </node>
 </node>
@@ -1850,7 +1890,7 @@
 <node TEXT="Similar data are close, but different data may collapse(相似样本点落到一起, 但是不同样本也会叠到一起)" FOLDED="true" ID="ID_1443423045" CREATED="1587135099761" MODIFIED="1587135315766">
 <edge COLOR="#808080"/>
 <node TEXT="LLE-data-collapse.png" ID="ID_1114216923" CREATED="1589532454124" MODIFIED="1589532457798">
-<hook URI="Machine%20Learning_files/LLE-data-collapse.png" SIZE="1.0" NAME="ExternalObject"/>
+<hook URI="Machine-Learning_files/LLE-data-collapse.png" SIZE="1.0" NAME="ExternalObject"/>
 <edge COLOR="#808080"/>
 </node>
 </node>
@@ -1859,7 +1899,7 @@
 <node TEXT="T-distributed Stochastic Neighbor Embedding (t-SNE)" FOLDED="true" ID="ID_615212784" CREATED="1587134901078" MODIFIED="1587135315769">
 <edge COLOR="#808080"/>
 <node TEXT="t-SNE-alg.png" ID="ID_211145827" CREATED="1587135709027" MODIFIED="1587137199542">
-<hook URI="Machine%20Learning_files/t-SNE-alg.png" SIZE="1.0" NAME="ExternalObject"/>
+<hook URI="Machine-Learning_files/t-SNE-alg.png" SIZE="1.0" NAME="ExternalObject"/>
 <edge COLOR="#808080"/>
 </node>
 <node TEXT="相似度计算公式" FOLDED="true" ID="ID_1833629384" CREATED="1587136294582" MODIFIED="1587137199543">
@@ -1873,7 +1913,7 @@
 <node TEXT="采用不同相似度度量原因" FOLDED="true" ID="ID_626146148" CREATED="1587136811131" MODIFIED="1587137199548">
 <edge COLOR="#808080"/>
 <node TEXT="t-SNE-sim-func.png" ID="ID_1537026735" CREATED="1587136614236" MODIFIED="1587137199530">
-<hook URI="Machine%20Learning_files/t-SNE-sim-func.png" SIZE="1.0" NAME="ExternalObject"/>
+<hook URI="Machine-Learning_files/t-SNE-sim-func.png" SIZE="1.0" NAME="ExternalObject"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -1903,7 +1943,7 @@
 <node TEXT="效果" FOLDED="true" ID="ID_440661575" CREATED="1589533040562" MODIFIED="1589533063105">
 <edge COLOR="#808080"/>
 <node TEXT="t-SNE-res.png" ID="ID_1025308636" CREATED="1589533054577" MODIFIED="1589533063104">
-<hook URI="Machine%20Learning_files/t-SNE-res.png" SIZE="1.0" NAME="ExternalObject"/>
+<hook URI="Machine-Learning_files/t-SNE-res.png" SIZE="1.0" NAME="ExternalObject"/>
 <edge COLOR="#808080"/>
 </node>
 </node>
@@ -1916,7 +1956,7 @@
 <node TEXT="Auto-Encoders" FOLDED="true" ID="ID_1481805563" CREATED="1566538011839" MODIFIED="1587137310033" LINK="https://weirping.github.io/blog/AutoEncoder.html">
 <edge COLOR="#808080"/>
 <node TEXT="Auto-Encoders.png" ID="ID_511756126" CREATED="1587137709393" MODIFIED="1587137726264">
-<hook URI="Machine%20Learning_files/Auto-Encoders.png" SIZE="0.94043887" NAME="ExternalObject"/>
+<hook URI="Machine-Learning_files/Auto-Encoders.png" SIZE="0.94043887" NAME="ExternalObject"/>
 <edge COLOR="#808080"/>
 </node>
 <node TEXT="The aim of an autoencoder is to learn a representation (encoding) for a set of data, typically for the purpose of dimensionality reduction." ID="ID_448821999" CREATED="1567950999755" MODIFIED="1587137638916" VSHIFT_QUANTITY="2.2499999329447764 pt">
@@ -1961,7 +2001,7 @@
 <node TEXT="思想" FOLDED="true" ID="ID_844014913" CREATED="1588661929883" MODIFIED="1588661983197">
 <edge COLOR="#808080"/>
 <node TEXT="knn-alg.png" ID="ID_1702843084" CREATED="1588661967654" MODIFIED="1588661983213">
-<hook URI="Machine%20Learning_files/knn-alg.png" SIZE="1.0" NAME="ExternalObject"/>
+<hook URI="Machine-Learning_files/knn-alg.png" SIZE="1.0" NAME="ExternalObject"/>
 <edge COLOR="#808080"/>
 </node>
 <node TEXT="如果一个样本在特征空间中的k个最邻近的样本中的大多数属于某一个类别，则该样本也划分为这个类别。" ID="ID_1646067006" CREATED="1588661839076" MODIFIED="1588661983197">
@@ -2026,7 +2066,7 @@
 <node TEXT="点$(x^{(i)}, y^{(i)})$到 分割平面 距离 的 ||W|| 倍数" FOLDED="true" ID="ID_573312967" CREATED="1589540054206" MODIFIED="1589540099560" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
 <node TEXT="svm-functional-margin.png" ID="ID_1879698824" CREATED="1589540159211" MODIFIED="1589787472794">
-<hook URI="Machine%20Learning_files/svm-functional-margin.png" SIZE="1.0" NAME="ExternalObject"/>
+<hook URI="Machine-Learning_files/svm-functional-margin.png" SIZE="1.0" NAME="ExternalObject"/>
 <edge COLOR="#808080"/>
 </node>
 </node>
@@ -2047,7 +2087,7 @@
 <node TEXT="点$(x^{(i)}, y^{(i)})$到 分割平面 距离 \\&#xa;归一化后的函数间隔" FOLDED="true" ID="ID_438408161" CREATED="1589540054206" MODIFIED="1589540480593" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
 <node TEXT="svm-functional-margin.png" ID="ID_596517314" CREATED="1589540159211" MODIFIED="1589540789584">
-<hook URI="Machine%20Learning_files/svm-functional-margin.png" SIZE="1.0" NAME="ExternalObject"/>
+<hook URI="Machine-Learning_files/svm-functional-margin.png" SIZE="1.0" NAME="ExternalObject"/>
 <edge COLOR="#808080"/>
 </node>
 </node>
@@ -2109,7 +2149,7 @@
 <edge COLOR="#808080"/>
 </node>
 <node TEXT="gaussian-kernel.png" ID="ID_553295615" CREATED="1589795425186" MODIFIED="1589795434351">
-<hook URI="Machine%20Learning_files/gaussian-kernel.png" SIZE="1.0" NAME="ExternalObject"/>
+<hook URI="Machine-Learning_files/gaussian-kernel.png" SIZE="1.0" NAME="ExternalObject"/>
 <edge COLOR="#808080"/>
 </node>
 </node>
@@ -2122,7 +2162,7 @@
 <edge COLOR="#808080"/>
 </node>
 <node TEXT="svm-non-separable.png" ID="ID_1753551873" CREATED="1589797678690" MODIFIED="1589797830574">
-<hook URI="Machine%20Learning_files/svm-non-separable.png" SIZE="1.0" NAME="ExternalObject"/>
+<hook URI="Machine-Learning_files/svm-non-separable.png" SIZE="1.0" NAME="ExternalObject"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -2151,7 +2191,7 @@
 <node TEXT="KKT条件" FOLDED="true" ID="ID_1275606180" CREATED="1589793039187" MODIFIED="1589793282738" LINK="#ID_395919799">
 <edge COLOR="#808080"/>
 <node TEXT="svm-kkt.png" ID="ID_1512663095" CREATED="1589798161980" MODIFIED="1589798224377">
-<hook URI="Machine%20Learning_files/svm-kkt.png" SIZE="1.0" NAME="ExternalObject"/>
+<hook URI="Machine-Learning_files/svm-kkt.png" SIZE="1.0" NAME="ExternalObject"/>
 <richcontent TYPE="NOTE">
 
 <html>
@@ -2278,7 +2318,7 @@
 <node TEXT="Hierarchical Agglomerative Clustering (HAC)" FOLDED="true" ID="ID_555380159" CREATED="1587101822337" MODIFIED="1587101997632">
 <edge COLOR="#808080"/>
 <node TEXT="HAC-alg.png" ID="ID_600484901" CREATED="1587101959359" MODIFIED="1587101997635">
-<hook URI="Machine%20Learning_files/HAC-alg.png" SIZE="1.0" NAME="ExternalObject"/>
+<hook URI="Machine-Learning_files/HAC-alg.png" SIZE="1.0" NAME="ExternalObject"/>
 <edge COLOR="#808080"/>
 </node>
 </node>
@@ -2289,7 +2329,7 @@
 <edge COLOR="#808080"/>
 </node>
 <node TEXT="K-means-alg.png" ID="ID_1253007596" CREATED="1587100987804" MODIFIED="1587100987804">
-<hook URI="Machine%20Learning_files/K-means-alg.png" SIZE="0.74349445" NAME="ExternalObject"/>
+<hook URI="Machine-Learning_files/K-means-alg.png" SIZE="0.74349445" NAME="ExternalObject"/>
 </node>
 </node>
 <node TEXT="k-Medians" ID="ID_1837174793" CREATED="1565625266317" MODIFIED="1584717762642">
@@ -2304,7 +2344,7 @@
 <node TEXT="Gaussian-Mixture-Model" FOLDED="true" ID="ID_1673710128" CREATED="1570847894017" MODIFIED="1584717762642">
 <edge COLOR="#808080"/>
 <node TEXT="gaussiam-mixture-model-alg.png" ID="ID_744768189" CREATED="1592055412280" MODIFIED="1592055479043">
-<hook URI="Machine%20Learning_files/gaussiam-mixture-model-alg.png" SIZE="0.75" NAME="ExternalObject"/>
+<hook URI="Machine-Learning_files/gaussiam-mixture-model-alg.png" SIZE="0.75" NAME="ExternalObject"/>
 <edge COLOR="#808080"/>
 </node>
 <node TEXT="求解算法: EM algorithm" ID="ID_1590156758" CREATED="1570847952635" MODIFIED="1592055470970" LINK="https://weirping.github.io/blog/EM-algorithm.html">
@@ -2448,7 +2488,7 @@
 <edge COLOR="#808080"/>
 </node>
 <node TEXT="Choosing-the-right-estimator-in-scikit-learn.png" ID="ID_1728043440" CREATED="1587101392152" MODIFIED="1587101392157">
-<hook URI="Machine%20Learning_files/Choosing-the-right-estimator-in-scikit-learn.png" SIZE="0.42704627" NAME="ExternalObject"/>
+<hook URI="Machine-Learning_files/Choosing-the-right-estimator-in-scikit-learn.png" SIZE="0.42704627" NAME="ExternalObject"/>
 </node>
 </node>
 <node TEXT="Tuning" FOLDED="true" ID="ID_1360527308" CREATED="1565626276613" MODIFIED="1584717762677" LINK="https://weirping.github.io/blog/Hyperparameter-Tuning-in-Sklearn.html">

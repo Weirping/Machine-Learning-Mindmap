@@ -9,6 +9,6 @@
 
 
 
-![](Machine-Learning.png)
+![](Machine-Learning.jpg)
 
 ![](Deep-Learning.png)
