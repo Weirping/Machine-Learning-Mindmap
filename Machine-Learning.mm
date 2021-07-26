@@ -1,9 +1,9 @@
-<map version="freeplane 1.8.0">
+<map version="freeplane 1.9.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Machine Learning" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_850448724" CREATED="1564976333940" MODIFIED="1584718021920" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="10.0 pt" SHAPE_VERTICAL_MARGIN="10.0 pt">
+<node TEXT="Machine Learning" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_850448724" CREATED="1564976333940" MODIFIED="1584718021920" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <edge STYLE="sharp_bezier" COLOR="#808080" WIDTH="3"/>
-<hook NAME="MapStyle" zoom="1.111">
+<hook NAME="MapStyle">
     <conditional_styles>
         <conditional_style ACTIVE="true" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" LAST="false">
             <node_level_condition VALUE="0" COMPARATION_RESULT="0" SUCCEED="true"/>
@@ -15,11 +15,13 @@
     <properties fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
-<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="default" ICON_SIZE="12.0 pt" COLOR="#000000" STYLE="fork">
+<stylenode LOCALIZED_TEXT="default" ID="ID_1003543353" ICON_SIZE="12 pt" COLOR="#000000" STYLE="fork">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1003543353" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge COLOR="#808080"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
 <stylenode LOCALIZED_TEXT="defaultstyle.attributes">
@@ -30,6 +32,7 @@
 <edge STYLE="hide_edge"/>
 <cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
 </stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.selection" BACKGROUND_COLOR="#666666" STYLE="bubble" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#4e85f8"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="styles.topic" COLOR="#000000" STYLE="fork">
@@ -46,7 +49,7 @@
 </stylenode>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#ffffff" BACKGROUND_COLOR="#666666" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10.0 pt" SHAPE_VERTICAL_MARGIN="10.0 pt">
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#ffffff" BACKGROUND_COLOR="#666666" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
 <font SIZE="18" BOLD="true"/>
 <edge STYLE="bezier" COLOR="#808080"/>
 </stylenode>
@@ -154,7 +157,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Statistics" FOLDED="true" ID="ID_894832431" CREATED="1565942510925" MODIFIED="1584717762453">
+<node TEXT="Statistics" FOLDED="true" ID="ID_894832431" CREATED="1565942510925" MODIFIED="1614644756826">
 <edge COLOR="#808080"/>
 <node TEXT="Central Tendency" FOLDED="true" ID="ID_1461781768" CREATED="1565796221390" MODIFIED="1584717762454">
 <edge COLOR="#808080"/>
@@ -231,7 +234,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Relationship" FOLDED="true" ID="ID_1521377999" CREATED="1565661526690" MODIFIED="1584717762476">
+<node TEXT="Relationship" FOLDED="true" ID="ID_1521377999" CREATED="1565661526690" MODIFIED="1614644756823">
 <edge COLOR="#808080"/>
 <node TEXT="Correlation" FOLDED="true" ID="ID_386009637" CREATED="1565797736696" MODIFIED="1584717762477">
 <edge COLOR="#808080"/>
@@ -898,8 +901,7 @@
 </node>
 <node TEXT="f1 score" FOLDED="true" ID="ID_974688958" CREATED="1565607119147" MODIFIED="1584717762561">
 <edge COLOR="#808080"/>
-<node TEXT="Harmonic Mean of Precision and Recall" ID="ID_294186781" CREATED="1565607303306" MODIFIED="1584717762562"><richcontent TYPE="NOTE">
-
+<node TEXT="Harmonic Mean of Precision and Recall" ID="ID_294186781" CREATED="1565607303306" MODIFIED="1584717762562"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -909,8 +911,7 @@
       Precision and Recall &#30340;&#35843;&#21644;&#24179;&#22343;&#25968;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge COLOR="#808080"/>
 </node>
 </node>
@@ -1088,7 +1089,7 @@
 </node>
 <node TEXT="" FOLDED="true" ID="ID_1739191734" CREATED="1565622283726" MODIFIED="1592055538527">
 <edge COLOR="#808080"/>
-<node TEXT="Supervised" ID="ID_1250081931" CREATED="1565622288664" MODIFIED="1592055538526" HGAP_QUANTITY="15.499999955296518 pt" VSHIFT_QUANTITY="30.749999083578615 pt">
+<node TEXT="Supervised" ID="ID_1250081931" CREATED="1565622288664" MODIFIED="1592055538526" HGAP_QUANTITY="15.5 pt" VSHIFT_QUANTITY="30.75 pt">
 <edge COLOR="#808080"/>
 </node>
 <node TEXT="Semi-Supervised Learning" FOLDED="true" ID="ID_1815520531" CREATED="1587052890326" MODIFIED="1587138581124">
@@ -1194,6 +1195,268 @@
 <node TEXT="Reinforcement Learning" ID="ID_1589018726" CREATED="1565622288664" MODIFIED="1584717762583">
 <edge COLOR="#808080"/>
 </node>
+<node TEXT="Self-Supervised Learning" LOCALIZED_STYLE_REF="AutomaticLayout.level,4" FOLDED="true" ID="ID_811437685" CREATED="1564976333940" MODIFIED="1612847274991" STYLE="fork" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
+<hook NAME="NodeConditionalStyles">
+    <conditional_style ACTIVE="true" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" LAST="false">
+        <node_level_condition VALUE="1" COMPARATION_RESULT="0" SUCCEED="true"/>
+    </conditional_style>
+</hook>
+<edge WIDTH="3"/>
+<node TEXT="Background" FOLDED="true" ID="ID_1872385102" CREATED="1611111044578" MODIFIED="1611111057112">
+<node TEXT="监督学习" FOLDED="true" ID="ID_1948880922" CREATED="1611111068383" MODIFIED="1611111077391">
+<node TEXT="数据标注是监督学习中必不可少的步骤，这是耗时，费力且有噪声的。" ID="ID_477773118" CREATED="1611111132859" MODIFIED="1611111153956"/>
+</node>
+<node TEXT="无监督学习" FOLDED="true" ID="ID_551264401" CREATED="1611111164252" MODIFIED="1611111169840">
+<node TEXT="不依赖于人工注释，" ID="ID_764564541" CREATED="1611111216010" MODIFIED="1611111287278"/>
+<node TEXT="通常集中在数据良好表示（例如平滑度，稀疏性和分解）的预设先验上。" ID="ID_1159689471" CREATED="1611111287283" MODIFIED="1611111287284"/>
+<node TEXT="预设先验在某些情况下不太值得信赖，甚至是错误。" ID="ID_805038871" CREATED="1611111380447" MODIFIED="1611111462971"/>
+</node>
+<node TEXT="半监督学习" FOLDED="true" ID="ID_664652874" CREATED="1611111499638" MODIFIED="1611111507883">
+<node TEXT="The distribution of the unlabeled data tell us something. (Usually with some assumption)" ID="ID_1373098830" CREATED="1611111514825" MODIFIED="1611111625963"/>
+<node TEXT="如果 assumption 不合理, Semi-supervised learning 则可能是负向作用" ID="ID_481540982" CREATED="1611111625971" MODIFIED="1611111625973"/>
+</node>
+</node>
+<node TEXT="What" FOLDED="true" ID="ID_900617841" CREATED="1611110797549" MODIFIED="1611110809782">
+<node TEXT="自监督学习主要是利用辅助任务（pretext）从大规模的无监督数据中挖掘自身的监督信息，使用监督信息对网络进行训练，从而可以学习到对下游任务有价值的表征。" ID="ID_1197532150" CREATED="1611280560810" MODIFIED="1611280560810"/>
+<node TEXT="也就是说自监督学习的监督信息不是人工标注的，而是算法在大规模无监督数据中自动构造监督信息。" ID="ID_1351818189" CREATED="1611280560810" MODIFIED="1611280560810"/>
+<node TEXT="大多数时候，我们称之为无监督学习，严格上讲，他应该叫自监督学习" ID="ID_176266120" CREATED="1611280560818" MODIFIED="1611280560818"/>
+</node>
+<node TEXT="challenges" FOLDED="true" ID="ID_1625227179" CREATED="1611280769942" MODIFIED="1611281091006">
+<node TEXT="如何设计有效的辅助任务 pretext？" ID="ID_1161898936" CREATED="1611282319116" MODIFIED="1611282319116"/>
+<node TEXT="如何来评测它的有效性？" FOLDED="true" ID="ID_942135160" CREATED="1611282319116" MODIFIED="1611282319116">
+<node TEXT="主要由下游任务的性能来体现" FOLDED="true" ID="ID_778902683" CREATED="1611283145543" MODIFIED="1611283150120">
+<node TEXT="通过 Pretrain-Fintune 的模式" ID="ID_776791328" CREATED="1611283174237" MODIFIED="1611283179878"/>
+</node>
+<node TEXT="pretext 任务复杂度 越高， 模型效果越好" ID="ID_1975499897" CREATED="1611282979121" MODIFIED="1611284355613" LINK="#ID_1858810419"/>
+</node>
+</node>
+<node TEXT="How" FOLDED="true" ID="ID_1012042098" CREATED="1611110815211" MODIFIED="1611110817908">
+<node TEXT="基于上下文(Context Based)" FOLDED="true" ID="ID_1076032318" CREATED="1611282347532" MODIFIED="1612847356830">
+<node TEXT="NLP 中 Word2Vec" ID="ID_1060225511" CREATED="1611282399235" MODIFIED="1611282531094"/>
+<node TEXT="CV：通过一种名为 Jigsaw（拼图）[7] 的方式来构造辅助任务" FOLDED="true" ID="ID_670324492" CREATED="1611282531715" MODIFIED="1612847356830">
+<node TEXT="" ID="ID_1977326778" CREATED="1611282832935" MODIFIED="1611282832939">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="将一张图分成 9 个部分，然后通过预测这几个部分的相对位置来产生损失。" FOLDED="true" ID="ID_1711086740" CREATED="1611282697642" MODIFIED="1611282703791">
+<node TEXT="可以将一张图分成 9 个部分，然后通过预测这几个部分的相对位置来产生损失。比如我们输入这张图中的小猫的眼睛和右耳朵，期待让模型学习到猫的右耳朵是在脸部的右上方的，如果模型能很好的完成这个任务，那么我们就可以认为模型学习到的表征是具有语义信息的。" ID="ID_998463854" CREATED="1611282595418" MODIFIED="1611282599412"/>
+</node>
+<node TEXT="首先我们依然将图片分为 9 块，我们预先定义好 64 种排序方式。模型输入任意一种被打乱的序列，期待能够学习到这种序列的顺序属于哪个类(64分类)" FOLDED="true" ID="ID_1312036144" CREATED="1611282741799" MODIFIED="1611282749562">
+<node TEXT="上个工作相比，这个模型需要学习到更多的相对位置信息" ID="ID_1944051051" CREATED="1611282777181" MODIFIED="1611282782477"/>
+</node>
+<node TEXT="抠图模式" FOLDED="true" ID="ID_423521291" CREATED="1611283247018" MODIFIED="1611283254763">
+<node TEXT="就是我们随机的将图片中的一部分删掉，然后利用剩余的部分来预测扣掉的部分" ID="ID_1018808669" CREATED="1611283264391" MODIFIED="1611283268971"/>
+</node>
+<node TEXT="" ID="ID_693822645" CREATED="1611282832930" MODIFIED="1611282832935">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="使用更强的监督信息，或者说辅助任务越难，最后的性能越好" ID="ID_1858810419" CREATED="1611282832942" MODIFIED="1611282843535"/>
+</node>
+</node>
+</node>
+<node TEXT="基于时序(Temporal Based)" FOLDED="true" ID="ID_1249740258" CREATED="1611283362838" MODIFIED="1611283369884">
+<node TEXT="最能体现时序的数据类型就是视频" ID="ID_1895596119" CREATED="1611283438854" MODIFIED="1611283470929"/>
+<node TEXT="样本间其实也是具有很多约束关系的" ID="ID_341341671" CREATED="1611283471655" MODIFIED="1611283475780"/>
+</node>
+<node TEXT="基于对比（Contrastive Based）" FOLDED="true" ID="ID_1551044476" CREATED="1611283491436" MODIFIED="1611283503763">
+<node TEXT="通过学习对两个事物的相似或不相似进行编码来构建表征" ID="ID_325832613" CREATED="1611283531644" MODIFIED="1611283536050"/>
+<node TEXT="如， 一段视频中， 图像和声音的对应关系" ID="ID_646200267" CREATED="1611284230627" MODIFIED="1611284256048"/>
+</node>
+</node>
+<node TEXT="More" FOLDED="true" ID="ID_666386653" CREATED="1611112187854" MODIFIED="1611112193050">
+<node TEXT="找到合适的辅助任务（pretext）对于自监督学习是最需要解决的问题。" ID="ID_991521261" CREATED="1611283783199" MODIFIED="1611283783199"/>
+<node TEXT="数据和资源越多，自监督预训练的效果会更好（Bert, MoCo, SimCLR）。" ID="ID_1556131582" CREATED="1611283783199" MODIFIED="1611283783199"/>
+<node TEXT="自监督直接和具体任务的结合（Task Related Self-Supervised Learning）是个可探索的方向" ID="ID_1399205941" CREATED="1611283783204" MODIFIED="1611283783204"/>
+</node>
+</node>
+<node TEXT="主动学习&#xa;(Active Learning, AL)" LOCALIZED_STYLE_REF="AutomaticLayout.level,4" FOLDED="true" ID="ID_889594278" CREATED="1564976333940" MODIFIED="1622700594401" STYLE="fork" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
+<hook NAME="NodeConditionalStyles">
+    <conditional_style ACTIVE="true" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" LAST="false">
+        <node_level_condition VALUE="1" COMPARATION_RESULT="0" SUCCEED="true"/>
+    </conditional_style>
+</hook>
+<edge WIDTH="3"/>
+<node TEXT="Background" FOLDED="true" ID="ID_1375719455" CREATED="1611279268568" MODIFIED="1611279340226">
+<node ID="ID_1450279831" CREATED="1622619648592" MODIFIED="1622619658036"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>有监督学习和半监督学习，都需要一定数量的标注数据才能进行模型的训练。但是在实际的业务场景获得样本的成本较高，那么如何通过较少成本来获得较大价值的标注数据</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<font BOLD="false"/>
+</node>
+</node>
+<node TEXT="What" FOLDED="true" ID="ID_1529939881" CREATED="1611279340765" MODIFIED="1611279344897">
+<node TEXT="主动学习（Active Learning）的思路就是：通过机器学习的方法获取到那些比较“难”预测的样本数据，让人工再次确认和审核，然后将人工标注得到的数据再次使用有监督学习模型或者半监督学习模型进行训练，逐步提升模型的效果，将人工经验融入机器学习的模型中。" ID="ID_161873537" CREATED="1622619915697" MODIFIED="1622619919992"/>
+</node>
+<node TEXT="How" FOLDED="true" ID="ID_311436160" CREATED="1611279370912" MODIFIED="1611279374730">
+<node TEXT="流程" FOLDED="true" ID="ID_887884658" CREATED="1622620443331" MODIFIED="1622620493597">
+<node TEXT="Active-Learning.jpg" ID="ID_808006253" CREATED="1622700706104" MODIFIED="1622700706139">
+<hook URI="Machine-Learning_files/Active-Learning.jpg" SIZE="0.72551394" NAME="ExternalObject"/>
+</node>
+<node TEXT="1. 机器学习模型：包括机器学习模型的训练和预测两部分；&#xa;2. 待标注的数据候选集提取：依赖主动学习中的查询函数（Query Function）；&#xa;3. 人工标注：专家经验或者业务经验的提炼；&#xa;4. 获得候选集的标注数据：获得更有价值的样本数据；&#xa;5. 机器学习模型的更新：通过增量学习或者重新学习的方式更新模型，从而将人工标注的数据融入机器学习模型中，提升模型效果." ID="ID_611430977" CREATED="1622620310340" MODIFIED="1622620485347"/>
+</node>
+<node FOLDED="true" ID="ID_297067011" CREATED="1622620907577" MODIFIED="1622620907577"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(18, 18, 18); font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(18, 18, 18)" face="-apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif" size="15px">查询策略（Query Strategy Frameworks）</font></span>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_27390446" CREATED="1622620917934" MODIFIED="1622620917934"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(18, 18, 18); font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(18, 18, 18)" face="-apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif" size="15px">是主动学习的核心</font></span>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="分类" FOLDED="true" ID="ID_1350851856" CREATED="1622620921283" MODIFIED="1622620925681">
+<node TEXT="不确定性采样的查询（Uncertainty Sampling）" FOLDED="true" ID="ID_1857279661" CREATED="1622621040085" MODIFIED="1622621040085">
+<node TEXT="将模型中难以区分的样本数据提取出来，提供给业务专家或者标注人员进行标注" ID="ID_1327587217" CREATED="1622624161270" MODIFIED="1622624161270"/>
+<node TEXT="关键：如何描述样本或者数据的不确定性&#xa;有3种方法" FOLDED="true" ID="ID_1505938259" CREATED="1622624177991" MODIFIED="1622624287235">
+<node TEXT="置信度最低（Least Confident）" FOLDED="true" ID="ID_418373613" CREATED="1622624289560" MODIFIED="1622624289560">
+<node ID="ID_974658155" CREATED="1622624376306" MODIFIED="1622624388145"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(34, 34, 34); font-family: consolas, lucida console, courier new, monospace; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: pre-wrap; word-spacing: 0px; display: inline !important; float: none"><font color="rgb(34, 34, 34)" face="consolas, lucida console, courier new, monospace" size="12px">就是选择那些最大概率最小的样本进行标注</font></span>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="边缘采样（Margin Sampling）" FOLDED="true" ID="ID_344924916" CREATED="1622624289560" MODIFIED="1622624289560">
+<node ID="ID_1411887874" CREATED="1622624503206" MODIFIED="1622624512879"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(34, 34, 34); font-family: consolas, lucida console, courier new, monospace; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: pre-wrap; word-spacing: 0px; display: inline !important; float: none"><font color="rgb(34, 34, 34)" face="consolas, lucida console, courier new, monospace" size="12px">就是选择模型预测最大和第二大的概率差值最小的样本</font></span>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="熵方法（Entropy）" FOLDED="true" ID="ID_1732171721" CREATED="1622624289568" MODIFIED="1622624289568">
+<node ID="ID_1207229765" CREATED="1622624580656" MODIFIED="1622624580656"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(34, 34, 34); font-family: consolas, lucida console, courier new, monospace; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: pre-wrap; word-spacing: 0px; display: inline !important; float: none"><font color="rgb(34, 34, 34)" face="consolas, lucida console, courier new, monospace" size="12px">在二分类或者多分类的场景下，可以选择那些熵比较大的样本数据作为待定标注数据</font></span>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="基于委员会的查询（Query-By-Committee）" FOLDED="true" ID="ID_730031577" CREATED="1622621040085" MODIFIED="1622621040085">
+<node ID="ID_616152033" CREATED="1622624658137" MODIFIED="1622624658137"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(34, 34, 34); font-family: consolas, lucida console, courier new, monospace; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: pre-wrap; word-spacing: 0px; display: inline !important; float: none"><font color="rgb(34, 34, 34)" face="consolas, lucida console, courier new, monospace" size="12px">通过多个模型投票的模式，来选择出那些较“难”区分的样本数据</font></span>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="在 QBC（Query-By-Committee）的技术方案中，可以假设有 $C$ 个模型， 期参数分别是$\{\theta^{C}\}$, 并且这些模型都是通过数据集$L$训练得到的" ID="ID_198787477" CREATED="1622624698388" MODIFIED="1622626758864" FORMAT="latexPatternFormat"/>
+<node TEXT="样本选择方法" FOLDED="true" ID="ID_1746537460" CREATED="1622626911703" MODIFIED="1622626978046">
+<node TEXT="投票熵（Vote Entropy）：选择这些模型都无法区分的样本数据" FOLDED="true" ID="ID_484130572" CREATED="1622626922954" MODIFIED="1622626922954">
+<node TEXT="用熵来衡量样本数据被这些分类器区分的难易程度,如果这些分类器都把样本数据划分到某一类，则容易区分; 如果分类器把样本数据划分到多类，则表示难以区分，需要重点关注。" ID="ID_695032831" CREATED="1622627365901" MODIFIED="1622627365901"/>
+</node>
+<node TEXT="平均 KL 散度（Average Kullback-Leibler Divergence）：选择 KL 散度较大的样本数据" FOLDED="true" ID="ID_1849623892" CREATED="1622626922954" MODIFIED="1622626922954">
+<node TEXT="$x_{K L}^{*}=\operatorname{argmax}_{x} \frac{1}{C} \sum_{c=1}^{C} D\left(P_{\theta^{(c)}} \| P_{\mathcal{C}}\right)$ \\&#xa;\\&#xa;$P_{\mathcal{C}}\left(y_{i} \mid x\right)=\frac{1}{C} \sum_{c=1}^{C} P_{\theta^{(c)}}\left(y_{i} \mid x\right)$" ID="ID_132132382" CREATED="1622627511990" MODIFIED="1622627634706" FORMAT="latexPatternFormat"/>
+<node TEXT="其中C表示分类器的个数" ID="ID_126339850" CREATED="1622627525013" MODIFIED="1622627544155"/>
+</node>
+</node>
+</node>
+<node TEXT="基于模型变化期望的查询（Expected Model Change）" FOLDED="true" ID="ID_1685062421" CREATED="1622621040089" MODIFIED="1622621040089">
+<node ID="ID_1462948746" CREATED="1622627146610" MODIFIED="1622627173474"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(34, 34, 34); font-family: consolas, lucida console, courier new, monospace; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: pre-wrap; word-spacing: 0px; display: inline !important; float: none"><font color="rgb(34, 34, 34)" face="consolas, lucida console, courier new, monospace" size="12px">选择那些使得梯度变化最大的样本数据。</font></span>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="基于误差减少的查询（Expected Error Reduction）" FOLDED="true" ID="ID_1226090302" CREATED="1622621040091" MODIFIED="1622621040091">
+<node ID="ID_16185734" CREATED="1622627226522" MODIFIED="1622627226522"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(34, 34, 34); font-family: consolas, lucida console, courier new, monospace; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: pre-wrap; word-spacing: 0px; display: inline !important; float: none"><font color="rgb(34, 34, 34)" face="consolas, lucida console, courier new, monospace" size="12px">选择那些通过增加一个样本就使得 loss 函数减少最多的样本数据</font></span>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="基于方差减少的查询（Variance Reduction）" FOLDED="true" ID="ID_847954440" CREATED="1622621040094" MODIFIED="1622621040094">
+<node ID="ID_309010150" CREATED="1622627242298" MODIFIED="1622627242298"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(34, 34, 34); font-family: consolas, lucida console, courier new, monospace; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: pre-wrap; word-spacing: 0px; display: inline !important; float: none"><font color="rgb(34, 34, 34)" face="consolas, lucida console, courier new, monospace" size="12px">选择那些方差减少最多的样本数据。</font></span>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="基于密度权重的查询（Density-Weighted Methods）" FOLDED="true" ID="ID_1848003890" CREATED="1622621040095" MODIFIED="1622621040095">
+<node TEXT="对于那些分布在稠密区域的 且 难以区分的样本数据，进行人工/专家 标注的价值更大，于是，可以在使用不确定性采样或者 QBC 方法的时候，将样本数据的稠密性考虑进去。" ID="ID_531298006" CREATED="1622628060302" MODIFIED="1622628060302"/>
+<node TEXT="Density-Weighted-Methods-query.jpg" ID="ID_1971836619" CREATED="1622700806515" MODIFIED="1622700806548">
+<hook URI="Machine-Learning_files/Density-Weighted-Methods-query.jpg" SIZE="1.0" NAME="ExternalObject"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="conclusion" FOLDED="true" ID="ID_1882252657" CREATED="1611279375633" MODIFIED="1622621259413">
+<node TEXT="主动学习（Active Learning）关键在于如何选择出合适的标注候选集给人工进行标注，而选择的方法就是所谓的查询策略（Query Strategy）。" ID="ID_226366175" CREATED="1622621341634" MODIFIED="1622621341634"/>
+<node TEXT="查询策略可以基于单个机器学习模型，也可以基于多个机器学习模型，在实际使用的时候可以根据情况来决定。" ID="ID_1189507357" CREATED="1622621341634" MODIFIED="1622621341634"/>
+<node TEXT="主动学习都是为了降低标注成本，迅速提升模型效果而存在的。" ID="ID_877108972" CREATED="1622621341647" MODIFIED="1622621341647"/>
+</node>
+<node TEXT="tool kit" FOLDED="true" ID="ID_900771449" CREATED="1622622000042" MODIFIED="1622622006609">
+<node TEXT="modAL" ID="ID_687493873" CREATED="1622622017789" MODIFIED="1622622040506" LINK="https://github.com/modAL-python/modAL"/>
+</node>
+</node>
 </node>
 <node TEXT="" FOLDED="true" ID="ID_1053071426" CREATED="1565622631882" MODIFIED="1589533143852">
 <edge COLOR="#808080"/>
@@ -1207,8 +1470,7 @@
 <node TEXT="数据量: With the assumption of probability distribution, 数据量少时,Generative更有优势, 数据量大时 Discriminative 更有优势." ID="ID_1902859308" CREATED="1586755529850" MODIFIED="1586756110029">
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="Priors and class-dependent probabilities can be estimated from different sources." ID="ID_1054225220" CREATED="1586755926064" MODIFIED="1586756110031"><richcontent TYPE="NOTE">
-
+<node TEXT="Priors and class-dependent probabilities can be estimated from different sources." ID="ID_1054225220" CREATED="1586755926064" MODIFIED="1586756110031"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1218,8 +1480,7 @@
       &#29983;&#25104;&#27169;&#22411;&#30340;&#20808;&#39564;&#27010;&#29575;&#21644;&#27169;&#22411;&#38656;&#35201;&#20272;&#35745;&#30340;&#27010;&#29575;&#20351;&#29992;&#19981;&#21516;&#30340;&#25968;&#25454;&#28304;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge COLOR="#808080"/>
 </node>
 </node>
@@ -1235,8 +1496,7 @@
 <edge COLOR="#808080"/>
 </node>
 </node>
-<node TEXT="example" FOLDED="true" ID="ID_1985450469" CREATED="1609000789555" MODIFIED="1609001866230"><richcontent TYPE="NOTE">
-
+<node TEXT="example" FOLDED="true" ID="ID_1985450469" CREATED="1609000789555" MODIFIED="1609001866230"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1246,8 +1506,7 @@
       二分类问题
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge COLOR="#808080"/>
 <node TEXT="- Given labelled training examples $x \in C_1, C_2$&#xa;\\&#xa;- looking for most likely prior probability $P(C_i)$ and classdependent probability $P(x|C_i)$&#xa;\\&#xa;- $P(x|C_i)$ is a Gaussian parameterized by $\mu_i$ and $\Sigma$&#xa;\\&#xa;- With $P(C_1),  P(C_2), \mu_1, \mu_2, \Sigma$&#xa;\\&#xa;$$P(C_1 | x) = \frac{P(x|C_1)  P(C_1)}{P(x|C_1)  P(C_1) + P(x|C_2)  P(C_2)}$$" FOLDED="true" ID="ID_12656461" CREATED="1609001119465" MODIFIED="1609001866230" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
@@ -1278,18 +1537,97 @@
 </node>
 </node>
 </node>
-<node TEXT="Class Imbalance" FOLDED="true" ID="ID_68227767" CREATED="1566577032441" MODIFIED="1584717762590">
+<node TEXT="Class Imbalance" FOLDED="true" ID="ID_68227767" CREATED="1566577032441" MODIFIED="1614644956472">
 <edge COLOR="#808080"/>
 <node TEXT="分类问题中, 个类别的样本数据相差悬殊" ID="ID_1011399005" CREATED="1566577049257" MODIFIED="1584717762590">
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="解决方法" FOLDED="true" ID="ID_29068117" CREATED="1566577098755" MODIFIED="1584717762590">
+<node TEXT="解决方法" FOLDED="true" ID="ID_29068117" CREATED="1566577098755" MODIFIED="1614644956472">
 <edge COLOR="#808080"/>
-<node TEXT="过采样" ID="ID_1409740924" CREATED="1566577107357" MODIFIED="1584717762590">
+<node TEXT="过采样(over-sampling)" FOLDED="true" ID="ID_1409740924" CREATED="1566577107357" MODIFIED="1612768322881">
 <edge COLOR="#808080"/>
+<node FOLDED="true" ID="ID_454351798" CREATED="1612768299363" MODIFIED="1612768309978"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span class="fontstyle0">random over-sampling</span><br align="-webkit-auto" style="font-variant: normal; letter-spacing: normal; line-height: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px"/>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_872942675" CREATED="1612768434625" MODIFIED="1612768986252"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      随机过采样采取简单复制样本的策略来增加少数类样本，这样容易产生模型过拟合的问题，即使得模型学习到的信息过于Specific 而不够泛化(General)
+    </p>
+  </body>
+</html>
+</richcontent>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="3 3" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1532651447" STARTINCLINATION="369.74999 pt;0 pt;" ENDINCLINATION="369.74999 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
-<node TEXT="欠采样" ID="ID_773613534" CREATED="1566577117249" MODIFIED="1584717762590">
+</node>
+<node TEXT="SMOTEs" FOLDED="true" ID="ID_1532651447" CREATED="1612768366702" MODIFIED="1612768373953">
+<node TEXT="introduction" FOLDED="true" ID="ID_698532505" CREATED="1611279340765" MODIFIED="1612768595983">
+<node TEXT="它是随机过采样算法的一种改进方案;" ID="ID_288012994" CREATED="1612764722056" MODIFIED="1612764722056"/>
+<node TEXT="基本思想：对少数类样本进行分析并根据少数类样本人工合成新样本添加到数据集中" ID="ID_1865496044" CREATED="1612764722056" MODIFIED="1612764730561"/>
+</node>
+<node TEXT="How" FOLDED="true" ID="ID_1018895258" CREATED="1611279370912" MODIFIED="1612769158310">
+<node TEXT="SMOTE-Regular" FOLDED="true" ID="ID_628766964" CREATED="1612766163078" MODIFIED="1612766166923">
+<node TEXT="SMOTE-overview.png" ID="ID_1700094166" CREATED="1612846748296" MODIFIED="1612846748320">
+<hook URI="Machine-Learning_files/SMOTE-overview.png" SIZE="1.0" NAME="ExternalObject"/>
+</node>
+<node TEXT="方法" FOLDED="true" ID="ID_404196987" CREATED="1612769591008" MODIFIED="1612769602805">
+<node TEXT="generated new synthetic examples along&#xa;the line between the minority examples and their selected nearest neighbors" ID="ID_330151699" CREATED="1612769567900" MODIFIED="1612769573241"/>
+</node>
+<node TEXT="步骤" FOLDED="true" ID="ID_1114393943" CREATED="1612766244904" MODIFIED="1612766251009">
+<node TEXT="(1) 根据样本不平衡比例设置一个采样比例以确定采样倍率 $N$;" ID="ID_1763394904" CREATED="1612765297106" MODIFIED="1612765349132" FORMAT="latexPatternFormat"/>
+<node TEXT="(2)对于少数类中每一个样本$x_i$ ，以欧氏距离为标准计算它到少数类样本集中所有样本的距离，得到其 $k$ 近邻;" ID="ID_52065961" CREATED="1612765297106" MODIFIED="1612765335341" FORMAT="latexPatternFormat"/>
+<node TEXT="(3)对于每一个少数类样本 $x_i$ ，从其 $k$ 近邻中随机选择若干个样本，假设选择的近邻为 $\hat{x}_i$;" ID="ID_1409620954" CREATED="1612765297117" MODIFIED="1612765354473" FORMAT="latexPatternFormat"/>
+<node TEXT="(4)对于每一个随机选出的近邻 $\hat{x}_i$ ，分别与原样本按照如下的公式构建新的样本: \\&#xa;$x_{new} = x + rand(0, 1) \times (\hat{x}_i - x) $  \\&#xa;按照倍率 $N$ 产生足够的样本。" ID="ID_1668879202" CREATED="1612765297122" MODIFIED="1612765454818" FORMAT="latexPatternFormat"/>
+</node>
+<node TEXT="缺陷" FOLDED="true" ID="ID_1663437966" CREATED="1612765935814" MODIFIED="1612769125138">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="3 3" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_703961742" STARTINCLINATION="81 pt;0 pt;" ENDINCLINATION="81 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<node TEXT="一是在近邻选择时,存在一定的盲目性。 K值的确定需要反复确认。" ID="ID_559884351" CREATED="1612765935814" MODIFIED="1612765935814"/>
+<node TEXT="该算法无法克服非平衡数据集的数据分布问题,容易产生分布边缘化问题。" ID="ID_1103034636" CREATED="1612765935814" MODIFIED="1612765935814"/>
+</node>
+</node>
+<node TEXT="SMOTE-Borderline1/SMOTE-Borderline2" FOLDED="true" ID="ID_703961742" CREATED="1612766204024" MODIFIED="1612769333827"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS" HIDDEN="true">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Han H , Wang W Y , Mao B H . Borderline-SMOTE: A New Over-Sampling Method in Imbalanced Data Sets Learning[C]. 2005.
+    </p>
+  </body>
+</html></richcontent>
+<node TEXT="基本思想：only the minority examples near the borderline are over-sampled" ID="ID_429130642" CREATED="1612769400529" MODIFIED="1612769421142"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="欠采样(under-sampling)" FOLDED="true" ID="ID_773613534" CREATED="1566577117249" MODIFIED="1612768357816">
 <edge COLOR="#808080"/>
+<node ID="ID_400467663" CREATED="1612768340262" MODIFIED="1612768351799"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span class="fontstyle0">random under-sampling</span><br align="-webkit-auto" style="font-variant: normal; letter-spacing: normal; line-height: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px"/>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node TEXT="class sensitive Cost Function" ID="ID_19329530" CREATED="1566577122412" MODIFIED="1584717762590">
 <edge COLOR="#808080"/>
@@ -1377,8 +1715,7 @@
 </node>
 <node TEXT="Feature Cleaning" FOLDED="true" ID="ID_1724386401" CREATED="1565151589845" MODIFIED="1584717762596">
 <edge COLOR="#808080"/>
-<node TEXT="Obvious inconsistencies" FOLDED="true" ID="ID_1362159420" CREATED="1565151621859" MODIFIED="1584717762596"><richcontent TYPE="NOTE">
-
+<node TEXT="Obvious inconsistencies" FOLDED="true" ID="ID_1362159420" CREATED="1565151621859" MODIFIED="1584717762596"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1388,8 +1725,7 @@
       &#26126;&#26174;&#30340;&#33258;&#30456;&#30683;&#30462;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge COLOR="#808080"/>
 <node TEXT="eg. A person&apos;s age cannot be negative, a man cannot be pregnant" ID="ID_397399682" CREATED="1565159751361" MODIFIED="1584717762596">
 <edge COLOR="#808080"/>
@@ -1408,8 +1744,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Missing Values" FOLDED="true" ID="ID_1577846678" CREATED="1565160599034" MODIFIED="1584717762598"><richcontent TYPE="NOTE">
-
+<node TEXT="Missing Values" FOLDED="true" ID="ID_1577846678" CREATED="1565160599034" MODIFIED="1584717762598"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1419,8 +1754,7 @@
       Feature Imputation
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge COLOR="#808080"/>
 <node TEXT="Delete" FOLDED="true" ID="ID_1397016368" CREATED="1565160856434" MODIFIED="1584717762598">
 <edge COLOR="#808080"/>
@@ -1453,7 +1787,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Feature Engineering" FOLDED="true" ID="ID_1270471071" CREATED="1565160978902" MODIFIED="1584717762601">
+<node TEXT="Feature Engineering" FOLDED="true" ID="ID_1270471071" CREATED="1565160978902" MODIFIED="1614644794364">
 <edge COLOR="#808080"/>
 <node TEXT="Decompose" FOLDED="true" ID="ID_1453451401" CREATED="1565160987702" MODIFIED="1584717762601">
 <edge COLOR="#808080"/>
@@ -1473,14 +1807,13 @@
 </node>
 </node>
 </node>
-<node TEXT="Reframe Numerical Quantities" FOLDED="true" ID="ID_1241219061" CREATED="1565161169666" MODIFIED="1584717762603">
+<node TEXT="Reframe Numerical Quantities" FOLDED="true" ID="ID_1241219061" CREATED="1565161169666" MODIFIED="1614644794363" HGAP_QUANTITY="13.25 pt" VSHIFT_QUANTITY="-6 pt">
 <edge COLOR="#808080"/>
 <node TEXT="eg. Changing from grams to kg" ID="ID_1641557843" CREATED="1565161212482" MODIFIED="1584717762603">
 <edge COLOR="#808080"/>
 </node>
 </node>
-<node TEXT="Crossing" FOLDED="true" ID="ID_1223747304" CREATED="1565161226019" MODIFIED="1584717762603"><richcontent TYPE="NOTE">
-
+<node TEXT="Crossing" FOLDED="true" ID="ID_1223747304" CREATED="1565161226019" MODIFIED="1584717762603"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1490,8 +1823,7 @@
       &#29305;&#24449;&#32452;&#21512;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge COLOR="#808080"/>
 <node TEXT="Creating new features as a combination of existing features. Could be multiplying numerical features, or combining categorical variables. This is a great way to add domain expertise knowledge to the dataset." ID="ID_241731629" CREATED="1565161266333" MODIFIED="1584717762603">
 <edge COLOR="#808080"/>
@@ -1508,8 +1840,7 @@
 </node>
 <node TEXT="Dimensionality Reduction" FOLDED="true" ID="ID_580434903" CREATED="1565161379826" MODIFIED="1584717762605">
 <edge COLOR="#808080"/>
-<node TEXT="Principal Component Analysis (PCA)" FOLDED="true" ID="ID_411675615" CREATED="1565601317821" MODIFIED="1584717762605"><richcontent TYPE="NOTE">
-
+<node TEXT="Principal Component Analysis (PCA)" FOLDED="true" ID="ID_411675615" CREATED="1565601317821" MODIFIED="1584717762605"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1519,15 +1850,13 @@
       Principal component analysis (PCA) is a statistical procedure that uses an orthogonal transformation to convert a set of observations of possibly correlated variables into a set of values of linearly uncorrelated variables called principal components. This transformation is defined in such a way that the first principal component has the largest possible variance (that is, accounts for as much of the variability in the data as possible), and each&#160;&#160;succeeding component in turn has the highest variance possible under the constraint that it is orthogonal to the preceding components.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge COLOR="#808080"/>
 <node TEXT="Plot the variance per feature and select the features with the largest variance." ID="ID_50764527" CREATED="1565601689360" MODIFIED="1584717762605">
 <edge COLOR="#808080"/>
 </node>
 </node>
-<node TEXT="Singular Value Decomposition (SVD)" FOLDED="true" ID="ID_1063787359" CREATED="1565601327474" MODIFIED="1584717762606"><richcontent TYPE="NOTE">
-
+<node TEXT="Singular Value Decomposition (SVD)" FOLDED="true" ID="ID_1063787359" CREATED="1565601327474" MODIFIED="1584717762606"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1537,8 +1866,7 @@
       SVD is a factorization of a real or complex matrix. It is the generalization of the eigendecomposition of a positive semidefinite normal matrix (for example, a symmetric matrix with positive eigenvalues) to any m&#215;n matrix via an extension of the polar decomposition. It has many useful applications in signal processing and statistics.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge COLOR="#808080"/>
 <node TEXT="$M=U \Sigma V$" ID="ID_124815744" CREATED="1565602281681" MODIFIED="1584717762606" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
@@ -1547,8 +1875,7 @@
 </node>
 <node TEXT="Importance" FOLDED="true" ID="ID_153493417" CREATED="1565161389137" MODIFIED="1584717762607">
 <edge COLOR="#808080"/>
-<node TEXT="fiter Methods" FOLDED="true" ID="ID_391421165" CREATED="1565602465531" MODIFIED="1584717762607"><richcontent TYPE="NOTE">
-
+<node TEXT="fiter Methods" FOLDED="true" ID="ID_391421165" CREATED="1565602465531" MODIFIED="1584717762607"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1558,8 +1885,7 @@
       Filter type methods select features based only on general metrics like the correlation with the variable to predict. Filter methods suppress the least interesting variables. The other variables will be part of a classification or a regression model used to classify or to predict data. These methods are particularly effective in computation time and robust to overfitting.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge COLOR="#808080"/>
 <node TEXT="Correlation" ID="ID_1666951880" CREATED="1565602519952" MODIFIED="1584717762607">
 <edge COLOR="#808080"/>
@@ -1574,8 +1900,7 @@
 <edge COLOR="#808080"/>
 </node>
 </node>
-<node TEXT="Wrapper Methods" FOLDED="true" ID="ID_1699960240" CREATED="1565602468751" MODIFIED="1584717762607"><richcontent TYPE="NOTE">
-
+<node TEXT="Wrapper Methods" FOLDED="true" ID="ID_1699960240" CREATED="1565602468751" MODIFIED="1584717762607"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1585,8 +1910,7 @@
       Wrapper methods evaluate subsets of variables which allows, unlike filter approaches, to detect the possible interactions between variables. The two main disadvantages of these methods are : The increasing overfitting risk when the number of observations is insufficient. AND. The significant computation time when the number of variables is large.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge COLOR="#808080"/>
 <node TEXT="Forward Selection" ID="ID_1685415896" CREATED="1565602715070" MODIFIED="1584717762608">
 <edge COLOR="#808080"/>
@@ -1601,8 +1925,7 @@
 <edge COLOR="#808080"/>
 </node>
 </node>
-<node TEXT="Embedded Methods" FOLDED="true" ID="ID_1182564700" CREATED="1565602489228" MODIFIED="1584717762608"><richcontent TYPE="NOTE">
-
+<node TEXT="Embedded Methods" FOLDED="true" ID="ID_1182564700" CREATED="1565602489228" MODIFIED="1584717762608"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1612,8 +1935,7 @@
       Embedded methods try to combine the advantages of both previous methods. A learning algorithm takes advantage of its own variable selection process and performs feature selection and classification simultaneously.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge COLOR="#808080"/>
 <node TEXT="Lasso regression performs L1 regularization" ID="ID_698001654" CREATED="1565602923432" MODIFIED="1584717762608">
 <edge COLOR="#808080"/>
@@ -1624,8 +1946,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Feature Encoding" FOLDED="true" ID="ID_1873609561" CREATED="1565603031451" MODIFIED="1584717762608"><richcontent TYPE="NOTE">
-
+<node TEXT="Feature Encoding" FOLDED="true" ID="ID_1873609561" CREATED="1565603031451" MODIFIED="1584717762608"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1635,15 +1956,13 @@
       Machine Learning algorithms <b>perform Linear Algebra on Matrices</b>, which means all features must be numeric. Encoding helps us do this.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge COLOR="#808080"/>
 <node TEXT="One Hot Encoding" ID="ID_596024979" CREATED="1565603073257" MODIFIED="1584717762608" LINK="#ID_849107871">
 <edge COLOR="#808080"/>
 </node>
 </node>
-<node TEXT="Feature Normalisation or Scaling" FOLDED="true" ID="ID_934175555" CREATED="1565603188343" MODIFIED="1584717762609"><richcontent TYPE="NOTE">
-
+<node TEXT="Feature Normalisation or Scaling" FOLDED="true" ID="ID_934175555" CREATED="1565603188343" MODIFIED="1584717762609"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1653,8 +1972,7 @@
       Since the range of values of raw data varies widely, in some machine learning algorithms, objective functions will not work properly without normalization. Another reason why feature scaling is applied is that gradient descent converges much faster with feature scaling than without it.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge COLOR="#808080"/>
 <node TEXT="x&apos; = \frac{x - \min(x)}{\max(x) - \min(x)}" FOLDED="true" ID="ID_1008970082" CREATED="1565603481715" MODIFIED="1584717762609" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
@@ -1787,8 +2105,7 @@
 </node>
 <node TEXT="probabilistic graphical models" FOLDED="true" ID="ID_970079624" CREATED="1565624579369" MODIFIED="1584717762630">
 <edge COLOR="#808080"/>
-<node TEXT="Bayesian Networks" FOLDED="true" ID="ID_785230072" CREATED="1565624809357" MODIFIED="1584717762630"><richcontent TYPE="NOTE">
-
+<node TEXT="Bayesian Networks" FOLDED="true" ID="ID_785230072" CREATED="1565624809357" MODIFIED="1584717762630"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1798,8 +2115,7 @@
       <font color="rgb(85, 85, 85)" face="Lato, PingFang SC, Microsoft YaHei, sans-serif" size="16px">&#36830;&#25509;&#20855;&#26377;&#26041;&#21521; &#30340; &#27010;&#29575;&#22270;&#27169;&#22411;, &#20063;&#31216;&#20026;&#21448;&#21521;&#22270;&#27169;&#22411;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge COLOR="#808080"/>
 <node TEXT="图模型与联合分布的对应关系" FOLDED="true" ID="ID_633127503" CREATED="1565624809357" MODIFIED="1584717762630">
 <edge COLOR="#808080"/>
@@ -1832,8 +2148,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Markov random fields" FOLDED="true" ID="ID_47503815" CREATED="1565624626480" MODIFIED="1584717762636"><richcontent TYPE="NOTE">
-
+<node TEXT="Markov random fields" FOLDED="true" ID="ID_47503815" CREATED="1565624626480" MODIFIED="1584717762636"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1843,8 +2158,7 @@
       <font color="rgb(85, 85, 85)" face="Lato, PingFang SC, Microsoft YaHei, sans-serif" size="16px">&#36830;&#25509;&#26159;&#26080;&#26041;&#21521;&#24615; &#27010;&#29575;&#22270;&#27169;&#22411;, &#20063;&#31216;&#20026; &#26080;&#21521;&#22270;&#27169;&#22411;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge COLOR="#808080"/>
 <node TEXT="条件独立性" ID="ID_1661314627" CREATED="1565624866980" MODIFIED="1584717762636" LINK="#ID_717281048">
 <edge COLOR="#808080"/>
@@ -1914,8 +2228,7 @@
 <edge COLOR="#808080"/>
 <node TEXT="t-SNE-sim-func.png" ID="ID_1537026735" CREATED="1587136614236" MODIFIED="1587137199530">
 <hook URI="Machine-Learning_files/t-SNE-sim-func.png" SIZE="1.0" NAME="ExternalObject"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1934,8 +2247,7 @@
       &#22914;&#26524;&#21407;&#22987;&#24231;&#26631;&#31354;&#38388;&#19978;&#30340;&#20004;&#20010;&#28857;&#36317;&#31163;&#36739;&#36817;, &#25237;&#24433;&#21040;&#26032;&#30340;&#24231;&#26631;&#31354;&#38388;&#21518;&#30340;&#36317;&#22522;&#26412;&#24067;&#36941;(&#26410;&#34987;&#25289;&#20280;).
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge COLOR="#808080"/>
 </node>
 </node>
@@ -1959,7 +2271,7 @@
 <hook URI="Machine-Learning_files/Auto-Encoders.png" SIZE="0.94043887" NAME="ExternalObject"/>
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="The aim of an autoencoder is to learn a representation (encoding) for a set of data, typically for the purpose of dimensionality reduction." ID="ID_448821999" CREATED="1567950999755" MODIFIED="1587137638916" VSHIFT_QUANTITY="2.2499999329447764 pt">
+<node TEXT="The aim of an autoencoder is to learn a representation (encoding) for a set of data, typically for the purpose of dimensionality reduction." ID="ID_448821999" CREATED="1567950999755" MODIFIED="1587137638916" VSHIFT_QUANTITY="2.25 pt">
 <edge COLOR="#808080"/>
 <font BOLD="false"/>
 </node>
@@ -2163,8 +2475,7 @@
 </node>
 <node TEXT="svm-non-separable.png" ID="ID_1753551873" CREATED="1589797678690" MODIFIED="1589797830574">
 <hook URI="Machine-Learning_files/svm-non-separable.png" SIZE="1.0" NAME="ExternalObject"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2174,8 +2485,7 @@
       一个离群点（可能是噪声）可以造成超平面的移动，间隔缩小，可见以前的模型对噪声非常敏感。再有甚者，如果离群点在另外一个类中，那么这时候就是线性不可分了。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge COLOR="#808080"/>
 </node>
 <node TEXT="$$&#xa;\begin {align}&#xa;\min_{w, b} &amp; \;\; \frac{1}{2}\|w\|^2 + C\sum_{i=1}^m \xi_i \\&#xa;\text{ s.t. } &amp; y^{(i)}(w^Tx^{(i)} + b) \ge 1 - \xi_i, i\in [1, m] \\&#xa;&amp; xi_i \ge 0, i\in [1, m] \\&#xa;\end {align}&#xa;$$" ID="ID_1505234957" CREATED="1589798057305" MODIFIED="1589798085604" FORMAT="latexPatternFormat">
@@ -2192,8 +2502,7 @@
 <edge COLOR="#808080"/>
 <node TEXT="svm-kkt.png" ID="ID_1512663095" CREATED="1589798161980" MODIFIED="1589798224377">
 <hook URI="Machine-Learning_files/svm-kkt.png" SIZE="1.0" NAME="ExternalObject"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2203,8 +2512,7 @@
       第一个式子表明在两条间隔线外的样本点前面的系数为 0，离群样本点前面的系数为 C，而支持向量（也就是在超平面两边的最大间隔线上）的样本点前面系数在(0,C)上。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="SMO 优化算法（Sequential minimal optimization）" FOLDED="true" ID="ID_327847724" CREATED="1589798291117" MODIFIED="1589798337946">
@@ -2286,6 +2594,414 @@
 </node>
 <node TEXT="GBM-Gradient Boosting Machines" ID="ID_1827805813" CREATED="1566833795398" MODIFIED="1584717762641">
 <edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="GBDT知识体系" LOCALIZED_STYLE_REF="AutomaticLayout.level,5" FOLDED="true" ID="ID_142943693" CREATED="1564976333940" MODIFIED="1612850102369" STYLE="fork" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
+<hook NAME="NodeConditionalStyles">
+    <conditional_style ACTIVE="true" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" LAST="false">
+        <node_level_condition VALUE="1" COMPARATION_RESULT="0" SUCCEED="true"/>
+    </conditional_style>
+</hook>
+<node TEXT="原理" FOLDED="true" ID="ID_1499191559" CREATED="1588748140624" MODIFIED="1588748173131">
+<edge COLOR="#808080"/>
+<node TEXT="Gradient" FOLDED="true" ID="ID_109545228" CREATED="1588748177023" MODIFIED="1588750269784">
+<edge COLOR="#808080"/>
+<node TEXT="对于一个优化目标函数 \\&#xa;&#xa;$$\min_{\Theta} \mathcal J(\Theta) $$ \\&#xa;&#xa;其中 $\Theta$ 为参数。求解$\Theta$ 的迭代公式为: \\&#xa;&#xa;$$\Theta^{i+1} = \Theta^i - \alpha \nabla \mathcal J(\Theta)|_{\Theta^i} $$\\&#xa;&#xa;其中 $\alpha$ 为学习率\\" ID="ID_1402577284" CREATED="1588748286829" MODIFIED="1588763341473" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="Boosting" FOLDED="true" ID="ID_1774778850" CREATED="1588748417753" MODIFIED="1588926269294">
+<edge COLOR="#808080"/>
+<node TEXT="对于一个预测任务，使用了M个模型， 那么对于一条数据$x_i$ 的预测值可以表示为： \\&#xa;$$\hat y_i = \sum_{m=1}^M \beta_m b(x_i, \gamma_m)$$ \\&#xa;那么, 预测任务的优化目标就是: \\&#xa;$$\min_{\{\beta_m, \gamma_m\}_1^M}  \sum_{i=1}^N L[y_i,  \sum_{m=1}^M \beta_m b(x_i, \gamma_m)]$$ \\&#xa;其中： $N$ 为训练样本量。 \\" FOLDED="true" ID="ID_1368824605" CREATED="1588749726729" MODIFIED="1588926269290" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+<node TEXT="- $b$ : 基础模型， 对于分类任务来说，也称为 基分类器 \\" ID="ID_1967014430" CREATED="1588750994368" MODIFIED="1588751016260" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="- $\beta$: 每个基础模型在总的预测结果中占有的权重 \\" ID="ID_820761014" CREATED="1588750994368" MODIFIED="1588751016262" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="- $\gamma$: 每个基础模型的参数 \\" ID="ID_1525523886" CREATED="1588750994377" MODIFIED="1588751016262" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+</node>
+</node>
+<node TEXT="Gradient + Boosting" FOLDED="true" ID="ID_1866098128" CREATED="1588750246293" MODIFIED="1588750269786">
+<edge COLOR="#808080"/>
+<node TEXT="给定样本量为 $N$ 样本集, 求预测模型 $f(x)$ \\&#xa;$$\vec f = {\arg\min}_{\vec f} \mathcal L(\vec y, \vec f)  ={\arg\min}_{\vec f}   \sum_{i=1}^N L[y_i,  f(x_i)]$$ \\" FOLDED="true" ID="ID_569132354" CREATED="1588750286101" MODIFIED="1588763467294" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+<node TEXT="$\vec f = \{f(x_1), f(x_2), \dots , f(x_N) \}$ \\" ID="ID_1504707742" CREATED="1588751044288" MODIFIED="1588751065950" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="$\vec y = y_1, y_2, \dots, y_N $ , 向量的长度和样本量相同 \\" ID="ID_1403483654" CREATED="1588751044288" MODIFIED="1588751065952" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="$\mathcal L(\vec y, \vec f)$ 是整个样本集的损失函数 \\" ID="ID_1295531426" CREATED="1588751044291" MODIFIED="1588751065952" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="应用Gradient原理" FOLDED="true" ID="ID_943142619" CREATED="1588751921204" MODIFIED="1588752027729" FORMAT_AS_HYPERLINK="false">
+<edge COLOR="#808080"/>
+<node TEXT="认为 $\vec f$ 为参数, 求能使损失函数最小的$\vec f$, 使用梯度下降的理论求解$\min_{\vec f}\mathcal L(\vec y, \vec f)$ 在$ \vec f_{m-1}$ 处的梯度： \\&#xa;$$\vec g_m = [\frac{\partial \mathcal L(\vec y, \vec f)}{\partial {\vec f}}] | _{\vec f = \vec f_{m-1}}$$ \\&#xa;那么求解$\vec f_m$ 的迭代公式为:  \\&#xa;$$\vec f_m = \vec f_{m-1} + \alpha_m (- \vec g_m)$$  \\&#xa;其中： $\alpha$ 为每一步的步长.  在GBDT里为超参。" ID="ID_288078592" CREATED="1588750601269" MODIFIED="1588763486196" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="应用Boosting" FOLDED="true" ID="ID_1536634075" CREATED="1588751953401" MODIFIED="1588752452036">
+<edge COLOR="#808080"/>
+<node TEXT="使用梯度下降法进行 $m$ 轮迭代后, $\vec f_m$为:  \\&#xa;$$\vec f_m =  \alpha_0 (- \vec g_0) + \alpha_1 (- \vec g_1) + \alpha_2 (- \vec g_2) + \dots + \alpha_m (- \vec g_m)$$" FOLDED="true" ID="ID_692744879" CREATED="1588752133942" MODIFIED="1588763528453" FORMAT="latexPatternFormat">
+<font BOLD="true"/>
+<edge COLOR="#808080"/>
+<node TEXT="每一步的 $(- \vec g)$ 都表示一个基础模型的预测结果。\\&#xa;那么最终的模型预测结果是所有单个模型预测结果的累加；" ID="ID_1891582015" CREATED="1588752194724" MODIFIED="1588752268868" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="增加新的模型，使结果在前一步的基础上更加逼近最优点；" ID="ID_1375676904" CREATED="1588752194724" MODIFIED="1588752277962" FORMAT="STANDARD_FORMAT">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="新模型预测的目标值的是上一个模型的残差。" ID="ID_532786565" CREATED="1588752194732" MODIFIED="1588752310745" FORMAT="STANDARD_FORMAT">
+<edge COLOR="#808080"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="(DT)Regression Tree" FOLDED="true" ID="ID_1223845531" CREATED="1588752591701" MODIFIED="1588752633409">
+<edge COLOR="#808080"/>
+<node TEXT="决策树可以被定义为： \\&#xa;$T(x; \Theta) = \sum_{j=i}^J \gamma_j I(x \in R_j)$ \\" FOLDED="true" ID="ID_71771371" CREATED="1588752703489" MODIFIED="1588752922174" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+<node TEXT="$\Theta = \{R_j, \gamma_j\}_1^J$  表示模型参数; \\&#xa;$J$ 表示决策树叶子节点的数量; \\" ID="ID_1541744943" CREATED="1588752777249" MODIFIED="1588752950385" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="使用决策树预测每个 $-\vec g_i$" ID="ID_845125769" CREATED="1588756222255" MODIFIED="1588936058465" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+</node>
+</node>
+<node TEXT="实现" FOLDED="true" ID="ID_433109473" CREATED="1588748147670" MODIFIED="1588748173132">
+<edge COLOR="#808080"/>
+<node TEXT="基本流程" FOLDED="true" ID="ID_512264523" CREATED="1588760831956" MODIFIED="1588760859854">
+<edge COLOR="#808080"/>
+<node TEXT="gbdt-alg.png" FOLDED="true" ID="ID_887704567" CREATED="1588756567335" MODIFIED="1588756742654">
+<hook URI="Machine-Learning_files/gbdt-alg.png" SIZE="0.86580086" NAME="ExternalObject"/>
+<edge COLOR="#808080"/>
+<node TEXT="单次迭代的流程: \\&#xa;1, 计算梯度$[\frac{\partial \mathcal L(\vec y, \vec f)}{\partial {\vec f}}] | _{\vec f = \vec f_{m-1}}$; \\&#xa;2, 确定决策树的结构; \\&#xa;3, 确定决策输叶子节点的预测值; \\&#xa;4, 更新$f(x)$. \\" ID="ID_1764360441" CREATED="1588756887275" MODIFIED="1588936257625" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+</node>
+</node>
+<node TEXT="Xgboost实现" FOLDED="true" ID="ID_1227010371" CREATED="1588760866593" MODIFIED="1588760876084">
+<edge COLOR="#808080"/>
+<node TEXT="模型定义" FOLDED="true" ID="ID_1200321801" CREATED="1588762861283" MODIFIED="1588762890883">
+<edge COLOR="#808080"/>
+<node TEXT="Tree Ensemble 模型定义为 由 $K$ 个回归树相加组成的模型：\\&#xa;&#xa;$$\hat y_i= \sum_{i=1}^K f_k(x_i), f_k \in \mathcal F$$ \\&#xa;&#xa;其中: $\mathcal F$ 表示回归树的集合, 定义为: \\&#xa;&#xa;$$\mathcal F = \{ f(x) = w_{q(x)}\} (q: R^m \to T, w \in R^T)$$ \\" FOLDED="true" ID="ID_1929336232" CREATED="1588762871551" MODIFIED="1588763267322" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+<node TEXT="$q$ 表示一个树的结构，其作用就是将一个具有 $m$ 维特征的 sample 映射到 $T$ 个叶子节点上。 \\&#xa;即，$q: R^m \to T$ 。 $q(x)$ 表示叶子节点的序号。" ID="ID_1365342174" CREATED="1588763048865" MODIFIED="1588763125775" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="$w$ 是一个$T$维向量，每个维度对应树的一个叶子节点, \\&#xa;表示回归树中每个叶子节点的取值。 \\&#xa;$w_{q(x)}$ 表示样本 $x$ 在回归树上的预测值。" ID="ID_475148307" CREATED="1588763048865" MODIFIED="1588763193861" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+</node>
+</node>
+<node TEXT="Target Function" FOLDED="true" ID="ID_312704144" CREATED="1588762900643" MODIFIED="1588763605342">
+<edge COLOR="#808080"/>
+<node TEXT="$$&#xa;\begin {align}&#xa;obj = \sum_{i=1}^N L(y_i, \hat y_i)  + \sum_{k=1}^K \Omega (f_k) \\&#xa;where\ \ \Omega (f) = \gamma T + \frac 12 \lambda||w||^2&#xa;\end {align}&#xa;$$" FOLDED="true" ID="ID_127107048" CREATED="1588763233837" MODIFIED="1589863862298" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+<node TEXT="Loss Function $L(y_i, \hat y_i)$" FOLDED="true" ID="ID_382797977" CREATED="1588763550387" MODIFIED="1588763737941" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+<node TEXT="不同的任务选用不同的Loss Function" ID="ID_400095208" CREATED="1588763675065" MODIFIED="1588763734365">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="回归" FOLDED="true" ID="ID_574105867" CREATED="1588763707150" MODIFIED="1588763734366">
+<edge COLOR="#808080"/>
+<node TEXT="(Square loss)  $L(y_i, \hat y_i) = (y- \hat y_i)^2 $" ID="ID_1084540387" CREATED="1588763769350" MODIFIED="1588763824439" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="分类" FOLDED="true" ID="ID_1398025289" CREATED="1588763711568" MODIFIED="1588763734366">
+<edge COLOR="#808080"/>
+<node TEXT="交叉熵损失函数" ID="ID_1534510231" CREATED="1588763799841" MODIFIED="1588763824439">
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="Ranking" FOLDED="true" ID="ID_972609222" CREATED="1588763713698" MODIFIED="1588763734366">
+<edge COLOR="#808080"/>
+<node TEXT="NDCG" ID="ID_5727250" CREATED="1588763817278" MODIFIED="1588763824438">
+<edge COLOR="#808080"/>
+</node>
+</node>
+</node>
+<node TEXT="模型正则项" FOLDED="true" ID="ID_1305615277" CREATED="1588763646313" MODIFIED="1588763737941">
+<edge COLOR="#808080"/>
+<node TEXT="" ID="ID_181120757" CREATED="1588763956235" MODIFIED="1588763956236">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="$\gamma T$ 倾向于选择叶子节点少的回归树（结构简单）；" ID="ID_1477000297" CREATED="1588763917714" MODIFIED="1588763928816" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="$\frac 12 \lambda||w||^2$倾向于预测值稳定的树（预测值）" ID="ID_936029511" CREATED="1588763917714" MODIFIED="1588763928815" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="" ID="ID_1759006295" CREATED="1588763956234" MODIFIED="1588763956235">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Intuitively, the regularized objective will tend to select a model employing simple and predictive functions." ID="ID_376015101" CREATED="1588763956237" MODIFIED="1588763963088">
+<edge COLOR="#808080"/>
+</node>
+</node>
+</node>
+<node TEXT="$K$: 回归树的数量" ID="ID_821392410" CREATED="1588936423743" MODIFIED="1588936448028" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+</node>
+</node>
+<node TEXT="第t颗数的产生" FOLDED="true" ID="ID_468876926" CREATED="1588822214119" MODIFIED="1588822352532">
+<edge COLOR="#808080"/>
+<node TEXT="优化目标" FOLDED="true" ID="ID_847902030" CREATED="1588822377248" MODIFIED="1588822391635">
+<edge COLOR="#808080"/>
+<node TEXT="$$\tilde{\mathcal L}^{(t)} = \sum_{i=1}^N [ g_i f_t(x_i) + \frac 12 h_i f^2_t(x_i)]  + \Omega (f_t)$$ \\&#xa;&#xa;其中:\\&#xa;&#xa;$$ &#xa;\hat y_i^{(t)} = \sum_{k=1}^t f_k(x_i)  = \hat y_i^{(t-1)} +  f_t(x_i) \\&#xa;g_i = \frac {\partial L(y_i, \hat y_i )} {\partial \hat y_i }|_{\hat y_i^{(t-1)}} \\&#xa;h_i= \frac {\partial ^2 L(y_i, \hat y_i )} {\partial \hat y_i^2 }|_{\hat y_i^{(t-1)}}&#xa;$$" FOLDED="true" ID="ID_512103602" CREATED="1588822356502" MODIFIED="1588822614349" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+<node TEXT="使用了 Target Function 以$f_t(x_x)$为变量的二级泰勒展开" ID="ID_1944042593" CREATED="1588822459727" MODIFIED="1588822680890" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="\tilde{\mathcal L}^{(t)}对第 t 步所有可能的候选决策树$f_t$进行打分，能够使 $\tilde{\mathcal L}^{(t)}$ 最小的一个 $f_t$ 就是这一步需要的决策树。" ID="ID_444421503" CREATED="1588822718531" MODIFIED="1588823002729" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="对上式整理: \\&#xa;$$\tilde{\mathcal L}^{(t)} =  \sum_{j=1}^T [G_j w_j + \frac 12 (H_j + \lambda) w_j^2 ]  + \gamma T$$" FOLDED="true" ID="ID_820098785" CREATED="1588823190317" MODIFIED="1588823277388" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+<node TEXT="$G_j, H_j$ 只与树结构 $q$ 有关" ID="ID_1186176508" CREATED="1588823301510" MODIFIED="1588823426434" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="$\tilde{\mathcal L}^{(t)}$ 只与 $q$ 和 $w$ 有关" FOLDED="true" ID="ID_3759284" CREATED="1588823416766" MODIFIED="1588823647274" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+<node TEXT="可以先确定q再确定w" ID="ID_1234909250" CREATED="1588823650015" MODIFIED="1588823672410"/>
+</node>
+</node>
+</node>
+<node TEXT="叶子节点预测值$w$" FOLDED="true" ID="ID_120640338" CREATED="1588823179602" MODIFIED="1588823513904" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+<node TEXT="对于确定的数的结构 $q$ \\&#xa;$\hat w_j = - \frac {G_j}{H_j + \lambda}$" ID="ID_1913799796" CREATED="1588823563067" MODIFIED="1588823712784" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="决策树结构$q$" FOLDED="true" ID="ID_649935728" CREATED="1588823775672" MODIFIED="1588823983633" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+<node TEXT="的结构分(structure score) \\&#xa;$$&#xa;\begin {aligned}&#xa;\tilde{\mathcal L}^{(t)} &amp;= - \frac 12 \sum_{j=1}^T \frac {G_j^2}{H_j + \lambda}  + \gamma T \\&#xa;&amp;= - \frac 12 \sum_{j=1}^T \frac {(\sum_{i \in I_j} g_i)^2}{(\sum_{i \in I_j} h_i) + \lambda}  + \gamma T&#xa;\end {aligned}&#xa;$$" FOLDED="true" ID="ID_241501066" CREATED="1588823857034" MODIFIED="1588824107500" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+<node TEXT="对于一个结构确定的回归树 $q$，$\tilde{\mathcal L}^{(t)}$ 的取值与$w$ 是无关的。" ID="ID_791001208" CREATED="1588824069486" MODIFIED="1588824076085" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="枚举所有可能的结构, 选 出能够使 Structure Score 最小的一个" FOLDED="true" ID="ID_1505270510" CREATED="1588824185701" MODIFIED="1588824587760">
+<edge COLOR="#808080"/>
+<node TEXT="1. Start from tree with depth 0" ID="ID_1499646724" CREATED="1588824323015" MODIFIED="1588824444134">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="2. For each leaf node of the tree, try to add a split." ID="ID_668113131" CREATED="1588824323015" MODIFIED="1612850078360">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="2 7" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_216792838" STARTINCLINATION="424.49999 pt;0 pt;" ENDINCLINATION="424.49999 pt;0 pt;" STARTARROW="NONE" ENDARROW="NONE"/>
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="3. 重复第二步，直到达到最大深度" ID="ID_1965180029" CREATED="1588824323020" MODIFIED="1588824444135">
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="节点的分割点划分" FOLDED="true" ID="ID_216792838" CREATED="1588824258650" MODIFIED="1588824444135">
+<edge COLOR="#808080"/>
+<node TEXT="$$&#xa;\begin {aligned}&#xa;\mathrm{gain} &amp;=  \mathcal L -  (\mathcal L_L + \mathcal L_R) \\&#xa;&amp;= \frac 12 \left[ \frac {(\sum_{i \in I_L} g_i)^2}{(\sum_{i \in I_L} h_i)} + \frac {(\sum_{i \in I_R} g_i)^2}{(\sum_{i \in I_R} h_i)} - \frac {(\sum_{i \in I} g_i)^2}{(\sum_{i \in I} h_i)} \right] - \gamma&#xa;\end {aligned}&#xa;$$" FOLDED="true" ID="ID_619973220" CREATED="1588824736114" MODIFIED="1588824833612" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+<node TEXT="$I_L$ 和$I_R$ 分别表示一个叶子节点split后左边和右边节点的样本集合， $I = I_L \cup I_R$" ID="ID_827066716" CREATED="1588824822342" MODIFIED="1588824833614" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="选取够使Structure Score减少最多的一个特征分割方案" FOLDED="true" ID="ID_72987506" CREATED="1588824556203" MODIFIED="1588824643733">
+<edge COLOR="#808080"/>
+<node TEXT="所有特征的所有值作为候选分割点" ID="ID_1322990178" CREATED="1588824653454" MODIFIED="1588824697548">
+<edge COLOR="#808080"/>
+</node>
+</node>
+</node>
+<node TEXT="xgboost-gen-tree-alg.png" ID="ID_1383935918" CREATED="1588824973472" MODIFIED="1588824983781">
+<hook URI="Machine-Learning_files/xgboost-gen-tree-alg.png" SIZE="0.9584665" NAME="ExternalObject"/>
+<edge COLOR="#808080"/>
+</node>
+</node>
+</node>
+<node TEXT="categorical-features处理" FOLDED="true" ID="ID_1341670258" CREATED="1588820979176" MODIFIED="1588821059255">
+<edge COLOR="#808080"/>
+<node TEXT="One-Hot" FOLDED="true" ID="ID_1690855671" CREATED="1588821044082" MODIFIED="1588821544541">
+<edge COLOR="#808080"/>
+<node TEXT="可能无法在这个类别特征上进行切分" FOLDED="true" ID="ID_1041655031" CREATED="1588821265855" MODIFIED="1588821544541">
+<edge COLOR="#808080"/>
+<node TEXT="当特征维度高时，每个类别上的数据都会比较少，这时候产生的切分不平衡，切分增益（split gain）也会很小" ID="ID_1218541319" CREATED="1588821251292" MODIFIED="1588821544541">
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="会影响决策树的学习" FOLDED="true" ID="ID_506515100" CREATED="1588821282210" MODIFIED="1588825325039">
+<edge COLOR="#808080"/>
+<node ID="ID_684927390" CREATED="1588821331127" MODIFIED="1588825325039"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 77); font-family: Microsoft YaHei, SF Pro Display, Roboto, Noto, Arial, PingFang SC, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(77, 77, 77)" face="Microsoft YaHei, SF Pro Display, Roboto, Noto, Arial, PingFang SC, sans-serif" size="16px">决策树学习时利用的是切分数据的统计信息，onehot编码可能把数据切分成很多零散的小数据集, 在这些数据量小的空间上，统计信息不准确，学习会变差.</font></span>
+  </body>
+</html>
+</richcontent>
+<edge COLOR="#808080"/>
+</node>
+</node>
+</node>
+<node FOLDED="true" ID="ID_373392571" CREATED="1588821095006" MODIFIED="1588825554724"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 77); font-family: Microsoft YaHei, SF Pro Display, Roboto, Noto, Arial, PingFang SC, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(77, 77, 77)" face="Microsoft YaHei, SF Pro Display, Roboto, Noto, Arial, PingFang SC, sans-serif" size="16px">类别特征的最优切分</font></span>
+  </body>
+</html>
+</richcontent>
+<edge COLOR="#808080"/>
+<node TEXT="lightGBM实现了该方法" ID="ID_230490970" CREATED="1588821099608" MODIFIED="1588821544543">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="categorical-features-split-lgbm.png" ID="ID_490566903" CREATED="1588821154220" MODIFIED="1588821544543">
+<hook URI="Machine-Learning_files/categorical-features-split-lgbm.png" SIZE="1.0" NAME="ExternalObject"/>
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="类别特征embeding" FOLDED="true" ID="ID_1200017519" CREATED="1588821499620" MODIFIED="1588821544543">
+<edge COLOR="#808080"/>
+<node ID="ID_714225351" CREATED="1588821533532" MODIFIED="1588821544543"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(77, 77, 77); font-family: Microsoft YaHei, SF Pro Display, Roboto, Noto, Arial, PingFang SC, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(77, 77, 77)" face="Microsoft YaHei, SF Pro Display, Roboto, Noto, Arial, PingFang SC, sans-serif" size="16px">把类别特征转成one-hot coding扔到NN里训练个embedding</font></span>
+  </body>
+</html>
+</richcontent>
+<edge COLOR="#808080"/>
+</node>
+</node>
+</node>
+<node TEXT="其他" FOLDED="true" ID="ID_1324497192" CREATED="1588825243198" MODIFIED="1588825310557">
+<edge COLOR="#808080"/>
+<node TEXT="Shrinkage" ID="ID_394460210" CREATED="1588825304334" MODIFIED="1588825310558">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="Subsampling" ID="ID_1278932922" CREATED="1588825304334" MODIFIED="1588825310558">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="Column Subsampling" ID="ID_704653892" CREATED="1588825304336" MODIFIED="1588825310558">
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="特点" FOLDED="true" ID="ID_1160080906" CREATED="1588825476164" MODIFIED="1588825527200">
+<edge COLOR="#808080"/>
+<node TEXT="1. 增加了模型正则项，GBDT算法中并没有使用正则化项；" ID="ID_1716997588" CREATED="1588825520198" MODIFIED="1588825523768">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="2. 还使用了多种技术解决过拟合问题，如subsample，Shrinkage，Column Subsampling；" ID="ID_1986403057" CREATED="1588825520198" MODIFIED="1588825523772">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="3. 使用了二阶泰勒展开式近似目标函数，GBDT中使用的是直接使用的一阶梯度。即, 求解方式分别使用了牛顿法和梯度下降法" ID="ID_279278725" CREATED="1588825520207" MODIFIED="1588825523774">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="4. 节点划分" FOLDED="true" ID="ID_1515769558" CREATED="1589864175590" MODIFIED="1589864205304">
+<edge COLOR="#808080"/>
+<node TEXT="sklearn中的决策树通常使用Gini importance作为criterion" ID="ID_1593771241" CREATED="1588760228969" MODIFIED="1588760297768">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="xgboost中使用了其定义的 structure-score作为criterion" ID="ID_1619903967" CREATED="1588762318681" MODIFIED="1588762347690">
+<edge COLOR="#808080"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="lightGBM实现" FOLDED="true" ID="ID_1346208841" CREATED="1588762362554" MODIFIED="1588825178554">
+<edge COLOR="#808080"/>
+<node TEXT="模型训练速度比XGboost快, 效果差不多" ID="ID_104572504" CREATED="1588762389455" MODIFIED="1588825178553">
+<edge COLOR="#808080"/>
+</node>
+<node ID="ID_368560587" TREE_ID="ID_373392571">
+<node ID="ID_196829347" TREE_ID="ID_230490970"/>
+<node ID="ID_1725889303" TREE_ID="ID_490566903"/>
+</node>
+</node>
+</node>
+<node TEXT="应用" FOLDED="true" ID="ID_1173451234" CREATED="1588748153142" MODIFIED="1588748173132">
+<edge COLOR="#808080"/>
+<node TEXT="特征选择" FOLDED="true" ID="ID_846767339" CREATED="1588759944774" MODIFIED="1588760092260">
+<edge COLOR="#808080"/>
+<node TEXT="The importance 定义为: feature使评价指标(criterion)在所有节点上减少的总和" FOLDED="true" ID="ID_378882983" CREATED="1588760116904" MODIFIED="1588760218180">
+<edge COLOR="#808080"/>
+<node TEXT="sklearn中的决策树通常使用Gini importance作为criterion" ID="ID_444007721" CREATED="1588760228969" MODIFIED="1588760297768">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="xgboost中使用了其定义的 structure-score作为criterion" ID="ID_505065198" CREATED="1588762318681" MODIFIED="1588762347690">
+<edge COLOR="#808080"/>
+</node>
+</node>
+</node>
+<node TEXT="特征组合" FOLDED="true" ID="ID_267989967" CREATED="1588760342041" MODIFIED="1588760347960">
+<edge COLOR="#808080"/>
+<node TEXT="经典应用" FOLDED="true" ID="ID_131484727" CREATED="1588760415633" MODIFIED="1588760433762">
+<edge COLOR="#808080"/>
+<node TEXT="GBDT+FM" ID="ID_1192714132" CREATED="1588760422968" MODIFIED="1588760433762">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="GBDT+LR" ID="ID_500849303" CREATED="1588760426451" MODIFIED="1588760433761">
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="原理" FOLDED="true" ID="ID_682427926" CREATED="1588760790179" MODIFIED="1588760802252">
+<edge COLOR="#808080"/>
+<node TEXT="gbdt-feature-compose-1.png" ID="ID_1502892332" CREATED="1588760643914" MODIFIED="1588760667267">
+<hook URI="Machine-Learning_files/gbdt-feature-compose-1.png" SIZE="0.795756" NAME="ExternalObject"/>
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="gbdt-feature-compose-2.png" ID="ID_1770482229" CREATED="1588760656839" MODIFIED="1588760667267">
+<hook URI="Machine-Learning_files/gbdt-feature-compose-2.png" SIZE="0.7751938" NAME="ExternalObject"/>
+<edge COLOR="#808080"/>
+</node>
+</node>
+</node>
+<node TEXT="" ID="ID_76850285" CREATED="1588825134345" MODIFIED="1588825134345">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="分类任务" ID="ID_1398004530" CREATED="1588756701027" MODIFIED="1588756726607">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="回归" ID="ID_340329153" CREATED="1588756719466" MODIFIED="1588756726606">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="ranking" ID="ID_1950014251" CREATED="1588759935864" MODIFIED="1588760092261">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="" ID="ID_385600729" CREATED="1588825134343" MODIFIED="1588825134345">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="根据目标定义 loss function $L$" ID="ID_837649140" CREATED="1588825134346" MODIFIED="1588825531616" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+</node>
+</node>
+<node TEXT="现存问题" FOLDED="true" ID="ID_786908863" CREATED="1589864245678" MODIFIED="1589864279756">
+<edge COLOR="#808080"/>
+<node TEXT="预测时模型稳定性低" FOLDED="true" ID="ID_552826516" CREATED="1589864262556" MODIFIED="1589864279756">
+<edge COLOR="#808080"/>
+<node TEXT="对初始参数敏感" ID="ID_1431596950" CREATED="1589864288162" MODIFIED="1589864357775">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="对训练样本的变动敏感" ID="ID_1096629010" CREATED="1589864303657" MODIFIED="1589864357775">
+<edge COLOR="#808080"/>
+</node>
+</node>
 </node>
 </node>
 </node>

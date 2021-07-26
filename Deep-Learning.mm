@@ -1,9 +1,9 @@
-<map version="freeplane 1.8.0">
+<map version="freeplane 1.9.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Deep-Learning" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_850448724" CREATED="1564976333940" MODIFIED="1590047796704" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="10.0 pt" SHAPE_VERTICAL_MARGIN="10.0 pt">
+<node TEXT="Deep-Learning" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_850448724" CREATED="1564976333940" MODIFIED="1590047796704" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <edge STYLE="sharp_bezier" COLOR="#808080" WIDTH="3"/>
-<hook NAME="MapStyle" zoom="0.799">
+<hook NAME="MapStyle" zoom="1.1">
     <conditional_styles>
         <conditional_style ACTIVE="true" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" LAST="false">
             <node_level_condition VALUE="0" COMPARATION_RESULT="0" SUCCEED="true"/>
@@ -12,13 +12,14 @@
             <node_level_condition VALUE="1" COMPARATION_RESULT="0" SUCCEED="true"/>
         </conditional_style>
     </conditional_styles>
-    <properties show_icon_for_attributes="true" fit_to_viewport="false" show_note_icons="true" show_notes_in_map="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true" show_notes_in_map="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
-<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="default" ICON_SIZE="12.0 pt" COLOR="#000000" STYLE="fork">
+<stylenode LOCALIZED_TEXT="default" ID="ID_630900441" ICON_SIZE="12 pt" COLOR="#000000" STYLE="fork">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_630900441" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
@@ -30,6 +31,7 @@
 <edge STYLE="hide_edge"/>
 <cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
 </stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.selection" BACKGROUND_COLOR="#4e85f8" STYLE="bubble" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#4e85f8"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="styles.topic" COLOR="#000000" STYLE="fork">
@@ -46,7 +48,7 @@
 </stylenode>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#ffffff" BACKGROUND_COLOR="#666666" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10.0 pt" SHAPE_VERTICAL_MARGIN="10.0 pt">
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#ffffff" BACKGROUND_COLOR="#666666" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
 <font SIZE="18" BOLD="true"/>
 <edge STYLE="bezier" COLOR="#808080"/>
 </stylenode>
@@ -104,40 +106,27 @@
         <node_level_condition VALUE="1" COMPARATION_RESULT="0" SUCCEED="true"/>
     </conditional_style>
 </hook>
-<node TEXT="types" POSITION="right" ID="ID_964838928" CREATED="1586657106962" MODIFIED="1590047796704">
-<edge COLOR="#808080"/>
-<node TEXT="supervised learning" ID="ID_104643212" CREATED="1586657130250" MODIFIED="1590047796704">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="unsupervised learning" ID="ID_4434613" CREATED="1586657180607" MODIFIED="1590047796704">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="Reinforcement Learning" ID="ID_1253564997" CREATED="1586657196107" MODIFIED="1590047796704">
-<edge COLOR="#808080"/>
-</node>
-</node>
-<node TEXT="Basic" POSITION="right" ID="ID_2691366" CREATED="1566487081840" MODIFIED="1590047796705" LINK="https://weirping.github.io/blog/Basic_of_Neural_Networks.html">
+<node TEXT="Basic" FOLDED="true" POSITION="right" ID="ID_2691366" CREATED="1566487081840" MODIFIED="1590047796705" LINK="https://weirping.github.io/blog/Basic_of_Neural_Networks.html">
 <edge COLOR="#808080"/>
 <node TEXT="neuron" ID="ID_1102314014" CREATED="1566487196258" MODIFIED="1590047796705">
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="forward propagation" FOLDED="true" ID="ID_767241444" CREATED="1566487147251" MODIFIED="1590047796705">
+<node TEXT="forward propagation" ID="ID_767241444" CREATED="1566487147251" MODIFIED="1590047796705">
 <edge COLOR="#808080"/>
 <node TEXT="In this network, the information moves in only one direction, forward, from the input nodes, through the hidden nodes (if any) and to the output nodes. There are no cycles or loops in the network." ID="ID_462431754" CREATED="1567950712325" MODIFIED="1586970912554">
 <edge COLOR="#808080"/>
 </node>
 </node>
-<node TEXT="back propagation" FOLDED="true" ID="ID_1791686759" CREATED="1566487158858" MODIFIED="1590047796705">
+<node TEXT="back propagation" ID="ID_1791686759" CREATED="1566487158858" MODIFIED="1590047796705">
 <edge COLOR="#808080"/>
 <node TEXT="链式法则(Chain Rule)" ID="ID_1484387401" CREATED="1586771420734" MODIFIED="1586970278221">
 <edge COLOR="#808080"/>
 </node>
 </node>
 </node>
-<node TEXT="Data Normalization" POSITION="right" ID="ID_999356310" CREATED="1567949465743" MODIFIED="1590047796705">
+<node TEXT="Data Normalization" POSITION="right" ID="ID_999356310" CREATED="1567949465743" MODIFIED="1624347472916">
 <edge COLOR="#808080"/>
-<richcontent TYPE="NOTE">
-
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -146,60 +135,62 @@
     <div>
       <div align="left" style="background-color: #ffffff; width: 382pt">
         <p>
-          Feature Normalisation or Scaling
+          Feature Normalisation or Scaling 的原因
         </p>
         <p>
           
         </p>
         <p>
-          Since the range of values of raw data varies widely, in some machine learning algorithms, objective functions will not work properly without normalization. Another reason why feature scaling is applied is that gradient descent converges much faster with feature scaling than without it.
+          Since the range of values of raw data varies widely, in some machine learning algorithms, objective functions will not work properly without normalization.
+        </p>
+        <p>
+          Another reason why feature scaling is applied is that gradient descent converges much faster with feature scaling than without it.
         </p>
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="General Normalization" FOLDED="true" ID="ID_450489796" CREATED="1567949502024" MODIFIED="1590047796705">
 <edge COLOR="#808080"/>
-<node TEXT="x&apos; = \frac{x - \min(x)}{\max(x) - \min(x)}" FOLDED="true" ID="ID_1008970082" CREATED="1565603481715" MODIFIED="1584717762609" FORMAT="latexPatternFormat">
+<node TEXT="Rescaling" ID="ID_679768239" CREATED="1565603324232" MODIFIED="1584717762610">
 <edge COLOR="#808080"/>
-<node TEXT="Rescaling" FOLDED="true" ID="ID_679768239" CREATED="1565603324232" MODIFIED="1584717762610">
+<node TEXT="x&apos; = \frac{x - \min(x)}{\max(x) - \min(x)}" ID="ID_1008970082" CREATED="1565603481715" MODIFIED="1584717762609" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
+</node>
 <node TEXT="rescaling the range of features to scale the range in [0, 1] or [−1, 1]." ID="ID_783265540" CREATED="1565603422050" MODIFIED="1584717762610">
 <edge COLOR="#808080"/>
 </node>
 </node>
+<node TEXT="Standardization" ID="ID_1256758541" CREATED="1565603343576" MODIFIED="1584717762612">
+<edge COLOR="#808080"/>
+<node TEXT="x&apos; = \frac{x - \bar x}{\sigma}" ID="ID_913704555" CREATED="1565603575164" MODIFIED="1589969593228" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
 </node>
-<node TEXT="x&apos; = \frac{x - \bar x}{\sigma}" FOLDED="true" ID="ID_913704555" CREATED="1565603575164" MODIFIED="1589969593228" FORMAT="latexPatternFormat">
-<edge COLOR="#808080"/>
-<node TEXT="Standardization" FOLDED="true" ID="ID_1256758541" CREATED="1565603343576" MODIFIED="1584717762612">
-<edge COLOR="#808080"/>
 <node TEXT="Feature standardization makes the values of each feature in the data have zero-mean and unitvariance." ID="ID_209602981" CREATED="1565603540734" MODIFIED="1584717762612">
 <edge COLOR="#808080"/>
 </node>
 </node>
+<node TEXT="Scaling to unit length" ID="ID_1022906954" CREATED="1565603351472" MODIFIED="1584717762613">
+<edge COLOR="#808080"/>
+<node TEXT="$x&apos; = \frac{x}{||x||} $" ID="ID_737482120" CREATED="1565603671667" MODIFIED="1584717762613" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
 </node>
-<node TEXT="$x&apos; = \frac{x}{||x||} $" FOLDED="true" ID="ID_737482120" CREATED="1565603671667" MODIFIED="1584717762613" FORMAT="latexPatternFormat">
-<edge COLOR="#808080"/>
-<node TEXT="Scaling to unit length" FOLDED="true" ID="ID_1022906954" CREATED="1565603351472" MODIFIED="1584717762613">
-<edge COLOR="#808080"/>
 <node TEXT="To scale the components of a feature vector such that the complete vector has length one." ID="ID_1409405684" CREATED="1565603615691" MODIFIED="1584717762613">
 <edge COLOR="#808080"/>
-</node>
 </node>
 </node>
 <node TEXT="$\frac{x}{x+k}$ \\&#xa;k is constant" ID="ID_1471911401" CREATED="1566449581957" MODIFIED="1584717762614" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
 </node>
 </node>
-<node TEXT="Batch Normalization" FOLDED="true" ID="ID_1341189537" CREATED="1567949484046" MODIFIED="1590047796705">
+<node TEXT="Batch Normalization" ID="ID_1341189537" CREATED="1567949484046" MODIFIED="1590047796705">
 <edge COLOR="#808080"/>
 <node TEXT="在每一层的每一批数据上进行归一化" ID="ID_1242763325" CREATED="1589966104998" MODIFIED="1589966138418">
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="$$ &#xa;BN(x_i) = \gamma \times \frac{x_i - \mu_b}{\sqrt{\sigma_B^2 + \epsilon}} + \beta&#xa;$$" FOLDED="true" ID="ID_1996003363" CREATED="1589966272515" MODIFIED="1589968810450" FORMAT="latexPatternFormat">
+<node TEXT="$$ &#xa;BN(x_i) = \gamma \times \frac{x_i - \mu_b}{\sqrt{\sigma_B^2 + \epsilon}} + \beta&#xa;$$" ID="ID_1996003363" CREATED="1589966272515" MODIFIED="1589968810450" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
-<node TEXT="$\gamma$, $\beta$ 需要通过模型训练得到: \\&#xa;使用这两个参数的原因如下: \\&#xa;比如我网络中间某一层学习到特征数据本身就分布在激活函数的两侧，如果强制把它归一化为均值为0, 标准差为 1 的数据, 就把数据变换成分布于激活函数中间部分的形状，相当于把这一层网络所学习到的特征分布搞坏了. BN引入了可学习参数 $\gamma$, $\beta$ 对标准化的数据进行重构." ID="ID_981700040" CREATED="1589968674531" MODIFIED="1589969123538" FORMAT="latexPatternFormat">
+<node TEXT="$\gamma$, $\beta$ 需要通过模型训练得到: \\&#xa;使用这两个参数的原因如下: \\&#xa;比如我网络中间某一层学习到特征数据本身就分布在 \\&#xa;激活函数的两侧，如果强制把它归一化为均值为0, 标准差为 1 的数据, \\&#xa;就把数据变换成分布于激活函数中间部分的形状，\\&#xa;相当于把这一层网络所学习到的特征分布搞坏了. \\&#xa;BN引入了可学习参数 $\gamma$, $\beta$ 对标准化的数据进行重构." ID="ID_981700040" CREATED="1589968674531" MODIFIED="1624245147682" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
 </node>
 <node TEXT="$\epsilon$是一个极小值,防止分母为0." ID="ID_931446474" CREATED="1589969013733" MODIFIED="1589969192110" FORMAT="latexPatternFormat">
@@ -210,7 +201,7 @@
 <hook URI="Deep-Learning_files/Batch-Normalization.png" SIZE="1.0" NAME="ExternalObject"/>
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="优势" FOLDED="true" ID="ID_260156842" CREATED="1589966917130" MODIFIED="1589969780140">
+<node TEXT="优势" ID="ID_260156842" CREATED="1589966917130" MODIFIED="1589969780140">
 <edge COLOR="#808080"/>
 <node TEXT="1、提升模型学习速度:&#xa;在使用BN的网络中可以选择比较大的初始学习率, 加快学习速度。&#xa;即使选择了较小的学习率，也比以前的收敛速度快，因为它具有快速训练收敛的特性." ID="ID_1964777058" CREATED="1589967624225" MODIFIED="1590051431475">
 <edge COLOR="#808080"/>
@@ -222,7 +213,7 @@
 <edge COLOR="#808080"/>
 </node>
 </node>
-<node TEXT="缺点" FOLDED="true" ID="ID_709899500" CREATED="1590051229252" MODIFIED="1590051334852">
+<node TEXT="缺点" ID="ID_709899500" CREATED="1590051229252" MODIFIED="1590051334852">
 <edge COLOR="#808080"/>
 <node TEXT="BN特别依赖Batch Size；当Batch size很小的时，BN的效果就非常不理想了。因为GPU的显存不够, 在很多情况下，Batch size大不了;" ID="ID_1903293718" CREATED="1590051234940" MODIFIED="1590051334851">
 <edge COLOR="#808080"/>
@@ -231,16 +222,16 @@
 <edge COLOR="#808080"/>
 </node>
 </node>
-<node TEXT="算法" FOLDED="true" ID="ID_1009596662" CREATED="1589968942619" MODIFIED="1589969394920">
+<node TEXT="算法" ID="ID_1009596662" CREATED="1589968942619" MODIFIED="1589969394920">
 <edge COLOR="#808080"/>
-<node TEXT="training" FOLDED="true" ID="ID_454232051" CREATED="1589968949444" MODIFIED="1589969394920">
+<node TEXT="training" ID="ID_454232051" CREATED="1589968949444" MODIFIED="1589969394920">
 <edge COLOR="#808080"/>
 <node TEXT="batch-normalization-training.png" ID="ID_140487679" CREATED="1589968978180" MODIFIED="1589969394920">
 <hook URI="Deep-Learning_files/batch-normalization-training.png" SIZE="1.0" NAME="ExternalObject"/>
 <edge COLOR="#808080"/>
 </node>
 </node>
-<node TEXT="inference" FOLDED="true" ID="ID_1227846807" CREATED="1589969500405" MODIFIED="1589969578060">
+<node TEXT="inference" ID="ID_1227846807" CREATED="1589969500405" MODIFIED="1589969578060">
 <edge COLOR="#808080"/>
 <node TEXT="在测试时,所使用的均值和标准差是整个训练集的均值和标准差. 由于训练集的数量较大, 均值和标准差的计算量是很大, 所以一般会使用移动平均法来计算." ID="ID_1900354394" CREATED="1589969571348" MODIFIED="1589969578059">
 <edge COLOR="#808080"/>
@@ -436,8 +427,7 @@
 </node>
 <node TEXT="Swish" LOCALIZED_STYLE_REF="styles.important" FOLDED="true" ID="ID_884868281" CREATED="1590373765616" MODIFIED="1590375376922">
 <edge COLOR="#808080"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -447,8 +437,7 @@
       <span style="color: rgb(51, 51, 51); font-family: -apple-system-font, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei UI, Microsoft YaHei, Arial, sans-serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: 0.544px; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(51, 51, 51)" face="-apple-system-font, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei UI, Microsoft YaHei, Arial, sans-serif" size="14px">https://arxiv.org/abs/1710.05941v1</font></span>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="$$f(x) = \frac{x}{1+e^{-x}}$$" ID="ID_1914611182" CREATED="1590373890972" MODIFIED="1590373912615" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
 </node>
@@ -477,8 +466,7 @@
 <node TEXT="dev-gelu-activation-func.png" ID="ID_1696210244" CREATED="1590375322381" MODIFIED="1590375344275">
 <hook URI="Deep-Learning_files/dev-gelu-activation-func.png" SIZE="0.9661836" NAME="ExternalObject"/>
 <edge COLOR="#808080"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -488,8 +476,7 @@
       导数
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="优点" FOLDED="true" ID="ID_1403017323" CREATED="1590375212701" MODIFIED="1590375237022">
@@ -604,9 +591,9 @@
 </node>
 <node TEXT="Adagrad" LOCALIZED_STYLE_REF="AutomaticLayout.level,2" FOLDED="true" ID="ID_1705774418" CREATED="1567948822363" MODIFIED="1590047796713" FORMAT="STANDARD_FORMAT">
 <edge COLOR="#808080"/>
-<node TEXT="基本思想" FOLDED="true" ID="ID_927038197" CREATED="1586706527802" MODIFIED="1587049322925">
+<node TEXT="基本思想" FOLDED="true" ID="ID_927038197" CREATED="1586706527802" MODIFIED="1614644299889">
 <edge COLOR="#808080"/>
-<node TEXT="Reduce the learning rate by some factor every few epochs." ID="ID_752793241" CREATED="1586706508408" MODIFIED="1587025919580">
+<node TEXT="Reduce the learning rate by some factor every few epochs." ID="ID_752793241" CREATED="1586706508408" MODIFIED="1614644299868">
 <edge COLOR="#808080"/>
 </node>
 <node TEXT="Adaptive learning rates for each parameter" ID="ID_1326023324" CREATED="1567948822364" MODIFIED="1587025919581">
@@ -634,8 +621,7 @@
 <edge COLOR="#808080"/>
 <node TEXT="1. adagrad-math1.png" ID="ID_421916669" CREATED="1587024895303" MODIFIED="1587025919586">
 <hook URI="Deep-Learning_files/adagrad-math1.png" SIZE="1.0" NAME="ExternalObject"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -654,14 +640,12 @@
       &#8220;Larger 1st order derivative means far from the minima&#8221;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge COLOR="#808080"/>
 </node>
 <node TEXT="2. adagrad-math2.png" ID="ID_914473208" CREATED="1587025325688" MODIFIED="1587025919587">
 <hook URI="Deep-Learning_files/adagrad-math2.png" SIZE="1.0" NAME="ExternalObject"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -690,8 +674,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge COLOR="#808080"/>
 </node>
 <node TEXT="3 从图 adagrad-math1.png 可以发现, 对于一个变量x, 其最佳的移动距离是 $\frac{|2ax_0 + b|}{2a} = \frac{|\mathrm{First\ derivative}|}{\mathrm {Second\ derivative}}$" FOLDED="true" ID="ID_327582870" CREATED="1587025605864" MODIFIED="1589187644816" FORMAT="latexPatternFormat">
@@ -734,8 +717,7 @@
 <node TEXT="RMS-intro.png" ID="ID_667248702" CREATED="1587033888188" MODIFIED="1589188470323">
 <hook URI="Deep-Learning_files/RMS-intro.png" SIZE="1.0" NAME="ExternalObject"/>
 <edge COLOR="#808080"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -757,8 +739,7 @@
       本质上 Adagrad 和 Gradient 方法都是以上两点的产物
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -807,8 +788,7 @@
 </node>
 <node TEXT="Adam" FOLDED="true" ID="ID_1325560263" CREATED="1587048488544" MODIFIED="1590047796713">
 <edge COLOR="#808080"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -818,8 +798,7 @@
       <a href="https://arxiv.org/pdf/1412.6980.pdf">https://arxiv.org/pdf/1412.6980.pdf</a>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="可以理解为 RMSprop + Momentum" FOLDED="true" ID="ID_1476441417" CREATED="1587048563991" MODIFIED="1589190219301">
 <edge COLOR="#808080"/>
 <node TEXT="Momentum: 可以使用类似于物理中的动量来累积梯度" ID="ID_1466799193" CREATED="1589190214608" MODIFIED="1589190219299">
@@ -894,7 +873,7 @@
 </node>
 <node TEXT="应用" FOLDED="true" ID="ID_1591187200" CREATED="1587138293749" MODIFIED="1587138581124">
 <edge COLOR="#808080"/>
-<node TEXT="dimensionality reduction" ID="ID_448821999" CREATED="1567950999755" MODIFIED="1587138581124" VSHIFT_QUANTITY="2.2499999329447764 pt">
+<node TEXT="dimensionality reduction" ID="ID_448821999" CREATED="1567950999755" MODIFIED="1587138581124" VSHIFT_QUANTITY="2.25 pt">
 <edge COLOR="#808080"/>
 <font BOLD="true"/>
 </node>
@@ -973,6 +952,33 @@
 <edge COLOR="#808080"/>
 </node>
 </node>
+<node TEXT="FastText" FOLDED="true" ID="ID_1083116078" CREATED="1597652692552" MODIFIED="1597652754325">
+<edge COLOR="#808080"/>
+<node ID="ID_312272186" CREATED="1597652703303" MODIFIED="1597652754327"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="color: rgb(77, 77, 77); font-family: Microsoft YaHei, SF Pro Display, Roboto, Noto, Arial, PingFang SC, sans-serif; font-size: 18px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(77, 77, 77)" face="Microsoft YaHei, SF Pro Display, Roboto, Noto, Arial, PingFang SC, sans-serif" size="18px"><b>词向量计算</b>&nbsp;和 <b>文本分类</b>工具</font></span>
+    </p>
+  </body>
+</html>
+</richcontent>
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="在文本分类任务中，fastText（浅层网络）往往能取得和深度网络相媲美的精度" ID="ID_654392461" CREATED="1597652760318" MODIFIED="1597652800241">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="快" ID="ID_472630029" CREATED="1597652793031" MODIFIED="1597652800245">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="模型结构与 CBOW 模型相似" ID="ID_1277741837" CREATED="1597652837061" MODIFIED="1597652853654">
+<edge COLOR="#808080"/>
+</node>
+</node>
 <node TEXT="" ID="ID_1095022729" CREATED="1587132197312" MODIFIED="1587132197318">
 <hook NAME="SummaryNode"/>
 <hook NAME="AlwaysUnfoldedNode"/>
@@ -988,8 +994,7 @@
 </node>
 <node TEXT="ELMO" FOLDED="true" ID="ID_1524758539" CREATED="1587886634306" MODIFIED="1590216484764">
 <edge COLOR="#808080"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -999,8 +1004,7 @@
       Embeddings from Language Model
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="一种考虑了上下文的Embedding方法(Contextualized Word Embedding)" ID="ID_1731017686" CREATED="1587886677920" MODIFIED="1587888518407">
 <edge COLOR="#808080"/>
 </node>
@@ -1018,8 +1022,7 @@
 <edge COLOR="#808080"/>
 <node TEXT="ELMO-weights.png" ID="ID_1823050869" CREATED="1587888451109" MODIFIED="1587888518411">
 <hook URI="Deep-Learning_files/ELMO-weights.png" SIZE="1.0" NAME="ExternalObject"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1029,8 +1032,7 @@
       在5中任务中RNN的每一层的权重实验
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge COLOR="#808080"/>
 </node>
 </node>
@@ -1040,8 +1042,7 @@
 <edge COLOR="#808080"/>
 <node TEXT="Intuitions" FOLDED="true" ID="ID_320647284" CREATED="1586882493614" MODIFIED="1587102111179">
 <edge COLOR="#808080"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1057,8 +1058,7 @@
       &#160;&#160;&#160;&#160;&#160;&#35821;&#38899;&#35782;&#21035;: &#26681;&#25454;&#19968;&#20010;&#26102;&#38388;&#27573;&#30340;&#22768;&#38899;&#39057;&#29575;&#22270;(&#27178;&#36724;&#20026;time, &#32437;&#36724;&#20026; frequency) &#35782;&#21035;&#35821;&#38899;, &#26681;&#25454;&#22270;&#20687;&#30340;&#29305;&#24615;, &#21482;&#38656;&#35201;&#22312; frequency&#26041;&#21521;&#31227;&#21160;filter, &#22312;time&#26041;&#21521;&#19981;&#38656;&#35201;&#31227;&#21160;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="" ID="ID_533059290" CREATED="1586882555909" MODIFIED="1586882555912">
 <hook NAME="FirstGroupNode"/>
 </node>
@@ -1124,7 +1124,7 @@
 <node TEXT="one filter detects one pattern" ID="ID_109415134" CREATED="1586876819629" MODIFIED="1586877118893">
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="channel 数量要和 图像的channel相同" ID="ID_1076204268" CREATED="1586877412565" MODIFIED="1586878336470">
+<node TEXT="channel 数量要和 输入的channel相同" ID="ID_1076204268" CREATED="1586877412565" MODIFIED="1618993236738">
 <edge COLOR="#808080"/>
 </node>
 <node TEXT="fiter 的每个元素 其实就是神经网络的weight" ID="ID_1832743647" CREATED="1586878152731" MODIFIED="1586878336469">
@@ -1167,8 +1167,7 @@
 </node>
 <node TEXT="Application" FOLDED="true" ID="ID_263925338" CREATED="1586882185400" MODIFIED="1587102111180">
 <edge COLOR="#808080"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1184,8 +1183,7 @@
       pooling:
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="图像处理" ID="ID_495833984" CREATED="1586882195917" MODIFIED="1586886117788">
 <edge COLOR="#808080"/>
 </node>
@@ -1347,8 +1345,7 @@
 </node>
 <node TEXT="Domain-adversarial training" FOLDED="true" ID="ID_1823453766" CREATED="1587394501397" MODIFIED="1587637180706">
 <edge COLOR="#808080"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1358,15 +1355,13 @@
       <span style="color: rgb(115, 115, 115); font-family: NexusSans, Arial, sans-serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(115, 115, 115)" face="NexusSans, Arial, sans-serif" size="14px">Ganin, Y., Ustinova, E., Ajakan, H., Germain, P., Larochelle, H., Laviolette, F., &#8230; Lempitsky, V. (2017). Domain-adversarial training of neural networks. In</font></span><font color="rgb(115, 115, 115)" face="NexusSans, Arial, sans-serif" size="14px"><span>&#160;</span><i style="color: rgb(115, 115, 115); font-family: NexusSans, Arial, sans-serif; font-size: 14px; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">Advances in Computer Vision and Pattern Recognition</i><span>&#160;</span><span style="color: rgb(115, 115, 115); font-family: NexusSans, Arial, sans-serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none">(pp. 189&#8211;209). Springer London. https://doi.org/10.1007/978-3-319-58347-1_10</span></font><br/><br/><br/><span style="color: rgb(115, 115, 115); font-family: NexusSans, Arial, sans-serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(115, 115, 115)" face="NexusSans, Arial, sans-serif" size="14px">Ganin, Y., &amp; Lempitsky, V. (2015). Unsupervised domain adaptation by backpropagation. In</font></span><font color="rgb(115, 115, 115)" face="NexusSans, Arial, sans-serif" size="14px"><span>&#160;</span><i style="color: rgb(115, 115, 115); font-family: NexusSans, Arial, sans-serif; font-size: 14px; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">32nd International Conference on Machine Learning, ICML 2015</i><span>&#160;</span><span style="color: rgb(115, 115, 115); font-family: NexusSans, Arial, sans-serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none">(Vol. 2, pp. 1180&#8211;1189). International Machine Learning Society (IMLS).</span></font><br/><br/>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="Task description: \\&#xa;  Source data:  $\{x^s, y^s\}$, Training data; \\&#xa;  Target data:  $\{x^t\}$, Testing data \\" FOLDED="true" ID="ID_505645640" CREATED="1587394695212" MODIFIED="1587457645421" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
 <node TEXT="Domain-adversarial-training-example.png" ID="ID_1938692389" CREATED="1587394882617" MODIFIED="1587457645422">
 <hook URI="Deep-Learning_files/Domain-adversarial-training-example.png" SIZE="1.0" NAME="ExternalObject"/>
 <edge COLOR="#808080"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1379,8 +1374,7 @@
       &#20294;&#26159;&#22312;&#23454;&#38469;&#24212;&#29992;&#20013;&#21364;&#26159;&#35782;&#21035;&#30340;MNIST-M&#25968;&#25454;&#38598;.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="方法" FOLDED="true" ID="ID_264026724" CREATED="1587448171420" MODIFIED="1587457645422">
@@ -1412,8 +1406,8 @@
 <edge COLOR="#808080"/>
 </node>
 <node TEXT="minimize domain classification accuracy" LOCALIZED_STYLE_REF="styles.important" ID="ID_1180162106" CREATED="1587448818765" MODIFIED="1589770460480">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="2 7" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1752299623" MIDDLE_LABEL="红圈中 对 梯度反转" STARTINCLINATION="249;0;" ENDINCLINATION="249;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="120" DASH="3 3" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_848723489" MIDDLE_LABEL="Domain classifier fails in the end" STARTINCLINATION="59;0;" ENDINCLINATION="59;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="2 7" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1752299623" MIDDLE_LABEL="红圈中 对 梯度反转" STARTINCLINATION="186.74999 pt;0 pt;" ENDINCLINATION="186.74999 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="120" DASH="3 3" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_848723489" MIDDLE_LABEL="Domain classifier fails in the end" STARTINCLINATION="44.25 pt;0 pt;" ENDINCLINATION="44.25 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font BOLD="true"/>
 <edge COLOR="#808080"/>
 </node>
@@ -1436,8 +1430,7 @@
 <edge COLOR="#808080"/>
 <node TEXT="Zero-shot-Learning-example1.png" ID="ID_870861764" CREATED="1587456369242" MODIFIED="1587461384776">
 <hook URI="Deep-Learning_files/Zero-shot-Learning-example1.png" SIZE="1.0" NAME="ExternalObject"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1450,8 +1443,7 @@
       Target Data, &#20013;&#20986;&#29616;&#20102; &#33609;&#27877;&#39532;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge COLOR="#808080"/>
 </node>
 <node TEXT="语音识别中: 训练数据中包含了常用的6000个词&#xa;但真实环境中的词汇远大于训练集." FOLDED="true" ID="ID_812830541" CREATED="1587456474669" MODIFIED="1587461384777">
@@ -1481,7 +1473,7 @@
 <node TEXT="3. 在Target Data上应用model" FOLDED="true" ID="ID_631635986" CREATED="1587458301206" MODIFIED="1587461384779">
 <edge COLOR="#808080"/>
 <node TEXT="Zero-shot-Learning-test.png" ID="ID_1033188765" CREATED="1587458414641" MODIFIED="1587461384779">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="3 3" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_733963076" MIDDLE_LABEL="查表找到与预测属性最相近的类别" STARTINCLINATION="266;0;" ENDINCLINATION="266;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="3 3" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_733963076" MIDDLE_LABEL="查表找到与预测属性最相近的类别" STARTINCLINATION="199.49999 pt;0 pt;" ENDINCLINATION="199.49999 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <hook URI="Deep-Learning_files/Zero-shot-Learning-test.png" SIZE="1.0" NAME="ExternalObject"/>
 <edge COLOR="#808080"/>
 </node>
@@ -1513,8 +1505,7 @@
 </node>
 <node TEXT="应用" FOLDED="true" ID="ID_1420696573" CREATED="1587461092318" MODIFIED="1587461384782">
 <edge COLOR="#808080"/>
-<node TEXT="Google’s Multilingual Neural Machine Translation System: Enabling Zero-Shot Translation" FOLDED="true" ID="ID_1702210037" CREATED="1587461218863" MODIFIED="1587461384782"><richcontent TYPE="NOTE">
-
+<node TEXT="Google’s Multilingual Neural Machine Translation System: Enabling Zero-Shot Translation" FOLDED="true" ID="ID_1702210037" CREATED="1587461218863" MODIFIED="1587461384782"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1524,8 +1515,7 @@
       <span style="color: rgb(115, 115, 115); font-family: NexusSans, Arial, sans-serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(115, 115, 115)" face="NexusSans, Arial, sans-serif" size="14px">Johnson, M., Schuster, M., Le, Q. V., Krikun, M., Wu, Y., Chen, Z., &#8230; Dean, J. (2017). Google&#8217;s Multilingual Neural Machine Translation System: Enabling Zero-Shot Translation.</font></span><font color="rgb(115, 115, 115)" face="NexusSans, Arial, sans-serif" size="14px"><span>&#160;</span><i style="color: rgb(115, 115, 115); font-family: NexusSans, Arial, sans-serif; font-size: 14px; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">Transactions of the Association for Computational Linguistics</i><span style="color: rgb(115, 115, 115); font-family: NexusSans, Arial, sans-serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none">,</span><span>&#160;</span><i style="color: rgb(115, 115, 115); font-family: NexusSans, Arial, sans-serif; font-size: 14px; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">5</i><span style="color: rgb(115, 115, 115); font-family: NexusSans, Arial, sans-serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none">, 339&#8211;351. https://doi.org/10.1162/tacl_a_00065</span></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge COLOR="#808080"/>
 <node TEXT="Zero-Shot-Multilingual-Translation.png" FOLDED="true" ID="ID_848869161" CREATED="1589771018935" MODIFIED="1589771018935">
 <hook URI="Deep-Learning_files/Zero-Shot-Multilingual-Translation.png" SIZE="1.0" NAME="ExternalObject"/>
@@ -1661,8 +1651,7 @@
 </node>
 <node TEXT="Variants" FOLDED="true" ID="ID_1126416735" CREATED="1587532887163" MODIFIED="1587637180693">
 <edge COLOR="#808080"/>
-<node TEXT="Gated Recurrent Unit(GRU)" FOLDED="true" ID="ID_1197741177" CREATED="1587532774259" MODIFIED="1587637180693"><richcontent TYPE="NOTE">
-
+<node TEXT="Gated Recurrent Unit(GRU)" FOLDED="true" ID="ID_1197741177" CREATED="1587532774259" MODIFIED="1587637180693"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1675,8 +1664,7 @@
       Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge COLOR="#808080"/>
 <node TEXT="LSTM-GRU.png" ID="ID_1479995563" CREATED="1587532814672" MODIFIED="1587637180693">
 <hook URI="Deep-Learning_files/LSTM-GRU.png" SIZE="1.0" NAME="ExternalObject"/>
@@ -1708,8 +1696,7 @@
 <node TEXT="2014 年，Sutskever 等人提出了 sequence-to-sequence 模型。这是一个使用神经网络将一个序列映射到另一个序列的通用框架。&#xa;常被应用在机器翻译、人机对话、聊天机器人等任务中. (机器翻译是对这个框架比较成功的应用。)" ID="ID_787069212" CREATED="1587961033886" MODIFIED="1587961115062">
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="encoder-decoder结构" FOLDED="true" ID="ID_124576330" CREATED="1587633231091" MODIFIED="1587637180696"><richcontent TYPE="NOTE">
-
+<node TEXT="encoder-decoder结构" FOLDED="true" ID="ID_124576330" CREATED="1587633231091" MODIFIED="1587637180696"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1719,8 +1706,7 @@
       基本思想: 利用两个RNN，一个RNN作为encoder，另一个RNN作为decoder。
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge COLOR="#808080"/>
 <node TEXT="Encoder" FOLDED="true" ID="ID_1714864725" CREATED="1587633239816" MODIFIED="1587637180696">
 <edge COLOR="#808080"/>
@@ -1752,8 +1738,7 @@
 <edge COLOR="#808080"/>
 <node TEXT="解码器模型不仅可以解码一个序列，而且可以解码任意表征。" FOLDED="true" ID="ID_794652444" CREATED="1587961305237" MODIFIED="1587962436533">
 <edge COLOR="#808080"/>
-<node TEXT="可以基于图像生成图像描述文本" ID="ID_1388582901" CREATED="1587961340753" MODIFIED="1587962436532"><richcontent TYPE="NOTE">
-
+<node TEXT="可以基于图像生成图像描述文本" ID="ID_1388582901" CREATED="1587961340753" MODIFIED="1587962436532"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1763,12 +1748,10 @@
       O. Vinyals, A. Toshev, S. Bengio, and D. Erhan, “Show and tell: A neural image caption generator,” in Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern Recognition, 2015.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="基于表生成文本" ID="ID_1498202041" CREATED="1587961352782" MODIFIED="1587962436533"><richcontent TYPE="NOTE">
-
+<node TEXT="基于表生成文本" ID="ID_1498202041" CREATED="1587961352782" MODIFIED="1587962436533"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1778,8 +1761,7 @@
       <span style="color: rgb(0, 0, 0); font-family: Open Sans, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(250, 250, 250); display: inline !important; float: none"><font color="rgb(0, 0, 0)" face="Open Sans, sans-serif" size="16px">Lebret, R., Grangier, D., &amp; Auli, M. (2016). Generating Text from Structured Data with Application to the Biography Domain. Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing. Retrieved from http://arxiv.org/abs/1603.07771</font></span>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge COLOR="#808080"/>
 </node>
 <node TEXT="? 是不是可以输入一篇文章生成简短的摘要呢" ID="ID_1182596433" CREATED="1587962386698" MODIFIED="1587962436533">
@@ -1809,8 +1791,7 @@
 <node TEXT="图像识别" FOLDED="true" ID="ID_834227845" CREATED="1589954102958" MODIFIED="1589954111250">
 <node TEXT="seq2seq-Image-Caption-Generation.png" FOLDED="true" ID="ID_1376984844" CREATED="1589954160589" MODIFIED="1589954247499">
 <hook URI="Deep-Learning_files/seq2seq-Image-Caption-Generation.png" SIZE="0.9868421" NAME="ExternalObject"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1820,8 +1801,7 @@
       可以增加 attention 机制
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true"/>
 <node TEXT="seq2seq-Image-Caption-Generation-attention.png" ID="ID_1025855271" CREATED="1589954273560" MODIFIED="1589954273560">
 <hook URI="Deep-Learning_files/seq2seq-Image-Caption-Generation-attention.png" SIZE="0.82079345" NAME="ExternalObject"/>
@@ -1830,100 +1810,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Backpropagation 算法" FOLDED="true" ID="ID_1211755215" CREATED="1587541266496" MODIFIED="1587637180700">
-<edge COLOR="#808080"/>
-<node TEXT="Backpropagation  through time (BPTT)" ID="ID_589178578" CREATED="1587541298860" MODIFIED="1587637180700">
-<edge COLOR="#808080"/>
-</node>
-</node>
-<node TEXT="Applications" FOLDED="true" ID="ID_74351401" CREATED="1587542738783" MODIFIED="1587637180700">
-<edge COLOR="#808080"/>
-<node TEXT="Slot Filling" ID="ID_1688444144" CREATED="1587542923949" MODIFIED="1587637180700">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="Sentiment Analysis" FOLDED="true" ID="ID_272460739" CREATED="1587542962900" MODIFIED="1587637180700">
-<edge COLOR="#808080"/>
-<node TEXT="LSTM-Sentiment-Analysis.png" ID="ID_1660797862" CREATED="1587544119934" MODIFIED="1587637180700">
-<hook URI="Deep-Learning_files/LSTM-Sentiment-Analysis.png" SIZE="1.0" NAME="ExternalObject"/>
-<edge COLOR="#808080"/>
-</node>
-</node>
-<node TEXT="Key Term Extraction" FOLDED="true" ID="ID_718646622" CREATED="1587543548194" MODIFIED="1587637180701">
-<edge COLOR="#808080"/>
-<node TEXT="LSTM-Key-Term-Extraction.png" ID="ID_363947992" CREATED="1587544003087" MODIFIED="1587637180701">
-<hook URI="Deep-Learning_files/LSTM-Key-Term-Extraction.png" SIZE="1.0" NAME="ExternalObject"/>
-<edge COLOR="#808080"/>
-</node>
-</node>
-<node TEXT="Speech Recognition" FOLDED="true" ID="ID_175419399" CREATED="1587544852456" MODIFIED="1587637180701">
-<edge COLOR="#808080"/>
-<node TEXT="LSTM-Speech-Recognition.png" FOLDED="true" ID="ID_182472749" CREATED="1587544892213" MODIFIED="1587637180701">
-<hook URI="Deep-Learning_files/LSTM-Speech-Recognition.png" SIZE="1.0" NAME="ExternalObject"/>
-<edge COLOR="#808080"/>
-<node TEXT="使用CTC解决叠字的问题" FOLDED="true" ID="ID_1200885720" CREATED="1587544912832" MODIFIED="1587637180701"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Connectionist Temporal Classification (CTC) [Alex Graves, ICML’06][Alex Graves,ICML14][Haşim Sak, Interspeech’15][Jie Li,Interspeech’15][Andrew Senior, ASRU’15]
-    </p>
-  </body>
-</html>
-</richcontent>
-<edge COLOR="#808080"/>
-<node TEXT="LSTM-CTC-Speech-Recognition.png" ID="ID_378705924" CREATED="1587544973503" MODIFIED="1587637180701">
-<hook URI="Deep-Learning_files/LSTM-CTC-Speech-Recognition.png" SIZE="1.0" NAME="ExternalObject"/>
-<edge COLOR="#808080"/>
-</node>
-</node>
-</node>
-</node>
-<node TEXT="Machine Translation" FOLDED="true" ID="ID_24616427" CREATED="1587545921130" MODIFIED="1587637180701">
-<edge COLOR="#808080"/>
-<node TEXT="LSTM-Machine-Translation.png" FOLDED="true" ID="ID_1757339022" CREATED="1587545978421" MODIFIED="1587637180701">
-<hook URI="Deep-Learning_files/LSTM-Machine-Translation.png" SIZE="1.0" NAME="ExternalObject"/>
-<edge COLOR="#808080"/>
-<node TEXT="一种seq2seq模型" ID="ID_1992945037" CREATED="1587632149305" MODIFIED="1587637180701">
-<edge COLOR="#808080"/>
-</node>
-</node>
-</node>
-</node>
-<node TEXT="缺点" FOLDED="true" ID="ID_1649693947" CREATED="1589988782246" MODIFIED="1589988921537">
-<edge COLOR="#808080"/>
-<node TEXT="不易并行化" ID="ID_976394584" CREATED="1589988794777" MODIFIED="1589988945788">
-<edge COLOR="#808080"/>
-</node>
-</node>
-</node>
-<node TEXT="Attention 机制" FOLDED="true" ID="ID_1009433511" CREATED="1587634654819" MODIFIED="1590047796715">
-<edge COLOR="#808080"/>
-<richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <span style="color: rgb(0, 0, 0); font-family: Open Sans, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(250, 250, 250); display: inline !important; float: none"><font color="rgb(0, 0, 0)" face="Open Sans, sans-serif" size="16px">Bahdanau, D., Cho, K., &amp; Bengio, Y. (2015). Neural Machine Translation by Jointly Learning to Align and Translate. In ICLR 2015</font></span>
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="Attention is one of the core innovations in neural MT (NMT) and the key idea that enabled NMT models to outperform classic phrase-based MT systems." ID="ID_418805133" CREATED="1587967133965" MODIFIED="1587967688132">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="attention是一种能让模型对重要信息重点关注并充分学习吸收的技术.&#xa;它不是一个完整的模型，是一种技术，能够作用于任何序列模型中。" ID="ID_654595870" CREATED="1587973363404" MODIFIED="1589616764426">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="注意力机制广泛适用于任何需要根据输入的特定部分做出决策的任务，并且效果不错。" ID="ID_27699538" CREATED="1587967316305" MODIFIED="1587967688138">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="Attention-based Seq2seq" FOLDED="true" ID="ID_1757718399" CREATED="1587978115732" MODIFIED="1589616973304">
+<node TEXT="Attention-based Seq2seq" FOLDED="true" ID="ID_1757718399" CREATED="1587978115732" MODIFIED="1614614502706">
 <edge COLOR="#808080"/>
 <node TEXT="在翻译类task中: sequence-to-sequence模型的主要瓶颈是需要将源序列的全部内容压缩为一个固定大小的向量。注意力机制通过允许解码器回头查看源序列隐藏状态来缓解这一问题，然后将其加权平均作为额外输入提供给解码器，" FOLDED="true" ID="ID_534051186" CREATED="1587967232776" MODIFIED="1587967688136">
 <edge COLOR="#808080"/>
@@ -1958,41 +1845,92 @@
 </node>
 </node>
 </node>
-<node TEXT="优点" FOLDED="true" ID="ID_303817531" CREATED="1587982804647" MODIFIED="1589616981715">
+<node TEXT="Backpropagation 算法" FOLDED="true" ID="ID_1211755215" CREATED="1587541266496" MODIFIED="1587637180700">
 <edge COLOR="#808080"/>
-<node TEXT="一步到位的全局联系捕捉，且关注了元素的局部联系；" ID="ID_629883858" CREATED="1587982815200" MODIFIED="1589616976733">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="并行计算减少模型训练时间；" ID="ID_19107129" CREATED="1587982815200" MODIFIED="1589616981712">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="模型复杂度小，参数少" ID="ID_1623520453" CREATED="1587982815207" MODIFIED="1589616981715">
+<node TEXT="Backpropagation  through time (BPTT)" ID="ID_589178578" CREATED="1587541298860" MODIFIED="1587637180700">
 <edge COLOR="#808080"/>
 </node>
 </node>
-<node TEXT="缺点" FOLDED="true" ID="ID_889334135" CREATED="1587982549160" MODIFIED="1589616981715">
+<node TEXT="Applications" FOLDED="true" ID="ID_74351401" CREATED="1587542738783" MODIFIED="1587637180700">
 <edge COLOR="#808080"/>
-<node TEXT="因为是对序列的所有元素并行处理的，无法考虑输入序列的元素顺序，这在自然语言处理任务中比较糟糕。" ID="ID_1140146197" CREATED="1587982802563" MODIFIED="1589616981715">
+<node TEXT="Slot Filling" ID="ID_1688444144" CREATED="1587542923949" MODIFIED="1587637180700">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="Sentiment Analysis" FOLDED="true" ID="ID_272460739" CREATED="1587542962900" MODIFIED="1587637180700">
+<edge COLOR="#808080"/>
+<node TEXT="LSTM-Sentiment-Analysis.png" ID="ID_1660797862" CREATED="1587544119934" MODIFIED="1587637180700">
+<hook URI="Deep-Learning_files/LSTM-Sentiment-Analysis.png" SIZE="1.0" NAME="ExternalObject"/>
 <edge COLOR="#808080"/>
 </node>
 </node>
-<node TEXT="注意力机制广泛适用于任何需要根据输入的特定部分做出决策的任务，并且效果不错。" FOLDED="true" ID="ID_42878854" CREATED="1589953848788" MODIFIED="1589953857360">
+<node TEXT="Key Term Extraction" FOLDED="true" ID="ID_718646622" CREATED="1587543548194" MODIFIED="1587637180701">
 <edge COLOR="#808080"/>
-<node FOLDED="true" ID="ID_1556507115" CREATED="1589953941408" MODIFIED="1589954483538"><richcontent TYPE="NODE">
-
+<node TEXT="LSTM-Key-Term-Extraction.png" ID="ID_363947992" CREATED="1587544003087" MODIFIED="1587637180701">
+<hook URI="Deep-Learning_files/LSTM-Key-Term-Extraction.png" SIZE="1.0" NAME="ExternalObject"/>
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="Speech Recognition" FOLDED="true" ID="ID_175419399" CREATED="1587544852456" MODIFIED="1587637180701">
+<edge COLOR="#808080"/>
+<node TEXT="LSTM-Speech-Recognition.png" FOLDED="true" ID="ID_182472749" CREATED="1587544892213" MODIFIED="1587637180701">
+<hook URI="Deep-Learning_files/LSTM-Speech-Recognition.png" SIZE="1.0" NAME="ExternalObject"/>
+<edge COLOR="#808080"/>
+<node TEXT="使用CTC解决叠字的问题" FOLDED="true" ID="ID_1200885720" CREATED="1587544912832" MODIFIED="1587637180701"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
-    <span style="color: rgb(77, 77, 77); font-family: Microsoft YaHei, SF Pro Display, Roboto, Noto, Arial, PingFang SC, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(77, 77, 77)" face="Microsoft YaHei, SF Pro Display, Roboto, Noto, Arial, PingFang SC, sans-serif" size="16px">阅读理解</font></span>
+    <p>
+      Connectionist Temporal Classification (CTC) [Alex Graves, ICML’06][Alex Graves,ICML14][Haşim Sak, Interspeech’15][Jie Li,Interspeech’15][Andrew Senior, ASRU’15]
+    </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge COLOR="#808080"/>
-<node TEXT="Reading-Comprehension.png" ID="ID_1735388826" CREATED="1589954038598" MODIFIED="1589954483539">
-<hook URI="Deep-Learning_files/Reading-Comprehension.png" SIZE="1.0" NAME="ExternalObject"/>
-<richcontent TYPE="NOTE">
+<node TEXT="LSTM-CTC-Speech-Recognition.png" ID="ID_378705924" CREATED="1587544973503" MODIFIED="1587637180701">
+<hook URI="Deep-Learning_files/LSTM-CTC-Speech-Recognition.png" SIZE="1.0" NAME="ExternalObject"/>
+<edge COLOR="#808080"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Machine Translation" FOLDED="true" ID="ID_24616427" CREATED="1587545921130" MODIFIED="1587637180701">
+<edge COLOR="#808080"/>
+<node TEXT="LSTM-Machine-Translation.png" FOLDED="true" ID="ID_1757339022" CREATED="1587545978421" MODIFIED="1587637180701">
+<hook URI="Deep-Learning_files/LSTM-Machine-Translation.png" SIZE="1.0" NAME="ExternalObject"/>
+<edge COLOR="#808080"/>
+<node TEXT="一种seq2seq模型" ID="ID_1992945037" CREATED="1587632149305" MODIFIED="1587637180701">
+<edge COLOR="#808080"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="缺点" FOLDED="true" ID="ID_1649693947" CREATED="1589988782246" MODIFIED="1589988921537">
+<edge COLOR="#808080"/>
+<node TEXT="不易并行化" ID="ID_976394584" CREATED="1589988794777" MODIFIED="1589988945788">
+<edge COLOR="#808080"/>
+</node>
+</node>
+</node>
+<node TEXT="Attention" LOCALIZED_STYLE_REF="AutomaticLayout.level,2" FOLDED="true" ID="ID_1213673993" CREATED="1564976333940" MODIFIED="1614613620290" STYLE="fork" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
+<hook NAME="NodeConditionalStyles">
+    <conditional_style ACTIVE="true" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" LAST="false">
+        <node_level_condition VALUE="1" COMPARATION_RESULT="0" SUCCEED="true"/>
+    </conditional_style>
+</hook>
+<edge COLOR="#808080"/>
+<node TEXT="Background" FOLDED="true" ID="ID_1375719455" CREATED="1611279268568" MODIFIED="1614613745070">
+<edge COLOR="#808080"/>
+<node TEXT="在seq2seq结构中，encoder将输入语句信息总结到最后一个hidden vector中，并将其作为decoder的初始hidden vector，从而利用decoder的解码成对应的其他语言中的文字。" ID="ID_1998365034" CREATED="1614298472464" MODIFIED="1614613751276">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="但是对于较长的句子很难寄希望于将输入的序列转化为定长的向量而保存所有的有效的信息，随着输入序列的长度增加，这种结构的效果就会显著下降。" ID="ID_1636615720" CREATED="1614298472464" MODIFIED="1614613748934">
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="What" FOLDED="true" ID="ID_698532505" CREATED="1611279340765" MODIFIED="1614613757765">
+<edge COLOR="#808080"/>
+<node ID="ID_1007534392" CREATED="1587967133965" MODIFIED="1614567849619"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -2000,10 +1938,192 @@
   </head>
   <body>
     <p>
-      Keras has example:
+      <b>Attention is one of the core innovations in neural MT (NMT) and the key idea that enabled NMT models to outperform classic phrase-based MT systems</b>
     </p>
+  </body>
+</html>
+</richcontent>
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="attention是一种能让模型对重要信息重点关注并充分学习吸收的技术.&#xa;它不是一个完整的模型，是一种技术，能够作用于任何序列模型中。" ID="ID_836042349" CREATED="1587973363404" MODIFIED="1614612964658">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="Attention机制可以理解为一种文本聚焦方法，基本思想是对文本分配注意力权重，把注意力集中在相关的文本内容，增加这部分的贡献。" ID="ID_1482037922" CREATED="1614593913518" MODIFIED="1614613755794">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="注意力机制广泛适用于任何需要根据输入的特定部分做出决策的任务，并且效果不错。" ID="ID_1623595627" CREATED="1587967316305" MODIFIED="1587967688138">
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="常用方式" FOLDED="true" ID="ID_1018895258" CREATED="1611279370912" MODIFIED="1614614386060">
+<edge COLOR="#808080"/>
+<node TEXT="Bahdanau Attention" FOLDED="true" ID="ID_1176654376" CREATED="1614316576724" MODIFIED="1614613771358"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<html>
+  <head>
+    
+  </head>
+  <body>
     <p>
-      https://github.com/fchollet/keras/blob/master/examples/babi_memnn.py
+      Dzmitry Bahdanau, Kyunghyun Cho, Yoshua Bengio,&nbsp;&nbsp;Neural Machine Translation by Jointly Learning to Align and Translate, ICLR, 2015
+    </p>
+  </body>
+</html></richcontent>
+<edge COLOR="#808080"/>
+<node TEXT="Decoder的当前step的输入是前一个step生成的单词（或训练时使用ground-truth）与当前时间步的context-vecter之间的concat。" ID="ID_1128650685" CREATED="1614331476773" MODIFIED="1614613765378">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="context-vecter是由&lt;上一个&gt;decoder hedden vecter参与产生的" ID="ID_1714245679" CREATED="1614331476773" MODIFIED="1614613767367" HGAP_QUANTITY="19.25 pt" VSHIFT_QUANTITY="-1.5 pt">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="Bahdanau-Attention.png" ID="ID_1712391660" CREATED="1614329989587" MODIFIED="1614613769621">
+<hook URI="Deep-Learning_files/Bahdanau-Attention.png" SIZE="0.5" NAME="ExternalObject"/>
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="Luong Attention" FOLDED="true" ID="ID_1312684950" CREATED="1614316576724" MODIFIED="1614613786440"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Minh-Thang Luong, Hieu Pham, Christopher D.&nbsp;&nbsp;Manning, Effective Approaches to Attention-based Neural Machine Translation,&nbsp;&nbsp;EMNLP, 2015
+    </p>
+  </body>
+</html></richcontent>
+<edge COLOR="#808080"/>
+<node ID="ID_944575590" CREATED="1614330598522" MODIFIED="1614613780409"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="color: rgb(18, 18, 18); font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif; font-size: medium; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(18, 18, 18)" face="-apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif" size="medium">当前step的decoder输出与当前step的context-vecter concat后喂给前馈神经网络，从而给出当前时间步的解码器的最终输出。</font></span>
+  </body>
+</html>
+</richcontent>
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="content-vecter是由&lt;当前&gt;step中的 hedden vecter参与产生的" ID="ID_1233921159" CREATED="1614331085795" MODIFIED="1614613782119">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="Luong-Attention.png" ID="ID_1885082318" CREATED="1614330801583" MODIFIED="1614613784142">
+<hook URI="Deep-Learning_files/Luong-Attention.png" SIZE="0.5946482" NAME="ExternalObject"/>
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="Self-Attention、Multi-Head Attention" FOLDED="true" ID="ID_1797163070" CREATED="1614316576731" MODIFIED="1614613796157"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      GB/T 7714Vaswani A , Shazeer N , Parmar N , et al. Attention Is All You Need[J]. arXiv, 2017
+    </p>
+  </body>
+</html></richcontent>
+<edge COLOR="#808080"/>
+<node TEXT="应用" FOLDED="true" ID="ID_1579352526" CREATED="1614337871127" MODIFIED="1614613801728">
+<edge COLOR="#808080"/>
+<node TEXT="transfomer" ID="ID_992754325" CREATED="1614337880232" MODIFIED="1614613821660">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="bert" ID="ID_905405234" CREATED="1614337910296" MODIFIED="1614613824071">
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="Self-attention" FOLDED="true" ID="ID_211671580" CREATED="1589989303019" MODIFIED="1591931762467">
+<edge COLOR="#808080"/>
+<node TEXT="overview" FOLDED="true" ID="ID_172057649" CREATED="1590048501561" MODIFIED="1590048514289">
+<edge COLOR="#808080"/>
+<node TEXT="transformer-self-attention-overview.png" ID="ID_749317491" CREATED="1589990698050" MODIFIED="1590047796716">
+<hook URI="Deep-Learning_files/transformer-self-attention-overview.png" SIZE="1.0177588" NAME="ExternalObject"/>
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="Self-Attention-Mult-Attention-Overview.png" ID="ID_1975626171" CREATED="1614567544120" MODIFIED="1614567544120">
+<hook URI="Deep-Learning_files/Self-Attention-Mult-Attention-Overview.png" SIZE="0.86083215" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="steps" FOLDED="true" ID="ID_1961581262" CREATED="1590047364766" MODIFIED="1590047796716">
+<edge COLOR="#808080"/>
+<node TEXT="" ID="ID_1654637384" CREATED="1590047489951" MODIFIED="1590047489955">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="​The first step in calculating self-attention is to create three vectors from each of the encoder’s input vectors. So for each word, we create a Query vector, a Key vector, and a Value vector." FOLDED="true" ID="ID_255818956" CREATED="1590046487740" MODIFIED="1590047796716">
+<edge COLOR="#808080"/>
+<node TEXT="transformer-self-attention-step1.png" ID="ID_927620814" CREATED="1590047272298" MODIFIED="1590047796720">
+<hook URI="Deep-Learning_files/transformer-self-attention-step1.png" SIZE="0.83916086" NAME="ExternalObject"/>
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="The second step in calculating self-attention is to calculate a score. $K \times Q^T $" FOLDED="true" ID="ID_1018875921" CREATED="1590046712488" MODIFIED="1590047796720" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+<node TEXT="transformer-self-attention-step2.png" ID="ID_98899790" CREATED="1590047066922" MODIFIED="1590047796723">
+<hook URI="Deep-Learning_files/transformer-self-attention-step2.png" SIZE="0.9244992" NAME="ExternalObject"/>
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="The third and forth steps are to divide the scores by the square root of the dimension of the key vectors, then pass the result through a softmax operation.  $softmax(\frac{K \times Q^T }{\sqrt{d_k}})$" FOLDED="true" ID="ID_858259904" CREATED="1590046848767" MODIFIED="1590047796723" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+<node TEXT="transformer-self-attention-step34.png" ID="ID_1339667858" CREATED="1590047145501" MODIFIED="1590047796725">
+<hook URI="Deep-Learning_files/transformer-self-attention-step34.png" SIZE="0.77021825" NAME="ExternalObject"/>
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="The fifth step is to multiply each value vector by the softmax score, $softmax(\frac{K \times Q^T }{\sqrt{d_k}}) V$ \\&#xa;The sixth step is to sum up the weighted value vectors. This produces the output of the self-attention layer at this position." FOLDED="true" ID="ID_1782209817" CREATED="1590046848767" MODIFIED="1590047796725" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+<node TEXT="transformer-self-attention-step56.png" ID="ID_39000426" CREATED="1590047233754" MODIFIED="1590047796726">
+<hook URI="Deep-Learning_files/transformer-self-attention-step56.png" SIZE="0.921659" NAME="ExternalObject"/>
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="" ID="ID_1107297452" CREATED="1590047489949" MODIFIED="1590047489951">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="矩阵表示" FOLDED="true" ID="ID_1960475402" CREATED="1590047489958" MODIFIED="1590047796727">
+<edge COLOR="#808080"/>
+<node TEXT="transformer-self-attention-qkv.png" ID="ID_1701130303" CREATED="1589989703525" MODIFIED="1590047796727">
+<hook URI="Deep-Learning_files/transformer-self-attention-qkv.png" SIZE="1.0" NAME="ExternalObject"/>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      每一行表示一个term的embeding
+    </p>
+  </body>
+</html></richcontent>
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="transformer-self-attention-z.png" FOLDED="true" ID="ID_440077233" CREATED="1589989810287" MODIFIED="1590047796727">
+<hook URI="Deep-Learning_files/transformer-self-attention-z.png" SIZE="1.0" NAME="ExternalObject"/>
+<edge COLOR="#808080"/>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      此处的softmax 是按矩阵的行计算的
+    </p>
+  </body>
+</html></richcontent>
+<node TEXT="scaled dot-product attention" FOLDED="true" ID="ID_1251064074" CREATED="1590143368031" MODIFIED="1590143402715">
+<edge COLOR="#808080"/>
+<node ID="ID_183189903" CREATED="1590143323065" MODIFIED="1590143402716"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      这种通过 query 和 key 的相似性程度来确定 value 的权重分布的方法被称为<b>scaled dot-product attention</b>。其实scaled dot-Product attention就是使用点积进行相似度计算的attention
     </p>
   </body>
 </html>
@@ -2013,7 +2133,300 @@
 </node>
 </node>
 </node>
-<node TEXT="Tranformer" FOLDED="true" ID="ID_1094482124" CREATED="1589988622199" MODIFIED="1590047796715">
+</node>
+</node>
+<node TEXT="self-attention中的计算可以并行加速" FOLDED="true" ID="ID_1896868345" CREATED="1589990716024" MODIFIED="1591931762466">
+<edge COLOR="#808080"/>
+<node TEXT="transformer-self-attention-parallel.png" FOLDED="true" ID="ID_1282024609" CREATED="1589991198021" MODIFIED="1590047796727">
+<hook URI="Deep-Learning_files/transformer-self-attention-parallel.png" SIZE="0.8695652" NAME="ExternalObject"/>
+<edge COLOR="#808080"/>
+<node TEXT="self-attention就是一堆矩陣乘法，这种运算可以用 GPU并行计算类加速" ID="ID_1521099951" CREATED="1589991262115" MODIFIED="1590047796727">
+<edge COLOR="#808080"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="multi-headed self-attention" FOLDED="true" ID="ID_1983851204" CREATED="1589990203400" MODIFIED="1614338495885">
+<edge COLOR="#808080"/>
+<node TEXT="multi-headed-self-attention.png" FOLDED="true" ID="ID_1943340132" CREATED="1589990252034" MODIFIED="1614338572751">
+<hook URI="Deep-Learning_files/multi-headed-self-attention.png" SIZE="0.8253095" NAME="ExternalObject"/>
+<edge COLOR="#808080"/>
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      其中的每一个 self-attention 用于探测一种 attention关系
+    </p>
+  </body>
+</html></richcontent>
+<node TEXT="Multi-head-Attention-Visualization.png" ID="ID_499866583" CREATED="1590215864739" MODIFIED="1590215893085">
+<hook URI="Deep-Learning_files/Multi-head-Attention-Visualization.png" SIZE="1.0" NAME="ExternalObject"/>
+<edge COLOR="#808080"/>
+</node>
+</node>
+</node>
+</node>
+<node FOLDED="true" ID="ID_215052897" CREATED="1614245492753" MODIFIED="1614613878159"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span class="fontstyle0">Location-aware attention</span><br align="-webkit-auto" style="font-variant: normal; letter-spacing: normal; line-height: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px"/>
+  </body>
+</html>
+</richcontent>
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Chorowski, Jan, et al. &quot;Attention-based models for speech recognition.&quot; arXiv preprint arXiv:1506.07503 (2015).
+    </p>
+  </body>
+</html></richcontent>
+<edge COLOR="#808080"/>
+<node TEXT="Background" FOLDED="true" ID="ID_337978914" CREATED="1614251938695" MODIFIED="1614613859323">
+<edge COLOR="#808080"/>
+<node TEXT="基于内容的Attention对于所输入内容的输入序列中的绝对位置能够跟踪捕获信息，但是在较长的语音片段中性能迅速下降。" ID="ID_701338382" CREATED="1614251497043" MODIFIED="1614613829597">
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="What" FOLDED="true" ID="ID_1499846903" CREATED="1614251975452" MODIFIED="1614613861403">
+<edge COLOR="#808080"/>
+<node ID="ID_942238911" CREATED="1614251386768" MODIFIED="1614613831893"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <font color="rgb(18, 18, 18)" face="-apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif" size="15px">对位置敏感的Attention，也就是说加入了位置特征，是一种混合注意力机制</font>
+  </body>
+</html>
+</richcontent>
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="How" FOLDED="true" ID="ID_893302083" CREATED="1614252002618" MODIFIED="1614613875905">
+<edge COLOR="#808080"/>
+<node TEXT="ASR-LSA-Attention-Location-aware-attention.png" ID="ID_1021265673" CREATED="1614568225183" MODIFIED="1614613833712">
+<hook URI="Deep-Learning_files/ASR-LSA-Attention-Location-aware-attention.png" SIZE="0.8888889" NAME="ExternalObject"/>
+<edge COLOR="#808080"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Taxonomy" FOLDED="true" ID="ID_1084644510" CREATED="1614594158772" MODIFIED="1614614278607"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      按照五个方面分类
+    </p>
+  </body>
+</html></richcontent>
+<edge COLOR="#808080"/>
+<node TEXT="计算区域" FOLDED="true" ID="ID_656494613" CREATED="1614612625781" MODIFIED="1614614096116">
+<edge COLOR="#808080"/>
+<node TEXT="Soft Attention" FOLDED="true" ID="ID_863742457" CREATED="1614612625781" MODIFIED="1614614018284">
+<edge COLOR="#808080"/>
+<node TEXT="对所有key求权重概率，每个key都有一个对应的权重，是一种全局的计算方式（也可以叫Global Attention）。这种方式参考了所有key的内容，再进行加权。" ID="ID_583652775" CREATED="1614612625781" MODIFIED="1614613987753">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="缺点" FOLDED="true" ID="ID_559258583" CREATED="1614612625781" MODIFIED="1614614013063">
+<edge COLOR="#808080"/>
+<node TEXT="计算量可能会比较大一些。" ID="ID_1917517169" CREATED="1614612625781" MODIFIED="1614614015693">
+<edge COLOR="#808080"/>
+</node>
+</node>
+</node>
+<node TEXT="Hard Attention" FOLDED="true" ID="ID_606485571" CREATED="1614612625781" MODIFIED="1614614047366">
+<edge COLOR="#808080"/>
+<node TEXT="直接精准定位到某个key，其余key就都不管了，相当于这个key的概率是1，其余key的概率全部是0。" FOLDED="true" ID="ID_1662586819" CREATED="1614612625781" MODIFIED="1614614040242">
+<edge COLOR="#808080"/>
+<node TEXT="对齐方式要求很高，要求一步到位，如果没有正确对齐，会带来很大的影响。" ID="ID_773427866" CREATED="1614612625781" MODIFIED="1614614022049">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="另一方面，因为不可导，一般需要用强化学习的方法进行训练。" ID="ID_1527191083" CREATED="1614612625781" MODIFIED="1614614024268">
+<edge COLOR="#808080"/>
+</node>
+</node>
+</node>
+<node TEXT="Local Attention" FOLDED="true" ID="ID_1430062512" CREATED="1614612625781" MODIFIED="1614614060885">
+<edge COLOR="#808080"/>
+<node TEXT="是以上两种方式的一个折中，对一个窗口区域进行计算。先用Hard方式定位到某个地方，以这个点为中心可以得到一个窗口区域，在这个小区域内用Soft方式来算Attention。" ID="ID_403936414" CREATED="1614612625781" MODIFIED="1614614064210">
+<edge COLOR="#808080"/>
+</node>
+</node>
+</node>
+<node TEXT="所用信息" FOLDED="true" ID="ID_937493386" CREATED="1614612625781" MODIFIED="1614614099234">
+<edge COLOR="#808080"/>
+<node TEXT="假设要对一段原文计算Attention，这里原文指的是我们要做attention的文本，那么所用信息包括内部信息和外部信息，内部信息指的是原文本身的信息，而外部信息指的是除原文以外的额外信息。" ID="ID_917551801" CREATED="1614612625791" MODIFIED="1614614066167">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="General Attention" FOLDED="true" ID="ID_990307238" CREATED="1614612625791" MODIFIED="1614614090437">
+<edge COLOR="#808080"/>
+<node TEXT="这种方式利用到了外部信息，常用于需要构建两段文本关系的任务，query一般包含了额外信息，根据外部query对原文进行对齐。" FOLDED="true" ID="ID_1732397621" CREATED="1614612625791" MODIFIED="1614614069690">
+<edge COLOR="#808080"/>
+<node TEXT="如，在阅读理解任务中，需要构建问题和文章的关联，假设现在baseline是，对问题计算出一个问题向量q，把这个q和所有的文章词向量拼接起来，输入到LSTM中进行建模。那么在这个模型中，文章所有词向量共享同一个问题向量，现在我们想让文章每一步的词向量都有一个不同的问题向量，也就是，在每一步使用文章在该步下的词向量对问题来算attention，这里问题属于原文，文章词向量就属于外部信息。" ID="ID_328873413" CREATED="1614612625791" MODIFIED="1614614073963">
+<edge COLOR="#808080"/>
+</node>
+</node>
+</node>
+<node TEXT="Local Attention" FOLDED="true" ID="ID_520916757" CREATED="1614612625791" MODIFIED="1614614092601">
+<edge COLOR="#808080"/>
+<node TEXT="这种方式只使用内部信息，key和value以及query只和输入原文有关" ID="ID_65674946" CREATED="1614612625791" MODIFIED="1614614083713">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="如，在self attention中，key=value=query。既然没有外部信息，那么在原文中的每个词可以跟该句子中的所有词进行Attention计算，相当于寻找原文内部的关系" ID="ID_863411807" CREATED="1614612625791" MODIFIED="1614614086267">
+<edge COLOR="#808080"/>
+</node>
+</node>
+</node>
+<node TEXT="结构层次" FOLDED="true" ID="ID_865622747" CREATED="1614612625791" MODIFIED="1614614117494">
+<edge COLOR="#808080"/>
+<node TEXT="根据是否划分层次关系，分为单层attention，多层attention和多头attention" ID="ID_409076150" CREATED="1614612625801" MODIFIED="1614614088322">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="单层Attention" FOLDED="true" ID="ID_1877449719" CREATED="1614612625801" MODIFIED="1614614106444">
+<edge COLOR="#808080"/>
+<node TEXT="这是比较普遍的做法，用一个query对一段原文进行一次attention。" ID="ID_1256143911" CREATED="1614612625801" MODIFIED="1614614104912">
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="多层Attention" FOLDED="true" ID="ID_1650416852" CREATED="1614612625801" MODIFIED="1614614107806">
+<edge COLOR="#808080"/>
+<node TEXT="一般用于文本具有层次关系的模型" FOLDED="true" ID="ID_168527472" CREATED="1614612625801" MODIFIED="1614614111500">
+<edge COLOR="#808080"/>
+<node TEXT="假设我们把一个document划分成多个句子，在第一层，我们分别对每个句子使用attention计算出一个句向量（也就是单层attention）；在第二层，我们对所有句向量再做attention计算出一个文档向量（也是一个单层attention），最后再用这个文档向量去做任务。" ID="ID_171782018" CREATED="1614612625801" MODIFIED="1614614115687">
+<edge COLOR="#808080"/>
+</node>
+</node>
+</node>
+<node TEXT="multi-head attention" FOLDED="true" ID="ID_458348196" CREATED="1614612625801" MODIFIED="1614614109846">
+<edge COLOR="#808080"/>
+<node TEXT="这是Attention is All You Need中提到的multi-head attention，用到了多个query对一段原文进行了多次attention，每个query都关注到原文的不同部分，相当于重复做多次单层attention：" ID="ID_514303114" CREATED="1614612625801" MODIFIED="1614614113747">
+<edge COLOR="#808080"/>
+</node>
+</node>
+</node>
+<node TEXT="模型方面" FOLDED="true" ID="ID_1564554813" CREATED="1614612625801" MODIFIED="1614614266822">
+<edge COLOR="#808080"/>
+<node TEXT="Attention一般用在CNN和LSTM上，也可以直接进行纯Attention计算。" ID="ID_824211925" CREATED="1614612625801" MODIFIED="1614614121994">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="CNN+Attention" FOLDED="true" ID="ID_1794121020" CREATED="1614612625801" MODIFIED="1614614163737">
+<edge COLOR="#808080"/>
+<node TEXT="CNN的卷积操作也算是Attention的思想" FOLDED="true" ID="ID_707273739" CREATED="1614612625801" MODIFIED="1614614123815">
+<edge COLOR="#808080"/>
+<node TEXT="CNN的卷积感受视野是局部的，需要通过叠加多层卷积区去扩大视野。" ID="ID_539634119" CREATED="1614612625801" MODIFIED="1614614131693">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="Max Pooling直接提取数值最大的特征，类似hard attention的思想。" ID="ID_896466628" CREATED="1614612625801" MODIFIED="1614614136032">
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="Attention在CNN中的使用方式" FOLDED="true" ID="ID_1170991785" CREATED="1614612625801" MODIFIED="1614614138737">
+<edge COLOR="#808080"/>
+<node TEXT="a. 在卷积操作前做attention" FOLDED="true" ID="ID_305715860" CREATED="1614612625801" MODIFIED="1614614141356">
+<edge COLOR="#808080"/>
+<node TEXT="比如Attention-Based BCNN-1，这个任务是文本蕴含任务需要处理两段文本，同时对两段输入的序列向量进行attention，计算出特征向量，再拼接到原始向量中，作为卷积层的输入。" ID="ID_1565694394" CREATED="1614612625801" MODIFIED="1614614150614">
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="b. 在卷积操作后做attention，" FOLDED="true" ID="ID_136947195" CREATED="1614612625801" MODIFIED="1614614143360">
+<edge COLOR="#808080"/>
+<node TEXT="比如Attention-Based BCNN-2，对两段文本的卷积层的输出做attention，作为pooling层的输入。" ID="ID_1574378527" CREATED="1614612625801" MODIFIED="1614614155899">
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="c. 在pooling层做attention，代替max pooling" FOLDED="true" ID="ID_1307742781" CREATED="1614612625801" MODIFIED="1614614145168">
+<edge COLOR="#808080"/>
+<node TEXT="比如Attention pooling，首先我们用LSTM学到一个比较好的句向量，作为query，然后用CNN先学习到一个特征矩阵作为key，再用query对key产生权重，进行attention，得到最后的句向量。" ID="ID_1923043477" CREATED="1614612625801" MODIFIED="1614614160676">
+<edge COLOR="#808080"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="LSTM+Attention" FOLDED="true" ID="ID_1662813846" CREATED="1614612625801" MODIFIED="1614614220407">
+<edge COLOR="#808080"/>
+<node TEXT="LSTM内部有Gate机制，其中input gate选择哪些当前信息进行输入，forget gate选择遗忘哪些过去信息，算是一定程度的Attention了。" ID="ID_1063533749" CREATED="1614612625801" MODIFIED="1614614169571">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="LSTM中的Attention思想：" FOLDED="true" ID="ID_1826067164" CREATED="1614612625801" MODIFIED="1614614224997">
+<edge COLOR="#808080"/>
+<node TEXT="a. 直接使用最后的hidden state（可能会损失一定的前文信息，难以表达全文）" ID="ID_1085083603" CREATED="1614612625801" MODIFIED="1614614174669">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="b. 对所有step下的hidden state进行加权平均。" ID="ID_1514218533" CREATED="1614612625801" MODIFIED="1614614191216">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="c. Attention机制，对所有step的hidden state进行加权，把注意力集中到整段文本中比较重要的hidden state信息。" FOLDED="true" ID="ID_1220424538" CREATED="1614612625801" MODIFIED="1614614176729">
+<edge COLOR="#808080"/>
+<node TEXT="优点：效果比前面两种要好一点，而方便可视化观察哪些step是重要的，" ID="ID_568604867" CREATED="1614612625801" MODIFIED="1614614205920">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="缺点：但是要小心过拟合，而且也增加了计算量。" ID="ID_1157142167" CREATED="1614612625801" MODIFIED="1614614208727">
+<edge COLOR="#808080"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="纯Attention" FOLDED="true" ID="ID_191650920" CREATED="1614612625801" MODIFIED="1614614228244">
+<edge COLOR="#808080"/>
+<node TEXT="Attention is all you need，没有用到CNN/RNN，本质上还是一堆向量去计算attention。" ID="ID_776181505" CREATED="1614612625801" MODIFIED="1614614211593">
+<edge COLOR="#808080"/>
+</node>
+</node>
+</node>
+<node TEXT="相似度计算方式" FOLDED="true" ID="ID_1153264309" CREATED="1614612625801" MODIFIED="1614614264233">
+<edge COLOR="#808080"/>
+<node TEXT="在做attention的时候，我们需要计算query和某个key的分数（相似度），常用方法有：" ID="ID_183417358" CREATED="1614612625811" MODIFIED="1614614230600">
+<edge COLOR="#808080"/>
+</node>
+<node TEXT="1）点乘：最简单的方法" FOLDED="true" ID="ID_354295349" CREATED="1614612625811" MODIFIED="1614614262278">
+<edge COLOR="#808080"/>
+<node TEXT="$s( q,k) =q^{T}k$" ID="ID_638269098" CREATED="1614612625811" MODIFIED="1614614232370" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="2）矩阵相乘：" FOLDED="true" ID="ID_453891066" CREATED="1614612625811" MODIFIED="1614614260355">
+<edge COLOR="#808080"/>
+<node TEXT="$s( q,k) =q^{T}Wk$" ID="ID_1190246027" CREATED="1614612625811" MODIFIED="1614614234873" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="3）cos相似度" FOLDED="true" ID="ID_1906105545" CREATED="1614612625811" MODIFIED="1614614258604">
+<edge COLOR="#808080"/>
+<node TEXT="$s( q,k) =\frac{q^{T}k}{| q| | K| }$" ID="ID_1794905180" CREATED="1614612625811" MODIFIED="1614614242901" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="4）串联方式：把q和k拼接起来" FOLDED="true" ID="ID_513776711" CREATED="1614612625811" MODIFIED="1614614254746">
+<edge COLOR="#808080"/>
+<node TEXT="$s( q,k) =W[ q;k] $" ID="ID_1411698693" CREATED="1614612625811" MODIFIED="1614614244877" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+</node>
+<node TEXT="5) 多层感知机" FOLDED="true" ID="ID_355939706" CREATED="1614612625811" MODIFIED="1614614256712">
+<edge COLOR="#808080"/>
+<node TEXT="$s( q,k) =V_{a}^{T}\tanh ( W_{q}+Uk) $" ID="ID_54984095" CREATED="1614612625811" MODIFIED="1614614251409" FORMAT="latexPatternFormat">
+<edge COLOR="#808080"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Transformer" FOLDED="true" ID="ID_1094482124" CREATED="1589988622199" MODIFIED="1597196223147">
 <edge COLOR="#808080"/>
 <node TEXT="overview" FOLDED="true" ID="ID_1483820820" CREATED="1590048537185" MODIFIED="1590048543751">
 <edge COLOR="#808080"/>
@@ -2046,7 +2459,7 @@
 <edge COLOR="#808080"/>
 </node>
 </node>
-<node TEXT="The second step in calculating self-attention is to calculate a score. $K \times Q^T $" FOLDED="true" ID="ID_877346018" CREATED="1590046712488" MODIFIED="1590047796720" FORMAT="latexPatternFormat">
+<node TEXT="The second step is to calculate a score. $K \times Q^T $" FOLDED="true" ID="ID_877346018" CREATED="1590046712488" MODIFIED="1623998500377" FORMAT="latexPatternFormat">
 <edge COLOR="#808080"/>
 <node TEXT="transformer-self-attention-step2.png" ID="ID_1978962665" CREATED="1590047066922" MODIFIED="1590047796723">
 <hook URI="Deep-Learning_files/transformer-self-attention-step2.png" SIZE="0.9244992" NAME="ExternalObject"/>
@@ -2072,10 +2485,12 @@
 <hook NAME="AlwaysUnfoldedNode"/>
 <node TEXT="矩阵表示" FOLDED="true" ID="ID_513956428" CREATED="1590047489958" MODIFIED="1590047796727">
 <edge COLOR="#808080"/>
-<node TEXT="transformer-self-attention-qkv.png" ID="ID_920372121" CREATED="1589989703525" MODIFIED="1590047796727">
+<node TEXT="transformer-self-attention-qkv.png" ID="ID_920372121" CREATED="1589989703525" MODIFIED="1624611009705">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_920372121" STARTINCLINATION="30 pt;0 pt;" ENDINCLINATION="30 pt;33.75 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_920372121" STARTINCLINATION="30 pt;0 pt;" ENDINCLINATION="30 pt;33.75 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <hook URI="Deep-Learning_files/transformer-self-attention-qkv.png" SIZE="1.0" NAME="ExternalObject"/>
-<richcontent TYPE="NOTE">
-
+<edge COLOR="#808080"/>
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -2085,15 +2500,12 @@
       每一行表示一个term的embeding
     </p>
   </body>
-</html>
-</richcontent>
-<edge COLOR="#808080"/>
+</html></richcontent>
 </node>
-<node TEXT="transformer-self-attention-z.png" FOLDED="true" ID="ID_354501651" CREATED="1589989810287" MODIFIED="1590047796727">
+<node TEXT="transformer-self-attention-z.png" FOLDED="true" ID="ID_354501651" CREATED="1589989810287" MODIFIED="1624611119304">
 <hook URI="Deep-Learning_files/transformer-self-attention-z.png" SIZE="1.0" NAME="ExternalObject"/>
 <edge COLOR="#808080"/>
-<richcontent TYPE="NOTE">
-
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -2103,11 +2515,10 @@
       此处的softmax 是按矩阵的行计算的
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="scaled dot-product attention" FOLDED="true" ID="ID_1422538439" CREATED="1590143368031" MODIFIED="1590143402715">
 <edge COLOR="#808080"/>
-<node ID="ID_1296125804" CREATED="1590143323065" MODIFIED="1590143402716"><richcontent TYPE="NODE">
+<node ID="ID_1296125804" CREATED="1590143323065" MODIFIED="1624611181262"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -2115,7 +2526,10 @@
   </head>
   <body>
     <p>
-      这种通过 query 和 key 的相似性程度来确定 value 的权重分布的方法被称为<b>scaled dot-product attention</b>。其实scaled dot-Product attention就是使用点积进行相似度计算的attention
+      这种通过 query 和 key 的相似性程度来确定 value 的权重分布的方法被称为<b>scaled dot-product attention</b>。
+    </p>
+    <p>
+      scaled dot-Product attention就是使用点积进行相似度计算的attention
     </p>
   </body>
 </html>
@@ -2137,13 +2551,23 @@
 </node>
 </node>
 </node>
-<node TEXT="multi-headed self-attention" FOLDED="true" ID="ID_1374736639" CREATED="1589990203400" MODIFIED="1590047796729">
+<node TEXT="multi-headed self-attention" FOLDED="true" ID="ID_1374736639" CREATED="1589990203400" MODIFIED="1624000076383">
 <edge COLOR="#808080"/>
-<node TEXT="multi-headed-self-attention.png" FOLDED="true" ID="ID_167077078" CREATED="1589990252034" MODIFIED="1590215887036">
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      即.多个self-attention的组合
+    </p>
+  </body>
+</html></richcontent>
+<node TEXT="multi-headed-self-attention.png" FOLDED="true" ID="ID_167077078" CREATED="1589990252034" MODIFIED="1623999239539">
 <hook URI="Deep-Learning_files/multi-headed-self-attention.png" SIZE="0.8253095" NAME="ExternalObject"/>
 <edge COLOR="#808080"/>
-<richcontent TYPE="NOTE">
-
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -2153,8 +2577,7 @@
       其中的每一个 self-attention 用于探测一种 attention关系
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="Multi-head-Attention-Visualization.png" ID="ID_1465799405" CREATED="1590215864739" MODIFIED="1590215893085">
 <hook URI="Deep-Learning_files/Multi-head-Attention-Visualization.png" SIZE="1.0" NAME="ExternalObject"/>
 <edge COLOR="#808080"/>
@@ -2396,8 +2819,7 @@
 </node>
 <node TEXT="BERT" FOLDED="true" ID="ID_480926252" CREATED="1587637129810" MODIFIED="1590047796729">
 <edge COLOR="#808080"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2407,15 +2829,13 @@
       Bidirectional Encoder Representations from Transformers
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="overview" FOLDED="true" ID="ID_1817670722" CREATED="1590216793234" MODIFIED="1590216817544">
 <edge COLOR="#808080"/>
 <node TEXT="bert-overview.png" ID="ID_1449952594" CREATED="1590216808846" MODIFIED="1590216891331">
 <hook URI="Deep-Learning_files/bert-overview.png" SIZE="1.0" NAME="ExternalObject"/>
 <edge COLOR="#808080"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2425,8 +2845,7 @@
       BERT = Encoder of Transformer
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="training" FOLDED="true" ID="ID_85048265" CREATED="1590217024353" MODIFIED="1590217061750">
@@ -2434,7 +2853,7 @@
 <node TEXT="" ID="ID_1605777337" CREATED="1590218551781" MODIFIED="1590218551783">
 <hook NAME="FirstGroupNode"/>
 </node>
-<node TEXT="Masked LM(MLM)" ID="ID_968028990" CREATED="1590217037175" MODIFIED="1590301723994">
+<node TEXT="Masked LM(MLM)" FOLDED="true" ID="ID_968028990" CREATED="1590217037175" MODIFIED="1590301723994">
 <edge COLOR="#808080"/>
 <node TEXT="掩盖(mask)输入句子中的 15% 的term, 让 bert 预测被 mask 的term" ID="ID_1311750449" CREATED="1590217089757" MODIFIED="1590217456726">
 <edge COLOR="#808080"/>
@@ -2447,13 +2866,12 @@
 </node>
 </node>
 </node>
-<node TEXT="Next Sentence Prediction(NSP)" ID="ID_1405006107" CREATED="1590217674652" MODIFIED="1590301730232">
+<node TEXT="Next Sentence Prediction(NSP)" FOLDED="true" ID="ID_1405006107" CREATED="1590217674652" MODIFIED="1590301730232">
 <edge COLOR="#808080"/>
 <node TEXT="[SEP]: the boundary of two sentences" ID="ID_9886851" CREATED="1590217792298" MODIFIED="1590218064758">
 <edge COLOR="#808080"/>
 </node>
-<node TEXT="[CLS]: the position that outputs classification results" ID="ID_640473430" CREATED="1590217819473" MODIFIED="1590218064759"><richcontent TYPE="NOTE">
-
+<node TEXT="[CLS]: the position that outputs classification results" ID="ID_640473430" CREATED="1590217819473" MODIFIED="1590218064759"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2463,8 +2881,7 @@
       cls: classification 的缩写
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge COLOR="#808080"/>
 </node>
 <node TEXT="在 [CLS] 对应的位置预测两个句子是否能够被接在一起" ID="ID_410085882" CREATED="1590217939211" MODIFIED="1590218064759">
@@ -2501,8 +2918,7 @@
 <node TEXT="bert-downstream-task1.png" ID="ID_173727699" CREATED="1590219177658" MODIFIED="1590219774410">
 <hook URI="Deep-Learning_files/bert-downstream-task1.png" SIZE="0.807537" NAME="ExternalObject"/>
 <edge COLOR="#808080"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2512,13 +2928,11 @@
       句子分类
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="bert-downstream-task2.png" ID="ID_696119799" CREATED="1590219212894" MODIFIED="1590219836960">
 <hook URI="Deep-Learning_files/bert-downstream-task2.png" SIZE="0.7894737" NAME="ExternalObject"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2528,14 +2942,12 @@
       词分类
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge COLOR="#808080"/>
 </node>
 <node TEXT="bert-downstream-task3.png" ID="ID_1278612279" CREATED="1590219257608" MODIFIED="1590219836961">
 <hook URI="Deep-Learning_files/bert-downstream-task3.png" SIZE="0.77720207" NAME="ExternalObject"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2545,14 +2957,12 @@
       句子相似性
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge COLOR="#808080"/>
 </node>
 <node TEXT="bert-downstream-task4-2.png" FOLDED="true" ID="ID_60973778" CREATED="1590219702785" MODIFIED="1590219836961">
 <hook URI="Deep-Learning_files/bert-downstream-task4-2.png" SIZE="0.7444169" NAME="ExternalObject"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2562,8 +2972,7 @@
       问答
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge COLOR="#808080"/>
 <node TEXT="bert-downstream-task4-1.png" FOLDED="true" ID="ID_1897089371" CREATED="1590219670517" MODIFIED="1590219836961">
 <hook URI="Deep-Learning_files/bert-downstream-task4-1.png" SIZE="0.74349445" NAME="ExternalObject"/>
@@ -2577,8 +2986,7 @@
 </node>
 <node TEXT="BERT 每一层学到的东西" FOLDED="true" ID="ID_1344386732" CREATED="1590220260393" MODIFIED="1590220840227">
 <edge COLOR="#808080"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2588,8 +2996,7 @@
       <a href="https://arxiv.org/pdf/1905.05950.pdf">https://arxiv.org/pdf/1905.05950.pdf</a>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="bert-layer-learned.png" FOLDED="true" ID="ID_185216838" CREATED="1590220584917" MODIFIED="1590220700949">
 <hook URI="Deep-Learning_files/bert-layer-learned.png" SIZE="1.0" NAME="ExternalObject"/>
 <edge COLOR="#808080"/>
@@ -2644,8 +3051,7 @@
 </node>
 <node TEXT="bert-wwm" FOLDED="true" ID="ID_1441060823" CREATED="1590306970833" MODIFIED="1590307113619">
 <edge COLOR="#808080"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2655,14 +3061,12 @@
       Cui, Y., Che, W., Liu, T., Qin, B., Yang, Z., Wang, S., &amp; Hu, G. (2019). Pre-Training with Whole Word Masking for Chinese BERT. Retrieved from http://arxiv.org/abs/1906.08101
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="中文 全词 masking" ID="ID_1458884851" CREATED="1590307125654" MODIFIED="1590307152871">
 <edge COLOR="#808080"/>
 </node>
 </node>
-<node TEXT="ERNIE" ID="ID_1274829381" CREATED="1590219955336" MODIFIED="1590301142307"><richcontent TYPE="NOTE">
-
+<node TEXT="ERNIE" ID="ID_1274829381" CREATED="1590219955336" MODIFIED="1590301142307"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2684,14 +3088,12 @@
       <a href="https://zhuanlan.zhihu.com/p/59436589">https://zhuanlan.zhihu.com/p/59436589</a>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge COLOR="#808080"/>
 </node>
 </node>
 </node>
-<node TEXT="GPT" FOLDED="true" ID="ID_1250224543" CREATED="1590223083223" MODIFIED="1590223219295"><richcontent TYPE="NOTE">
-
+<node TEXT="GPT" FOLDED="true" ID="ID_1250224543" CREATED="1590223083223" MODIFIED="1590223219295"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2701,8 +3103,7 @@
       Generative Pre-Training
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge COLOR="#808080"/>
 <node TEXT="Decoder of Transformer" FOLDED="true" ID="ID_746577738" CREATED="1590223116705" MODIFIED="1590223219296">
 <edge COLOR="#808080"/>
@@ -2792,6 +3193,9 @@
 </node>
 </node>
 </node>
+<node TEXT="Pointer Network" ID="ID_1349979526" CREATED="1598938437341" MODIFIED="1614613729572">
+<edge COLOR="#808080"/>
+</node>
 </node>
 <node TEXT="process &amp; tips" POSITION="left" ID="ID_261354682" CREATED="1586965970269" MODIFIED="1590047796730">
 <edge COLOR="#808080"/>
@@ -2815,8 +3219,7 @@
 <edge COLOR="#808080"/>
 <node TEXT="local-minimum-example.png" FOLDED="true" ID="ID_551459328" CREATED="1586966875774" MODIFIED="1587025919600">
 <hook URI="Deep-Learning_files/local-minimum-example.png" SIZE="0.6451613" NAME="ExternalObject"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2826,8 +3229,7 @@
       <a href="https://arxiv.org/pdf/1512.03385.pdf">https://arxiv.org/pdf/1512.03385.pdf</a>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge COLOR="#808080"/>
 <node TEXT="可以发现56层的NN效果比20层的NN差, 原因为 56层的NN 遇到了 local minimum" ID="ID_1692224766" CREATED="1586966889930" MODIFIED="1586970278257">
 <edge COLOR="#808080"/>
